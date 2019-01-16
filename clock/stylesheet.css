@@ -1,0 +1,58 @@
+body {
+	background-color: lightgray;
+}
+
+#clock {
+	height: 400px;
+	width: 400px;
+	background-color: rebeccapurple;
+	border-radius: 50%;
+	position: absolute;
+	left: calc(50% - 200px);
+	bottom: calc(50% - 200px);
+}
+
+#second {
+	width: 10px;
+	height: 175px;
+	background-color: magenta;
+	position: absolute;
+	left: calc(50% - 5px);
+	bottom: 50%;
+	transform-origin: center bottom;
+	border-radius: 10px;
+}
+
+#minute {
+	width: 20px;
+	height: 175px;
+	background-color: #555555;
+	opacity: 0.85;
+	position: absolute;
+	left: calc(50% - 10px);
+	bottom: 50%;
+	transform-origin: center bottom;
+	border-radius: 10px;
+}
+
+#hour {
+	width: 20px;
+	height: 135px;
+	background-color: #333333;
+	opacity: 0.80;
+	position: absolute;
+	left: calc(50% - 10px);
+	bottom: 50%;
+	transform-origin: center bottom;
+	border-radius: 10px;
+}
+
+#centerCircle {
+	height: 40px;
+	width: 40px;
+	background-color: #111111;
+	border-radius: 50%;
+	position: absolute;
+	left: calc(50% - 20px);
+	bottom: calc(50% - 20px);
+}

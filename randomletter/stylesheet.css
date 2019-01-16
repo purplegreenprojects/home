@@ -1,0 +1,37 @@
+body {
+	font-family: Roboto Condensed;
+	text-align: center;
+	color: darkblue;
+	background-color: lightblue;
+}
+
+#alphabet {
+	background-color: lightblue; 
+	height: 10vh;
+	text-align: center;
+	font-size: 4.9vw;
+	font-weight: bold;
+}
+
+
+#generate {
+	width: 100vw;
+	height: 20vh;
+    margin: 20px auto 0px auto;
+    font-size: 5vw;
+}
+
+#letter {
+	height: 25vh;
+	background-color: lightblue;
+	/*font-size: 10vw;*/
+	font-size: 150px;
+	width: 20vw;
+    margin: 10px auto 0px auto;
+}
+
+#space {
+	background-color: lightblue; 
+	height: 45vh;
+}
+
