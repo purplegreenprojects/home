@@ -1,11 +1,12 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: #dcf2dc;
+	background-color: #4B0D58;
+	/* 40580D */
 }
 
 canvas {
-	border: 40px solid #823c0e;
+	border: 40px ridge #823c0e;
 	height: 84vh;
 	width: 56vh;
 	position: absolute;

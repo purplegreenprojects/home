@@ -8,7 +8,7 @@ source {
 
 button {
 	float: left;
-	height: calc(100% - 10px);
+	height: calc(50% - 10px);
 	width: calc(((100vw - 30px) / 4) - 30px);
 	margin: 5px 15px 5px 15px; 
 	border: 5px;
@@ -41,10 +41,12 @@ button:hover {
 	background-image: linear-gradient(to right, white, red, maroon);
 }
 
+#ship {
+	background-image: linear-gradient(to right, yellow, darkorange);
+}
+
 #robots {
 	background-image: linear-gradient(to right, lightblue, darkblue);
 }
 
-#miscellaneous {
-	background-image: linear-gradient(to right, yellow, darkorange);
-}
+
