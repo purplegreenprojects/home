@@ -10,4 +10,4 @@ function tickTock() {
 	document.getElementById("hour"  ).style.transform = "rotate(" + angleHour + ")"
 }
 
-setInterval(tickTock, 1000)
+// setInterval(tickTock, 1000)
