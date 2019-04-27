@@ -147,7 +147,7 @@ button span {
 	/* drawing and writing shelf */
 
 		#onionpepper {
-			background-image: url("pictures/onionpepper.jpg");
+			background-image: url("../pictures/onionpepper.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
 			margin-top: auto;
@@ -161,7 +161,7 @@ button span {
 		}
 
 		#NovaScotia {
-			background-image: url("pictures/novascotia.jpg");
+			background-image: url("../pictures/novascotia.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
 			margin-top: auto;
@@ -176,7 +176,7 @@ button span {
 		}
 
 		.notebooks{
-			background-image: url(pictures/notebook.jpg);
+			background-image: url("../pictures/notebook.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
 			height: 85%;
@@ -201,7 +201,7 @@ button span {
 		#ravelry {
 			height: 80px;
 			width: 80px;
-			background-image: url("pictures/ravelry.png");
+			background-image: url("../pictures/ravelry.png");
 			background-repeat: no-repeat;
 			background-size: cover;
 			margin-top: auto;
@@ -254,7 +254,7 @@ button span {
 		}
 
 		#sewingMachine {
-			background-image: url("pictures/sewingmachine.png");
+			background-image: url("../pictures/sewingmachine.png");
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center center;
@@ -276,7 +276,7 @@ button span {
 		}
 
 		.explogo {
-			background-image: url("pictures/explogo.png");
+			background-image: url("../pictures/explogo.png");
 		}
 
 			.song {
@@ -363,37 +363,37 @@ button span {
 					}
 
 						#chroma .cover {
-							background-image: url("music/Chroma.png");
+							background-image: url("../music/Chroma.png");
 						}
 
 						#whether .cover {
-							background-image: url("music/Whether.png");
+							background-image: url("../music/Whether.png");
 						}
 
 						#elephant .cover {
-							background-image: url("music/Elephant.jpg");
+							background-image: url("../music/Elephant.jpg");
 						}
 
 						#theseDays .cover {
-							background-image: url("music/TheseDays.jpg");
+							background-image: url("../music/TheseDays.jpg");
 						}
 
 						#chaosInCircles .cover {
-							background-image: url("music/ChaosinCircles.jpg");
+							background-image: url("../music/ChaosinCircles.jpg");
 						}
 
 						#everyTime .cover {
-							background-image: url("music/EveryTime.jpg");
+							background-image: url("../music/EveryTime.jpg");
 						} 
 
 						#collectingCarrots .cover {
-							background-image: url("music/CollectingCarrots.png");
+							background-image: url("../music/CollectingCarrots.png");
 						} 
 
 
 	/* KD shelves */
 		#KDfullLogo {
-			background-image: url("pictures/KDfullLogo.png");
+			background-image: url("../pictures/KDfullLogo.png");
 			background-repeat: no-repeat;
 			background-size: cover;
 			margin-top: auto;
@@ -407,11 +407,11 @@ button span {
 		}
 
 		.KD {
-			background-image: url(KDlogo.png);
+			background-image: url("../pictures/KDlogo.png");
 		}
 
 		#KDanimal {
-			background-image: url("pictures/xxxxx.png");
+			background-image: url("../pictures/xxxxx.png");
 			background-repeat: no-repeat;
 			background-size: cover;
 			margin-top: auto;
@@ -472,14 +472,14 @@ button span {
 	#window {
 		z-index: 0;
 		position: absolute;
-		top: 6%;
+		top: 5%;
 		left: 50%;
 		transform: translateX(-50%); 
-		height: 42vh;
-		width: 28vh;
-		border-style: ridge;
+		height: 50vh;
+		width: 36vh;
+		/*border-style: ridge;
 		border-width: 4vh;
-		border-color: #823c0e;
+		border-color: #823c0e;*/
 	}
 
 	#windowArea {
