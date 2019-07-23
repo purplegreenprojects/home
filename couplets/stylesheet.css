@@ -1,0 +1,42 @@
+body {
+	margin: 0px;
+	background-color: ;
+}
+
+#header {
+
+}
+
+#content {
+	font-size: 14px;
+	padding: 10px;
+}
+
+#header .title {
+	font-size: 42px;
+}
+
+#header .subtitle {
+	font-size: 12px;
+}
+
+.poem {
+	padding: 10px;
+}
+
+.poem .title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.poem .author {
+	font-style: italic;
+}
+
+.poem .date {
+	font-family: monospace;
+}
+
+.poem .text {
+	padding-top: 10px;
+}
