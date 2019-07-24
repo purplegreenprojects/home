@@ -31,15 +31,16 @@ window.onload = function() {
 								title.innerText = data[d].title
 							poem.appendChild(title)
 
-							var author = document.createElement("div")
-								author.className = "author"
-								author.innerText = data[d].author
-							poem.appendChild(author)
-
 							var text = document.createElement("div")
 								text.className = "text"
 								text.innerText = data[d].text
 							poem.appendChild(text)
+
+							// if (data[d].color) {
+							// 	var color = document.createElement("div")
+							// 		color.className = "color"
+							// 		color
+							// }
 						}
 					}
 				}

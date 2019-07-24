@@ -2,8 +2,18 @@ body {
 	margin: 0px;
 }
 
+a {
+	text-decoration: none;
+}
+
 #header {
 	text-align: center;
+	position: fixed; 
+	top: 0px; left: 
+	0px; width: 100%; 
+	height: 100px; 
+	z-index: 2; 
+	background-color: white;
 }
 
 #header .title {
@@ -17,28 +27,25 @@ body {
 #content {
 	font-size: 14px;
 	padding: 10px;
+	margin-top: 100px;
 }
-
-/*#Elizabeth {
-	font-family: Roboto Condensed;
-}
-
-#James {
-	font-family: Courier New;
-}*/
 
 .elizabeth {
 	font-family: Roboto Condensed;
 	text-align: left;
-	background-color: #832c9c;
+	background-color: #1586e8;
 	color: white;
+	border-radius: 10px;
+	margin: 5px;
 }
 
 .james {
-	font-family: Courier New;
+	font-family: 'Share Tech Mono', monospace;
 	text-align: right;
-	background-color: black;
-	color: white;
+	background-color: #222222;
+	color: #dddddd;
+	border-radius: 10px;
+	margin: 5px;
 }
 
 .poem {
