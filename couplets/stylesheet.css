@@ -1,10 +1,17 @@
 body {
 	margin: 0px;
-	background-color: ;
 }
 
 #header {
+	text-align: center;
+}
 
+#header .title {
+	font-size: 62px;
+}
+
+#header .subtitle {
+	font-size: 18px;
 }
 
 #content {
@@ -12,12 +19,26 @@ body {
 	padding: 10px;
 }
 
-#header .title {
-	font-size: 42px;
+/*#Elizabeth {
+	font-family: Roboto Condensed;
 }
 
-#header .subtitle {
-	font-size: 12px;
+#James {
+	font-family: Courier New;
+}*/
+
+.elizabeth {
+	font-family: Roboto Condensed;
+	text-align: left;
+	background-color: #832c9c;
+	color: white;
+}
+
+.james {
+	font-family: Courier New;
+	text-align: right;
+	background-color: black;
+	color: white;
 }
 
 .poem {

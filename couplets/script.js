@@ -19,10 +19,11 @@ window.onload = function() {
 			function displayPoems(event) {
 				var data = event.target.response
 				if (data) {
-					for (var d in data) {
-						if (data[d].title && data[d].author && data[d].date && data[d].text) {
+					// most recent poem first
+					for (var d = data.length - 1; d >= 0; d--) {
+						if (data[d].title && data[d].author && data[d].text) {
 							var poem = document.createElement("div")
-								poem.className = "poem"
+								poem.className = "poem " + data[d].author.toLowerCase()
 							CONTAINER.appendChild(poem)
 
 							var title = document.createElement("div")
@@ -34,11 +35,6 @@ window.onload = function() {
 								author.className = "author"
 								author.innerText = data[d].author
 							poem.appendChild(author)
-
-							var date = document.createElement("div")
-								date.className = "date"
-								date.innerText = new Date(data[d].date).toLocaleDateString()
-							poem.appendChild(date)
 
 							var text = document.createElement("div")
 								text.className = "text"
