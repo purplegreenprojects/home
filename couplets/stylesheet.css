@@ -122,7 +122,7 @@
 	}
 
 /*** mobile ***/
-	@media screen and (max-height: 800px) {
+	@media screen and (max-width: 800px) {
 		#header .title {
 			width: 33%;
 		}
