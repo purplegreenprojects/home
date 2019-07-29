@@ -24,6 +24,10 @@ window.onload = function() {
 						if (data[d].title && data[d].author && data[d].text) {
 							var poem = document.createElement("div")
 								poem.className = "poem " + data[d].author.toLowerCase()
+								if (data[d].background) {
+									poem.style.background = data[d].background
+								}
+
 							CONTAINER.appendChild(poem)
 
 							var title = document.createElement("div")
@@ -35,12 +39,6 @@ window.onload = function() {
 								text.className = "text"
 								text.innerText = data[d].text
 							poem.appendChild(text)
-
-							// if (data[d].color) {
-							// 	var color = document.createElement("div")
-							// 		color.className = "color"
-							// 		color
-							// }
 						}
 					}
 				}
