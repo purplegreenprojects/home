@@ -186,13 +186,15 @@ button span {
 			transform: perspective(95px) rotateY(28.95deg) skew(2deg, 10deg);
 		}
 
-		/*#meteoriteMiner::after {
-			content: "";
-			display: block;
-			border-left: 1vw solid transparent;
-			border-top: 100px solid red;
-			border-right: 1vw solid transparent;
-		}*/
+		.meteoriteMiner {
+			background-image: url("https://static.thenounproject.com/png/1028-200.png");
+		}
+
+		.couplets {
+			background-image: url("../pictures/coupletslogo.png");
+		}
+
+
 
 	/* sculpting and 3-D knitting (original & personal animals) shelf */
 
@@ -421,6 +423,18 @@ button span {
 	/* coding shelf */
 		.James {
 			background-image: url(https://jamesmayr.com/resources/j.png);
+			margin: auto auto;
+			margin-top: -5px;
+			width: 20px;
+			height: 20px;
+		}
+
+		.memory {
+			background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/817-200.png);
+		}
+
+		.nimbusNotes {
+			background-image: url("../pictures/nimbusNotes.png");
 		}
 
 			#kdcustomorder {
