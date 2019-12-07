@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NDW Calculator for Language Sample</title>
+</head>
+
+<body>
+
+<script>
+var text = prompt("Language Sample");
+
+	//take out [] and () and the text that's inside each pair (replace whole thing with a space)
+	text = text.replace(/\([^)]*|\)|\[[^\]]*|\]/g," ");
+
+	// find periods, commas, etc. and replace with a space (" ")
+	text = text.replace(/\.|\u2026|\,|\?|\!|\;|\"|\-|\—|\:|\“|\”|\…|\u201C|\u201D/g," ");
+
+	// find multiple spaces and replace with just 1 space
+	text = text.replace(/\ +/g," ");
+
+	//gets rid of extra spaces (at beginning and end)
+	text = text.trim();
+
+	// make all text lowercase
+	text = text.toLowerCase();
+
+	// splits into separate words
+	words = text.split(" ");
+
+// create word bank (for list of unique words)
+var wordBank = {};
+
+
+//while there are still words in the original "text," for each word...
+var x = 0;
+
+	while (x < words.length) {
+
+// ...if it's a new word, add it to the word bank (of unique words) and give it a value of 1
+		if (wordBank[words[x]] === undefined) {
+			wordBank[words[x]] = 1;
+		}
+
+// ...or else (if the word is already in the word bank) just add 1 to the value	
+		else {
+
+			wordBank[words[x]] = wordBank[words[x]] + 1;
+		}
+
+		x = x +1;
+	}
+
+// alphabetize the word bank
+var differentWords = Object.keys(wordBank);
+
+differentWords.sort();
+	console.log(differentWords);
+
+// count how many different words there are and print that at the bottom of the page ("results")
+var results = "";
+
+var y = 0
+
+while (y < differentWords.length) {
+
+	results = results + differentWords[y] + ": " + wordBank[differentWords[y]] + "<br>";
+
+	y = y + 1;
+}
+
+results = results + "<b>Total NDW = <b>" + differentWords.length;
+
+console.log(text);
+document.write(results);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+body {
+  padding:0px;
+  margin: 0px;
+  border: 0px;
+}
+
+/*
+hr { 
+	margin-top: 0px; 
+	margin-bottom: 0px 
+}
+*/
+
+button {
+ 	border-radius:30px; 
+ 	border: 0;
+}
+
+/* FONTS/HEADINGS STUFF */
+
+	#title {
+		font-size:42px;
+		font-family: Roboto Condensed;
+		text-align: center;
+	}
+
+	#subtitle {
+		font-size:28px;
+		font-family:Arial;
+		text-align: center;
+		color: white;
+	}
+
+	#subsubtitle {
+		text-align: center;
+		font-size: 21px;
+	}
+
+/* PAGE SPACING */
+	.padding{
+		display:inline-block;
+		width: 1.3%;
+	}
+
+	.twothirds {
+		display:inline-block;
+		width: 64%;
+		height: 75%;
+		background-color: #6600ff;
+	}
+
+	.onethird {
+		display:inline-block;
+		width: 32%;
+		height:75%;
+		background-color:#cc0066;
+	}
+
+/* CATEGORY DIVS */
+	.stickybuns {
+		display:inline-block;
+		width:50%;
+		background-color: #80ffcc;
+	}
+
+	.cupcakes {
+		display:inline-block;
+		width:50%;
+		background-color:#4d79ff;
+	}
+
+	.cakes {
+		display:inline-block;
+		width: 100%;
+	}
+
+/* BUTTONS */
+	.pastrybuttondiv {
+		width:90%;
+		height:350px;
+		margin: 10px;
+	}
+
+	/*
+	.buttonframe {
+		background-color: black; 
+		padding: 5px; 
+		border-radius: 10px;
+	}
+	*/
+
+	/*
+	.buttonbackground_stickybun {
+		background-position: center; 
+		background-repeat: no-repeat; 
+		background-size: 350px auto; 
+		width: 100%; 
+		height: 75%;
+	}
+	*/
+
+	.buttonbackground {
+		background-position: center; 
+		background-repeat: no-repeat; 
+		background-size: 350px auto; 
+		width: 100%; 
+		height: 75%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------- TEST ---------------------- */
+
+
+.chooseKD {
+	width: 30%;
+ 	height: 50%;
+ 	display: inline-block;
+ 	margin: 10px;
+}
+
+.buttonframe {
+  background-color: black; 
+  padding: 10px; 
+  border-radius: 20px;
+}
+
+button {
+ 	border-radius:20px; 
+ 	border: 0;
+}
+
+.buttonbackground {
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  width: 100%; 
+  height: 75%;
+}
