@@ -409,7 +409,7 @@ window.onload = function(){
 					// drawCircle()
 
 				// grass
-					drawImage("lawn.png", 0, canvas.height - canvas.width / 2 + 20, canvas.width, canvas.width / 2)
+					drawImage("images/lawn.png", 0, canvas.height - canvas.width / 2 + 20, canvas.width, canvas.width / 2)
 			}		
 					
 
@@ -419,8 +419,8 @@ window.onload = function(){
 					drawShape(tree, "#3a2213")
 
 				// grass in front of tree
-					drawImage("grass.png", 625, 1035, 200, 70)
-					drawImage("grass.png", 650, 1050, 200, 70)
+					drawImage("images/grass.png", 625, 1035, 200, 70)
+					drawImage("images/grass.png", 650, 1050, 200, 70)
 
 				//leaves
 					drawLeaves()
@@ -624,7 +624,7 @@ window.onload = function(){
 					drawCircle()
 
 				// grass
-					drawImage("lawn.png", 0, canvas.height - canvas.width / 2 + 20, canvas.width, canvas.width / 2)
+					drawImage("images/lawn.png", 0, canvas.height - canvas.width / 2 + 20, canvas.width, canvas.width / 2)
 			}		
 					
 
@@ -634,8 +634,8 @@ window.onload = function(){
 					drawShape(tree, "#3a2213")
 
 				// grass in front of tree
-					drawImage("grass.png", 625, 1035, 200, 70)
-					drawImage("grass.png", 650, 1050, 200, 70)
+					drawImage("images/grass.png", 625, 1035, 200, 70)
+					drawImage("images/grass.png", 650, 1050, 200, 70)
 
 				// petals and leaf
 					
@@ -702,7 +702,7 @@ window.onload = function(){
 					drawCircle()
 
 				// grass
-					drawImage("lawn.png", 0, canvas.height - canvas.width / 2 + 20, canvas.width, canvas.width / 2)
+					drawImage("images/lawn.png", 0, canvas.height - canvas.width / 2 + 20, canvas.width, canvas.width / 2)
 			}		
 					
 
@@ -712,8 +712,8 @@ window.onload = function(){
 					drawShape(tree, "#3a2213")
 
 				// grass in front of tree
-					drawImage("grass.png", 625, 1035, 200, 70)
-					drawImage("grass.png", 650, 1050, 200, 70)
+					drawImage("images/grass.png", 625, 1035, 200, 70)
+					drawImage("images/grass.png", 650, 1050, 200, 70)
 
 				// petals and leaf
 					

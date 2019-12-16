@@ -26,7 +26,7 @@ window.onload = function() {
 				var options = [
 					{
 						name: "shadowBunny",
-						image: "shadowbunny.png",
+						image: "images/shadowbunny.png",
 						search: "?start=true"
 					},
 					{
