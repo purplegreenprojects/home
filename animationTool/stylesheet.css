@@ -16,10 +16,20 @@ body {
 	padding: 10px;
 	float: left;
 	background-color: gray;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 #canvas {
 	height: 100vh;
 	width: calc(100vw - 250px);
 	float: left;
+}
+
+.subBlockRow {
+	width: 100%;
+}
+
+.subBlockRow input {
+	width: 40%;
 }

@@ -191,6 +191,11 @@ window.addEventListener("load", function() {
 					if (layer) {
 						for (var a = 0; a < layer.points.length; a++) {
 							drawPoint(context, layer.points[a])
+							
+							if (window.showNumbers) {
+								context.font = "12px monospace"
+								context.fillText(a, layer.points[a][0] - 5, layer.points[a][1] - 5)
+							}
 						}
 						for (var b = 0; b < layer.lines.length; b++) {
 							drawLine(context, layer.lines[b].startPoint, layer.lines[b].endPoint)
