@@ -1,0 +1,132 @@
+/*** page ***/
+	html, body {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		background-color: #8DB9E7;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	/* scrollbars */
+		::-webkit-scrollbar {
+			height: 0 !important;
+			width: 0 !important;
+		}
+
+		::-moz-scrollbar {
+			height: 0 !important;
+			width: 0 !important;
+		}
+
+		::-ms-scrollbar {
+			height: 0 !important;
+			width: 0 !important;
+		}
+
+		::-o-scrollbar {
+			height: 0 !important;
+			width: 0 !important;
+		}
+
+		* {
+			scrollbar-width: none;
+		}
+
+/*** list ***/
+	#list {
+		float: left;
+		width: calc(100vw - 100px);
+		height: 100vh;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		scroll-behavior: smooth;
+		scroll-snap-type: x mandatory;
+		display: flex;
+		/*border-radius: 10px 10px 0 0;*/
+		border-radius:  3px;
+		box-sizing: border-box;
+		border: 20px ridge white;
+	}
+
+	.parent-block {
+		float: left;
+		display: inline-block;
+		box-sizing: border-box;
+		height: 100%;
+		width: auto;
+		scroll-snap-align: start;
+		flex-shrink: 0;
+	}
+
+	.parent-block[selected] .link-block-spacer {
+		background-color: white;
+	}
+
+	.link-block {
+		float: left;
+		display: inline-block;
+		box-sizing: border-box;
+		height: 100%;
+		min-width: 50px;
+		max-width: 200px;
+		scroll-snap-align: start;
+		flex-shrink: 0;
+		box-shadow: 0 0 5px black;
+	}
+
+	.link-block:hover, .link-block:focus, .link-block:focus-within {
+		text-shadow: 0 0 5px white;
+	}
+
+	.link-block-inner {
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		text-align: center;
+		font-size: 20px;
+		color: white;
+		text-decoration: none;
+		writing-mode: vertical-lr;
+		text-orientation: sideways;
+	}
+
+	.link-block-spacer {
+		display: block;
+		height: 100%;
+		width: 200px;
+		background-color: #d5dadb;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+/*** arrows ***/
+	.list-arrow {
+		float: left;
+		width: 50px;
+		height: 100vh;
+		box-sizing: border-box;
+		color: white;
+		background-color: transparent;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		border: 0;
+		cursor: pointer;
+		font-family: sans-serif;
+		outline: none;
+	}
+
+	.list-arrow:hover, .list-arrow:focus {
+		text-shadow: 0 0 5px white;
+	}
+
+	#left-arrow {
+		transform: rotate(180deg);
+	}
