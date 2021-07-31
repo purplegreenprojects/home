@@ -10,7 +10,7 @@ window.onload = function() {
 		var LIST = [
 			{
 				text: "",
-				url: "images/Chroma.png"
+				url: "images/Chroma.jpg"
 			},
 			{
 				text: "",

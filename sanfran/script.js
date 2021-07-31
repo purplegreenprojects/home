@@ -64,22 +64,12 @@ window.onload = function() {
 				text: "You can just make out the Golden Gate Bridge through the fog",
 				url: "images/14.jpg"
 			},
-			{
-				text: "",
-				url: "images/15.jpg"
-			},
+			
 			{
 				text: "",
 				url: "images/16.jpg"
 			},
-			{
-				text: "",
-				url: "images/17.jpg"
-			},
-			{
-				text: "",
-				url: "images/18.jpg"
-			},
+			
 			{
 				text: "",
 				url: "images/19.jpg"
@@ -97,31 +87,31 @@ window.onload = function() {
 				url: "images/22.jpg"
 			},
 			{
-				text: "Let's try some peace instead",
+				text: "Haight-Ashbury",
 				url: "images/23.jpg"
 			},
 			{
-				text: "I'd wanted to visit 826 Valencia since I first heard Dave Eggers' TED Talk",
+				text: "Let's try some peace instead",
 				url: "images/24.jpg"
 			},
 			{
-				text: "Every detail was so clever",
+				text: "I'd wanted to visit 826 Valencia since I first heard Dave Eggers' TED Talk",
 				url: "images/25.jpg"
 			},
 			{
-				text: "It did not disappoint",
+				text: "Every detail was so clever...",
 				url: "images/26.jpg"
 			},
 			{
-				text: "Dutch Windmill at the edge of Golden Gate Park, near the beach",
+				text: "It did not disappoint.",
 				url: "images/27.jpg"
 			},
 			{
-				text: "At the Exploratorium",
+				text: "Dutch Windmill at the edge of Golden Gate Park, near the beach",
 				url: "images/28.jpg"
 			},
 			{
-				text: "",
+				text: "At the Exploratorium",
 				url: "images/29.jpg"
 			},
 			{

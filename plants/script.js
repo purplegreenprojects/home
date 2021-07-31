@@ -38,35 +38,35 @@ window.onload = function() {
 			},
 			{
 				text: "",
-				url: "images/8.jpg"
+				url: "images/8.JPG"
 			},
 			{
 				text: "",
-				url: "images/9.jpg"
+				url: "images/9.JPG"
 			},
 			{
 				text: "",
-				url: "images/10.jpg"
+				url: "images/10.JPG"
 			},
 			{
 				text: "",
-				url: "images/11.jpg"
+				url: "images/11.JPG"
 			},
 			{
 				text: "",
-				url: "images/12.jpg"
+				url: "images/12.JPG"
 			},
 			{
 				text: "",
-				url: "images/13.jpg"
+				url: "images/13.JPG"
 			},
 			{
 				text: "",
-				url: "images/14.jpg"
+				url: "images/14.JPG"
 			},
 			{
 				text: "",
-				url: "images/15.jpg"
+				url: "images/15.JPG"
 			},
 			{
 				text: "",

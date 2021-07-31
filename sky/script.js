@@ -76,7 +76,7 @@ window.onload = function() {
 			},
 			{
 				text: "Malden, MA",
-				url: "images/17.jpg"
+				url: "images/17.JPG"
 			},
 			{
 				text: "Spring 2020 - Medford, MA",

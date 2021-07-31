@@ -35,39 +35,39 @@ window.onload = function() {
 			},
 			{
 				text: "Hampton Beach, NH",
-				url: "images/4.jpg"
+				url: "images/4.JPG"
 			},
 			{
 				text: "Somewhere in Eastern Upstate NY",
-				url: "images/5.jpg"
+				url: "images/5.JPG"
 			},
 			{
 				text: "Somewhere in Eastern Upstate NY",
-				url: "images/6.jpg"
+				url: "images/6.JPG"
 			},
 			{
 				text: "Somewhere in Eastern Upstate NY",
-				url: "images/7.jpg"
+				url: "images/7.JPG"
 			},
 			{
 				text: "Halibut Point State Park, Rockport, MA",
-				url: "images/8.jpg"
+				url: "images/8.JPG"
 			},
 			{
 				text: "Halibut Point State Park, Rockport, MA",
-				url: "images/9.jpg"
+				url: "images/9.JPG"
 			},
 			{
 				text: "Halibut Point State Park, Rockport, MA",
-				url: "images/10.jpg"
+				url: "images/10.JPG"
 			},
 			{
 				text: "Halibut Point State Park, Rockport, MA",
-				url: "images/11.jpg"
+				url: "images/11.JPG"
 			},
 			{
 				text: "Halibut Point State Park, Rockport, MA",
-				url: "images/12.jpg"
+				url: "images/12.JPG"
 			},
 		]
 

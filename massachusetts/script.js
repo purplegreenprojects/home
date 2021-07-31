@@ -46,11 +46,11 @@ window.onload = function() {
 			},
 			{
 				text: "Halibut Point State Park, Rockport, MA",
-				url: "images/10.jpg"
+				url: "images/10.JPG"
 			},
 			{
 				text: "",
-				url: "images/11.jpg"
+				url: "images/11.JPG"
 			},
 			{
 				text: "",
@@ -74,15 +74,15 @@ window.onload = function() {
 			},
 			{
 				text: "Spotted around Duxbury, MA",
-				url: "images/17.jpg"
+				url: "images/17.JPG"
 			},
 			{
 				text: "Duxbury / Plymouth area",
-				url: "images/18.jpg"
+				url: "images/18.JPG"
 			},
 			{
 				text: "",
-				url: "images/19.jpg"
+				url: "images/19.JPG"
 			},
 
 		]

@@ -215,7 +215,7 @@ window.onload = function() {
 			},
 			{
 				text: "Snow Sculptures",
-				url: "../snowSculptures/index.html",
+				url: "../snowsculptures/index.html",
 				color: "#46AB65"
 			},
 		{

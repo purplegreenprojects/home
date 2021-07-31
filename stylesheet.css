@@ -46,26 +46,72 @@ body {
 	background-repeat: no-repeat;
 }
 
-#background-video {
-	position:  absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-}
+	#preloader {
+		position:  absolute;
+		top: 0;
+		left: 0;
+		height: 0;
+		width: 0;
+		margin: 0;
+		padding: 0;
+		pointer-events: none;
+		overflow: hidden;
+		opacity: 0;
+	}
 
-#preloader {
-	position:  absolute;
-	top: 0;
-	left: 0;
-	height: 0;
-	width: 0;
-	margin: 0;
-	padding: 0;
-	pointer-events: none;
-	overflow: hidden;
-	opacity: 0;
-}
+	#background-video {
+		position:  absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+
+	#loading {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		font-size: 2rem;
+		color: black;
+		text-transform: uppercase;
+	}
+
+		#loading-dot-1 {
+			animation: blink1 2s linear infinite;
+		}
+
+		@keyframes blink1 {
+			0% {opacity: 0}
+			25% {opacity: 1}
+			50% {opacity: 1}
+			75% {opacity: 1}
+			100% {opacity: 0}
+		}
+
+		#loading-dot-2 {
+			animation: blink2 2s linear infinite;
+		}
+
+		@keyframes blink2 {
+			0% {opacity: 0}
+			25% {opacity: 0}
+			50% {opacity: 1}
+			75% {opacity: 1}
+			100% {opacity: 0}
+		}
+
+		#loading-dot-3 {
+			animation: blink3 2s linear infinite;
+		}
+
+		@keyframes blink3 {
+			0% {opacity: 0}
+			25% {opacity: 0}
+			50% {opacity: 0}
+			75% {opacity: 1}
+			100% {opacity: 0}
+		}
 
 .wall {
 	height: 100%;
@@ -130,6 +176,12 @@ body {
 			font-weight: bold;
 			text-shadow: 0 0 1rem white;
 			color: black !important;
+		}
+
+		.arrowButton[disabled] {
+			opacity: 0 !important;
+			pointer-events: none;
+			cursor: default;
 		}
 
 .scrollArrow-left, .scrollArrow-right, .scrollArrow-up, .scrollArrow-down {

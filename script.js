@@ -1236,7 +1236,7 @@ window.onload = function(){
 					"icons": [],
 					"color": colors["transparent"],
 					"viewer": "window",
-					"photos": ["massachusetts/images/1.jpg","massachusetts/images/2.jpg","massachusetts/images/3.jpg","massachusetts/images/4.jpg","massachusetts/images/5.jpg","massachusetts/images/6.jpg","massachusetts/images/7.jpg","massachusetts/images/8.jpg","massachusetts/images/9.jpg","massachusetts/images/10.jpg",],
+					"photos": ["massachusetts/images/1.jpg","massachusetts/images/2.jpg","massachusetts/images/3.jpg","massachusetts/images/4.jpg","massachusetts/images/5.jpg","massachusetts/images/6.jpg","massachusetts/images/7.jpg","massachusetts/images/8.jpg","massachusetts/images/9.jpg","massachusetts/images/10.JPG","massachusetts/images/11.JPG","massachusetts/images/12.jpg","massachusetts/images/13.jpg","massachusetts/images/14.jpg","massachusetts/images/15.jpg","massachusetts/images/16.jpg","massachusetts/images/17.JPG","massachusetts/images/18.JPG","massachusetts/images/19.JPG",],
 					"link": "massachusetts/",
 					"description": ""
 				},
@@ -1247,7 +1247,7 @@ window.onload = function(){
 					"icons": [],
 					"color": colors["transparent"],
 					"viewer": "window",
-					"photos": ["educationprofession/images/SHS.jpg", "educationprofession/images/SHS1.jpg"], //"education/images/diplomaSHS.jpg"
+					"photos": ["educationprofession/images/SHS.JPG", "educationprofession/images/SHS1.JPG"], //"education/images/diplomaSHS.jpg"
 					"link": "https://www.northcolonie.org",
 					"description": ""
 				},
@@ -1269,7 +1269,7 @@ window.onload = function(){
 					"icons": [],
 					"color": colors["transparent"],
 					"viewer": "window",
-					"photos": ["educationprofession/images/NP.jpg", "educationprofession/images/NP1.jpg"], //"education/images/diplomaNP"
+					"photos": ["educationprofession/images/NP.JPG", "educationprofession/images/NP1.JPG"], //"education/images/diplomaNP"
 					"link": "https://www.newpaltz.edu/commdis",
 					"description": ""
 				},
@@ -1301,7 +1301,7 @@ window.onload = function(){
 					"icons": [],
 					"color": colors["transparent"],
 					"viewer": "window",
-					"photos": ["sky/images/1.jpg", "sky/images/2.jpg", "sky/images/3.jpg", "sky/images/4.jpg", "sky/images/5.jpg", "sky/images/6.jpg", "sky/images/7.jpg", "sky/images/8.jpg", "sky/images/9.jpg", "sky/images/10.jpg", "sky/images/11.jpg", "sky/images/12.jpg", "sky/images/13.jpg", "sky/images/14.jpg", "sky/images/15.jpg", "sky/images/16.jpg", "sky/images/17.jpg", "sky/images/18.jpg"],
+					"photos": ["sky/images/1.jpg", "sky/images/2.jpg", "sky/images/3.jpg", "sky/images/4.jpg", "sky/images/5.jpg", "sky/images/6.jpg", "sky/images/7.jpg", "sky/images/8.jpg", "sky/images/9.jpg", "sky/images/10.jpg", "sky/images/11.jpg", "sky/images/12.jpg", "sky/images/13.jpg", "sky/images/14.jpg", "sky/images/15.jpg", "sky/images/16.jpg", "sky/images/17.JPG", "sky/images/18.jpg"],
 					"link": "sky/",
 					"description": ""
 				},
@@ -1321,7 +1321,7 @@ window.onload = function(){
 					"icons": [],
 					"color": colors["transparent"],
 					"viewer": "window",
-					"photos": ["plants/images/1.jpg", "plants/images/2.jpg", "plants/images/3.jpg", "plants/images/4.jpg", "plants/images/5.jpg", "plants/images/6.jpg", "plants/images/7.jpg", "plants/images/8.jpg", "plants/images/9.jpg", "plants/images/10.jpg", "plants/images/11.jpg", "plants/images/12.jpg", "plants/images/13.jpg", "plants/images/14.jpg", "plants/images/15.jpg", "plants/images/16.jpg"],
+					"photos": ["plants/images/1.jpg", "plants/images/2.jpg", "plants/images/3.jpg", "plants/images/4.jpg", "plants/images/5.jpg", "plants/images/6.jpg", "plants/images/7.jpg", "plants/images/8.JPG", "plants/images/9.JPG", "plants/images/10.JPG", "plants/images/11.JPG", "plants/images/12.JPG", "plants/images/13.JPG", "plants/images/14.JPG", "plants/images/15.JPG", "plants/images/16.jpg"],
 					"link": "plants/",
 					"description": ""
 				},
@@ -1331,7 +1331,7 @@ window.onload = function(){
 					"icons": [],
 					"color": colors["transparent"],
 					"viewer": "window",
-					"photos": ["water/images/1.jpg", "water/images/2.jpg", "water/images/3.jpg", "water/images/4.jpg", "water/images/5.jpg", "water/images/6.jpg", "water/images/7.jpg", "water/images/8.jpg", "water/images/9.jpg", "water/images/10.jpg", "water/images/11.jpg"],
+					"photos": ["water/images/1.jpg", "water/images/2.jpg", "water/images/3.jpg", "water/images/4.JPG", "water/images/5.JPG", "water/images/6.JPG", "water/images/7.JPG", "water/images/8.JPG", "water/images/9.JPG", "water/images/10.JPG", "water/images/11.JPG"],
 					"link": "water/",
 					"description": ""
 				},
@@ -2077,6 +2077,10 @@ window.onload = function(){
 		var ids = event.target.id.split("-")
 		// ["all", "green"]
 
+		for (var i in buttons) {
+			buttons[i].setAttribute("disabled", true)
+		}
+
 		containers.backgroundVideo.style.opacity = 1
 		containers.backgroundVideoSource.src = "videos/" + ids[0] + "-to-" + ids[1] + ".mov"
 		containers.backgroundVideo.load()
@@ -2091,6 +2095,10 @@ window.onload = function(){
 				noneTimeout = setTimeout(function(){
 					containers.backgroundVideoSource.src = ""
 					containers.backgroundVideo.style.opacity = 0
+
+					for (var i in buttons) {
+						buttons[i].removeAttribute("disabled")
+					}
 				},1000)
 			},1000)
 		}
