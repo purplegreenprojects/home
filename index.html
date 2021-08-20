@@ -5,7 +5,7 @@
 	<link rel="shortcut icon" type="image/png" href="purplegreenprojects_favicon.png"/>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 	<link href="stylesheet.css" rel="stylesheet">
-	<script src="script.js"></script>
+	<script src="script.js" defer></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="description" content="a portfolio of projects by Elizabeth Ford">
@@ -24,13 +24,17 @@
 		<video class="preload-videos" preload="true"><source src="videos/purple-to-all.mov" type="video/mp4"></video>
 		<video class="preload-videos" preload="true"><source src="videos/white-to-all.mov" type="video/mp4"></video>
 		<video class="preload-videos" preload="true"><source src="videos/green-to-all.mov" type="video/mp4"></video>
+		<img src="images/all.png" onload="document.getElementById('all').setAttribute('selected', true);">
+		<img src="images/purple.png">
+		<img src="images/white.png">
+		<img src="images/green.png">
 	</div>
 	<div id="container">
 		<div id="loading">loading<span id="loading-dot-1">.</span><span id="loading-dot-2">.</span><span id="loading-dot-3">.</span></div>
 		<video id="background-video" autoplay="true">
 			<source id="background-video-source" type="video/mp4">
 		</video>
-		<div id="all" class="wall" selected="true">
+		<div id="all" class="wall">
 			<div id="header">
 				<p>Welcome to</p>
 				<h1><span id='headerPurple'>Purple</span><span id='headerGreen'>Green</span> Projects</h1>
@@ -114,7 +118,13 @@
 			</button>
 		</div>
 	</div>
-
+	<button id="searchIcon"></button>
+	<div id="blurLayer" visible="false"></div>
+	<div id="modalSearch" visible="false">
+		<input id="searchBar" type="text" placeholder="search...">
+		<button id="searchX">x</button>
+		<div id="resultsList"></div>
+	</div>
 	<audio id="musicPlayer">
 		<source id="musicPlayer-source" type="audio/mpeg"></source>
 	</audio>

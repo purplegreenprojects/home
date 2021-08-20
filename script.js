@@ -2050,6 +2050,13 @@ window.onload = function(){
 			"bulletinBoard-green": document.getElementById("bulletinBoard-green"),
 		}
 
+		var searchIcon = document.getElementById("searchIcon")
+		var modalSearch = document.getElementById("modalSearch")
+		var blurLayer = document.getElementById("blurLayer")
+		var searchX = document.getElementById("searchX")
+		var searchBar = document.getElementById("searchBar")
+		var resultsList = document.getElementById("resultsList")
+
 		var audio = {
 			"player": document.getElementById("musicPlayer"),
 			"source": document.getElementById("musicPlayer-source")
@@ -2065,6 +2072,14 @@ window.onload = function(){
 		for (var i in scrollers) {
 			scrollers[i].addEventListener("click", clickScrollArrow)
 		}
+
+		searchIcon.addEventListener("click", openSearch)
+
+		searchX.addEventListener("click", closeSearch)
+
+		blurLayer.addEventListener("click", closeSearch)
+
+		searchBar.addEventListener("input", findResults)
 
 // FUNCTIONS
 	var selectTimeout = null
@@ -2221,6 +2236,66 @@ window.onload = function(){
 
 	function chooseRandom(array) {
 		return array[Math.floor(Math.random() * array.length)]
+	}
+
+	function openSearch() {
+		modalSearch.setAttribute("visible", true)
+		blurLayer.setAttribute("visible", true)
+		containers.container.setAttribute("blur", true)
+
+		searchBar.value = ""
+		searchBar.focus()
+	}
+
+	function closeSearch() {
+		modalSearch.setAttribute("visible", false)
+		blurLayer.setAttribute("visible", false)
+		containers.container.setAttribute("blur", false)
+	}
+
+	function findResults() {
+		var searchText = searchBar.value.trim()
+			searchText = searchText.toLowerCase()
+		
+		resultsList.innerHTML = ""
+
+		if (searchText.length > 2) {
+			var results = projects.filter(function(project) {
+				return project.name.toLowerCase().includes(searchText)
+			})
+
+			if (results.length > 1) {
+				results.sort(function(a, b) {
+					var resultPositionA = a.name.toLowerCase().indexOf(searchText)
+					var resultPositionB = b.name.toLowerCase().indexOf(searchText)
+
+					return (resultPositionA - resultPositionB)
+				})
+			}
+
+			for (var i in results) {
+				displayResult(results[i])
+			}
+		}
+	}
+
+	function displayResult(project) {
+		var result = document.createElement("a")
+		result.className = "searchResult"
+		result.href = project.link
+		result.target = "_blank"
+		result.addEventListener("click", closeSearch)
+		resultsList.appendChild(result)
+
+		var image = document.createElement("div")
+		image.className = "searchImage"
+		image.style.backgroundImage = "url(" + project.photos[0] + ")"
+		result.appendChild(image)
+
+		var text = document.createElement("div")
+		text.className = "searchText"
+		text.innerText = project.name
+		result.appendChild(text)
 	}
 
 }

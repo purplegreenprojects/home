@@ -32,6 +32,132 @@ body {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
+#searchIcon {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: -50px;
+	right: -50px;
+	transform: translateX(-50%) translateY(50%);
+	background-color: transparent;
+	border: none;
+	background-image: url(https://static.thenounproject.com/png/1142817-200.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	cursor:  pointer;
+}
+
+	#searchIcon:focus, #searchIcon:hover {
+		height: 120px;
+		width:  120px;
+		top: -70px;
+		right:  -70px;
+		filter: drop-shadow(0px 0px 10px white);
+	}
+
+#blurLayer {
+	width:  100vw;
+	height:  100vh;
+	position: absolute;
+	top:  0px;
+	left:  0px;
+	z-index:  100;
+}
+
+	#blurLayer[visible=false] {
+		display:  none;
+	}
+
+#modalSearch {
+	z-index: 101 !important;
+	width: 30%;
+	height: auto;
+	min-height: 20px;
+	font-size: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 10px;
+	overflow: hidden;
+	border: 2px solid rgba(100, 100, 100, 0.8);
+
+}
+	#modalSearch[visible=false] {
+		display:  none;
+	}
+
+#searchBar {
+	width: calc(100% - 50px);
+	height: 50px;
+	font-size:  30px;
+	box-sizing: border-box;
+	vertical-align: bottom;
+	border: none;
+	padding: 0 10px 0 10px;
+	outline:  none;
+	background-color: transparent;
+	font-family:  'Roboto Condensed', sans-serif;
+}
+
+#searchX {
+	height: 50px;
+	width:  50px;
+	font-size: 2rem;
+	border:  none;
+	cursor:  pointer;
+	background-color: transparent;
+	border-radius: 0px 10px 0px 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+	#searchX:focus, #searchX:hover {
+		background-color: rgba(100, 100, 100, 0.2);
+	}
+
+#resultsList {
+	width:  100%;
+	height:  auto;
+	max-height: 60vh;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+	.searchResult {
+		background-color: transparent;
+		width:  100%;
+		height: 75px;
+		font-size: 0;
+		cursor:  pointer;
+		display:  block;
+	}
+
+		.searchResult:hover, .searchResult:focus {
+			background-color: rgba(26, 133, 26, 0.5);
+		}
+
+	.searchImage {
+		height: 75px;
+		width:  75px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		display:  inline-block;
+	}
+
+	.searchText {
+		width: calc(100% - 75px);
+		height: 75px;
+		font-size: 24px;
+		color: #6947a5;
+		display: inline-block;
+		box-sizing: border-box;
+		padding:  25px;
+		vertical-align: top;
+	}
+
 #container {
 	height: 100vh;
 	width: 133.3vh;
@@ -45,6 +171,10 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+	#container[blur=true] {
+		filter: blur(3px);
+	}
 
 	#preloader {
 		position:  absolute;
@@ -205,9 +335,55 @@ body {
 		background-image: url(images/all.png);
 	}
 
+	#header {
+		position: absolute;
+		top: 20%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		opacity: 0;
+		animation: fadein 2s 1s;
+		animation-fill-mode: forwards;
+		user-select: none;
+	}
+
+		@keyframes fadein {
+			from {opacity: 0}
+			to {opacity: 1}
+		}
+
+		#header p {
+			padding: 0;
+			font-size: 1rem;
+			color: #d5dadb;
+			text-shadow: 0 0 0.25rem black;
+			font-family: 'Roboto Condensed', sans-serif;
+			text-transform: uppercase;
+			line-height: 1;
+			margin: 5px;
+		}
+
+		#header h1 {
+			padding: 0;
+			margin: 0;
+			color: #d5dadb;
+			text-shadow: 0 0 0.25rem black;
+			font-family: 'Roboto Condensed', sans-serif;
+			line-height: 1;
+		}
+
+			#headerPurple {
+				color: #6947a5;
+				text-shadow: 0 0 0.1rem black;
+			}
+
+			#headerGreen {
+				color: #1a851a;
+				text-shadow: 0 0 0.1rem black;
+			}
+
 	#all-purple{
 		left: 40%;
-		transform: translateX(-50%) rotate(180deg) translateY(-5%);
+		transform: translateX(-50%) rotate(180deg);
 	}
 
 	#all-white {
@@ -218,6 +394,22 @@ body {
 		left: 60%;
 		transform: translateX(-50%);
 	}
+
+	/* target firefox */
+		@-moz-document url-prefix() {
+			#all-purple {
+				transform: translateX(-50%) rotate(180deg) translateY(-5%);
+			}
+		}
+
+	/* target safari */
+		_::-webkit-full-page-media, _:future, :root #all-purple {
+			transform: translateX(-50%) rotate(180deg) translateY(-5%);
+		}
+
+		_::-webkit-full-page-media, _:future, :root #all-green {
+			transform: translateX(-50%) translateY(-5%);
+		}
 
 /* PURPLE WALL */
 
@@ -470,52 +662,6 @@ body {
 	#white-all {
 		transform: translateX(-50%) rotate(90deg);
 	}
-
-	#header {
-		position: absolute;
-		top: 20%;
-		left: 50%;
-		transform: translateX(-50%) translateY(-50%);
-		opacity: 0;
-		animation: fadein 2s 1s;
-		animation-fill-mode: forwards;
-		user-select: none;
-	}
-
-		@keyframes fadein {
-			from {opacity: 0}
-			to {opacity: 1}
-		}
-
-		#header p {
-			padding: 0;
-			font-size: 1rem;
-			color: #d5dadb;
-			text-shadow: 0 0 0.25rem black;
-			font-family: 'Roboto Condensed', sans-serif;
-			text-transform: uppercase;
-			line-height: 1;
-			margin: 5px;
-		}
-
-		#header h1 {
-			padding: 0;
-			margin: 0;
-			color: #d5dadb;
-			text-shadow: 0 0 0.25rem black;
-			font-family: 'Roboto Condensed', sans-serif;
-			line-height: 1;
-		}
-
-			#headerPurple {
-				color: #6947a5;
-				text-shadow: 0 0 0.1rem black;
-			}
-
-			#headerGreen {
-				color: #1a851a;
-				text-shadow: 0 0 0.1rem black;
-			}
 
 	/*#window {
 		position: absolute;
