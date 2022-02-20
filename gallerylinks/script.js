@@ -8,108 +8,108 @@ window.onload = function() {
 
 	/*** list ***/
 		var LIST = [
-		{
-			id: "kniterativedesigns",
-			color: "white",
-			image: "../kd/kdfavicon.png"
-		},
+		// {
+		// 	id: "kniterativedesigns",
+		// 	color: "white",
+		// 	image: "../kd/kdfavicon.png"
+		// },
 		// {
 		// 	text: "Kniterative Designs (all)",
 		// 	url: "../KD/index.html",
 		// 	color: "#4F1A70"
 		// },
-			{
-				text: "bunnies",
-				url: "../KD/bunnies/index.html",
-				color: "#A84CB8"
-			},
-			{
-				text: "knittens",
-				url: "../KD/knittens/index.html",
-				color: "#632D6C"
-			},
-			{
-				text: "puppies",
-				url: "../KD/puppies/index.html",
-				color: "#94419C"
-			},
-			{
-				text: "horses",
-				url: "../KD/horses/index.html",
-				color: "#4B2252"
-			},
-			{
-				text: "carrots, fish, mice",
-				url: "../KD/carrotsfishmice/index.html",
-				color: "#823F98"
-			},
-		{
-			id: "knitting",
-			color: "white",
-			image: "https://static.thenounproject.com/png/85003-200.png"
-		},
+		// 	{
+		// 		text: "bunnies",
+		// 		url: "../KD/bunnies/index.html",
+		// 		color: "#A84CB8"
+		// 	},
+		// 	{
+		// 		text: "knittens",
+		// 		url: "../KD/knittens/index.html",
+		// 		color: "#632D6C"
+		// 	},
+		// 	{
+		// 		text: "puppies",
+		// 		url: "../KD/puppies/index.html",
+		// 		color: "#94419C"
+		// 	},
+		// 	{
+		// 		text: "horses",
+		// 		url: "../KD/horses/index.html",
+		// 		color: "#4B2252"
+		// 	},
+		// 	{
+		// 		text: "carrots, fish, mice",
+		// 		url: "../KD/carrotsfishmice/index.html",
+		// 		color: "#823F98"
+		// 	},
 		// {
-		// 	text: "knitting (all)",
-		// 	url: "../knitting/index.html",
-		// 	color: "#4F1A70"
+		// 	id: "knitting",
+		// 	color: "white",
+		// 	image: "https://static.thenounproject.com/png/85003-200.png"
 		// },
-			{
-				text: "accessories sweaters &",
-				url: "../knitting/sweaters/index.html",
-				color: "#BB00FF"
-			},
-			{
-				text: "gifts",
-				url: "../knitting/gifts/index.html",
-				color: "#8D44A6"
-			},
+		// // {
+		// // 	text: "knitting (all)",
+		// // 	url: "../knitting/index.html",
+		// // 	color: "#4F1A70"
+		// // },
+		// 	{
+		// 		text: "accessories sweaters &",
+		// 		url: "../knitting/sweaters/index.html",
+		// 		color: "#BB00FF"
+		// 	},
+		// 	{
+		// 		text: "gifts",
+		// 		url: "../knitting/gifts/index.html",
+		// 		color: "#8D44A6"
+		// 	},
 
-			{
-				text: "pre-KD animals",
-				url: "../knitting/prekdanimals/index.html",
-				color: "#4B2252"
-			},
+		// 	{
+		// 		text: "pre-KD animals",
+		// 		url: "../knitting/prekdanimals/index.html",
+		// 		color: "#4B2252"
+		// 	},
 
 
-		{
-			id: "sewing",
-			color: "white",
-			image: "https://static.thenounproject.com/png/1461754-200.png"
-		},
 		// {
-		// 	text: "sewing (all)",
-		// 	url: "../sewing/index.html",
-		// 	color: "#4F1A70"
+		// 	id: "sewing",
+		// 	color: "white",
+		// 	image: "https://static.thenounproject.com/png/1461754-200.png"
 		// },
-			{
-				text: "dresses",
-				url: "../sewing/dresses/index.html",
-				color: "#632D6C"
-			},
+		// // {
+		// // 	text: "sewing (all)",
+		// // 	url: "../sewing/index.html",
+		// // 	color: "#4F1A70"
+		// // },
+		// 	{
+		// 		text: "dresses",
+		// 		url: "../sewing/dresses/index.html",
+		// 		color: "#632D6C"
+		// 	},
 
-			{
-				text: "skirts & tops",
-				url: "../sewing/skirtstops/index.html",
-				color: "#8D44A6"
-			},
+		// 	{
+		// 		text: "skirts & tops",
+		// 		url: "../sewing/skirtstops/index.html",
+		// 		color: "#8D44A6"
+		// 	},
 
-			{
-				text: "bags",
-				url: "../sewing/bags/index.html",
-				color: "#4B2252"
-			},
+		// 	{
+		// 		text: "bags",
+		// 		url: "../sewing/bags/index.html",
+		// 		color: "#4B2252"
+		// 	},
 
-			{
-				text: "PJ pants",
-				url: "../sewing/pjpants/index.html",
-				color: "#8D44A6"
-			},
+		// 	{
+		// 		text: "PJ pants",
+		// 		url: "../sewing/pjpants/index.html",
+		// 		color: "#8D44A6"
+		// 	},
 
-			{
-				text: "misc. accessories",
-				url: "../sewing/accessories/index.html",
-				color: "#BB00FF"
-			},
+		// 	{
+		// 		text: "misc. accessories",
+		// 		url: "../sewing/accessories/index.html",
+		// 		color: "#BB00FF"
+		// 	},
 
 		{
 			id: "writing",
@@ -218,28 +218,28 @@ window.onload = function() {
 				url: "../snowsculptures/index.html",
 				color: "#46AB65"
 			},
-		{
-			id: "coding",
-			color: "white",
-			image: "https://static.thenounproject.com/png/549370-200.png"
-		},
+		// {
+		// 	id: "coding",
+		// 	color: "white",
+		// 	image: "https://static.thenounproject.com/png/549370-200.png"
+		// },
 
-			{
-				text: "coding (all)",
-				url: "../coding/index.html",
-				color: "#2C6B3F"
-			},
-		{
-			id: "music",
-			color: "white",
-			image: "https://static.thenounproject.com/png/27186-200.png"
-		},
+		// 	{
+		// 		text: "coding (all)",
+		// 		url: "../coding/index.html",
+		// 		color: "#2C6B3F"
+		// 	},
+		// {
+		// 	id: "music",
+		// 	color: "white",
+		// 	image: "https://static.thenounproject.com/png/27186-200.png"
+		// },
 
-			{
-				text: "music (all)",
-				url: "../music/index.html",
-				color: "#2C6B3F"
-			},
+		// 	{
+		// 		text: "music (all)",
+		// 		url: "../music/index.html",
+		// 		color: "#2C6B3F"
+		// 	},
 			// {
 			// text: "Chroma",
 			// url: "../music/chroma/index.html",

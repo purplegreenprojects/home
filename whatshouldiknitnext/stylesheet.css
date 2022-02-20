@@ -1,0 +1,125 @@
+html, body {
+	position:  absolute;
+	height:  100%;
+	width:  100%;
+	top:  0;
+	left:  0;
+	overflow:  hidden;
+	padding:  0;
+	margin:  0;
+	background: radial-gradient(rgb(240, 240, 240) 0%, rgb(40,40,40) 100%);
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#backgroundImage {
+	position:  absolute;
+	height:  100vh;
+	width:  100vw;
+	top:  0;
+	left:  0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  center;
+	background-color:  transparent;
+}
+
+#e-logo {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: transparent;
+	background-image: url("../logo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 32px;
+	width: 32px;
+	cursor: pointer;
+	border-radius: 100%;
+	z-index: 1000;
+	outline: none;
+	filter: drop-shadow(0px 0px 2px #333333);
+}
+
+#e-logo:hover, #e-logo:focus {
+	filter: drop-shadow(0px 0px 4px #222222);
+}
+
+#projectBanner {
+	position:  absolute;
+	top:  50%;
+	left:  0%;
+	height: auto;
+	width:  100%;
+	background-color: rgba(89, 4, 89, 0.5);
+	transform: translateY(-50%);
+	text-align:  center;
+	padding-top: 10px;
+	padding-bottom:  10px;
+	box-shadow: 0 0 10px black;
+}
+
+#title {
+	color: black;
+	text-shadow: 0 0 5px white;
+	font-weight:  bold;
+	font-size: 35px;
+}
+
+#medium {
+	font-family:  'Roboto Condensed', sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	background-color: transparent;
+	border: 0;
+	box-shadow: 0 0 5px white;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+#medium:hover, #medium:focus {
+	box-shadow: 0 0 10px white;
+}
+
+#fetchProject {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	background-color: rgb(16, 163, 161);
+	border:  0;
+	border-radius: 10px;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+	box-shadow: 0 0 5px white;
+}
+
+#fetchProject:hover, #fetchProject:focus {
+	background-color: rgb(9, 112, 111);
+	box-shadow: 0 0 10px white;
+	color: white;
+}
+
+#backgroundImage {
+	height: 100vh;
+	width:  100vw;
+	position:  absolute;
+	top:  0;
+	left:  0;
+	background-repeat:  no-repeat;
+	background-size:  cover;
+	background-position: center;
+}
+
+#projectName, #projectName:visited {
+	font-size: 52px;
+	color: rgb(16, 163, 161);
+	text-shadow: 0 0 5px black;
+	cursor:  pointer;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#projectName:hover, #projectName:focus {
+	color: rgb(9, 112, 111);
+	text-shadow: 0 0 5px white;
+}

@@ -25,6 +25,10 @@ window.onload = function() {
 				text: "Spring 2018",
 				url: "images/moments.png"
 			},
+			{
+				text: "Read more recent poetry at purplegreenprojects.com/couplets",
+				url: "images/couplets.png"
+			},
 		]
 
 	/*** buildPage ***/

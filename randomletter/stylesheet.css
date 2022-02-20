@@ -5,11 +5,33 @@ body {
 	background-color: lightblue;
 }
 
+#e-logo {
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	background-color: transparent;
+	background-image: url("../logo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 32px;
+	width: 32px;
+	cursor: pointer;
+	border-radius: 100%;
+	z-index: 1000;
+	outline: none;
+	filter: drop-shadow(0px 0px 2px #333333);
+}
+
+#e-logo:hover, #e-logo:focus {
+	filter: drop-shadow(0px 0px 4px #222222);
+}
+
 #alphabet {
 	background-color: lightblue; 
 	height: 10vh;
 	text-align: center;
-	font-size: 4.9vw;
+	font-size: 4.5vw;
 	font-weight: bold;
 }
 

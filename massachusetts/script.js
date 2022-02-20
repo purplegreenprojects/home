@@ -8,6 +8,7 @@ window.onload = function() {
 
 	/*** list ***/
 		var LIST = [
+
 			{
 				text: "View of Boston from Pine Banks Park in Malden, MA",
 				url: "images/1.jpg"

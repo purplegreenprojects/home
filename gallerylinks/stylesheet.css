@@ -50,7 +50,7 @@
 		/*border-radius: 10px 10px 0 0;*/
 		border-radius:  3px;
 		box-sizing: border-box;
-		border: 20px ridge white;
+		border: 20px groove white;
 	}
 
 	.parent-block {

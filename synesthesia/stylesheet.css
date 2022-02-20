@@ -17,6 +17,28 @@
 		z-index: 2;
 	}
 
+	#e-logo {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		background-color: transparent;
+		background-image: url("../logo.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 32px;
+		width: 32px;
+		cursor: pointer;
+		border-radius: 100%;
+		z-index: 1000;
+		outline: none;
+		filter: drop-shadow(0px 0px 2px #333333);
+	}
+
+	#e-logo:hover, #e-logo:focus {
+		filter: drop-shadow(0px 0px 4px #222222);
+	}
+
 	#enterText {
 		min-height: calc( (100vh - 75px) * 2 / 3);
 		max-height: calc( (100vh - 75px) * 2 / 3);

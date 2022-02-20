@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>PurpleGreen Projects</title>
-	<link rel="shortcut icon" type="image/png" href="purplegreenprojects_favicon.png"/>
+	<link rel="shortcut icon" type="image/png" href="logo.png"/>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 	<link href="stylesheet.css" rel="stylesheet">
 	<script src="script.js" defer></script>
@@ -16,18 +16,29 @@
 	<meta property="og:description" content="a portfolio of projects by Elizabeth Ford">
 	<meta property="og:image" content="https://purplegreenprojects.com/images/banner.png">
 </head>
-<body>
+<body mode="lightmode">
 	<div id="preloader">
-		<video class="preload-videos" preload="true"><source src="videos/all-to-green.mov" type="video/mp4"></video>
-		<video class="preload-videos" preload="true"><source src="videos/all-to-white.mov" type="video/mp4"></video>
-		<video class="preload-videos" preload="true"><source src="videos/all-to-purple.mov" type="video/mp4"></video>
-		<video class="preload-videos" preload="true"><source src="videos/purple-to-all.mov" type="video/mp4"></video>
-		<video class="preload-videos" preload="true"><source src="videos/white-to-all.mov" type="video/mp4"></video>
-		<video class="preload-videos" preload="true"><source src="videos/green-to-all.mov" type="video/mp4"></video>
-		<img src="images/all.png" onload="document.getElementById('all').setAttribute('selected', true);">
-		<img src="images/purple.png">
-		<img src="images/white.png">
-		<img src="images/green.png">
+		<video class="preload-videos" preload="true"><source src="videos/lightmode/all-to-green.mov" type="video/mp4"></video>
+		<video class="preload-videos" preload="true"><source src="videos/lightmode/all-to-white.mov" type="video/mp4"></video>
+		<video class="preload-videos" preload="true"><source src="videos/lightmode/all-to-purple.mov" type="video/mp4"></video>
+		<video class="preload-videos" preload="true"><source src="videos/lightmode/purple-to-all.mov" type="video/mp4"></video>
+		<video class="preload-videos" preload="true"><source src="videos/lightmode/white-to-all.mov" type="video/mp4"></video>
+		<video class="preload-videos" preload="true"><source src="videos/lightmode/green-to-all.mov" type="video/mp4"></video>
+		<img src="images/lightmode/all.png" onload="document.getElementById('all').setAttribute('selected', true);">
+		<img src="images/lightmode/purple.png">
+		<img src="images/lightmode/white.png">
+		<img src="images/lightmode/green.png">
+
+		<video class="preload-videos" preload="true"><source src="videos/darkmode/all-to-green.mov" type="video/mp4"></video>
+		<video class="preload-videos" preload="true"><source src="videos/darkmode/all-to-white.mov" type="video/mp4"></video>
+		<video class="preload-videos" preload="true"><source src="videos/darkmode/all-to-purple.mov" type="video/mp4"></video>
+		<video class="preload-videos" preload="true"><source src="videos/darkmode/purple-to-all.mov" type="video/mp4"></video>
+		<video class="preload-videos" preload="true"><source src="videos/darkmode/white-to-all.mov" type="video/mp4"></video>
+		<video class="preload-videos" preload="true"><source src="videos/darkmode/green-to-all.mov" type="video/mp4"></video>
+		<img src="images/darkmode/all.png">
+		<img src="images/darkmode/purple.png">
+		<img src="images/darkmode/white.png">
+		<img src="images/darkmode/green.png">
 	</div>
 	<div id="container">
 		<div id="loading">loading<span id="loading-dot-1">.</span><span id="loading-dot-2">.</span><span id="loading-dot-3">.</span></div>
@@ -39,6 +50,11 @@
 				<p>Welcome to</p>
 				<h1><span id='headerPurple'>Purple</span><span id='headerGreen'>Green</span> Projects</h1>
 			</div>
+			
+			<button id="all-floorLamp"></button>
+			<button id="all-readingLamp"></button>
+			<button id="all-bankerLamp"></button>
+
 			<div id="arrow-buttons-container">
 				<button id="all-purple" class="arrowButton">
 					&#10156;
@@ -52,6 +68,9 @@
 			</div>
 		</div>
 		<div id="purple" class="wall">
+			
+			<button id="purple-floorLamp"></button>
+
 			<div id="bulletinBoard-purple">
 				<a href="https://www.yarnharlot.ca/" target="_blank" id="yarnharlot" class="bulletinBoard-businessCard"><div class="bulletinBoard-pin"></div></a>
 
@@ -60,6 +79,11 @@
 				<a href="https://www.virtual.sheepandwool.com/40yearsOfRhinebeck" target="_blank" id="rhinebeck" class="bulletinBoard-businessCard"><div class="bulletinBoard-pin"></div></a>
 
 				<a href="https://www.secretlifeofaseamstress.com/blog" target="_blank" id="onthemend" class="bulletinBoard-businessCard"><div class="bulletinBoard-pin"></div></a>
+
+				<a href="https://www.ravelry.com/projects/KDpurplegreen" target="_blank" id="ravelry" class="bulletinBoard-businessCard"><div class="bulletinBoard-pin"></div></a>
+
+				<a href="https://www.textillia.com/members/purplegreenprojects/projects" target="_blank" id="textillia" class="bulletinBoard-businessCard"><div class="bulletinBoard-pin"></div></a>
+
 			</div>
 			<div id="KDboxes"></div>
 			<button class="scrollArrow-left" container="KDboxes">&#10148;</button>
@@ -75,9 +99,26 @@
 			</button>
 		</div>
 		<div id="white" class="wall">
+			<button id="white-floorLamp"></button>
+			<button id="white-readingLamp"></button>
+
 			<div id="window"></div>
 			<div id="desktop"></div>
+			<div id="clock">
+				<div id="clock12" class="clockNumbers">12</div>
+				<div id="clock3" class="clockNumbers">3</div>
+				<div id="clock6" class="clockNumbers">6</div>
+				<div id="clock9" class="clockNumbers">9</div>
+				<div id="clockHour"></div>
+				<div id="clockMinute"></div>
+				<div id="clockSecond"></div>
+				<div id="clockCenter"></div>
+			</div>
 			<a id="yoga" href="https://www.youtube.com/user/yogawithadriene" target="_blank"></a>
+			<div id="exercise"></div>
+			<div id="desktop">
+				<a id="compliments" href="complimentgenerator" target="_blank"></a>
+			</div>
 			<a id="couplets" href="couplets" target="_blank"></a>
 			<div id="deskshelf0"></div>
 			<div id="deskshelf1"></div>
@@ -90,6 +131,9 @@
 			<div style="background-color: orange; opacity: 0.5; position: absolute;"></div>
 		</div>
 		<div id="green" class="wall">
+			<button id="green-readingLamp"></button>
+			<button id="green-bankerLamp"></button>
+
 			<div id="bulletinBoard-green">
 				<a href="https://jamesmayr.com/" target="_blank" id="jamesmayr" class="bulletinBoard-businessCard"><div class="bulletinBoard-pin"></div></a>
 
@@ -103,12 +147,16 @@
 
 				<a href="https://www.somethinglessboring.co.uk/" target="_blank" id="slb" class="bulletinBoard-businessCard"><div class="bulletinBoard-pin"></div></a>
 			</div>
+			<a id="notebook" href="writing/#image-1" target="_blank"></a>
+			<div class="bookend" id="be-1">3D</div>
 			<div id="shelf-long"></div>
 			<button class="scrollArrow-left" container="shelf-long">&#10148;</button>
 			<button class="scrollArrow-right" container="shelf-long">&#10148;</button>
+			<div class="bookend" id="be-2">art</div>
 			<div id="shelf-medium"></div>
 			<button class="scrollArrow-left" container="shelf-medium">&#10148;</button>
 			<button class="scrollArrow-right" container="shelf-medium">&#10148;</button>
+			<div class="bookend" id="be-3">code</div>
 			<div id="shelf-short"></div>
 			<button class="scrollArrow-left" container="shelf-short">&#10148;</button>
 			<button class="scrollArrow-right" container="shelf-short">&#10148;</button>
@@ -118,6 +166,7 @@
 			</button>
 		</div>
 	</div>
+	<button id="modeButton"></button>
 	<button id="searchIcon"></button>
 	<div id="blurLayer" visible="false"></div>
 	<div id="modalSearch" visible="false">
