@@ -56,6 +56,7 @@
 			--blur-amount: 10px;
 			--spin-time: 1s;
 			--searchBar-width: 300px;
+			--image-height: 500px;
 		}
 
 	/* effects */
@@ -373,10 +374,8 @@
 
 	/* error state */
 		#error {
-			position: absolute;
-			top: 500px;
-			left: 50%;
-			transform: translateX(-50%);
+			width: 100%;
+			margin-top: calc(var(--font-size-large) * 5);
 			font-size: var(--font-size-large);
 			font-weight: bold;
 			color: var(--main-dark);
@@ -387,11 +386,15 @@
 			transition: var(--transition-time_blur);
 		}
 
-		#cardsContainer:not(:empty) ~ #error {
+		#pgpblogCardsContainer:not(:empty) ~ #error {
 			display: none;
 		}
 
-		#postContainer:not(:empty) ~ #error {
+		#wordpressCardsContainer:not(:empty) ~ #error {
+			display: none;
+		}
+
+		#tumblrCardsContainer:not(:empty) ~ #error {
 			display: none;
 		}
 
@@ -407,10 +410,11 @@
 		overflow: hidden;
 		transition: var(--transition-time_blur);
 		box-shadow: 0 0 var(--shadow-size) var(--main-dark) inset;
+		min-height: 75vh;
 	}
 
-	body:not([post="true"]) #cardsContainer {
-		min-height: 75vh;
+	body[post="true"] #cardsContainer {
+		display: none;
 	}
 
 		.cardZone {
@@ -441,7 +445,7 @@
 			}
 		}
 
-		@media screen and (max-width: 700px) {
+		@media screen and (max-width: 800px) {
 			.cardZone {
 				width: 100vw;
 			}
@@ -876,7 +880,7 @@
 			}
 
 			.postBlock li {
-				margin: calc(-1 * var(--gap-size-medium)) var(--gap-size-medium) 0 var(--gap-size-large);
+				margin: calc(-1 * var(--gap-size-medium)) var(--gap-size-medium) 0 calc(var(--gap-size-large)*2);
 			}
 
 			.postBlock hr {
@@ -893,16 +897,20 @@
 			}
 
 			.postBlock img {
-				width: 100%;
+				width: auto;
 				height: auto;
+				max-width: 100%;
+				max-height: var(--image-height);
 				border-radius: var(--border-radius);
+				margin: auto auto;
+				display: block;
 			}
 
 			.postBlock figcaption {
 				width: 100%;
 				height: auto;
 				font-style: italic;
-				font-size: var(--font-size-small);
+				font-size: var(--font-size-medium);
 				margin-top: calc(-1 * var(--gap-size-small));
 				text-align: center;
 				color: var(--main-medium);
@@ -952,7 +960,7 @@
 
 		/* gallery */
 			.postBlock .gallery {
-				width:  100%;
+				width: 100%;
 				font-size: 0;
 				text-align: center;
 			}
@@ -966,7 +974,7 @@
 			}
 
 			.postBlock .gallery img, .postBlock .gallery figcaption {
-				width: calc(100% - 2 * var(--font-size-large) - 2 * var(--gap-size-medium));
+				max-width: calc(100% - 2 * var(--font-size-large) - 2 * var(--gap-size-medium));
 			}
 
 			.postBlock .gallery figcaption {
@@ -977,29 +985,32 @@
 			.postBlock .gallery button {
 				width: var(--font-size-large);
 				box-sizing: border-box;
-				height: 100%;
+				height: var(--font-size-large);
 				border: none;
-				background-color: transparent;
-				color: var(--main-dark);
+				border-radius: 100%;
+				background-color: var(--main-medium);
+				color: white;
 				font-size: var(--font-size-large);
 				font-weight: bold;
 				cursor: pointer;
 				transition: var(--transition-time);
 				padding: 0;
+				line-height: 1;
+				transform: translateY(400%);
 			}
 
 			.postBlock .gallery button:focus, .postBlock .gallery button:hover {
-				color: var(--main-hover);
+				background-color: var(--main-hover);
 			}
 
 			.postBlock .gallery .gallery-left {
 				float: left;
-				margin: 200px var(--gap-size-medium) 0 0;
+				margin: 0 var(--gap-size-medium) 0 0;
 			}
 
 			.postBlock .gallery .gallery-right {
 				float: right;
-				margin: 200px 0 0 var(--gap-size-medium);
+				margin: 0 0 0 var(--gap-size-medium);
 			}
 
 
@@ -1115,5 +1126,25 @@
 				color: var(--main-hover);
 			}
 
+/*** mobile ***/
+	@media screen and (max-width: 800px) {
+		#KDtags, #PGPtags {
+			display: none;
+		}
 
+		#andOther {
+			padding-top: var(--font-size-large);
+			padding-bottom:  var(--font-size-large);
+			height: auto;
+			width: 100%;
+		}
+
+		body[post="true"] #KDbutton {
+			margin-top:  var(--font-size-large);
+		}
+
+		body[post="true"] #PGPbutton {
+			margin-top: var(--font-size-large);
+		}
+	}
 

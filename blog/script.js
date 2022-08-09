@@ -3,13 +3,18 @@
 	var SETTINGS = {
 		searchWaitTime: 1000,
 		searchWaitActual: null,
-		GoogleAppsScriptURL: "https://script.google.com/macros/s/AKfycbxURvv8aeKEQa06dFDqi4yWaCLFfYwGm9fSIk2NhwB-S15yE0kITtvmhVuqqJjK6-wTfA/exec"
+		GoogleAppsScriptURL: "https://script.google.com/macros/s/AKfycbwhFugiLYz_JPXqucmVAq73I7IiAmik_2kNA0nxqgvfzPB96eiQ7O9lP9ZrOmxyrbRdOQ/exec",
+		WordPressGoogleAppsScriptURL: "https://script.google.com/macros/s/AKfycbw_nB-7XiNpzc0jDvKw_HX5LChPz0dGdPQwWEp6ggmlub0GZla8gvJ9M1EFhdZBxiYh/exec",
+		TumblrGoogleAppsScriptURL: "???"
 	}
 
 	/* ELEMENTS == STUFF FROM HTML */
 	var ELEMENTS = {
 		body: document.querySelector("body"),
 		cardsContainer: document.querySelector("#cardsContainer"),
+		pgpblogCardsContainer: document.querySelector("#pgpblogCardsContainer"),
+		wordpressCardsContainer: document.querySelector("#wordpressCardsContainer"),
+		tumblrCardsContainer: document.querySelector("#tumblrCardsContainer"),
 		postContainer: document.querySelector("#postContainer"),
 		backToCards_top: document.querySelector("#backToCards_top"),
 		backToCards_bottom: document.querySelector("#backToCards_bottom"),
@@ -18,7 +23,8 @@
 		KDbutton:document.querySelector("#KDbutton"),
 		KDtags: Array.from(document.querySelectorAll("#KDtags .tag")),
 		PGPtags: Array.from(document.querySelectorAll("#PGPtags .tag")),
-		search: document.querySelector("#search")
+		search: document.querySelector("#search"),
+		searchToggle: document.querySelector("#searchToggle")
 	}
 
 	/* DATABASE = STUFF FROM GOOGLE DOC */
@@ -139,7 +145,7 @@
 					if (galleryMatches && galleryMatches.length) {
 						for (var i in galleryMatches) {
 							var match = galleryMatches[i]
-							var beforeImages = "<div class='gallery' position='0'><button class='gallery-left' onclick='clickGalleryButton(this)'>&lt;</button><button class='gallery-right' onclick='clickGalleryButton(this)'>&gt;</button>"
+							var beforeImages = "<div class='gallery' position='0'><button class='gallery-left' onclick='clickGalleryButton(this)'>&larr;</button><button class='gallery-right' onclick='clickGalleryButton(this)'>&rarr;</button>"
 							var afterImages = "</div>"
 							html = html.replace(match, beforeImages + match.replace("<gallery>", "").replace("</gallery>", "").replace("<img", "<img selected='true'") + afterImages)
 						}
@@ -151,42 +157,70 @@
 
 	/* requestData */
 		function requestData(filter) {
-			var URL = SETTINGS.GoogleAppsScriptURL
+			// search
+				var parameterString = ""
 
-			if (filter && filter.id) {
-				URL = URL + "?id=" + filter.id
-			}
-			else if (filter && filter.tag) {
-				URL = URL + "?tag=" + filter.tag
-			}
-			else if (filter && filter.search) {
-				URL = URL + "?search=" + filter.search
-			}
+				if (filter && filter.id) {
+					parameterString = "?id=" + filter.id
+				}
+				else if (filter && filter.tag) {
+					parameterString = "?tag=" + filter.tag
+				}
+				else if (filter && filter.search) {
+					parameterString = "?search=" + filter.search
+				}
 
-			fetch(URL, {method: "GET"})
-			.then(function(response){
-				return response.json()
-			})
-			.then(function(data){
-				receiveData(data)
-				displayBlog()
-			})
+			// current blog
+				fetch(SETTINGS.GoogleAppsScriptURL + parameterString, {method: "GET"})
+				.then(function(response){
+					return response.json()
+				})
+				.then(function(data){
+					receiveData(data)
+					displayBlog()
+				})
+
+			// WordPress
+				fetch(SETTINGS.WordPressGoogleAppsScriptURL + parameterString, {method: "GET"})
+				.then(function(response){
+					return response.json()
+				})
+				.then(function(data){
+					receiveData(data)
+					displayBlog()
+				})
+
+			// Tumblr // ???
+				// fetch(SETTINGS.TumblrGoogleAppsScriptURL + parameterString, {method: "GET"})
+				// .then(function(response){
+				// 	return response.json()
+				// })
+				// .then(function(data){
+				// 	receiveData(data)
+				// 	displayBlog()
+				// })
 		}
 
 	/* receiveData */
 		function receiveData(data) {
-			for (var i in data) {
+			if (!data || !data.posts) {
+				return
+			}
+
+			for (var i in data.posts) {
+				data.posts[i].section = data.section
+
 				var existingJSON = DATABASE.find(function(postJSON){
-					return postJSON.id == data[i].id
+					return postJSON.id == data.posts[i].id
 				})
 
 				if (existingJSON) {
-					for (var key in data[i]) {
-						existingJSON[key] = data[i][key]
+					for (var key in data.posts[i]) {
+						existingJSON[key] = data.posts[i][key]
 					}
 				}
 				else {
-					DATABASE.push(data[i])
+					DATABASE.push(data.posts[i])
 				}
 			}
 
@@ -298,6 +332,9 @@
 		// if ?search, get cards by tag or title
 
 			if(blogSearchParameters.search) {
+				ELEMENTS.search.value = blogSearchParameters.search
+				ELEMENTS.searchToggle.checked = true
+
 				if (FILTERHISTORY.includes("?search=" + blogSearchParameters.search)) {	
 					var cardsWithSearchTerm = DATABASE.filter(function(cardJSON) {
 						if (cardJSON.title.toLowerCase().includes(blogSearchParameters.search)) {
@@ -336,7 +373,9 @@
 	function displayCards(postList) {
 		ELEMENTS.body.removeAttribute("post")
 		ELEMENTS.body.removeAttribute("KD")
-		ELEMENTS.cardsContainer.innerHTML = ""
+		ELEMENTS.pgpblogCardsContainer.innerHTML = ""
+		ELEMENTS.wordpressCardsContainer.innerHTML = ""
+		ELEMENTS.tumblrCardsContainer.innerHTML = ""
 		ELEMENTS.postContainer.innerHTML = ""
 
 		for (var i in postList){
@@ -355,7 +394,23 @@
 					if (postJSON.tags.includes("kd")) {
 						cardZone.className = cardZone.className + " KDcard"
 					}
-				ELEMENTS.cardsContainer.appendChild(cardZone)
+
+				if (postJSON.section == "pgpblog") {
+					ELEMENTS.pgpblogCardsContainer.appendChild(cardZone)
+				}
+
+				else if (postJSON.section == "wordpress") {
+					ELEMENTS.wordpressCardsContainer.appendChild(cardZone)
+				}
+
+				else if (postJSON.section == "tumblr") {
+					ELEMENTS.tumblrCardsContainer.appendChild(cardZone)
+				}
+
+				else {
+					console.log(postJSON)
+					return
+				}
 
 			// cardString
 				var cardString = document.createElement("div")
@@ -433,7 +488,9 @@
 	function displayPost(postJSON) {
 		ELEMENTS.body.setAttribute("post","true")
 		ELEMENTS.body.removeAttribute("KD")
-		ELEMENTS.cardsContainer.innerHTML = ""
+		ELEMENTS.pgpblogCardsContainer.innerHTML = ""
+		ELEMENTS.wordpressCardsContainer.innerHTML = ""
+		ELEMENTS.tumblrCardsContainer.innerHTML = ""
 		ELEMENTS.postContainer.innerHTML = ""
 
 		// no post
