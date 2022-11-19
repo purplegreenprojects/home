@@ -5,7 +5,7 @@
 		searchWaitActual: null,
 		GoogleAppsScriptURL: "https://script.google.com/macros/s/AKfycbwhFugiLYz_JPXqucmVAq73I7IiAmik_2kNA0nxqgvfzPB96eiQ7O9lP9ZrOmxyrbRdOQ/exec",
 		WordPressGoogleAppsScriptURL: "https://script.google.com/macros/s/AKfycbw_nB-7XiNpzc0jDvKw_HX5LChPz0dGdPQwWEp6ggmlub0GZla8gvJ9M1EFhdZBxiYh/exec",
-		TumblrGoogleAppsScriptURL: "???"
+		TumblrGoogleAppsScriptURL: "https://script.google.com/macros/s/AKfycbyBH3_2Yz4A5cBN_ZC9QWjpiG7IQyNv1Jhg-gwwrZDRd6aRq_66IpnMv2hkh2m43T0U_g/exec"
 	}
 
 	/* ELEMENTS == STUFF FROM HTML */
@@ -190,15 +190,15 @@
 					displayBlog()
 				})
 
-			// Tumblr // ???
-				// fetch(SETTINGS.TumblrGoogleAppsScriptURL + parameterString, {method: "GET"})
-				// .then(function(response){
-				// 	return response.json()
-				// })
-				// .then(function(data){
-				// 	receiveData(data)
-				// 	displayBlog()
-				// })
+			// Tumblr
+				fetch(SETTINGS.TumblrGoogleAppsScriptURL + parameterString, {method: "GET"})
+				.then(function(response){
+					return response.json()
+				})
+				.then(function(data){
+					receiveData(data)
+					displayBlog()
+				})
 		}
 
 	/* receiveData */
