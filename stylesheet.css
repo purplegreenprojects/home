@@ -81,6 +81,17 @@
 			transition: var(--transition-time);
 		}
 
+		#about[collapsed] {
+			height: 0;
+		}
+
+		/* ??? TO DO ??? */
+		/* - hide about images on mobile */
+		/* - column -> row for about links on mobile */
+		/* - 100% widths on mobile */
+		/* - auto height on mobile */
+		/* - fix filter bar padding on mobile */
+
 			#about-images, #about-links {
 				display: inline-flex;
 				flex-direction: column;
