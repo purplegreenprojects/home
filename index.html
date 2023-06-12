@@ -4,49 +4,87 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="logo.png" rel="shortcut icon">
-	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:regular,bold;italic;bolditalic">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 	<link href="stylesheet.css" rel="stylesheet">
 	<script src="projects.js" defer></script>
 	<script src="script.js" defer></script>
-
 	<title>PurpleGreen Projects</title>
 </head>
 <body>
-	<div id="leftColumn">
-		<div id="headerRow-left">
-			<div id="PGPlogo">PurpleGreen Projects</div>
+	<section id="header">
+		<h1 id="name">
+			<button id="name-button">Elizabeth Ford</button>
+		</h1>
+		<div id="about">
+			<div id="about-images">
+				<img src="https://media.licdn.com/dms/image/C5603AQE64r4HO7nq_w/profile-displayphoto-shrink_200_200/0/1517535863457?e=1691625600&v=beta&t=Lm9vFXlrEOXBDIS0Snw3I28zgok5ZVysp6UKNr8at-I">
+				<img src="https://media.licdn.com/dms/image/C5603AQE64r4HO7nq_w/profile-displayphoto-shrink_200_200/0/1517535863457?e=1691625600&v=beta&t=Lm9vFXlrEOXBDIS0Snw3I28zgok5ZVysp6UKNr8at-I">
+				<img src="https://media.licdn.com/dms/image/C5603AQE64r4HO7nq_w/profile-displayphoto-shrink_200_200/0/1517535863457?e=1691625600&v=beta&t=Lm9vFXlrEOXBDIS0Snw3I28zgok5ZVysp6UKNr8at-I">
+			</div>
+			<p id="about-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id arcu varius, suscipit dui eu, volutpat massa. Aenean vehicula urna ante, ut tincidunt velit faucibus quis. Proin vitae tristique orci. Curabitur et ullamcorper urna. Suspendisse dictum pretium urna non blandit. Nam gravida velit nulla, at consectetur arcu ultrices eget. Nunc a venenatis felis. Donec egestas lorem non libero dictum, a tempor ligula tempus. In vehicula laoreet erat, ut ultricies risus egestas vitae. Ut urna quam, molestie nec imperdiet nec, porta ac metus. Nunc vel lacus quam. Nam nisi ipsum, et Flavia scribit et Cornelia legit.</p>
+			<div id="about-links">
+				<a href="/ElizabethFordresume.pdf" target="_blank" title="Resume">
+					<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+						<path d="M384 64c0-35.3-28.7-64-64-64H64C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64l0-384zM128 192a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM80 356.6c0-37.9 30.7-68.6 68.6-68.6h86.9c37.9 0 68.6 30.7 68.6 68.6c0 15.1-12.3 27.4-27.4 27.4H107.4C92.3 384 80 371.7 80 356.6z"/>
+					</svg>
+				</a>
+				<a href="https://www.linkedin.com/in/elizabetheford/" target="_blank" title="Linkedin">
+					<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+						<path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+					</svg>
+				</a>
+				<a href="https://purplegreenprojects.com/blog" target="_blank" title="Blog">
+					<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+						<path d="M471.6 21.7c-21.9-21.9-57.3-21.9-79.2 0L362.3 51.7l97.9 97.9 30.1-30.1c21.9-21.9 21.9-57.3 0-79.2L471.6 21.7zm-299.2 220c-6.1 6.1-10.8 13.6-13.5 21.9l-29.6 88.8c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l88.8-29.6c8.2-2.7 15.7-7.4 21.9-13.5L437.7 172.3 339.7 74.3 172.4 241.7zM96 64C43 64 0 107 0 160V416c0 53 43 96 96 96H352c53 0 96-43 96-96V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H96z"/>
+					</svg>
+				</a>
+				<!-- <a href="https://www.etsy.com/shop/kniterativedesigns" target="_blank" title="Etsy">
+					<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+						<path d="M384 348c-1.75 10.75-13.75 110-15.5 132-117.879-4.299-219.895-4.743-368.5 0v-25.5c45.457-8.948 60.627-8.019 61-35.25 1.793-72.322 3.524-244.143 0-322-1.029-28.46-12.13-26.765-61-36v-25.5c73.886 2.358 255.933 8.551 362.999-3.75-3.5 38.25-7.75 126.5-7.75 126.5H332C320.947 115.665 313.241 68 277.25 68h-137c-10.25 0-10.75 3.5-10.75 9.75V241.5c58 .5 88.5-2.5 88.5-2.5 29.77-.951 27.56-8.502 40.75-65.251h25.75c-4.407 101.351-3.91 61.829-1.75 160.25H257c-9.155-40.086-9.065-61.045-39.501-61.5 0 0-21.5-2-88-2v139c0 26 14.25 38.25 44.25 38.25H263c63.636 0 66.564-24.996 98.751-99.75H384z"/>
+					</svg>
+				</a> -->
+				<a href="https://www.ravelry.com/projects/KDpurplegreen" target="_blank" title="Ravelry">
+					<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+						<path d="M498.252,234.223c-1.208-10.34-1.7-20.826-3.746-31a310.306,310.306,0,0,0-9.622-36.6,184.068,184.068,0,0,0-30.874-57.5,251.154,251.154,0,0,0-18.818-21.689,237.362,237.362,0,0,0-47.113-36.116A240.8,240.8,0,0,0,331.356,26.65c-11.018-3.1-22.272-5.431-33.515-7.615-6.78-1.314-13.749-1.667-20.627-2.482-.316-.036-.6-.358-.9-.553q-16.143.009-32.288.006c-2.41.389-4.808.925-7.236,1.15a179.331,179.331,0,0,0-34.256,7.1,221.5,221.5,0,0,0-39.768,16.355,281.385,281.385,0,0,0-38.08,24.158c-6.167,4.61-12.268,9.36-17.974,14.518C96.539,88.494,86.34,97.72,76.785,107.555a243.878,243.878,0,0,0-33.648,43.95,206.488,206.488,0,0,0-20.494,44.6,198.2,198.2,0,0,0-7.691,34.759A201.13,201.13,0,0,0,13.4,266.385a299.716,299.716,0,0,0,4.425,40.24,226.865,226.865,0,0,0,16.73,53.3,210.543,210.543,0,0,0,24,39.528,213.589,213.589,0,0,0,26.358,28.416A251.313,251.313,0,0,0,126.7,458.455a287.831,287.831,0,0,0,55.9,25.277,269.5,269.5,0,0,0,40.641,9.835c6.071,1.01,12.275,1.253,18.412,1.873a4.149,4.149,0,0,1,1.19.56h32.289c2.507-.389,5-.937,7.527-1.143,16.336-1.332,32.107-5.335,47.489-10.717A219.992,219.992,0,0,0,379.1,460.322c9.749-6.447,19.395-13.077,28.737-20.1,5.785-4.348,10.988-9.5,16.3-14.457,3.964-3.7,7.764-7.578,11.51-11.5a232.162,232.162,0,0,0,31.427-41.639c9.542-16.045,17.355-32.905,22.3-50.926,2.859-10.413,4.947-21.045,7.017-31.652,1.032-5.279,1.251-10.723,1.87-16.087.036-.317.358-.6.552-.9V236.005A9.757,9.757,0,0,1,498.252,234.223Zm-161.117-1.15s-16.572-2.98-28.47-2.98c-27.2,0-33.57,14.9-33.57,37.04V360.8H201.582V170.062H275.1v31.931c8.924-26.822,26.771-36.189,62.04-36.189Z"/>
+					</svg>
+				</a>
+				<a href="https://app.thestorygraph.com/profile/purplegreen" target="_blank" title="The StoryGraph">
+					<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+						<path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/>
+					</svg>
+				</a>
+			</div>
 		</div>
-		<div id="searchRow">
-			<form id="searchForm" action="javascript:;" method="post">
-				<input id="searchBar" type="text" placeholder="search (i.e. cats)">
-				<button id="searchButton">&#x1F50D;</button>
+		<div id="filters">
+			<form id="filters-medium-form" method="post" action="javascript:;">
+				<select id="filters-medium">
+					<option value="maker">maker</option>
+					<option value="knitter">knitter</option>
+					<option value="painter">painter</option>
+					<option value="writer">writer</option>
+				</select>
+			</form>
+			<div id="filters-of-outer">
+				<div id="filters-of-inner">of</div>
+			</div>
+			<form id="filters-topic-form" method="post" action="javascript:;">
+				<input id="filters-search" type="text" placeholder="...projects" autocomplete="off" autocapitalize="off" spellcheck="false">
+				<input id="filters-clear" type="reset" value="&times;" readonly>
+				<button id="filters-submit">
+					<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+						<path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+					</svg>
+				</button>
+				<div id="filters-suggestions"></div>
 			</form>
 		</div>
-		<div id="resultsList"></div>
-		<div id="footerRow-left"></div>
-	</div>
-	<div id="rightColumn">
-		<div id="headerRow-right"></div>
-		<div id="projectContainer">
-			<div id="galleryContainer" hideArrows="true">
-				<div id="gallery-leftArrow-container">
-					<button id="gallery-leftArrow">&lt;</button>
-				</div>
-				<div id="gallery-rightArrow-container">
-					<button id="gallery-rightArrow">&gt;</button>
-				</div>
-				<div id="gallery-image"></div> 
-			</div>
-			<div id="detailsContainer">
-				<div id="tagsContainer"></div>
-				<div id="nameContainer"></div>
-				<div id="descriptionContainer"></div>
-				<div id="linksContainer"></div>
-			</div>
-		</div>
-		<div id="footerRow-right"></div>
-	</div>
+	</section>
 
+	<section id="content"></section>
+
+	<section id="footer">
+		<div id="stream"></div>
+		<div id="copyright">© 2023 Elizabeth Ford</div>
+	</section>
 </body>
 </html>

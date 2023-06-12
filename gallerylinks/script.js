@@ -170,6 +170,11 @@ window.onload = function() {
 				color: "#502E5C"
 			},
 			{
+				text: "Night Lights",
+				url: "../night/index.html",
+				color: "#340b42"
+			},
+			{
 				text: "sky",
 				url: "../sky/index.html",
 				color: "#222059"
