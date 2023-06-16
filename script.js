@@ -1,5 +1,6 @@
 // ELEMENTS
 	var ELEMENTS = {
+		header: document.querySelector("#header"),
 		nameButton: document.querySelector("#name-button"),
 		about: document.querySelector("#about"),
 		filtersMediumSelect: document.querySelector("#filters-medium"),
@@ -11,7 +12,7 @@
 
 // CONSTANTS
 	var CONSTANTS = {
-		defaultMedium: "learner",
+		defaultMedium: "maker",
 		mediums: {
 			learner: {
 				tag: "learning",
@@ -147,21 +148,25 @@
 			ELEMENTS.filtersMediumSelect.appendChild(option)
 		}
 
-		// select "learner" (the default medium, as defined in CONSTANTS) as value of mediums dropdown
+		// select the default medium (e.g. "maker" or "learner"), as defined in CONSTANTS as value of mediums dropdown
 		ELEMENTS.filtersMediumSelect.value = CONSTANTS.defaultMedium
 		// in the topicsselect dropdown, populate with options associated with "learner"
 		buildTopicsList()
+		setAboutView()
 	}
 
 // USER ACTIONS
+	// clicking on the name button (Elizabeth Ford) triggers the function
 	ELEMENTS.nameButton.addEventListener("click",toggleAbout)
 
 	function toggleAbout(){
-		if (ELEMENTS.about.getAttribute("collapsed")) {
-			ELEMENTS.about.removeAttribute("collapsed")
+		// if the about section (#header) has an attribute (like id="" or class="") of collapsed="true"... then remove that attribute
+		if (ELEMENTS.header.getAttribute("collapsed")) {
+			ELEMENTS.header.removeAttribute("collapsed")
 		}
+		// otherwise (if it doesn't have that attribute), add the attribute "collapsed" and set it to "true" (collapsed="true")
 		else {
-			ELEMENTS.about.setAttribute("collapsed",true)
+			ELEMENTS.header.setAttribute("collapsed",true)
 		}
 	}
 
@@ -171,6 +176,8 @@
 
 	// (define function)
 	function buildTopicsList(){
+		ELEMENTS.filtersSearchInput.value = ""
+
 		// the value of medium that is selected
 		var medium = ELEMENTS.filtersMediumSelect.value
 		// within the mediums object, the particular medium that's selected (based on the html value of that selected medium)
@@ -194,6 +201,26 @@
 			ELEMENTS.filtersTopicSelect.appendChild(option)
 		}
 	}
+
+	ELEMENTS.filtersMediumSelect.addEventListener("change", setAboutView)
+
+	function setAboutView(){
+		var medium = ELEMENTS.filtersMediumSelect.value
+		if (medium == "learner") {
+			ELEMENTS.header.removeAttribute("collapsed")
+			ELEMENTS.filtersSearchInput.setAttribute("placeholder", "life")
+			ELEMENTS.filtersSearchInput.setAttribute("disabled", true)
+			ELEMENTS.filtersSubmitButton.setAttribute("disabled",true)
+		}
+		else {
+			ELEMENTS.header.setAttribute("collapsed",true)
+			ELEMENTS.filtersSearchInput.setAttribute("placeholder", "...projects")
+			ELEMENTS.filtersSearchInput.removeAttribute("disabled")
+			ELEMENTS.filtersSubmitButton.removeAttribute("disabled")
+		}
+	}
+
+
 
 
 
