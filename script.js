@@ -245,8 +245,23 @@
 			}
 
 			else {
+				var craft = CONSTANTS.mediums[medium].tag
 				var filteredProjects = PROJECTS.filter(filterByMedium)
+				function filterByMedium(project){
+					// (INEFFICIENT WAY OF DOING IT)
+					// if (project.tags.includes(craft) || project.keywords.includes(craft)) {
+					// 	return true
+					// }
+					// else {
+					// 	return false
+					// }
+
+					// (BETTER WAY OF DOING IT)	
+					return (project.tags.includes(craft) || project.keywords.includes(craft))
+				}
 			}
+
+		
 
 
 			// ??? -- filter by TOPIC (dropdown selection) and SEARCH
@@ -254,25 +269,12 @@
 
 			// SORT
 				filteredProjects.sort(sortByDate)
+				function sortByDate(projectA, projectB) {
+					return new Date(projectA.date).getTime() - new Date(projectB.date).getTime() // ???
+				}
 
-			populateCards(filteredProjects)
-		}
-
-		function filterByMedium(project){
-			// (INEFFICIENT WAY OF DOING IT)
-			// if (project.tags.includes(medium) || project.keywords.includes(medium)) {
-			// 	return true
-			// }
-			// else {
-			// 	return false
-			// }
-
-			// (BETTER WAY OF DOING IT)	
-			return (project.tags.includes(medium) || project.keywords.includes(medium))
-		}
-
-		function sortByDate(projectA, projectB) {
-			return new Date(projectA.date).getTime() - new Date(projectB.date).getTime() // ???
+			// add cards that meet filter requirements to content section
+				populateCards(filteredProjects)
 		}
 
 	// POPULATE CARDS SECTION
@@ -304,17 +306,19 @@
 						pictureArea.appendChild(picture)
 					}
 
-				var leftArrow = document.createElement("button")
-				leftArrow.className = "project-gallery-arrow-left"
-				leftArrow.innerHTML = "&larr;"
-				leftArrow.addEventListener("click", changePicturePrevious)
-				gallery.appendChild(leftArrow)
+				if (projectData.photos?.length > 1) {
+					var leftArrow = document.createElement("button")
+					leftArrow.className = "project-gallery-arrow-left"
+					leftArrow.innerHTML = "&lt;"
+					leftArrow.addEventListener("click", changePicturePrevious)
+					gallery.appendChild(leftArrow)
 
-				var rightArrow = document.createElement("button")
-				rightArrow.className = "project-gallery-arrow-right"
-				rightArrow.innerHTML = "&rarr;"
-				rightArrow.addEventListener("click", changePictureNext)
-				gallery.appendChild(rightArrow)
+					var rightArrow = document.createElement("button")
+					rightArrow.className = "project-gallery-arrow-right"
+					rightArrow.innerHTML = "&gt;"
+					rightArrow.addEventListener("click", changePictureNext)
+					gallery.appendChild(rightArrow)
+				}
 
 			var infoContainer = document.createElement("div")
 			infoContainer.className = "project-info"
