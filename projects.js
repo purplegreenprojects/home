@@ -7,6 +7,7 @@
 
 			{
 				"name": "Blender Cafe (scene)",
+				"date": "",
 				"tags": ["3d art", "blender", "donut", "tutorial", "food", "scene", "digital art"],
 				"keywords": ["art","3d","blender","render","scene","donut","coffee", "blender guru","tutorial", "vase","flower","flowers","glass","breakfast", "first projects"],
 				"photos": ["blender/images/blendercafe.gif"],
@@ -21,6 +22,7 @@
 
 			{
 				"name": "bud vase (model)",
+				"date": "",
 				"tags": ["3d art", "blender", "glass", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","vase","flower","flowers"],
 				"photos": ["blender/images/budvase.png"],
@@ -30,6 +32,7 @@
 
 			{
 				"name": "bagels (model)",
+				"date": "",
 				"tags": ["3d art", "blender", "food", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","food","breakfast", "first projects"],
 				"photos": ["blender/images/bagels.png"],
@@ -44,6 +47,7 @@
 
 			{
 				"name": "pinic breakfast (scene)",
+				"date": "",
 				"tags": ["3d art", "blender", "food", "scene", "digital art"],
 				"keywords": ["art","3d","blender","render","scene","breakfast","brunch","food","glass", "nature"],
 				"photos": ["blender/images/breakfastpicnic.png"],
@@ -58,6 +62,7 @@
 
 			{
 				"name": "bread (model)",
+				"date": "",
 				"tags": ["3d art", "blender", "food", "model", "tutorial"],
 				"keywords": ["art","3d","blender","render","asset","model","food","blender guru"],
 				"photos": ["blender/images/bread.png"],
@@ -71,6 +76,7 @@
 
 			{
 				"name": "apples (scene)",
+				"date": "",
 				"tags": ["3d art", "blender", "food", "tutorial", "scene", "digital art"],
 				"keywords": ["art","3d","blender","render","asset","model","food","tutorial"],
 				"photos": ["blender/images/apples.png"],
@@ -85,6 +91,7 @@
 
 			{
 				"name": "teddy bear (scene)",
+				"date": "",
 				"tags": ["3d art", "blender", "toy", "tutorial", "scene", "digital art"],
 				"keywords": ["art","3d","blender","render","asset","model","toy","bear"],
 				"photos": ["blender/images/teddybear.png"],
@@ -99,6 +106,7 @@
 
 			{
 				"name": "neon sign (scene)",
+				"date": "",
 				"tags": ["3d art", "blender", "decoration", "tutorial", "scene", "digital art"],
 				"keywords": ["art","3d","blender","render","asset","model","light","glow"],
 				"photos": ["blender/images/neonsign.png"],
@@ -113,6 +121,7 @@
 
 			{
 				"name": "cube shelf (model)",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","furniture"],
 				"photos": ["blender/images/shelf_cube.png"],
@@ -127,6 +136,7 @@
 
 			{
 				"name": "yoga mat (model)",
+				"date": "",
 				"tags": ["3d art", "blender", "model"],
 				"keywords": ["art","3d","blender","render","asset","model", "exercise"],
 				"photos": ["blender/images/yogamat.png"],
@@ -141,6 +151,7 @@
 
 			{
 				"name": "desk",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","furniture", "office"],
 				"photos": ["blender/images/desk_drawing.png"],
@@ -155,6 +166,7 @@
 
 			{
 				"name": "bulletin board",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","office"],
 				"photos": ["blender/images/bulletinboard.png"],
@@ -169,6 +181,7 @@
 
 			{
 				"name": "piano",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "model", "music"],
 				"keywords": ["art","3d","blender","render","asset","model","music","instrument", "composing","composition"],
 				"photos": ["blender/images/piano.png"],
@@ -183,6 +196,7 @@
 
 			{
 				"name": "sewing machine",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "model", "sewing"],
 				"keywords": ["art","3d","blender","render","asset","model","sew","sewing","sewn","sewist","seamstress","clothes", "singer","Grandma"],
 				"photos": ["blender/images/sewingmachine.png"],
@@ -197,6 +211,7 @@
 
 			{
 				"name": "dress form",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "model", "sewing", "clothes"],
 				"keywords": ["art","3d","blender","render","asset","model","dress","sewing","sew","seamstress","clothes"],
 				"photos": ["blender/images/sewingdressform.png"],
@@ -211,6 +226,7 @@
 
 			{
 				"name": "banker's lamp",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "light", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","lamp","light","green"],
 				"photos": ["blender/images/lamp_banker.png"],
@@ -225,6 +241,7 @@
 
 			{
 				"name": "G'pa Chair",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "chair", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","Grandpa","chair","furniture"],
 				"photos": ["blender/images/chair_gpa.png"],
@@ -243,6 +260,7 @@
 
 			{
 				"name": "end table",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","furniture"],
 				"photos": ["blender/images/table_end.png"],
@@ -257,6 +275,7 @@
 
 			{
 				"name": "plant",
+				"date": "",
 				"tags": ["3d art", "blender", "plant", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","plant","plants","houseplant","houseplants","house plants", "house plant", "garden", "gardening"],
 				"photos": ["blender/images/plant_pothos.png"],
@@ -275,6 +294,7 @@
 
 			{
 				"name": "poang chair",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","furniture","chair","ikea","reading","read"],
 				"photos": ["blender/images/chair_poang.png"],
@@ -289,6 +309,7 @@
 
 			{
 				"name": "floor lamp",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "light", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","lamp","light"],
 				"photos": ["blender/images/lamp_floor.png"],
@@ -303,6 +324,7 @@
 
 			{
 				"name": "reading lamp",
+				"date": "",
 				"tags": ["3d art", "blender", "furniture", "light", "model"],
 				"keywords": ["art","3d","blender","render","asset","model","light","lamp"],
 				"photos": ["blender/images/lamp_reading.png"],
@@ -317,6 +339,7 @@
 
 			{
 				"name": "book",
+				"date": "",
 				"tags": ["3d art", "blender",],
 				"keywords": ["art","3d","blender","render","asset","model","book","reading","read","current"],
 				"photos": ["blender/images/books.png"],
@@ -331,6 +354,7 @@
 
 			{
 				"name": "notebook",
+				"date": "",
 				"tags": ["3d art", "blender",],
 				"keywords": ["art","3d","blender","render","asset","model","writing","write","poetry"],
 				"photos": ["blender/images/compositionnotebooks.png"],
@@ -345,6 +369,7 @@
 
 			{
 				"name": "room",
+				"date": "",
 				"tags": ["3d art", "blender",],
 				"keywords": ["art","3d","blender","render","asset","model","purplegreen","purplegreenprojects","evolution","website"],
 				"photos": ["images/all.png"],
@@ -359,6 +384,7 @@
 
 			{
 				"name": "Snow Sculptures",
+				"date": "",
 				"tags": ["3d art", "sculpture", "snow","bunnies"],
 				"keywords": ["art","art", "other art", "sculpture","sculptures","snow","snowman", "bunny","bunnies","rabbit","3d", "first projects","childhood"],
 				"photos": ["art/images/2011snowbunny.jpg"],
@@ -370,6 +396,7 @@
 			
 			{
 				"name": "Kniterative Designs Logo",
+				"date": "",
 				"tags": ["digital art", "Kniterative Designs",],
 				"keywords": ["art","art","digital","knit","kd","kniterative", "logo", "etsy", "business"],
 				"photos": ["art/images/kdlogofull.png"],
@@ -388,6 +415,7 @@
 
 			{
 				"name": "meteoriteMiner pixel art assets",
+				"date": "",
 				"tags": ["digital art", "pixel art"],
 				"keywords": ["art","digital","game","8-bit", "pixel", "design"],
 				"photos": ["art/images/meteoriteminer.png"],
@@ -410,6 +438,7 @@
 
 			{
 				"name": "Chroma (album art)",
+				"date": "",
 				"tags": ["digital art", "design", "music", "imagery", "photography", "fall"],
 				"keywords": ["art","digital", "design", "first projects", "composition", "song", "songs", "album"],
 				"photos": ["music/images/chroma.jpg"],
@@ -421,6 +450,7 @@
 
 			{
 				"name": "Whether (album art)",
+				"date": "",
 				"tags": ["digital art", "design", "music", "imagery", "drawing", "spring", "summer"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/whether.png"],
@@ -431,6 +461,7 @@
 			},
 			{
 				"name": "Elephant (album art)",
+				"date": "",
 				"tags": ["digital art", "design", "music", "imagery", "photography"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/elephant.jpg"],
@@ -442,6 +473,7 @@
 
 			{
 				"name": "These Days (album art)",
+				"date": "",
 				"tags": ["digital art", "design", "music", "imagery", "photography", "winter", "spring", "Binghamton University"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/thesedays.jpg"],
@@ -453,6 +485,7 @@
 
 			{
 				"name": "Chroma Snapshot: Chaos in Circles (album art)",
+				"date": "",
 				"tags": ["digital art", "design", "music", "imagery", "photography", "Chroma"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/chaosincircles.jpg"],
@@ -464,6 +497,7 @@
 
 			{
 				"name": "EveryTime (album art)",
+				"date": "",
 				"tags": ["digital art", "design", "music", "imagery", "photography"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/everytime.jpg"],
@@ -475,6 +509,7 @@
 
 			{
 				"name": "Collecting Carrots (album art)",
+				"date": "",
 				"tags": ["digital art", "design", "music", "imagery", "game", "soundtrack"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/collectingcarrots.png"],
@@ -488,6 +523,7 @@
 
 			{
 				"name": "Knitting",
+				"date": "",
 				"tags": ["paintings art", "acrylic", "knitting"],
 				"keywords": ["art","painting","paint","knit","knitting"],
 				"photos": ["art/images/knitting.png"],
@@ -497,6 +533,7 @@
 
 			{
 				"name": "Kniterative Designs Friends",
+				"date": "",
 				"tags": ["paintings art", "watercolor", "kniterative designs","cats", "dogs", "bunnies"],
 				"keywords": ["art","watercolor","bunny","rabbit","cat","kitten", "kitty", "puppy","dog","furry friends"],
 				"photos": ["art/images/kdfurryfriends.png"],
@@ -506,6 +543,7 @@
 
 			{
 				"name": "Kayaking",
+				"date": "",
 				"tags": ["paintings art", "acrylic", "tutorial", "water"],
 				"keywords": ["art","paint","painting","nature","kayak","river"],
 				"photos": ["art/images/kayaking.png"],
@@ -520,6 +558,7 @@
 
 			{
 				"name": "Water Lillies",
+				"date": "",
 				"tags": ["paintings art", "acrylic", "tutorial", "water", "flowers"],
 				"keywords": ["art","paint","painting","river","water", "flower","flowers","something less boring","slb", "tutorial"],
 				"photos": ["art/images/waterlillies.png"],
@@ -534,6 +573,7 @@
 
 			{
 				"name": "Oranges",
+				"date": "",
 				"tags": ["paintings art", "watercolor", "tutorial", "food"],
 				"keywords": ["art","watercolor","paint","painting","food","something less boring","slb", "tutorial"],
 				"photos": ["art/images/oranges.png"],
@@ -548,6 +588,7 @@
 
 			{
 				"name": "Cherries",
+				"date": "",
 				"tags": ["paintings art", "watercolor", "tutorial", "food"],
 				"keywords": ["art","watercolor","paint","painting","food", "tutorial"],
 				"photos": ["art/images/cherries.png"],
@@ -562,6 +603,7 @@
 
 			{
 				"name": "Blueberries",
+				"date": "",
 				"tags": ["paintings art", "watercolor", "tutorial", "food"],
 				"keywords": ["art","watercolor","paint","painting","food", "tutorial"],
 				"photos": ["art/images/blueberries.png"],
@@ -576,6 +618,7 @@
 
 			{
 				"name": "Clothesline",
+				"date": "",
 				"tags": ["paintings art", "watercolor", "tutorial", "clothes"],
 				"keywords": ["art","watercolor","paint","painting","clothes", "tutorial"],
 				"photos": ["art/images/clothesline.png"],
@@ -590,6 +633,7 @@
 
 			{
 				"name": "Stormy Laundry",
+				"date": "",
 				"tags": ["paintings art", "watercolor", "tutorial", "clothes"],
 				"keywords": ["art","watercolor","paint","painting","clothes", "tutorial"],
 				"photos": ["art/images/stormylaundry.png"],
@@ -604,6 +648,7 @@
 
 			{
 				"name": "Sunflowers",
+				"date": "",
 				"tags": ["paintings art", "acrylic", "tutorial", "Van Gogh", "flowers"],
 				"keywords": ["art", "paint", "painting", "something less boring", "slb", "tutorial", "flowers", "sunflower", "sunflowers"],
 				"photos": ["art/images/sunflowers.png"],
@@ -618,6 +663,7 @@
 
 			{
 				"name": "Pansies",
+				"date": "",
 				"tags": ["paintings art", "watercolor", "tutorial", "flowers"],
 				"keywords": ["art","watercolor","paint","painting","flower", "flowers", "pansy", "pansies", "something less boring","slb","tutorial"],
 				"photos": ["art/images/pansies.png"],
@@ -634,6 +680,7 @@
 
 			{
 				"name": "Nova Scotia",
+				"date": "",
 				"tags": ["drawings art", "favorite places", "Nova Scotia", "water", "watercolor"],
 				"keywords": ["art","watercolor", "water color", "colored pencil", "draw","drawing","paint","painting", "travel","adventure","trip","trek","canada","favorite", "place", "cape breton", "ocean", "water","beach","face"],
 				"photos": ["art/images/novascotia.png"],
@@ -648,6 +695,7 @@
 
 			{
 				"name": "PurpleGreen",
+				"date": "",
 				"tags": ["drawings art", "colored pencil", "food"],
 				"keywords": ["art","colored pencil","draw","drawing","paint","painting", "food", "purple","green", "onion", "pepper"],
 				"photos": ["art/images/onionandpepper.png"],
@@ -659,6 +707,7 @@
 
 			{
 				"name": "glass suncatcher",
+				"date": "",
 				"tags": ["glass art","art","glass"],
 				"keywords": ["other art"],
 				"photos": ["art/images/glass1.png","art/images/glass2.png","art/images/glass3.png"],
@@ -670,6 +719,7 @@
 
 			{
 				"name": "PurpleGreen Projects blog",
+				"date": "",
 				"tags": ["blog","writing","Kniterative Designs"],
 				"keywords": ["stories","story","life"],
 				"photos": [""],
@@ -679,6 +729,7 @@
 
 			{
 				"name": "Couplets",
+				"date": "",
 				"tags": ["couplets poetry","writing","James"],
 				"keywords": ["poems","poem","life"],
 				"photos": [""],
@@ -689,6 +740,7 @@
 
 			{
 				"name": "other poetry",
+				"date": "",
 				"tags": ["writing", "poetry"],
 				"keywords": [""],
 				"slides": [
@@ -782,6 +834,7 @@
 
 			{
 				"name": "journals",
+				"date": "",
 				"tags": ["writing","life"],
 				"keywords": [""],
 				"photos": [""],
@@ -795,6 +848,7 @@
 
 			{
 				"name": "Nintendo Switch case",
+				"date": "",
 				"tags": ["sewn bags", "sewing", "bags", "gifts","games"],
 				"keywords": ["sew","sewn","sewing","case","bag","bags","game","games"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/25/20%20Gameboy%20cover%20sewing%201.jpg?itok=XiQZO09J"],
@@ -803,6 +857,7 @@
 			},
 			{
 				"name": "Big Girl (Reversible) Bag",
+				"date": "",
 				"tags": ["sewn bags", "sewing", "bags", "handmade accessories", "profession","career"],
 				"keywords": ["sew","sewn","sewing","bag","bags","career","profession","professional","reversible","accessory","accessories"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20180911_070641305.jpg?itok=hPWpfXH1"],
@@ -811,6 +866,7 @@
 			},
 			{
 				"name": "Bags for Mom and Grandma",
+				"date": "",
 				"tags": ["sewn bags", "sewing", "bags", "family", "gifts", "handmade accessories"],
 				"keywords": ["sew","sewn","sewing","gift","grandma fran","mom","bag","bags","accessory","accessories"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20171224_132413237.jpg?itok=C7fb4cuD"],
@@ -819,6 +875,7 @@
 			},
 			{
 				"name": "Adventure Bag",
+				"date": "",
 				"tags": ["sewn bags", "sewing", "bags","treks","adventures","handmade accessories"],
 				"keywords": ["sew","sewn","sewing","bag","bags","accessory","accessories","NYC"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20170715_204102926.jpg?itok=bl7MGkJm"],
@@ -830,6 +887,7 @@
 
 			{
 				"name": "Iris Moneta",
+				"date": "",
 				"tags": ["sewn dresses","sewing", "dresses", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","dress","dresses","moneta","flowers","floral","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/14/IMG_8025.JPG?itok=xThyw_BA"],
@@ -839,6 +897,7 @@
 
 			{
 				"name": "Water Moneta",
+				"date": "",
 				"tags": ["sewn dresses","sewing", "dresses", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","dress","dresses","moneta","striped","stripes","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/14/IMG_7987.JPG?itok=UeUGINLH"],
@@ -848,6 +907,7 @@
 
 			{
 				"name": "Purple Moneta",
+				"date": "",
 				"tags": ["sewn dresses","sewing", "dresses", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","dress","dresses","moneta","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/14/IMG_6324.JPG?itok=QBKdrc5l"],
@@ -857,6 +917,7 @@
 
 			{
 				"name": "Practice Gray Moneta",
+				"date": "",
 				"tags": ["sewn dresses","sewing", "dresses", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","prototype","dress","dresses","moneta","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/15/IMG_20200927_182034631.jpg?itok=3_59kC6l"],
@@ -868,6 +929,7 @@
 			
 			{
 				"name": "Embroidered Flowers Knit Top",
+				"date": "",
 				"tags": ["sewn shirts", "sewing","shirts", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","blouse","blouses","flowers","floral","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/04/IMG_20201010_223156708.jpg?itok=NPJXEdGV"],
@@ -876,6 +938,7 @@
 			},
 			{
 				"name": "Practice Gray Knit Top",
+				"date": "",
 				"tags": ["sewn shirts", "sewing","shirts", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","prototype","blouse","blouses","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/15/IMG_20201007_230719591.jpg?itok=TDJbAITI"],
@@ -887,6 +950,7 @@
 
 			{
 				"name": "Knitting skirt",
+				"date": "",
 				"tags": ["sewn skirts","sewing","clothes"],
 				"keywords": ["sew","sewn","sewing","skirt","skirts","handmade clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20200602_172303769.jpg?itok=pxUVqM-7"],
@@ -895,6 +959,7 @@
 			},
 			{
 				"name": "Sunflower skirt",
+				"date": "",
 				"tags": ["sewn skirts","sewing","clothes"],
 				"keywords": ["sew","sewn","sewing","skirt","skirts","handmade clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/04/IMG_20180916_144742677_HDR.jpg?itok=yVOict1_"],
@@ -906,6 +971,7 @@
 
 			{
 				"name": "Sushi PJ pants",
+				"date": "",
 				"tags": ["sewn pj pants","sewing","handmade clothes", "gifts"],
 				"keywords": ["sew","sewn","sewing","gift","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/04/IMG_20210102_151356772.jpg?itok=YX37B5Ku"],
@@ -914,6 +980,7 @@
 			},
 			{
 				"name": "Monsters Inc. PJ Shorts",
+				"date": "",
 				"tags": ["sewn pj pants","sewing","handmade clothes"],
 				"keywords": ["sew","sewn","sewing","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/14/IMG_20210714_163941760.jpg?itok=2Ocds1O_"],
@@ -922,6 +989,7 @@
 			},
 			{
 				"name": "Knitting PJ pants",
+				"date": "",
 				"tags": ["sewn pj pants","sewing","handmade clothes"],
 				"keywords": ["sew","sewn","sewing","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/14/IMG_20210714_161445130.jpg?itok=y1OkFmFy"],
@@ -931,6 +999,7 @@
 
 			{
 				"name": "Music Blanket",
+				"date": "",
 				"tags": ["sewn other sewing","blanket","sewing"],
 				"keywords": ["sew","sewn","sewing","blanket","music","gift","home decor"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/15/IMG_20180830_130435931.jpg?itok=eJIc4H1v"],
@@ -939,6 +1008,7 @@
 			},
 			{
 				"name": "Music PJ pants",
+				"date": "",
 				"tags": ["sewn pj pants","sewing","handmade clothes"],
 				"keywords": ["sew","sewn","sewing","music","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20210708_201628945.jpg?itok=0SEk-Sd_"],
@@ -947,6 +1017,7 @@
 			},
 			{
 				"name": "Majora's Mask PJ pants",
+				"date": "",
 				"tags": ["sewn pj pants","sewing","handmade clothes","gifts"],
 				"keywords": ["sew","sewn","sewing","gift","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/04/IMG_20191210_185504811_HDR.jpg?itok=clUAn9Kx"],
@@ -956,6 +1027,7 @@
 
 			{
 				"name": "Windwaker PJ pants",
+				"date": "",
 				"tags": ["sewn pj pants","sewing","handmade clothes","gifts"],
 				"keywords": ["sew","sewn","sewing","gift","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20210708_201857742.jpg?itok=q7Q9EbF1"],
@@ -967,6 +1039,7 @@
 
 			{
 				"name": "Doll Tent",
+				"date": "",
 				"tags": ["sewn toys", "sewing", "toys"],
 				"keywords": ["sew","sewn","sewing","toy"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/dog%20sleeping%20bag%20and%20tent.png?itok=Lugu8zhV"],
@@ -975,6 +1048,7 @@
 			},
 			{
 				"name": "Doll Sofa Bed",
+				"date": "",
 				"tags": ["sewn toys", "sewing", "toys"],
 				"keywords": ["sew","sewn","sewing","toy"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/doll%20couch.png?itok=k0zjIx4t"],
@@ -986,6 +1060,7 @@
 			
 			{
 				"name": "Cat Hood",
+				"date": "",
 				"tags": ["sewn other sewing","costumes","gifts"],
 				"keywords": ["sew","sewn","sewing","accessory","accessories","hat","gift"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/14/IMG_20201231_154403468_0.jpg?itok=ImKnGP-H"],
@@ -995,6 +1070,7 @@
 			
 			{
 				"name": "Butterfly Chair cover",
+				"date": "",
 				"tags": ["sewn other sewing","furniture"],
 				"keywords": ["sew","sewn","sewing","home decor", "furniture"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_1384.JPG?itok=JS5jtgiT"],
@@ -1010,6 +1086,7 @@
 				
 				{
 					"name": "Carrots",
+					"date": "",
 					"tags": ["Kniterative Designs", "crochet", "carrots","food","toys","bunnies"],
 					"keywords": ["kniterative designs", "kniterative", "kd", "bunny", "bunnies", "rabbit", "rabbits", "crochet","food","carrot"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/601963449/upload_medium2",
@@ -1021,6 +1098,7 @@
 
 				{
 					"name": "Fish",
+					"date": "",
 					"tags": ["Kniterative Designs", "crochet", "fish", "toys", "decorations"],
 					"keywords": ["crochet","kniterative designs","kd","fish","toy","decoration"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/791016771/IMG_20200909_155149000_HDR_medium2.jpg"],
@@ -1030,6 +1108,7 @@
 				
 				{
 					"name": "Mice",
+					"date": "",
 					"tags": ["Kniterative Designs","crochet", "mouse","mice", "toys", "decorations"],
 					"keywords": ["kd","crochet", "cat", "cats", "toy", "decoration"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/715785584/upload_medium2"],
@@ -1041,6 +1120,7 @@
 				
 				{
 					"name": "Franny",
+					"date": "",
 					"tags": ["Kniterative Designs","knitting", "bunnies", "toys"],
 					"keywords": ["kd", "bunny", "rabbit", "knit", "knitting", "knitted", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/728168086/upload_medium2",
@@ -1051,6 +1131,7 @@
 
 				{
 					"name": "Teddy",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
 					"keywords": ["kd","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715766025/upload_medium2"],
@@ -1060,6 +1141,7 @@
 
 				{
 					"name": "Pedro",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
 					"keywords": ["kd","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/601963453/upload_medium2"],
@@ -1069,6 +1151,7 @@
 
 				{
 					"name": "Rosie",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
 					"keywords": ["kd","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/715730393/IMG_20180224_011125925.jpg"],
@@ -1078,6 +1161,7 @@
 
 				{
 					"name": "Nibbles",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
 					"keywords": ["kd","commission","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/601983891/IMG_2394_medium2.JPG"],
@@ -1087,6 +1171,7 @@
 
 				{
 					"name": "Penelope",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
 					"keywords": ["kd","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/384669806/IMG_3393_medium2.jpg"],
@@ -1096,6 +1181,7 @@
 
 				{
 					"name": "Isabella",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
 					"keywords": ["kd","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/437404910/thumb_IMG_5603_1024_medium2.jpg"],
@@ -1105,6 +1191,7 @@
 
 				{
 					"name": "Brave Bunny",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys","gifts"],
 					"keywords": ["kd","gift","bunny","rabbit","knit","knitted","knitting", "toy", "grandpa john"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/347319067/IMG_1829_medium2.jpg"],
@@ -1114,6 +1201,7 @@
 
 				{
 					"name": "Baby Bunny",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
 					"keywords": ["kd","bunny","rabbit","commission","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/363878603/tumblr_o3x5t7hpun1tdp74do1_1280_medium2.jpg"],
@@ -1125,6 +1213,7 @@
 
 				{
 					"name": "Taylor",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","cat", "kitty", "kitten", "knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715763214/upload_medium2"],
@@ -1134,6 +1223,7 @@
 
 				{
 					"name": "Callie",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","cat","kitten","knitten","kitty","calico","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/624068854/IMG_20190425_212607532.jpg"],
@@ -1143,6 +1233,7 @@
 
 				{
 					"name": "Adrienne",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","cat","kitten","kitty","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/602057334/upload"],
@@ -1152,6 +1243,7 @@
 
 				{
 					"name": "Bartholomew",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","cat","kitten","kitty","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/716636800/upload"],
@@ -1161,6 +1253,7 @@
 
 				{
 					"name": "Hilda",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys","gifts"],
 					"keywords": ["kd","gift","kitten","cat","kitty","knitten","siamese","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/461689204/img_20170727_023820157_medium2.jpg"],
@@ -1170,6 +1263,7 @@
 
 				{
 					"name": "Apollo",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys","gifts"],
 					"keywords": ["kd","gift","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/432698020/IMG_5092_medium2.jpg"],
@@ -1179,6 +1273,7 @@
 
 				{
 					"name": "Thomas",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/767144841/tree_medium2.jpg"],
@@ -1188,6 +1283,7 @@
 
 				{
 					"name": "Claire",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/367053653/IMG_2592_medium2.jpg"],
@@ -1197,6 +1293,7 @@
 
 				{
 					"name": "Amelia",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/767149356/amelia_medium2.png"],
@@ -1206,6 +1303,7 @@
 
 				{
 					"name": "Luca",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/368115695/IMG_2655_medium2.jpg"],
@@ -1215,6 +1313,7 @@
 
 				{
 					"name": "Candy Corn",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys","gifts"],
 					"keywords": ["kd","gift","kitty","cat","kitten","knitten","knit","knitted","knitting", "halloween", "candy corn", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/338274958/tumblr_ny5mtdy6hu1tdp74do3_1280_medium2.jpg"],
@@ -1224,6 +1323,7 @@
 
 				{
 					"name": "Olivia",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/325852176/IMG_0823_medium2.JPG"],
@@ -1233,6 +1333,7 @@
 
 				{
 					"name": "Waldorf",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys","gifts"],
 					"keywords": ["kd","gift","kitty","cat","kitten","knitten","tuxedo", "knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/361759651/tumblr_o3jiroc1cj1tdp74do5_1280_medium2.jpg"],
@@ -1242,6 +1343,7 @@
 
 				{
 					"name": "Pat",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/767148815/pat_medium2.png"],
@@ -1251,6 +1353,7 @@
 				
 				{
 					"name": "T. O'Malley",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/325852600/20150802_190136_medium2.jpg"],
@@ -1260,6 +1363,7 @@
 
 				{
 					"name": "First knitten",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
 					"keywords": ["kd","prototype","kitty","cat","kitten","knitten","knit","knitted","knitting", "halloween", "black cat", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/325853300/IMG_0969_medium2.JPG"],
@@ -1271,6 +1375,7 @@
 
 				{
 					"name": "Fred",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
 					"keywords": ["kd","dog","puppy","golden retriever","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/715756211/upload_medium2"],
@@ -1280,6 +1385,7 @@
 
 				{
 					"name": "Banjo",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys","commission"],
 					"keywords": ["kd","dog","puppy","dachshund","commission","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715732787/upload_medium2"],
@@ -1289,6 +1395,7 @@
 
 				{
 					"name": "Valentine",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
 					"keywords": ["kd","puppy","dog","labrador","lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://kniterativedesigns.files.wordpress.com/2021/02/img_7407.jpg"],
@@ -1298,6 +1405,7 @@
 
 				{
 					"name": "Charlotte",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
 					"keywords": ["kd","puppy","dog","labrador","lab","black lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715759067/upload_medium2"],
@@ -1307,6 +1415,7 @@
 
 				{
 					"name": "Marcus",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
 					"keywords": ["kd","puppy","dog","border collie","collie","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/465091358/img_20170814_174417151_hdr_medium2.jpg"],
@@ -1316,6 +1425,7 @@
 
 				{
 					"name": "Lady",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys","gifts"],
 					"keywords": ["kd","gift","puppy","dog","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/422467321/IMG_4630_medium2.jpg"],
@@ -1325,6 +1435,7 @@
 
 				{
 					"name": "Jack",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
 					"keywords": ["kd","puppy","dog","lab","labrador","black lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/406325404/IMG_4388_medium2.JPG"],
@@ -1334,6 +1445,7 @@
 
 				{
 					"name": "Chloe",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
 					"keywords": ["kd","puppy","dog","labrador","lab","yellow lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/400065447/tumblr_oe1ba1oje81tdp74do1_1280_medium2.jpg"],
@@ -1343,6 +1455,7 @@
 
 				{
 					"name": "First puppy",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
 					"keywords": ["kd","puppy","dog","labrador","lab","black lab","prototype","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/381698603/tumblr_o8y199hecg1tdp74do2_540_medium2.jpg"],
@@ -1354,6 +1467,7 @@
 
 				{
 					"name": "First Horse",
+					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys","gifts"],
 					"keywords": ["kd","gift","horse","mare","stallion","pony","knit","knitted","knitting", "toy", "grandma emily"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/788401266/IMG_20210530_132707411_copy_medium2.jpg"],
@@ -1365,6 +1479,7 @@
 
 			{
 				"name": "Christmas Lamb for Grandma Fran",
+				"date": "",
 				"tags": ["knitted gifts","knitting","animals","sheep","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","toy","grandma fran"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/753619996/IMG_6673_medium2.JPG"],
@@ -1374,6 +1489,7 @@
 
 			{
 				"name": "Clyde",
+				"date": "",
 				"tags": ["knitted gifts","knitting","animals","frogs","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","frog", "toy"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/720854700/IMG_1456_medium2.JPG"],
@@ -1383,6 +1499,7 @@
 
 			{
 				"name": "I love you to pieces socks",
+				"date": "",
 				"tags": ["knitted gifts","knitting","socks","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","socks", "accessory", "accessories", "clothes", "grandpa jim"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/706285143/IMG_20200523_134948340_medium2.jpg"],
@@ -1392,6 +1509,7 @@
 
 			{
 				"name": "Fingerless Gloves for Aunt Ellyn",
+				"date": "",
 				"tags": ["knitted gifts","knitting","gloves","gifts"],
 				"keywords": ["knit","knitted","knitting","gift", "gloves","accessory", "accessories", "crochet", "flower","flowers"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/499460026/IMG_20171225_154028489_medium2.jpg"],
@@ -1401,6 +1519,7 @@
 
 			{
 				"name": "Shrimp for Apollo",
+				"date": "",
 				"tags": ["knitted gifts","knitting","animals","toys","gifts"],
 				"keywords": ["knit","knitted","knitting","gift", "cat", "toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/792367869/27_Shrimp_on_a_String_knitting_medium2.jpg"],
@@ -1410,6 +1529,7 @@
 
 			{
 				"name": "Shrimp Lo Mein",
+				"date": "",
 				"tags": ["knitted gifts","knitting","toys","jokes","gifts"],
 				"keywords": ["knit","knitted","knitting","gift", "food"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/792367860/25_Shrimp_and_Noodles_knitting_medium2.jpg"],
@@ -1419,6 +1539,7 @@
 
 			{
 				"name": "GoT Banner for Dan",
+				"date": "",
 				"tags": ["knitted gifts","knitting","decorations","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","game of thrones","direwolf","wolf","house stark","stark","banner"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/347317663/IMG_1900_medium2.jpg"],
@@ -1429,6 +1550,7 @@
 
 			{
 				"name": "Legwarmers for Brittany",
+				"date": "",
 				"tags": ["knitted gifts","knitting","accessories","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","accessory", "accessories", "clothes", "cable","cables"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343438082/tumblr_nzhnokyw2n1tdp74do1_540_medium2.jpg"],
@@ -1438,6 +1560,7 @@
 
 			{
 				"name": "Orca for Connie",
+				"date": "",
 				"tags": ["knitted gifts","knitting","decorations","animals","whales","toys","gifts"],
 				"keywords": ["knit","knitted","knitting","toy"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343078307/tumblr_nz88x0tbmi1tdp74do3_540_medium2.jpg"],
@@ -1447,6 +1570,7 @@
 
 			{
 				"name": "Wallet for James",
+				"date": "",
 				"tags": ["knitted gifts","knitting","accessories","gifts","Explorchestra"],
 				"keywords": ["knit","knitted","knitting","gift","accessory","accessories"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/330390480/20151010_224529__1__medium2.jpg"],
@@ -1456,6 +1580,7 @@
 
 			{
 				"name": "Mr. Bunny's brother",
+				"date": "",
 				"tags": ["knitted gifts","knitting","decorations","bunnies","gifts"],
 				"keywords": ["knit","knitted","knitting","bunny","rabbit","toy","gift","dad"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/320205028/IMG_0686_medium2.JPG"],
@@ -1465,6 +1590,7 @@
 
 			{
 				"name": "Pansies for Mom",
+				"date": "",
 				"tags": ["knitted gifts","crochet","decorations","gifts","flowers"],
 				"keywords": ["crochet","toy","flower","flowers","floral","spring"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/302248974/IMG_1080_medium2.JPG"],
@@ -1474,6 +1600,7 @@
 
 			{
 				"name": "Bunny for Audrey",
+				"date": "",
 				"tags": ["knitted gifts","knitting","bunnies","toys","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","bunny","rabbit","toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/280414883/IMG_0912_medium2.jpg"],
@@ -1483,6 +1610,7 @@
 
 			{
 				"name": "Explogo Bunny for Max",
+				"date": "",
 				"tags": ["knitted gifts","knitting","bunnies","decorations","gifts","Explorchestra"],
 				"keywords": ["knit","knitted","knitting","explorchestra","explo","bunny","rabbit","gift"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/274957935/20141230_113723_medium2.jpg"],
@@ -1492,6 +1620,7 @@
 
 			{
 				"name": "Koala for Kevin",
+				"date": "",
 				"tags": ["knitted gifts","knitting","decorations","animals","gifts"],
 				"keywords": ["knit","knitted","knitting","koala", "gift", "toy"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/283450282/IMG_0883_medium2.jpg"],
@@ -1501,6 +1630,7 @@
 
 			{
 				"name": "Socks for Grandpa Jim",
+				"date": "",
 				"tags": ["knitted gifts","knitting","socks","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","grandpa jim","socks","accessory","accessories"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/234317617/IMG_6141_medium2.JPG"],
@@ -1510,6 +1640,7 @@
 
 			{
 				"name": "Fiesta",
+				"date": "",
 				"tags": ["knitted gifts","knitting","decorations","animals","toys","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","armadillo","toy"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/234313469/IMG_6148_medium2.jpg"],
@@ -1519,6 +1650,7 @@
 
 			{
 				"name": "Scarf for Dad",
+				"date": "",
 				"tags": ["knitted gifts","knitting","accessories","scarves","gifts"],
 				"keywords": ["knit","knitted","knitting","scarf","scarves","gift","dad","accessories","accessory"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/135726355/IMG_4188_medium2.jpg"],
@@ -1528,6 +1660,7 @@
 
 			{
 				"name": "Kitty Pi for Mae",
+				"date": "",
 				"tags": ["knitted gifts","knitting","furniture","gifts"],
 				"keywords": ["knit","knitted","knitting","felted","cat","accessory"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/116582075/IMG_3873_medium2.JPG"],
@@ -1539,6 +1672,7 @@
 
 			{
 				"name": "Make a Wish sweater",
+				"date": "",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","cardigan","lace","sweater","clothes"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/790736421/IMG_7966_medium2.JPG"],
@@ -1548,6 +1682,7 @@
 
 			{
 				"name": "Cozy Cardigan",
+				"date": "",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","sweater","cardigan","clothes","paulie", "striped","stripes","raglan"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/352500027/IMG_2049_medium2.JPG"],
@@ -1557,6 +1692,7 @@
 
 			{
 				"name": "Autumn Leaves",
+				"date": "",
 				"tags": ["knitted clothes","knitting","sweaters","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","sweater", "fall","accessory", "accessories", "clothes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/318662543/20150810_130308_medium2.jpg"],
@@ -1566,6 +1702,7 @@
 
 			{
 				"name": "3 in 1 Sweater",
+				"date": "",
 				"tags": ["knitted clothes","knitting","sweaters","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","sweater","clothes","stripes", "asymmetrical"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/232302414/IMG_6091_medium2.jpg"],
@@ -1575,6 +1712,7 @@
 
 			{
 				"name": "Purple Cables sweater",
+				"date": "",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","sweater","clothes","cable","cables","raglan"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/201256413/IMG_5599_medium2.jpg"],
@@ -1584,6 +1722,7 @@
 
 			{
 				"name": "Tempest in a Teapot",
+				"date": "",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","sweater","clotes","striped","stripes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/167055957/IMG_5118_medium2.jpg"],
@@ -1593,6 +1732,7 @@
 
 			{
 				"name": "First Sweater Ever",
+				"date": "",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","clothes"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/767520498/IMG_20200727_105739298_medium2.jpg"],
@@ -1604,6 +1744,7 @@
 
 			{
 				"name": "Norway (Felted) Slippers",
+				"date": "",
 				"tags": ["knitted accessories","knitting","accessories","slippers"],
 				"keywords": ["knit","knitted","knitting","felted","accessory", "accessories"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/796170370/IMG_20210717_122341652_medium2.jpg"],
@@ -1613,6 +1754,7 @@
 
 			{
 				"name": "Brain Hat",
+				"date": "",
 				"tags": ["knitted accessories","knitting","accessories","hats","costumes"],
 				"keywords": ["knit","knitted","knitting","brain","hat", "halloween","accessory", "accessories", "clothes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/499457012/IMG_20171119_141609481_medium2.jpg"],
@@ -1622,6 +1764,7 @@
 
 			{
 				"name": "Icebreaker Shawl",
+				"date": "",
 				"tags": ["knitted accessories","knitting","accessories","shawls"],
 				"keywords": ["knit","knitted","knitting","shawl","age of brass and steam","accessory", "accessories", "clothes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/499453538/IMG_20171020_144049822_medium2.jpg"],
@@ -1631,6 +1774,7 @@
 
 			{
 				"name": "'20s Hat'",
+				"date": "",
 				"tags": ["knitted accessories","knitting","accessories","hats","costumes"],
 				"keywords": ["knit","knitted","knitting", "hat", "accessory", "accessories", "clothes"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343079178/1915263_1042385855804003_2147850894420508260_n_medium2.jpg"],
@@ -1640,6 +1784,7 @@
 
 			{
 				"name": "Convertible Mittens",
+				"date": "",
 				"tags": ["knitted accessories","knitting","accessories","mittens"],
 				"keywords": ["knit","knitted","knitting","gloves","mittens","accessory", "accessories", "clothes"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343080004/12366425_1042385789137343_3721396389953934140_n_medium2.jpg"],
@@ -1649,6 +1794,7 @@
 
 			{
 				"name": "Synesthesia Scarf",
+				"date": "",
 				"tags": ["knitted accessories","knitting","accessories","scarves"],
 				"keywords": ["knit","knitted","knitting","scarf","scarves","striped","stripes","accessory","accessories"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/117113968/Photo_on_2012-08-22_at_22.49_medium2.jpg"],
@@ -1658,6 +1804,7 @@
 
 			{
 				"name": "String of Purls",
+				"date": "",
 				"tags": ["knitted accessories","knitting","accessories","hats"],
 				"keywords": ["knit","knitted","knitting","hat","accessory","accessories"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/165693196/521624_10151531925712668_161794041_n_medium2.jpg"],
@@ -1669,6 +1816,7 @@
 
 			{
 				"name": "Explogo Bunny",
+				"date": "",
 				"tags": ["knitted toys", "knitting","toys","bunnies", "Explorchestra"],
 				"keywords": ["knit","knitted","knitting","bunny","rabbit","explorchestra", "explo", "toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/277562543/IMG_0753_medium2.JPG"],
@@ -1678,6 +1826,7 @@
 
 			{
 				"name": "First bunny",
+				"date": "",
 				"tags": ["knitted toys", "knitting","toys","bunnies"],
 				"keywords": ["knit","knitted","knitting","prototype","bunny","rabbit","toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/237977865/IMG_6361_medium2.JPG"],
@@ -1687,6 +1836,7 @@
 
 			{
 				"name": "Mae's Cousin",
+				"date": "",
 				"tags": ["knitted toys", "knitting","toys","cats","kittens"],
 				"keywords": ["knit","knitted","knitting","cat","kitten","kitty","knitten","toy"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/144140493/IMG_4534_medium2.JPG"],
@@ -1696,6 +1846,7 @@
 
 			{
 				"name": "Evelyn",
+				"date": "",
 				"tags": ["knitted toys", "knitting","toys","bunnies"],
 				"keywords": ["knit","knitted","knitting","bunny","rabbit","early","toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/115956044/IMG_3569_medium2.jpg"],
@@ -1705,6 +1856,7 @@
 
 			{
 				"name": "Qwerty Monster",
+				"date": "",
 				"tags": ["knitted toys", "knitting","toys","animals","monsters"],
 				"keywords": ["knit","knitted","knitting","monster","toy","striped","stripes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/792368016/32_Confetti_Creature_knitting_medium2.jpg"],
@@ -1714,6 +1866,7 @@
 
 			{
 				"name": "Thomas I - first cat ever made",
+				"date": "",
 				"tags": ["knitted toys", "knitting","toys","cats","kittens"],
 				"keywords": ["knit","knitted","knitting","cat","kitten","kitty","knitten", "early"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/115958952/IMG_2518_medium2.jpg"],
@@ -1723,6 +1876,7 @@
 
 			{
 				"name": "Worry Whale",
+				"date": "",
 				"tags": ["knitted toys", "knitting","toys","animals","whales"],
 				"keywords": ["knit","knitted","knitting","whale","big","toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/89934393/IMG_2330_medium2.JPG"],
@@ -1734,6 +1888,7 @@
 
 			{
 				"name": "Knitted Explogo",
+				"date": "",
 				"tags": ["knitted other knitting","knitting","decorations","Explorchestra"],
 				"keywords": ["knit","knitted","knitting","explorchestra","explo"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/275549486/20141229_171749_medium2.jpg"],
@@ -1743,6 +1898,7 @@
 
 			{
 				"name": "Beaded Christmas Ball",
+				"date": "",
 				"tags": ["knitted other knitting","knitting","decorations"],
 				"keywords": ["knit","knitted","knitting","grandma fran","decoration"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/248682142/IMG_0263_medium2.JPG"],
@@ -1752,6 +1908,7 @@
 
 			{
 				"name": "Sweater for Mr. Bunny",
+				"date": "",
 				"tags": ["knitted other knitting","knitting","toys"],
 				"keywords": ["knit","knitted","knitting","raglan"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/62765626/IMG_0877_medium2.JPG"],
@@ -1761,6 +1918,7 @@
 
 			{
 				"name": "iPod Hoodie Cozy",
+				"date": "",
 				"tags": ["knitted other knitting","knitting","decorations","accessories"],
 				"keywords": ["knit","knitted","knitting","raglan"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/61756596/IMG_0825_medium2.JPG"],
@@ -1770,6 +1928,7 @@
 
 			{
 				"name": "First Project",
+				"date": "",
 				"tags": ["knitted other knitting","knitting"],
 				"keywords": ["knit","knitted","knitting","early", "childhood"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/792367967/30_Rainbow_Yarn_-_yarn_of_color_medium2.jpg"],
@@ -1783,6 +1942,7 @@
 
 			{
 				"name": "interesting",
+				"date": "",
 				"tags": ["photographed stories"],
 				"keywords": ["photography","photo","photos","story","stories","water","sky","patterns"],
 				"slides": [
@@ -1884,6 +2044,7 @@
 			
 			{
 				"name": "sky",
+				"date": "",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","story","stories","sunset","sunrise","rain","rainbow","cloud","clouds", "sky"],
 				"photos": ["sky/images/1.jpg", "sky/images/2.jpg", "sky/images/3.jpg", "sky/images/4.jpg", "sky/images/5.jpg", "sky/images/6.jpg", "sky/images/7.jpg", "sky/images/8.jpg", "sky/images/9.jpg", "sky/images/10.jpg", "sky/images/11.jpg", "sky/images/12.jpg", "sky/images/13.jpg", "sky/images/14.jpg", "sky/images/15.jpg", "sky/images/16.jpg", "sky/images/17.JPG", "sky/images/18.jpg"],
@@ -1892,6 +2053,7 @@
 			},
 			{
 				"name": "animals",
+				"date": "",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","pet","pets","zoo","zoos","cat","cats","dog","dogs"],
 				"photos": ["animals/images/2.jpg", "animals/images/3.jpg", "animals/images/4.jpg"],
@@ -1900,6 +2062,7 @@
 			},
 			{
 				"name": "plants",
+				"date": "",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","tree","trees","flower","flowers","nature","leaf","leaves", "garden", "grass"],
 				"photos": ["plants/images/1.jpg", "plants/images/2.jpg", "plants/images/3.jpg", "plants/images/4.jpg", "plants/images/5.jpg", "plants/images/6.jpg", "plants/images/7.jpg", "plants/images/8.JPG", "plants/images/9.JPG", "plants/images/10.JPG", "plants/images/11.JPG", "plants/images/12.JPG", "plants/images/13.JPG", "plants/images/14.JPG", "plants/images/15.JPG", "plants/images/16.jpg"],
@@ -1908,6 +2071,7 @@
 			},
 			{
 				"name": "water",
+				"date": "",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","water","ocean","beach","waves","rain","puddle"],
 				"photos": ["water/images/1.jpg", "water/images/2.jpg", "water/images/3.jpg", "water/images/4.JPG", "water/images/5.JPG", "water/images/6.JPG", "water/images/7.JPG", "water/images/8.JPG", "water/images/9.JPG", "water/images/10.JPG", "water/images/11.JPG"],
@@ -1919,6 +2083,7 @@
 
 			{
 				"name": "Favorite Places",
+				"date": "",
 				"tags": ["photographed places"],
 				"keywords": ["photography","photo","photos","home"],
 				"photos": ["favoriteplaces/images/2.jpg", "favoriteplaces/images/3.jpg", "favoriteplaces/images/4.jpg", "favoriteplaces/images/5.jpg", "favoriteplaces/images/6.jpg", "favoriteplaces/images/7.jpg"],
@@ -1928,6 +2093,7 @@
 
 			// {
 			// 	"name": "Nova Scotia",
+			//  "date": "",
 			// 	"tags": ["photographed places"],
 			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
 			// 	"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
@@ -1937,6 +2103,7 @@
 
 			// {
 			// 	"name": "Montreal",
+			//  "date": "",
 			// 	"tags": ["photographed places"],
 			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
 			// 	"photos": ["montreal/images/1.jpg", "montreal/images/2.jpg", "montreal/images/3.jpg", "montreal/images/4.jpg"],
@@ -1946,6 +2113,7 @@
 
 			// {
 			// 	"name": "England",
+			//  "date": "",
 			// 	"tags": ["photographed places"],
 			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","europe","uk","britain","london"],
 			// 	"photos": ["england/images/9.jpg", "england/images/12.jpg", "england/images/14.jpg", "england/images/15.jpg", "england/images/16.jpg", "england/images/19.jpg"],
@@ -1955,6 +2123,7 @@
 
 			// {
 			// 	"name": "San Francisco",
+			//  "date": "",
 			// 	"tags": ["photographed places"],
 			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","california","west coast"],
 			// 	"photos": ["sanfran/images/5.jpg", "sanfran/images/6.jpg", "sanfran/images/10.jpg", "sanfran/images/16.jpg", "sanfran/images/24.jpg", "sanfran/images/25.jpg"],
@@ -1964,6 +2133,7 @@
 
 			// {
 			// 	"name": "New York City",
+			//  "date": "",
 			// 	"tags": ["photographed places"],
 			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation", "new york", "manhattan"],
 			// 	"photos": ["nyc/images/2.jpg","nyc/images/5.jpg","nyc/images/22.jpg","nyc/images/32.jpg"],
@@ -1973,6 +2143,7 @@
 
 			// {
 			// 	"name": "Massachusetts",
+			//  "date": "",
 			// 	"tags": ["photographed places"],
 			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation"],
 			// 	"photos": ["massachusetts/images/1.jpg","massachusetts/images/2.jpg","massachusetts/images/3.jpg","massachusetts/images/4.jpg","massachusetts/images/5.jpg","massachusetts/images/6.jpg","massachusetts/images/7.jpg","massachusetts/images/8.jpg","massachusetts/images/9.jpg","massachusetts/images/10.JPG","massachusetts/images/11.JPG","massachusetts/images/12.jpg","massachusetts/images/13.jpg","massachusetts/images/14.jpg","massachusetts/images/15.jpg","massachusetts/images/16.jpg","massachusetts/images/17.JPG","massachusetts/images/18.JPG","massachusetts/images/19.JPG",],
@@ -1987,6 +2158,7 @@
 		// EXPLORCHESTRA
 			{
 				"name": "Chroma",
+				"date": "",
 				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Binghamton University"],
 				"keywords": [],
 				"photos": ["music/images/Chroma.png"],
@@ -1997,6 +2169,7 @@
 
 			{
 				"name": "Whether",
+				"date": "",
 				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Binghamton University"],
 				"keywords": [],
 				"photos": ["music/images/Whether.png"],
@@ -2006,6 +2179,7 @@
 
 			{
 				"name": "Elephant",
+				"date": "",
 				"tags": ["finished music","music", "composition","lyrics", "Explorchestra", "Binghamton University"],
 				"keywords": [],
 				"photos": ["music/images/Elephant.jpg"],
@@ -2015,6 +2189,7 @@
 
 			{
 				"name": "These Days",
+				"date": "",
 				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Binghamton University"],
 				"keywords": [],
 				"photos": ["music/images/TheseDays.jpg"],
@@ -2024,6 +2199,7 @@
 
 			{
 				"name": "Chroma Snapshot: Chaos in Circles",
+				"date": "",
 				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Explo Expo", "Binghamton University"],
 				"keywords": [],
 				"photos": ["music/images/ChaosinCircles.jpg"],
@@ -2033,6 +2209,7 @@
 
 			{
 				"name": "EveryTime",
+				"date": "",
 				"tags": ["music challenges","music","composition","album","seasons"],
 				"keywords": [],
 				"photos": ["music/images/EveryTime.jpg"],
@@ -2042,6 +2219,7 @@
 
 			{
 				"name": "Collecting Carrots",
+				"date": "",
 				"tags": ["finished music","music", "composition","soundtrack","games","carrots", "Explorchestra", "Explo Expo", "Binghamton University"],
 				"keywords": [],
 				"photos": ["music/images/CollectingCarrots.png"],
@@ -2055,6 +2233,7 @@
 
 			{
 				"name": "Clock",
+				"date": "",
 				"tags": ["code tools","code","with James"],
 				"keywords": ["code","coding","James","tutorial"],
 				"photos": ["coding/images/clock.png"],
@@ -2064,6 +2243,7 @@
 
 			{
 				"name": "RandomLetter",
+				"date": "",
 				"tags": ["code tools","code","with James","games","language","literacy"],
 				"keywords": ["code","coding","SLP","literacy","game","games"],
 				"photos": ["coding/images/randomletter.png"],
@@ -2073,6 +2253,7 @@
 
 			{
 				"name": "Custom KD",
+				"date": "",
 				"tags": ["code tools","Kniterative Designs", "with James"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "cat","dog","bunny", "rabbit"],
 				"photos": ["coding/images/kdcustom.png"],
@@ -2082,6 +2263,7 @@
 
 			{
 				"name": "What Should I Knit Next?",
+				"date": "",
 				"tags": ["code tools","knitting","crochet","Ravelry","API","with James"],
 				"keywords": ["knit","knitted","knitting","ravelry","api", "projects","crochet","2022"],
 				"photos": ["coding/images/whatshouldiknitnext.png"],
@@ -2093,6 +2275,7 @@
 
 			{
 				"name": "Memory",
+				"date": "",
 				"tags": ["code games","coding", "with James"],
 				"keywords": ["code","coding","game","games","James"],
 				"photos": ["coding/images/memory.png"],
@@ -2102,6 +2285,7 @@
 
 			{
 				"name": "yarnSwatter",
+				"date": "",
 				"tags": ["code games","Kniterative Designs", "games","with James", "cats","kittens","yarn"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "cat","kitty","kitten","yarn,","game","games"],
 				"photos": ["coding/images/yarnswatter.png"],
@@ -2111,6 +2295,7 @@
 
 			{
 				"name": "carrotCollector",
+				"date": "",
 				"tags": ["code games","Kniterative Designs", "games","with James", "bunnies","carrots","flowers"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "bunny","rabbit","bunnies","carrot,","game","games"],
 				"photos": ["coding/images/carrotcollector10.png"],
@@ -2122,6 +2307,7 @@
 
 			{
 				"name": "Bubblewrap",
+				"date": "",
 				"tags": ["code experiments","with James","arrays"],
 				"keywords": ["code","coding","fun","silly","fidget"],
 				"photos": ["coding/images/bubblewrap.png"],
@@ -2131,6 +2317,7 @@
 
 			{
 				"name": "Synesthesia",
+				"date": "",
 				"tags": ["code experiments","with James","colors","synesthesia"],
 				"keywords": ["code","coding","color","colors","letter","letters"],
 				"photos": ["coding/images/synesthesia.png"],
@@ -2140,6 +2327,7 @@
 
 			{
 				"name": "SciFi Sounds",
+				"date": "",
 				"tags": ["code experiments","with James","games","jokes"],
 				"keywords": ["coding","code","sound","soundboard","game","effect", "effects"],
 				"photos": ["coding/images/scifisounds.png"],
@@ -2149,6 +2337,7 @@
 
 			{
 				"name": "Window",
+				"date": "",
 				"tags": ["code experiments","with James","canvas","seasons"],
 				"keywords": ["coding","code","season","seasons","winter","spring","summer","fall","scene","scenery","view"],
 				"photos": ["coding/images/window_winter.png"],
@@ -2158,6 +2347,7 @@
 
 			{
 				"name": "nimbusNotes",
+				"date": "",
 				"tags": ["code experiments","with James","music","Whether","seasons"],
 				"keywords": ["code","coding","James","hackathon","music","cloud","clouds","rain","raining","rainy","song"],
 				"photos": ["coding/images/nimbusnotes.png"],
@@ -2169,6 +2359,7 @@
 
 			{
 				"name": "PurpleGreen Projects",
+				"date": "",
 				"tags": ["code past portfolios", "code", "with James","projects","room","3d space","canvas","window"],
 				"keywords": [],
 				"photos": ["coding/images/oldpurplegreenprojects.png"],
@@ -2188,6 +2379,7 @@
 
 			// {
 			// 	"name": "running",
+			//  "date": "",
 			// 	"tags": [],
 			// 	"keywords": ["run", "exercise", "sneaker","sneakers","5k","gallery","galleries"],
 			// 	"photos": ["exercise/running.jpg"],
@@ -2198,6 +2390,7 @@
 
 			// {
 			// 	"name": "poetry",
+			//  "date": "",
 			// 	"tags": [],
 			// 	"keywords": ["writing"],
 			// 	"photos": [],
@@ -2207,6 +2400,7 @@
 
 			// {
 			// 	"name": "Shaker High School",
+			//  "date": "",
 			// 	"tags": [],
 			// 	"keywords": ["education","school","learn","learning","english"],
 			// 	"photos": ["educationprofession/images/SHS.JPG", "educationprofession/images/SHS1.JPG"],
@@ -2216,6 +2410,7 @@
 
 			// {
 			// 	"name": "Binghamton University",
+			//  "date": "",
 			// 	"tags": [],
 			// 	"keywords": ["education","college","undergrad","undergraduate","english","bing", "BU"],
 			// 	"photos": ["educationprofession/images/Bing.jpg", "educationprofession/images/Bing1.jpg"],
@@ -2225,6 +2420,7 @@
 
 			// {
 			// 	"name": "SUNY New Paltz",
+			//  "date": "",
 			// 	"tags": [],
 			// 	"keywords": ["education","graduate","graduate school","communication","communication disorders","science", "language","speech","SLP","speech-language pathology"],
 			// 	"photos": ["educationprofession/images/NP.JPG", "educationprofession/images/NP1.JPG"],
@@ -2234,6 +2430,7 @@
 
 			// {
 			// 	"name": "SLP/Literacy",
+			//  "date": "",
 			// 	"tags": [],
 			// 	"keywords": ["communication","communication disorders","science", "language","speech","SLP","speech-language pathology","reading","read","book","books","career","profession","story","stories"],
 			// 	"photos": ["educationprofession/images/SLP.jpg"],

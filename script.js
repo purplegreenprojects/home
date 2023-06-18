@@ -7,7 +7,8 @@
 		filtersTopicSelect: document.querySelector("#filters-topic"),
 		filtersClearButton: document.querySelector("#filters-clear"),
 		filtersSearchInput: document.querySelector("#filters-search"),
-		filtersSubmitButton: document.querySelector("#filters-submit")
+		filtersSubmitButton: document.querySelector("#filters-submit"),
+		contentSection: document.querySelector("#content"),
 	}
 
 // CONSTANTS
@@ -153,6 +154,7 @@
 		// in the topicsselect dropdown, populate with options associated with "learner"
 		buildTopicsList()
 		setAboutView()
+		filterProjects()
 	}
 
 // USER ACTIONS
@@ -162,12 +164,14 @@
 	function toggleAbout(){
 		// if the about section (#header) has an attribute (like id="" or class="") of collapsed="true"... then remove that attribute
 		if (ELEMENTS.header.getAttribute("collapsed")) {
-			ELEMENTS.header.removeAttribute("collapsed")
+			ELEMENTS.filtersMediumSelect.value = "learner"
 		}
 		// otherwise (if it doesn't have that attribute), add the attribute "collapsed" and set it to "true" (collapsed="true")
 		else {
-			ELEMENTS.header.setAttribute("collapsed",true)
+			ELEMENTS.filtersMediumSelect.value = "maker"
 		}
+
+		setAboutView()
 	}
 
 	// click on mediums dropdown to change it
@@ -206,25 +210,165 @@
 
 	function setAboutView(){
 		var medium = ELEMENTS.filtersMediumSelect.value
+		// if the medium (the value of #filters-medium) is "learner"
 		if (medium == "learner") {
+			// ... open up the about section (remove the "collapsed" attribute), set the #filters-search placeholder text to "skills", make it so you can't type in that search field, and disable the search button
 			ELEMENTS.header.removeAttribute("collapsed")
-			ELEMENTS.filtersSearchInput.setAttribute("placeholder", "life")
+			ELEMENTS.filtersSearchInput.setAttribute("placeholder", "skills")
 			ELEMENTS.filtersSearchInput.setAttribute("disabled", true)
 			ELEMENTS.filtersSubmitButton.setAttribute("disabled",true)
 		}
+		// if the medium (the value of #filters-medium) is anything except "learner", collapse the about section (by setting the collapse attribute to "true"), set the placeholder text in #filters-search to "...projects", and make the text field and submit button accessible again (by removing "disabled" attribute)
 		else {
 			ELEMENTS.header.setAttribute("collapsed",true)
 			ELEMENTS.filtersSearchInput.setAttribute("placeholder", "...projects")
 			ELEMENTS.filtersSearchInput.removeAttribute("disabled")
 			ELEMENTS.filtersSubmitButton.removeAttribute("disabled")
 		}
+
+		filterProjects()
 	}
 
 
+// GENERATE CARDS
+	// FILTER PROJECTS
+		function filterProjects(){
+			var medium = ELEMENTS.filtersMediumSelect.value
+			
+			// FILTER BY MEDIUM
+			if (medium == "learner") {
+				var filteredProjects = []
+			}
+
+			else if (medium == "maker") {
+				var filteredProjects = PROJECTS
+			}
+
+			else {
+				var filteredProjects = PROJECTS.filter(filterByMedium)
+			}
+
+
+			// ??? -- filter by TOPIC (dropdown selection) and SEARCH
+
+
+			// SORT
+				filteredProjects.sort(sortByDate)
+
+			populateCards(filteredProjects)
+		}
+
+		function filterByMedium(project){
+			// (INEFFICIENT WAY OF DOING IT)
+			// if (project.tags.includes(medium) || project.keywords.includes(medium)) {
+			// 	return true
+			// }
+			// else {
+			// 	return false
+			// }
+
+			// (BETTER WAY OF DOING IT)	
+			return (project.tags.includes(medium) || project.keywords.includes(medium))
+		}
+
+		function sortByDate(projectA, projectB) {
+			return new Date(projectA.date).getTime() - new Date(projectB.date).getTime() // ???
+		}
+
+	// POPULATE CARDS SECTION
+		function populateCards(filteredProjects) {
+			ELEMENTS.contentSection.innerHTML = ""
+
+			filteredProjects.forEach(buildCard)
+		}
+
+	// BUILD A CARD
+		function buildCard(projectData) {
+			var card = document.createElement("div")
+			card.className = "project-card"
+			ELEMENTS.contentSection.appendChild(card)
+
+			var gallery = document.createElement("div")
+			gallery.className = "project-gallery"
+			card.appendChild(gallery)
+
+				var pictureArea = document.createElement("div")
+				pictureArea.className = "project-gallery-pictures"
+				gallery.appendChild(pictureArea)
+
+					projectData.photos?.forEach(addPicture)
+					function addPicture(pictureURL) {
+						var picture = document.createElement("div")
+						picture.className = "project-gallery-picture"
+						picture.style.backgroundImage = "url(" + pictureURL + ")"
+						pictureArea.appendChild(picture)
+					}
+
+				var leftArrow = document.createElement("button")
+				leftArrow.className = "project-gallery-arrow-left"
+				leftArrow.innerHTML = "&larr;"
+				leftArrow.addEventListener("click", changePicturePrevious)
+				gallery.appendChild(leftArrow)
+
+				var rightArrow = document.createElement("button")
+				rightArrow.className = "project-gallery-arrow-right"
+				rightArrow.innerHTML = "&rarr;"
+				rightArrow.addEventListener("click", changePictureNext)
+				gallery.appendChild(rightArrow)
+
+			var infoContainer = document.createElement("div")
+			infoContainer.className = "project-info"
+			card.appendChild(infoContainer)
+
+				var projectName = document.createElement("h2")
+				projectName.className = "project-name"
+				projectName.innerText = projectData.name
+				infoContainer.appendChild(projectName)
+
+				var tagsSection = document.createElement("div")
+				tagsSection.className = "project-section-tags"
+				infoContainer.appendChild(tagsSection)
+
+					projectData.tags?.forEach(addTag)
+					function addTag(tagText) {
+						var tag = document.createElement("button")
+						tag.className = "project-section-tags-tag"
+						tag.innerText = tagText
+						tag.value = tagText
+						tag.addEventListener("click", searchByTag)
+						tagsSection.appendChild(tag)
+					}
+
+				var projectDescription = document.createElement("p")
+				projectDescription.className = "project-description"
+				projectDescription.innerText = projectData.description
+				infoContainer.appendChild(projectDescription)
+
+				var linksSection = document.createElement("div")
+				linksSection.className = "project-section-links"
+				infoContainer.appendChild(linksSection)
+
+					projectData.links?.forEach(addLink)
+					function addLink(linkObject) {
+						var link = document.createElement("a")
+						link.className = "project-section-links-link"
+						link.innerText = linkObject.text
+						link.href = linkObject.url
+						link.target = "_blank"
+						linksSection.appendChild(link)
+					}
+		}
 
 
 
+		function changePicturePrevious() {
+			// ???
+		}
 
+		function changePictureNext() {
+			// ???
+		}
 
-
-
+		function searchByTag() {
+			// ???
+		}
