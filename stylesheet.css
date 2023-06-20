@@ -388,6 +388,10 @@
 						background-position: center;
 					}
 
+						.project-gallery-picture:not([active="true"]) {
+							display: none;
+						}
+
 				.project-gallery-arrow-left {
 					height: calc(var(--font-size-small) + 2 * var(--gap-size-small));
 					width: calc(var(--font-size-small) + 2 * var(--gap-size-small));

@@ -298,12 +298,20 @@
 				pictureArea.className = "project-gallery-pictures"
 				gallery.appendChild(pictureArea)
 
+					var alreadySet = false
+
 					projectData.photos?.forEach(addPicture)
 					function addPicture(pictureURL) {
 						var picture = document.createElement("div")
 						picture.className = "project-gallery-picture"
 						picture.style.backgroundImage = "url(" + pictureURL + ")"
 						pictureArea.appendChild(picture)
+						
+						if (!alreadySet) {
+							alreadySet = true
+
+							picture.setAttribute("active", true)
+						}
 					}
 
 				if (projectData.photos?.length > 1) {
@@ -365,12 +373,48 @@
 
 
 
-		function changePicturePrevious() {
-			// ???
+		function changePicturePrevious(event) {
+			// closest is like queryselector, but "up" - ancestor (parent, etc.)
+			var gallery = event.target.closest(".project-gallery")
+			var pictureArea = gallery.querySelector(".project-gallery-pictures")
+			var pictures = Array.from(pictureArea.querySelectorAll(".project-gallery-picture"))
+			var activePicIndex = pictures.findIndex(findActivePic)
+
+			function findActivePic(picture) {
+				return picture.getAttribute("active")
+			}
+
+			if (activePicIndex == 0){
+				var newPicIndex = pictures.length - 1
+			}
+			else {
+				var newPicIndex = activePicIndex - 1
+			}
+
+			pictures[activePicIndex].removeAttribute("active")
+			pictures[newPicIndex].setAttribute("active", true)
 		}
 
-		function changePictureNext() {
-			// ???
+		function changePictureNext(event) {
+			// closest is like queryselector, but "up" - ancestor (parent, etc.)
+			var gallery = event.target.closest(".project-gallery")
+			var pictureArea = gallery.querySelector(".project-gallery-pictures")
+			var pictures = Array.from(pictureArea.querySelectorAll(".project-gallery-picture"))
+			var activePicIndex = pictures.findIndex(findActivePic)
+
+			function findActivePic(picture) {
+				return picture.getAttribute("active")
+			}
+
+			if (activePicIndex < pictures.length - 1){
+				var newPicIndex = activePicIndex + 1
+			}
+			else {
+				var newPicIndex = 0
+			}
+
+			pictures[activePicIndex].removeAttribute("active")
+			pictures[newPicIndex].setAttribute("active", true)
 		}
 
 		function searchByTag() {
