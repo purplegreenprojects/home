@@ -6,25 +6,21 @@
 		// 3D
 
 			{
+				"featured": true,
 				"name": "Blender Cafe (scene)",
 				"date": "",
-				"tags": ["3d art", "blender", "donut", "tutorial", "food", "scene", "digital art"],
-				"keywords": ["art","3d","blender","render","scene","donut","coffee", "blender guru","tutorial", "vase","flower","flowers","glass","breakfast", "first projects"],
+				"tags": ["3d art", "blender", "donut tutorial", "tutorial", "food", "scenes", "digital art"],
+				"keywords": ["art","3d","blender","render","scene","donut","coffee", "blender guru","tutorial", "vase","flower","flowers","glass","breakfast", "first projects", "virtual"],
 				"photos": ["blender/images/blendercafe.gif"],
-				"links": [
-					{
-						text:"Blender Guru Tutorial", 
-						url:"https://www.youtube.com/watch?v=TPrnSACiTJ4",
-					}
-				],
-				"description": ""
+				"links": [],
+				"description": "Based on the <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>Donut Tutorial by Blender Guru</a>"
 			},
 
 			{
 				"name": "bud vase (model)",
 				"date": "",
-				"tags": ["3d art", "blender", "glass", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","vase","flower","flowers"],
+				"tags": ["3d art", "blender", "glass", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","vase","flower","flowers","virtual"],
 				"photos": ["blender/images/budvase.png"],
 				"links": [],
 				"description": ""
@@ -33,8 +29,8 @@
 			{
 				"name": "bagels (model)",
 				"date": "",
-				"tags": ["3d art", "blender", "food", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","food","breakfast", "first projects"],
+				"tags": ["3d art", "blender", "food", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","food","breakfast", "first projects","virtual"],
 				"photos": ["blender/images/bagels.png"],
 				"links": [
 					{
@@ -48,8 +44,8 @@
 			{
 				"name": "pinic breakfast (scene)",
 				"date": "",
-				"tags": ["3d art", "blender", "food", "scene", "digital art"],
-				"keywords": ["art","3d","blender","render","scene","breakfast","brunch","food","glass", "nature"],
+				"tags": ["3d art", "blender", "food", "scenes", "digital art"],
+				"keywords": ["art","3d","blender","render","scene","breakfast","brunch","food","glass", "nature","virtual"],
 				"photos": ["blender/images/breakfastpicnic.png"],
 				"links": [
 					{
@@ -63,8 +59,8 @@
 			{
 				"name": "bread (model)",
 				"date": "",
-				"tags": ["3d art", "blender", "food", "model", "tutorial"],
-				"keywords": ["art","3d","blender","render","asset","model","food","blender guru"],
+				"tags": ["3d art", "blender", "food", "models", "tutorial"],
+				"keywords": ["art","3d","blender","render","asset","model","food","blender guru","virtual"],
 				"photos": ["blender/images/bread.png"],
 				"links": [{
 						text:"Blender Guru Tutorial", 
@@ -77,8 +73,8 @@
 			{
 				"name": "apples (scene)",
 				"date": "",
-				"tags": ["3d art", "blender", "food", "tutorial", "scene", "digital art"],
-				"keywords": ["art","3d","blender","render","asset","model","food","tutorial"],
+				"tags": ["3d art", "blender", "food", "tutorial", "scenes", "digital art"],
+				"keywords": ["art","3d","blender","render","asset","model","food","tutorial","virtual"],
 				"photos": ["blender/images/apples.png"],
 				"links": [
 					{
@@ -92,8 +88,8 @@
 			{
 				"name": "teddy bear (scene)",
 				"date": "",
-				"tags": ["3d art", "blender", "toy", "tutorial", "scene", "digital art"],
-				"keywords": ["art","3d","blender","render","asset","model","toy","bear"],
+				"tags": ["3d art", "blender", "toys", "tutorial", "scenes", "digital art"],
+				"keywords": ["art","3d","blender","render","asset","model","toy","stuffie","bear","virtual"],
 				"photos": ["blender/images/teddybear.png"],
 				"links": [
 					{
@@ -105,10 +101,11 @@
 			},
 
 			{
+				"featured": true,
 				"name": "neon sign (scene)",
 				"date": "",
-				"tags": ["3d art", "blender", "decoration", "tutorial", "scene", "digital art"],
-				"keywords": ["art","3d","blender","render","asset","model","light","glow"],
+				"tags": ["3d art", "blender", "decorations", "tutorial", "scenes", "digital art","lights"],
+				"keywords": ["art","3d","blender","render","asset","model","light","glow","virtual"],
 				"photos": ["blender/images/neonsign.png"],
 				"links": [
 					{
@@ -122,8 +119,8 @@
 			{
 				"name": "cube shelf (model)",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","furniture"],
+				"tags": ["3d art", "blender", "furniture", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","furniture","virtual"],
 				"photos": ["blender/images/shelf_cube.png"],
 				"links": [
 					{
@@ -137,8 +134,8 @@
 			{
 				"name": "yoga mat (model)",
 				"date": "",
-				"tags": ["3d art", "blender", "model"],
-				"keywords": ["art","3d","blender","render","asset","model", "exercise"],
+				"tags": ["3d art", "blender", "models"],
+				"keywords": ["art","3d","blender","render","asset","model", "exercise","virtual"],
 				"photos": ["blender/images/yogamat.png"],
 				"links": [
 					{
@@ -152,8 +149,8 @@
 			{
 				"name": "desk",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","furniture", "office"],
+				"tags": ["3d art", "blender", "furniture", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","furniture", "office","virtual"],
 				"photos": ["blender/images/desk_drawing.png"],
 				"links": [
 					{
@@ -167,8 +164,8 @@
 			{
 				"name": "bulletin board",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","office"],
+				"tags": ["3d art", "blender", "furniture", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","office","virtual"],
 				"photos": ["blender/images/bulletinboard.png"],
 				"links": [
 					{
@@ -182,8 +179,8 @@
 			{
 				"name": "piano",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "model", "music"],
-				"keywords": ["art","3d","blender","render","asset","model","music","instrument", "composing","composition"],
+				"tags": ["3d art", "blender", "furniture", "models", "music"],
+				"keywords": ["art","3d","blender","render","asset","model","music","instrument", "composing","composition","virtual"],
 				"photos": ["blender/images/piano.png"],
 				"links": [
 					{
@@ -197,8 +194,8 @@
 			{
 				"name": "sewing machine",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "model", "sewing"],
-				"keywords": ["art","3d","blender","render","asset","model","sew","sewing","sewn","sewist","seamstress","clothes", "singer","Grandma"],
+				"tags": ["3d art", "blender", "furniture", "models", "sewing"],
+				"keywords": ["art","3d","blender","render","asset","model","sew","sewing","sewn","sewist","seamstress","clothes", "singer","Grandma","virtual"],
 				"photos": ["blender/images/sewingmachine.png"],
 				"links": [
 					{
@@ -212,8 +209,8 @@
 			{
 				"name": "dress form",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "model", "sewing", "clothes"],
-				"keywords": ["art","3d","blender","render","asset","model","dress","sewing","sew","seamstress","clothes"],
+				"tags": ["3d art", "blender", "furniture", "models", "sewing", "clothes"],
+				"keywords": ["art","3d","blender","render","asset","model","dress","sewing","sew","seamstress","clothes","virtual"],
 				"photos": ["blender/images/sewingdressform.png"],
 				"links": [
 					{
@@ -227,8 +224,8 @@
 			{
 				"name": "banker's lamp",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "light", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","lamp","light","green"],
+				"tags": ["3d art", "blender", "furniture", "lights", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","lamp","light","green","virtual"],
 				"photos": ["blender/images/lamp_banker.png"],
 				"links": [
 					{
@@ -242,8 +239,8 @@
 			{
 				"name": "G'pa Chair",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "chair", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","Grandpa","chair","furniture"],
+				"tags": ["3d art", "blender", "furniture", "chairs", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","Grandpa","chair","furniture","virtual"],
 				"photos": ["blender/images/chair_gpa.png"],
 				"links": [
 					{
@@ -261,8 +258,8 @@
 			{
 				"name": "end table",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","furniture"],
+				"tags": ["3d art", "blender", "furniture", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","furniture","virtual"],
 				"photos": ["blender/images/table_end.png"],
 				"links": [
 					{
@@ -274,10 +271,10 @@
 			},
 
 			{
-				"name": "plant",
+				"name": "house plant",
 				"date": "",
-				"tags": ["3d art", "blender", "plant", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","plant","plants","houseplant","houseplants","house plants", "house plant", "garden", "gardening"],
+				"tags": ["3d art", "blender", "plants", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","plant","plants","houseplant","houseplants","house plants", "house plant", "garden", "gardening","virtual"],
 				"photos": ["blender/images/plant_pothos.png"],
 				"links": [
 					{
@@ -295,8 +292,8 @@
 			{
 				"name": "poang chair",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","furniture","chair","ikea","reading","read"],
+				"tags": ["3d art", "blender", "furniture", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","furniture","chair","ikea","reading","read","virtual"],
 				"photos": ["blender/images/chair_poang.png"],
 				"links": [
 					{
@@ -310,8 +307,8 @@
 			{
 				"name": "floor lamp",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "light", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","lamp","light"],
+				"tags": ["3d art", "blender", "furniture", "lights", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","lamp","light","virtual"],
 				"photos": ["blender/images/lamp_floor.png"],
 				"links": [
 					{
@@ -325,8 +322,8 @@
 			{
 				"name": "reading lamp",
 				"date": "",
-				"tags": ["3d art", "blender", "furniture", "light", "model"],
-				"keywords": ["art","3d","blender","render","asset","model","light","lamp"],
+				"tags": ["3d art", "blender", "furniture", "lights", "models"],
+				"keywords": ["art","3d","blender","render","asset","model","light","lamp","virtual"],
 				"photos": ["blender/images/lamp_reading.png"],
 				"links": [
 					{
@@ -340,8 +337,8 @@
 			{
 				"name": "book",
 				"date": "",
-				"tags": ["3d art", "blender",],
-				"keywords": ["art","3d","blender","render","asset","model","book","reading","read","current"],
+				"tags": ["3d art", "blender","models"],
+				"keywords": ["art","3d","blender","render","asset","model","book","reading","read","current","virtual"],
 				"photos": ["blender/images/books.png"],
 				"links": [
 					{
@@ -355,8 +352,8 @@
 			{
 				"name": "notebook",
 				"date": "",
-				"tags": ["3d art", "blender",],
-				"keywords": ["art","3d","blender","render","asset","model","writing","write","poetry"],
+				"tags": ["3d art", "blender","models"],
+				"keywords": ["art","3d","blender","render","asset","model","writing","write","poetry","virtual"],
 				"photos": ["blender/images/compositionnotebooks.png"],
 				"links": [
 					{
@@ -368,10 +365,11 @@
 			},
 
 			{
+				"featured": true,
 				"name": "room",
 				"date": "",
-				"tags": ["3d art", "blender",],
-				"keywords": ["art","3d","blender","render","asset","model","purplegreen","purplegreenprojects","evolution","website"],
+				"tags": ["3d art", "blender","models","projects portfolios","portfolios"],
+				"keywords": ["art","3d","blender","render","asset","model","purplegreen","purplegreenprojects","evolution","website","virtual"],
 				"photos": ["images/all.png"],
 				"links": [
 					{
@@ -385,8 +383,8 @@
 			{
 				"name": "Snow Sculptures",
 				"date": "",
-				"tags": ["3d art", "sculpture", "snow","bunnies"],
-				"keywords": ["art","art", "other art", "sculpture","sculptures","snow","snowman", "bunny","bunnies","rabbit","3d", "first projects","childhood"],
+				"tags": ["3d art", "sculptures", "snow","bunnies"],
+				"keywords": ["art", "other art", "sculpt","sculpture","snow","snowman", "bunny","bunnies","rabbit","3d", "first projects","childhood"],
 				"photos": ["art/images/2011snowbunny.jpg"],
 				"links": [{text:"Gallery", url:"snowsculptures/"}],
 				"description": ""
@@ -395,6 +393,7 @@
 		// digital
 			
 			{
+				"featured": true,
 				"name": "Kniterative Designs Logo",
 				"date": "",
 				"tags": ["digital art", "Kniterative Designs",],
@@ -442,9 +441,7 @@
 				"tags": ["digital art", "design", "music", "imagery", "photography", "fall"],
 				"keywords": ["art","digital", "design", "first projects", "composition", "song", "songs", "album"],
 				"photos": ["music/images/chroma.jpg"],
-				"links": [
-					{},
-				],
+				"links": [],
 				"description": ""
 			},
 
@@ -454,9 +451,7 @@
 				"tags": ["digital art", "design", "music", "imagery", "drawing", "spring", "summer"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/whether.png"],
-				"links": [
-					{},
-				],
+				"links": [],
 				"description": ""
 			},
 			{
@@ -465,9 +460,7 @@
 				"tags": ["digital art", "design", "music", "imagery", "photography"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/elephant.jpg"],
-				"links": [
-					{},
-				],
+				"links": [],
 				"description": ""
 			},
 
@@ -477,9 +470,7 @@
 				"tags": ["digital art", "design", "music", "imagery", "photography", "winter", "spring", "Binghamton University"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/thesedays.jpg"],
-				"links": [
-					{},
-				],
+				"links": [],
 				"description": ""
 			},
 
@@ -489,9 +480,7 @@
 				"tags": ["digital art", "design", "music", "imagery", "photography", "Chroma"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/chaosincircles.jpg"],
-				"links": [
-					{},
-				],
+				"links": [],
 				"description": ""
 			},
 
@@ -501,9 +490,7 @@
 				"tags": ["digital art", "design", "music", "imagery", "photography"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/everytime.jpg"],
-				"links": [
-					{},
-				],
+				"links": [],
 				"description": ""
 			},
 
@@ -513,9 +500,7 @@
 				"tags": ["digital art", "design", "music", "imagery", "game", "soundtrack"],
 				"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
 				"photos": ["music/images/collectingcarrots.png"],
-				"links": [
-					{},
-				],
+				"links": [],
 				"description": ""
 			},
 
@@ -679,6 +664,7 @@
 		// drawings
 
 			{
+				"featured": true,
 				"name": "Nova Scotia",
 				"date": "",
 				"tags": ["drawings art", "favorite places", "Nova Scotia", "water", "watercolor"],
@@ -694,6 +680,7 @@
 			},
 
 			{
+				"featured": true,
 				"name": "PurpleGreen",
 				"date": "",
 				"tags": ["drawings art", "colored pencil", "food"],
@@ -718,6 +705,7 @@
 	// WRITING
 
 			{
+				"featured": true,
 				"name": "PurpleGreen Projects blog",
 				"date": "",
 				"tags": ["blog","writing","Kniterative Designs"],
@@ -728,6 +716,7 @@
 			},
 
 			{
+				"featured": true,
 				"name": "Couplets",
 				"date": "",
 				"tags": ["couplets poetry","writing","James"],
@@ -874,6 +863,7 @@
 				"description": ""
 			},
 			{
+				"featured": true,
 				"name": "Adventure Bag",
 				"date": "",
 				"tags": ["sewn bags", "sewing", "bags","treks","adventures","handmade accessories"],
@@ -886,6 +876,7 @@
 		// DRESSES
 
 			{
+				"featured": true,
 				"name": "Iris Moneta",
 				"date": "",
 				"tags": ["sewn dresses","sewing", "dresses", "handmade clothes"],
@@ -1119,6 +1110,7 @@
 			//Bunnies
 				
 				{
+					"featured": true,
 					"name": "Franny",
 					"date": "",
 					"tags": ["Kniterative Designs","knitting", "bunnies", "toys"],
@@ -1272,6 +1264,7 @@
 				},
 
 				{
+					"featured": true,
 					"name": "Thomas",
 					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
@@ -1374,6 +1367,7 @@
 			// Puppies / Dogs
 
 				{
+					"featured": true,
 					"name": "Fred",
 					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
@@ -1424,6 +1418,7 @@
 				},
 
 				{
+					"featured": true,
 					"name": "Lady",
 					"date": "",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys","gifts"],
@@ -1671,6 +1666,7 @@
 		// CLOTHING
 
 			{
+				"featured": true,
 				"name": "Make a Wish sweater",
 				"date": "",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
@@ -1701,6 +1697,7 @@
 			},
 
 			{
+				"featured": true,
 				"name": "3 in 1 Sweater",
 				"date": "",
 				"tags": ["knitted clothes","knitting","sweaters","handmade clothes"],
@@ -1743,6 +1740,7 @@
 		// ACCESSORIES
 
 			{
+				"featured": true,
 				"name": "Norway (Felted) Slippers",
 				"date": "",
 				"tags": ["knitted accessories","knitting","accessories","slippers"],
@@ -1753,6 +1751,7 @@
 			},
 
 			{
+				"featured": true,
 				"name": "Brain Hat",
 				"date": "",
 				"tags": ["knitted accessories","knitting","accessories","hats","costumes"],
@@ -1941,6 +1940,7 @@
 		// stories
 
 			{
+				"featured": true,
 				"name": "interesting",
 				"date": "",
 				"tags": ["photographed stories"],
@@ -2070,6 +2070,7 @@
 				"description": ""
 			},
 			{
+				"featured": true,
 				"name": "water",
 				"date": "",
 				"tags": ["photographed nature"],
@@ -2157,6 +2158,7 @@
 
 		// EXPLORCHESTRA
 			{
+				"featured": true,
 				"name": "Chroma",
 				"date": "",
 				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Binghamton University"],
@@ -2168,6 +2170,7 @@
 			},
 
 			{
+				"featured": true,
 				"name": "Whether",
 				"date": "",
 				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Binghamton University"],
@@ -2294,6 +2297,7 @@
 			},
 
 			{
+				"featured": true,
 				"name": "carrotCollector",
 				"date": "",
 				"tags": ["code games","Kniterative Designs", "games","with James", "bunnies","carrots","flowers"],
@@ -2316,6 +2320,7 @@
 			},
 
 			{
+				"featured": true,
 				"name": "Synesthesia",
 				"date": "",
 				"tags": ["code experiments","with James","colors","synesthesia"],
@@ -2339,7 +2344,7 @@
 				"name": "Window",
 				"date": "",
 				"tags": ["code experiments","with James","canvas","seasons"],
-				"keywords": ["coding","code","season","seasons","winter","spring","summer","fall","scene","scenery","view"],
+				"keywords": ["coding","code","season","seasons","winter","spring","summer","fall","scenes","scenery","view"],
 				"photos": ["coding/images/window_winter.png"],
 				"links": [{text:"Project", url:"window/#winter"}],
 				"description": ""
@@ -2358,6 +2363,7 @@
 		// past portfolios
 
 			{
+				"featured": true,
 				"name": "PurpleGreen Projects",
 				"date": "",
 				"tags": ["code past portfolios", "code", "with James","projects","room","3d space","canvas","window"],

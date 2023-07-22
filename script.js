@@ -1,3 +1,28 @@
+// TO DO ???
+	// Liz & James codin' stuff
+		// style medium dropdown
+		// medium: right-align; filters: left-align
+		// display filters list with indented subcategories
+		// --> verify sort by date
+		// --> review photography galleries & other projects
+		// --> add pictures to intro section
+		// --> friend of ...		
+		// resumé PDF
+		// filter bar - mobile styling
+		// empty state for projects list
+		// stream ?
+
+	// projects JSON additions/revisions
+		// add dates 
+		// fix tags in projects json (& duplicate tags for capitalization)
+		// switch tutorial links to be in description instead of external links button
+		// reassess descriptions
+		// finish intro blurb for about section
+		// friends page project cards / links
+		// add more recent projects
+		// album artwork shouldn't show on music medium
+		// missing project pictures
+
 // ELEMENTS
 	var ELEMENTS = {
 		header: document.querySelector("#header"),
@@ -8,6 +33,7 @@
 		filtersClearButton: document.querySelector("#filters-clear"),
 		filtersSearchInput: document.querySelector("#filters-search"),
 		filtersSubmitButton: document.querySelector("#filters-submit"),
+		filtersSuggestions: document.querySelector("#filters-suggestions"),
 		contentSection: document.querySelector("#content"),
 	}
 
@@ -154,14 +180,14 @@
 		// in the topicsselect dropdown, populate with options associated with "learner"
 		buildTopicsList()
 		setAboutView()
-		filterProjects()
 	}
 
 // USER ACTIONS
-	// clicking on the name button (Elizabeth Ford) triggers the function
-	ELEMENTS.nameButton.addEventListener("click",toggleAbout)
+	// ABOUT
+		// clicking on the name button (Elizabeth Ford) triggers the function
+		ELEMENTS.nameButton.addEventListener("click",toggleAbout)
 
-	function toggleAbout(){
+		function toggleAbout(){
 		// if the about section (#header) has an attribute (like id="" or class="") of collapsed="true"... then remove that attribute
 		if (ELEMENTS.header.getAttribute("collapsed")) {
 			ELEMENTS.filtersMediumSelect.value = "learner"
@@ -174,66 +200,107 @@
 		setAboutView()
 	}
 
-	// click on mediums dropdown to change it
-	// (call function - last part of this row)
-	ELEMENTS.filtersMediumSelect.addEventListener("change", buildTopicsList)
+		function setAboutView(){
+			var medium = ELEMENTS.filtersMediumSelect.value
+			// if the medium (the value of #filters-medium) is "learner"
+			if (medium == "learner") {
+				// ... open up the about section (remove the "collapsed" attribute), set the #filters-search placeholder text to "skills", make it so you can't type in that search field, and disable the search button
+				ELEMENTS.header.removeAttribute("collapsed")
+				ELEMENTS.filtersSearchInput.setAttribute("placeholder", "skills")
+				ELEMENTS.filtersSearchInput.setAttribute("disabled", true)
+				ELEMENTS.filtersSubmitButton.setAttribute("disabled",true)
+			}
+			// if the medium (the value of #filters-medium) is anything except "learner", collapse the about section (by setting the collapse attribute to "true"), set the placeholder text in #filters-search to "...projects", and make the text field and submit button accessible again (by removing "disabled" attribute)
+			else {
+				ELEMENTS.header.setAttribute("collapsed",true)
+				ELEMENTS.filtersSearchInput.setAttribute("placeholder", "...projects")
+				ELEMENTS.filtersSearchInput.removeAttribute("disabled")
+				ELEMENTS.filtersSubmitButton.removeAttribute("disabled")
+			}
+			ELEMENTS.nameButton.blur()
+			filterProjects()
+		}
 
-	// (define function)
-	function buildTopicsList(){
-		ELEMENTS.filtersSearchInput.value = ""
+	// FILTERS
+		// click on mediums dropdown to change it
+		// (call function - last part of this row)
+		ELEMENTS.filtersMediumSelect.addEventListener("change", buildTopicsList)
+		ELEMENTS.filtersMediumSelect.addEventListener("change", setAboutView)
 
-		// the value of medium that is selected
-		var medium = ELEMENTS.filtersMediumSelect.value
-		// within the mediums object, the particular medium that's selected (based on the html value of that selected medium)
-		var topics = CONSTANTS.mediums[medium].topics
-		
-		// clearing the children (innerHTML) and html value (what's checked) of the other dropdown
-		ELEMENTS.filtersTopicSelect.innerHTML = ""
-		ELEMENTS.filtersTopicSelect.value = ""
+		// (define function)
+		function buildTopicsList(){
+			ELEMENTS.filtersSearchInput.value = ""
 
-		// hard-coded in first option "..."
-		var option = document.createElement("option")
-		option.value = "*"
-		option.innerText = "..."
-		ELEMENTS.filtersTopicSelect.appendChild(option)
+			// the value of medium that is selected
+			var medium = ELEMENTS.filtersMediumSelect.value
+			// within the mediums object, the particular medium that's selected (based on the html value of that selected medium)
+			var topics = CONSTANTS.mediums[medium].topics
+			
+			// clearing the children (innerHTML) and html value (what's checked) of the other dropdown
+			ELEMENTS.filtersTopicSelect.innerHTML = ""
+			ELEMENTS.filtersTopicSelect.value = ""
 
-		// dynamically build rest of topics list from mediums.topics
-		for (var key in topics) {
+			// hard-coded in first option "..."
 			var option = document.createElement("option")
-			option.value = key
-			option.innerText = key
+			option.value = "*"
+			option.innerText = "..."
 			ELEMENTS.filtersTopicSelect.appendChild(option)
+
+			// dynamically build rest of topics list from mediums.topics
+			for (var key in topics) {
+				var option = document.createElement("option")
+				option.value = key
+				option.innerText = key
+				ELEMENTS.filtersTopicSelect.appendChild(option)
+			}
 		}
-	}
+	
+		ELEMENTS.filtersSearchInput.addEventListener("focus", buildFilteredTopicsList)
+		ELEMENTS.filtersSearchInput.addEventListener("input", buildFilteredTopicsList)
+		function buildFilteredTopicsList(){
+			ELEMENTS.filtersSuggestions.innerHTML = ""
+			var medium = ELEMENTS.filtersMediumSelect.value
+			var topics = Object.keys(CONSTANTS.mediums[medium].topics)
+			var searchString = ELEMENTS.filtersSearchInput.value.trim().toLowerCase()
+			if (searchString.length) {
+				topics = topics.filter(filterTopicsBySearch)
+				function filterTopicsBySearch(topic) {
+					// really, this is an if() with "return true" inside, but James made me make it 1 line
+					return topic.trim().toLowerCase().includes(searchString)
+				}
+			}	
 
-	ELEMENTS.filtersMediumSelect.addEventListener("change", setAboutView)
+			for (var i in topics) {
+				var topicButton = document.createElement("button")
+				topicButton.className = "filter-topic-suggestion"
+				topicButton.innerHTML = topics[i]
+				topicButton.value = topics[i]
+				topicButton.addEventListener("click",searchByTag)
+				ELEMENTS.filtersSuggestions.appendChild(topicButton) 
+			}
 
-	function setAboutView(){
-		var medium = ELEMENTS.filtersMediumSelect.value
-		// if the medium (the value of #filters-medium) is "learner"
-		if (medium == "learner") {
-			// ... open up the about section (remove the "collapsed" attribute), set the #filters-search placeholder text to "skills", make it so you can't type in that search field, and disable the search button
-			ELEMENTS.header.removeAttribute("collapsed")
-			ELEMENTS.filtersSearchInput.setAttribute("placeholder", "skills")
-			ELEMENTS.filtersSearchInput.setAttribute("disabled", true)
-			ELEMENTS.filtersSubmitButton.setAttribute("disabled",true)
+			filterProjects()
 		}
-		// if the medium (the value of #filters-medium) is anything except "learner", collapse the about section (by setting the collapse attribute to "true"), set the placeholder text in #filters-search to "...projects", and make the text field and submit button accessible again (by removing "disabled" attribute)
-		else {
-			ELEMENTS.header.setAttribute("collapsed",true)
-			ELEMENTS.filtersSearchInput.setAttribute("placeholder", "...projects")
-			ELEMENTS.filtersSearchInput.removeAttribute("disabled")
-			ELEMENTS.filtersSubmitButton.removeAttribute("disabled")
+
+		ELEMENTS.filtersClearButton.addEventListener("click", resetFilteredTopics)
+		function resetFilteredTopics(){
+			ELEMENTS.filtersSearchInput.value = ""
+			buildFilteredTopicsList()
+			ELEMENTS.filtersSearchInput.focus()
+		}	
+
+		function searchByTag(event) {
+			var tagButton = event.target
+			var termForSearch = tagButton.value
+			ELEMENTS.filtersSearchInput.value = termForSearch
+			buildFilteredTopicsList()
 		}
-
-		filterProjects()
-	}
-
 
 // GENERATE CARDS
 	// FILTER PROJECTS
 		function filterProjects(){
 			var medium = ELEMENTS.filtersMediumSelect.value
+			var search = ELEMENTS.filtersSearchInput.value.trim().toLowerCase()
 			
 			// FILTER BY MEDIUM
 			if (medium == "learner") {
@@ -261,16 +328,28 @@
 				}
 			}
 
-		
-
-
-			// ??? -- filter by TOPIC (dropdown selection) and SEARCH
-
+			// filter by TOPIC (dropdown selection) and SEARCH
+				if (search.length) {
+					var filteredProjects = filteredProjects.filter(filterBySearch)
+					function filterBySearch(project){
+						return (project.name.trim().toLowerCase().includes(search) || project.tags.includes(search) || project.keywords.includes(search))
+					}
+				}
 
 			// SORT
 				filteredProjects.sort(sortByDate)
 				function sortByDate(projectA, projectB) {
-					return new Date(projectA.date).getTime() - new Date(projectB.date).getTime() // ???
+					return new Date(projectB.date).getTime() - new Date(projectA.date).getTime() // ???
+				}
+
+				if (medium == "maker") {
+					filteredProjects.sort(sortByFeatured)
+					function sortByFeatured(projectA, projectB) {
+						if (projectB.featured && !projectA.featured) {
+							return 1
+						}
+						return 0
+					}
 				}
 
 			// add cards that meet filter requirements to content section
@@ -353,7 +432,7 @@
 
 				var projectDescription = document.createElement("p")
 				projectDescription.className = "project-description"
-				projectDescription.innerText = projectData.description
+				projectDescription.innerHTML = projectData.description
 				infoContainer.appendChild(projectDescription)
 
 				var linksSection = document.createElement("div")
@@ -372,7 +451,7 @@
 		}
 
 
-
+	// PICTURES
 		function changePicturePrevious(event) {
 			// closest is like queryselector, but "up" - ancestor (parent, etc.)
 			var gallery = event.target.closest(".project-gallery")
@@ -415,8 +494,4 @@
 
 			pictures[activePicIndex].removeAttribute("active")
 			pictures[newPicIndex].setAttribute("active", true)
-		}
-
-		function searchByTag() {
-			// ???
 		}
