@@ -9,7 +9,7 @@
 		// --> friend of ...		
 		// resumé PDF
 		// filter bar - mobile styling
-		// empty state for projects list
+		// url parameters
 		// stream ?
 
 	// projects JSON additions/revisions
@@ -34,7 +34,9 @@
 		filtersSearchInput: document.querySelector("#filters-search"),
 		filtersSubmitButton: document.querySelector("#filters-submit"),
 		filtersSuggestions: document.querySelector("#filters-suggestions"),
-		contentSection: document.querySelector("#content"),
+		contentSection: document.querySelector("#content-cards"),
+		contentEmptyButton: document.querySelector("#content-empty-all-projects-button"),
+		contentEmptyTagButtons: Array.from(document.querySelectorAll("#content-empty .content-empty-button")),
 	}
 
 // CONSTANTS
@@ -294,6 +296,20 @@
 			var termForSearch = tagButton.value
 			ELEMENTS.filtersSearchInput.value = termForSearch
 			buildFilteredTopicsList()
+		}
+
+		for (var i in ELEMENTS.contentEmptyTagButtons){
+			ELEMENTS.contentEmptyTagButtons[i].addEventListener("click", searchByTag)
+		}
+
+		ELEMENTS.contentEmptyButton.addEventListener("click", resetToMaker)
+		function resetToMaker(){
+			ELEMENTS.filtersMediumSelect.value = "maker"
+			buildTopicsList()
+			setAboutView()
+			ELEMENTS.filtersSearchInput.value = ""
+			buildFilteredTopicsList()
+			ELEMENTS.filtersSearchInput.focus()
 		}
 
 // GENERATE CARDS
