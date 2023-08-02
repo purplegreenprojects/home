@@ -1,16 +1,13 @@
 // TO DO ???  
 	// Liz & James codin' stuff
 		// style medium dropdown
-		// medium: right-align; filters: left-align
-		// display filters list with indented subcategories
+		// medium: right-align
 		// --> verify sort by date
 		// --> review photography galleries & other projects
 		// --> add pictures to intro section
 		// --> friend of ...		
 		// resumé PDF
 		// filter bar - mobile styling
-		// empty state for projects list
-		// hover text for links (e.g. Ravelry)
 		// if link is logo (svg), the background color of the button is transparent and the logo fill is dark purple (and medium purple when hover) ...? (doable?)
 		// add gallery (and link to gallery) of KD logo in progress...
 
@@ -65,13 +62,13 @@
 				tag: "design",
 				topics: {
 					"Kniterative Designs": "kd",
-					"bunnies": "bunnies",
-					"cats": "cats",
-					"dogs": "dogs",
-					"horses (& unicorns)": "horses",
-					"fish": "fish",
-					"mice": "mice",
-					"carrots": "carrots",
+					"   bunnies": "bunnies",
+					"   cats": "cats",
+					"   dogs": "dogs",
+					"   horses (& unicorns)": "horses",
+					"   fish": "fish",
+					"   mice": "mice",
+					"   carrots": "carrots",
 					"bags": "bags",
 				}
 			},			
@@ -80,18 +77,18 @@
 				topics: {
 					"gifts": "gifts",
 					"clothes":"clothes",
-					"sweaters": "sweaters",
-					"skirts": "skirts",
+					"   sweaters": "sweaters",
+					"   skirts": "skirts",
 					"accessories": "accessories",
-					"hats": "headwear",
-					"scarves, cowls, & shawls": "neckwear",
-					"mittens & gloves": "handwear",
+					"   hats": "headwear",
+					"   scarves, cowls, & shawls": "neckwear",
+					"   mittens & gloves": "handwear",
 					"toys": "toys",
 					"Kniterative Designs": "kd",
-					"bunnies": "bunnies",
-					"cats": "cats",
-					"dogs": "dogs",
-					"horses (& unicorns)": "horses",
+					"   bunnies": "bunnies",
+					"   cats": "cats",
+					"   dogs": "dogs",
+					"   horses (& unicorns)": "horses",
 				}
 			},
 			crocheter: {
@@ -104,10 +101,10 @@
 				topics: {
 					"bags": "bags",
 					"clothes": "clothes",
-					"dresses": "dresses",
-					"shirts": "shirts",
-					"skirts": "skirts",
-					"pajamas": "pajamas",
+					"   dresses": "dresses",
+					"   shirts": "shirts",
+					"   skirts": "skirts",
+					"   pajamas": "pajamas",
 					"toys": "toys",
 				}
 			},
@@ -124,12 +121,10 @@
 			composer: {
 				tag: "music",
 				topics: {
-					"music": "music",
-					"music for album": "album",
-					"music with lyrics": "lyrics",
-					"music for Explorchestra": "Explorchestra",
-					"music for Explo Expos": "Explo Expo",
-					"music for Music Challenges": "music challenges",
+					"Chroma album": "album",
+					"Explorchestra": "Explorchestra",
+					"   Explo Expos": "Explo Expo",
+					"Music Challenges": "music challenges",
 				}
 			},
 			photographer: {
@@ -411,8 +406,8 @@
 			for (var i in topics) {
 				var topicButton = document.createElement("button")
 				topicButton.className = "filter-topic-suggestion"
-				topicButton.innerHTML = topics[i]
-				topicButton.value = topics[i]
+				topicButton.innerText = topics[i]
+				topicButton.value = topics[i].trim()
 				topicButton.addEventListener("click",searchByTag)
 				ELEMENTS.filtersSuggestions.appendChild(topicButton) 
 			}
@@ -624,6 +619,7 @@
 						var link = document.createElement("a")
 						link.className = "project-section-links-link"
 						link.innerHTML = linkObject.svg ? CONSTANTS.SVGs[linkObject.svg] : linkObject.text
+						link.title = linkObject.text
 						link.href = linkObject.url
 						link.target = "_blank"
 						linksSection.appendChild(link)

@@ -380,15 +380,11 @@
 				"photos": ["art/images/meteoriteminer.png"],
 				"links": [
 					{
-						text:"pixelPainter on JamesMayr.com", 
-						url:"https://jamesmayr.com/pixelpainter//"
-					},
-					{
-						text:"meteoriteMiner on JamesMayr.com", 
+						text:"meteoriteMiner", 
 						url:"https://jamesmayr.com/meteoriteminer/"
-					},
+					}
 				],
-				"description": "Art by me, for a game by James"
+				"description": `Art by me for a game by <a href="https://jamesmayr.com" target="_blank">James</a>, using <a href="https://jamesmayr.com/spritemaker/" target="_blank">spriteMaker</a>`
 			},
 
 			// {

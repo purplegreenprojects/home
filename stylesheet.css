@@ -404,6 +404,8 @@
 						outline: none;
 						cursor: pointer;
 						transition: var(--transition-time);
+						text-align: left;
+						white-space: pre;
 					}
 
 						.filter-topic-suggestion:last-child {
