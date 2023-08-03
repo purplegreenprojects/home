@@ -1,8 +1,5 @@
 // TO DO ???  
 	// Liz & James codin' stuff
-		// style medium dropdown
-		// medium: right-align
-		// --> verify sort by date
 		// --> review photography galleries & other projects
 		// --> add pictures to intro section
 		// --> friend of ...		
@@ -10,6 +7,7 @@
 		// filter bar - mobile styling
 		// if link is logo (svg), the background color of the button is transparent and the logo fill is dark purple (and medium purple when hover) ...? (doable?)
 		// add gallery (and link to gallery) of KD logo in progress...
+		// left-menu with down carrot
 
 	// projects JSON additions/revisions
 		// add dates 
@@ -32,7 +30,8 @@
 		header: document.querySelector("#header"),
 		nameButton: document.querySelector("#name-button"),
 		about: document.querySelector("#about"),
-		filtersMediumSelect: document.querySelector("#filters-medium"),
+		filtersMediumCurrent: document.querySelector("#filters-medium-current"),
+		filtersMediumOptions: document.querySelector("#filters-medium-options"),
 		filtersTopicSelect: document.querySelector("#filters-topic"),
 		filtersClearButton: document.querySelector("#filters-clear"),
 		filtersSearchInput: document.querySelector("#filters-search"),
@@ -289,19 +288,21 @@
 
 	function buildMediumsList(parameterObject){
 		// loop through the mediums object, for each key (learner, knitter, etc.), create a new html option element, with a value of that key and innerhtml (label) of that key
-		for (var key in CONSTANTS.mediums){
-			var option = document.createElement("option")
-			option.value = key
-			option.innerText = key
-			ELEMENTS.filtersMediumSelect.appendChild(option)
+		for (var i in CONSTANTS.mediums) {
+			var mediumButton = document.createElement("button")
+			mediumButton.className = "filter-medium-suggestion"
+			mediumButton.innerText = i
+			mediumButton.value = i
+			mediumButton.addEventListener("click",updateBasedOnMedium)
+			ELEMENTS.filtersMediumOptions.appendChild(mediumButton)
 		}
 
 		if (parameterObject.medium && Object.keys(CONSTANTS.mediums).includes(parameterObject.medium)) {
-			ELEMENTS.filtersMediumSelect.value = parameterObject.medium
+			ELEMENTS.filtersMediumCurrent.value = parameterObject.medium
 		}
 		else {
 			// select the default medium (e.g. "maker" or "learner"), as defined in CONSTANTS as value of mediums dropdown
-			ELEMENTS.filtersMediumSelect.value = CONSTANTS.defaultMedium
+			ELEMENTS.filtersMediumCurrent.value = CONSTANTS.defaultMedium
 		}
 		// in the topicsselect dropdown, populate with options associated with "learner"
 		buildTopicsList()		
@@ -315,12 +316,12 @@
 		function toggleAbout(){
 			// if the about section (#header) has an attribute (like id="" or class="") of collapsed="true"... then remove that attribute
 			if (ELEMENTS.header.getAttribute("collapsed")) {
-				ELEMENTS.filtersMediumSelect.value = "learner"
+				ELEMENTS.filtersMediumCurrent.value = "learner"
 				ELEMENTS.filtersSearchInput.value = ""
 			}
 			// otherwise (if it doesn't have that attribute), add the attribute "collapsed" and set it to "true" (collapsed="true")
 			else {
-				ELEMENTS.filtersMediumSelect.value = "maker"
+				ELEMENTS.filtersMediumCurrent.value = "maker"
 			}
 
 			setAboutView()
@@ -329,7 +330,7 @@
 		}
 
 		function setAboutView(){
-			var medium = ELEMENTS.filtersMediumSelect.value
+			var medium = ELEMENTS.filtersMediumCurrent.value
 			// if the medium (the value of #filters-medium) is "learner"
 			if (medium == "learner") {
 				// ... open up the about section (remove the "collapsed" attribute), set the #filters-search placeholder text to "skills", make it so you can't type in that search field, and disable the search button
@@ -351,13 +352,13 @@
 	// FILTERS
 		// click on mediums dropdown to change it
 		// (call function - last part of this row)
-		ELEMENTS.filtersMediumSelect.addEventListener("change", updateBasedOnMedium)
-
-		function updateBasedOnMedium() {
+		function updateBasedOnMedium(event) {
+			ELEMENTS.filtersMediumCurrent.value = event.target.value
 			buildTopicsList()
 			setAboutView()
 			filterProjects()
 			updateURL()
+			event.target.blur()
 		}
 
 		// (define function)
@@ -365,7 +366,7 @@
 			ELEMENTS.filtersSearchInput.value = ""
 
 			// the value of medium that is selected
-			var medium = ELEMENTS.filtersMediumSelect.value
+			var medium = ELEMENTS.filtersMediumCurrent.value
 			// within the mediums object, the particular medium that's selected (based on the html value of that selected medium)
 			var topics = CONSTANTS.mediums[medium].topics
 			
@@ -392,7 +393,7 @@
 		ELEMENTS.filtersSearchInput.addEventListener("input", buildFilteredTopicsList)
 		function buildFilteredTopicsList(){
 			ELEMENTS.filtersSuggestions.innerHTML = ""
-			var medium = ELEMENTS.filtersMediumSelect.value
+			var medium = ELEMENTS.filtersMediumCurrent.value
 			var topics = Object.keys(CONSTANTS.mediums[medium].topics)
 			var searchString = ELEMENTS.filtersSearchInput.value.trim().toLowerCase()
 			if (searchString.length) {
@@ -409,7 +410,7 @@
 				topicButton.innerText = topics[i]
 				topicButton.value = topics[i].trim()
 				topicButton.addEventListener("click",searchByTag)
-				ELEMENTS.filtersSuggestions.appendChild(topicButton) 
+				ELEMENTS.filtersSuggestions.appendChild(topicButton)
 			}
 
 			filterProjects()
@@ -430,7 +431,7 @@
 
 
 			if (!tagButton.className.includes("filter-topic-suggestion")) {
-				ELEMENTS.filtersMediumSelect.value = "maker"
+				ELEMENTS.filtersMediumCurrent.value = "maker"
 			}
 			ELEMENTS.filtersSearchInput.value = termForSearch
 			buildFilteredTopicsList()
@@ -442,7 +443,7 @@
 		}
 		ELEMENTS.contentEmptyButton.addEventListener("click", resetToMaker)
 		function resetToMaker(){
-			ELEMENTS.filtersMediumSelect.value = "maker"
+			ELEMENTS.filtersMediumCurrent.value = "maker"
 			ELEMENTS.filtersSearchInput.value = ""
 			setAboutView()
 			filterProjects()
@@ -453,7 +454,7 @@
 		}
 
 		function updateURL(){
-			var currentMedium = ELEMENTS.filtersMediumSelect.value
+			var currentMedium = ELEMENTS.filtersMediumCurrent.value
 			var currentSearch = ELEMENTS.filtersSearchInput.value.trim()
 			var currentParameters = detectURLParameters()
 
@@ -476,7 +477,7 @@
 // GENERATE CARDS
 	// FILTER PROJECTS
 		function filterProjects(){
-			var medium = ELEMENTS.filtersMediumSelect.value
+			var medium = ELEMENTS.filtersMediumCurrent.value
 			var search = ELEMENTS.filtersSearchInput.value.trim().toLowerCase()
 				// FILTER BY MEDIUM
 			if (medium == "learner") {

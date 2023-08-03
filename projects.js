@@ -892,7 +892,7 @@
 			},
 			{
 				"name": "Big Girl (Reversible) Bag",
-				"date": "9/1/2028", //guess - night before first day of NDH clinical placement
+				"date": "9/1/2018", //guess - night before first day of NDH clinical placement
 				"tags": ["sewn bags", "sewing", "bags", "handmade accessories", "profession","career"],
 				"keywords": ["sew","sewn","sewing","bag","bags","career","profession","professional","reversible","accessory","accessories"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20180911_070641305.jpg?itok=hPWpfXH1"],
