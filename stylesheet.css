@@ -2,6 +2,7 @@
 	:root {
 		--medium-purple:#603473;
 		--dark-purple:#251840;
+		--translucent-dark-purple: rgba(37, 24, 64, 0.2);
 		--dark-teal:#16808C;
 		--medium-teal:#1BA698;
 		--light-teal:#1BBFA1;
@@ -200,13 +201,14 @@
 			height: calc(var(--font-size-large) + 2 * var(--gap-size-small) + var(--gap-size-large));
 			box-sizing: border-box;
 			text-align: center;
+			filter: drop-shadow(0 calc(-1 * var(--shadow-size)) calc(var(--shadow-size) / 2) var(--translucent-dark-purple));
 		}
 
 			#filters-medium-form {
 				width: var(--tab-width);
 				height: calc(var(--font-size-large) + 2 * var(--gap-size-small));
 				box-sizing: border-box;
-				padding: 0 var(--gap-size-small) 0 var(--gap-size-small);
+				padding: 0;
 				display: inline-block;
 				vertical-align: top;
 				border-radius: var(--border-radius) var(--border-radius) 0 0;
@@ -233,6 +235,21 @@
 					user-select: none;
 				}
 
+					#filters-medium-form::before {
+						content: "▾";
+						height: 0;
+						width: 0;
+						margin-left: calc(100% - var(--font-size-medium));
+						float: left;
+						position: relative;
+						color: var(--dark-teal);
+						font-family: var(--font-main);
+						font-size: var(--font-size-medium);
+						line-height: 2.5;
+						transition: var(--transition-time);
+						pointer-events: none;
+					}
+
 					#filters-medium-current:hover, #filters-medium-current:focus {
 						color: var(--medium-purple);
 						text-shadow: 0 0 var(--shadow-size) var(--medium-purple);
@@ -240,6 +257,11 @@
 
 				#filters-medium-form:not(:focus-within) #filters-medium-options {
 					display: none;
+				}
+
+				#filters-medium-form:focus-within::before, #filters-medium-form:hover::before {
+					color: var(--medium-purple);
+					text-shadow: 0 0 var(--shadow-size) var(--medium-purple);
 				}
 
 				#filters-medium-options {
@@ -313,7 +335,7 @@
 
 				#filters-search {
 					height: 100%;
-					width: calc(100% - (var(--font-size-large) + 4 * var(--gap-size-small)));
+					width: calc(100% - 2 * var(--gap-size-small));
 					border: none;
 					background-color: var(--medium-teal);
 					border-radius: calc(var(--border-radius) / 2);
@@ -326,8 +348,12 @@
 					box-sizing: border-box;
 					line-height: var(--line-height);
 					text-align: center;
-					margin-left: var(--gap-size-small);
 				}
+
+					#filters-search::placeholder {
+						opacity: 0.5;
+						color: var(--dark-purple);
+					}
 
 					#filters-search:hover, #filters-search:focus {
 						color: var(--medium-purple);
@@ -357,10 +383,10 @@
 					outline: none;
 					border: none;
 					transition: var(--transition-time);
-					color: var(--dark-purple);
+					color: var(--dark-teal);
 					padding: 0;
 					position: relative;
- 					height: calc(var(--font-size-medium) * 1.5);
+ 					height: 100%;
  					width: calc(var(--font-size-medium) * 1.5);
  					margin-left: calc(-1.5 * var(--font-size-medium));
 					z-index: 2;
@@ -386,6 +412,7 @@
 					transition: var(--transition-time);
 					vertical-align: top;
 					margin-right: var(--gap-size-small);
+					display: none;
 				}
 
 					#filters-submit svg, #filters-submit:visited svg {
@@ -560,6 +587,7 @@
 					opacity: 0.5;
 					cursor: pointer;
 					transition: var(--transition-time);
+					outline: none;
 				}
 
 				.project-gallery-arrow-right {
@@ -714,6 +742,8 @@
 							width: 100%;
 							height: 100%;
 							overflow: hidden;
+							box-sizing: border-box;
+							padding: var(--gap-size-large);
 						}
 
 						#content-cards:not(:empty) ~ #content-empty {
@@ -760,6 +790,7 @@
 /* FOOTER */
 	#footer {
 		background-color: var(--dark-teal);
+		filter: drop-shadow(0 0 var(--shadow-size) var(--dark-purple));
 	}
 
 		#stream {
@@ -783,10 +814,70 @@
 
 
 /* MOBILE */
-	/* ??? TO DO ??? */
-	/* - fix filter bar padding on mobile */
-
 	@media screen and (max-width: 900px) {
+		#about {
+			height: calc(100vh - (var(--font-size-large) * 2 + 2 * var(--gap-size-large)) - (var(--gap-size-large) * 2) - (var(--font-size-large) + 2 * var(--gap-size-small)) - var(--stream-height) - (var(--font-size-small) + 2 * var(--gap-size-small)));
+		}
+
+			#about-images {
+				display: none;
+			}
+
+			#about-description {
+				height: calc(100% - var(--font-size-medium) - var(--gap-size-large) * 3);
+			}
+
+		#filters {
+			position: relative;
+			top: 0;
+			left: 0;
+			height: calc(var(--font-size-large) * 2 + 2 * var(--gap-size-small) + var(--gap-size-large));
+		}
+
+			#filters-medium-form:focus-within ~ #filters-of-outer {
+				opacity: 0;
+			}
+
+			#filters-medium-current {
+				font-size: calc(var(--font-size-large) * 0.75);
+			}
+
+			#filters-medium-options {
+				position: relative;
+				top: 0;
+				left: 0;
+				z-index: 10;
+			}
+
+			.filter-medium-suggestion {
+				text-align: left;
+			}
+
+			#filters-of-outer {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				z-index: 3;
+			}
+
+			#filters-of-inner {
+				background: transparent;
+			}
+
+			#filters-search {
+				font-size: calc(var(--font-size-large) * 0.75);
+				padding: var(--gap-size-small) calc(var(--font-size-medium) * 1.5) var(--gap-size-small) calc(var(--font-size-medium) * 1.5) !important;
+			}
+
+			#filters-topic-form {
+				border-radius: 0;
+			}
+
+		#header[collapsed="true"] ~ #content {
+			height: calc(100% - (var(--font-size-large) * 2 + 3 * var(--gap-size-large)) - (var(--font-size-large) + 2 * var(--gap-size-small)) - var(--stream-height) - (var(--font-size-small) + 2 * var(--gap-size-small)));
+		}
+
 		#content {
 			padding-left: 0;
 			padding-right: 0;
@@ -829,12 +920,20 @@
 					display: none;
 				}
 
-		#about-images {
-			display: none;
+		#content-empty-main-message {
+			font-size: calc(var(--font-size-large) * 0.75);
 		}
 
-		#about-description {
-			height: calc(100% - var(--font-size-medium) - var(--gap-size-large) * 3);
+		#content-empty-secondary-message {
+			font-size: calc(var(--font-size-medium) * 0.75);
+		}
+
+		#content-empty-all-projects-message {
+			font-size: calc(var(--font-size-medium) * 0.75);
+		}
+
+		#content-empty-all-projects-button {
+			font-size: calc(var(--font-size-medium) * 0.75);
 		}
 	}
 

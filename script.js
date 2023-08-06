@@ -4,7 +4,6 @@
 		// --> add pictures to intro section
 		// --> friend of ...		
 		// resumé PDF
-		// filter bar - mobile styling
 		// if link is logo (svg), the background color of the button is transparent and the logo fill is dark purple (and medium purple when hover) ...? (doable?)
 		// add gallery (and link to gallery) of KD logo in progress...
 		// left-menu with down carrot
