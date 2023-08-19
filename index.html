@@ -55,9 +55,9 @@
 				</div>
 			</div>
 			<div id="about-images">
-				<img src="https://media.licdn.com/dms/image/C5603AQE64r4HO7nq_w/profile-displayphoto-shrink_200_200/0/1517535863457?e=1691625600&v=beta&t=Lm9vFXlrEOXBDIS0Snw3I28zgok5ZVysp6UKNr8at-I">
-				<img src="https://media.licdn.com/dms/image/C5603AQE64r4HO7nq_w/profile-displayphoto-shrink_200_200/0/1517535863457?e=1691625600&v=beta&t=Lm9vFXlrEOXBDIS0Snw3I28zgok5ZVysp6UKNr8at-I">
-				<img src="https://media.licdn.com/dms/image/C5603AQE64r4HO7nq_w/profile-displayphoto-shrink_200_200/0/1517535863457?e=1691625600&v=beta&t=Lm9vFXlrEOXBDIS0Snw3I28zgok5ZVysp6UKNr8at-I">
+				<img src="images/about-1.jpg">
+				<img src="images/about-2.jpg">
+				<img src="images/about-3.jpg">
 			</div>
 		</div>
 		<div id="filters">
@@ -71,11 +71,11 @@
 			<form id="filters-topic-form" method="post" action="javascript:;">
 				<input id="filters-search" type="text" placeholder="...projects" autocomplete="off" autocapitalize="off" spellcheck="false">
 				<input id="filters-clear" type="reset" value="&times;" readonly>
-				<button id="filters-submit">
+				<div id="filters-magnifying-glass">
 					<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
 						<path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
 					</svg>
-				</button>
+				</div>
 				<div id="filters-suggestions"></div>
 				<select id="filters-topic"></select>
 			</form>
@@ -89,10 +89,14 @@
 			<div id="content-empty-content">
 				<h3 id="content-empty-main-message">Hmmm... No projects match your search.</h3>
 				<p id="content-empty-secondary-message">Try a different search, or check out:</p>
-				<button class="project-section-tags-tag content-empty-button" value="Kniterative Designs">Kniterative Designs</button>
-				<button class="project-section-tags-tag content-empty-button" value="3d art">3D art / Blender projects</button>
-				<button class="project-section-tags-tag content-empty-button" value="music">Original Music Compositions</button>
-				<p id="content-empty-all-projects-message">You can also view / search within <button id="content-empty-all-projects-button" class="project-section-tags-tag">all projects</button>.</p>
+				<button class="content-empty-button" value="cats">cats</button>
+				<button class="content-empty-button" value="clothes">handmade clothes</button>
+				<button class="content-empty-button" value="gifts">gifts</button>
+				<button class="content-empty-button" value="Kniterative Designs">Kniterative Designs</button>
+				<button class="content-empty-button" value="3d art">3D art / Blender projects</button>
+				<button class="content-empty-button" value="music">original music</button>
+				
+				<p id="content-empty-all-projects-message">You can also view / search within <button id="content-empty-all-projects-button" class="content-empty-button">all projects</button>.</p>
 			</div>
 		</div>
 	</section>
