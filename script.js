@@ -1,25 +1,28 @@
 // TO DO ???  
-	// Liz & James codin' stuff
 
 	// projects JSON additions/revisions
 		// add dates 
+		// switch tutorial links to be in description instead of external links button
+		// add descriptions for other projects?
+		// friends of... cards
+			// Demo Day -- slide decks?
+		// add more recent projects
+		// missing project pictures
+			// add gallery (and link to gallery) of KD logo in progress...
 		// fix tags in projects json (& duplicate tags for capitalization)
 			// 3d art not working displaying as expected when filtered?
-		// switch tutorial links to be in description instead of external links button
-		// reassess descriptions
-		// finish intro blurb for about section
-		// friends page project cards / links
-		// add more recent projects
-		// album artwork shouldn't show on music medium
-		// missing project pictures
-		// friend of... cards
+			// album artwork shouldn't show on music medium
+			// painting and blender models shouldn't show up in knitting, sewing, etc.
 		// resume PDF
-		// add gallery (and link to gallery) of KD logo in progress...
 
 
-// After MVP
+
+
+	// After MVP
 		// if medium and search combo doesn't yield anything, in "empty" section, can we suggest any mediums that would yield a result with that search term?
 		// stream ?
+		// teacher of... (knitting slide deck, OG stories, SLP summative doc, etc.)
+		// ..."one stitch at a time" slides??
 
 // ELEMENTS
 	var ELEMENTS = {
@@ -56,6 +59,7 @@
 				tag: "design",
 				topics: {
 					"Kniterative Designs": "kd",
+					"   prototypes":"prototypes",
 					"   bunnies": "bunnies",
 					"   cats": "cats",
 					"   dogs": "dogs",

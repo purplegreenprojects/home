@@ -25,7 +25,7 @@
 				"keywords": ["art","3D","blender","render","scene","donut","coffee", "blender guru","tutorial", "vase","flower","flowers","glass","breakfast", "first projects", "virtual"],
 				"photos": ["blender/images/blendercafe.gif"],
 				"link": "",
-				"description": "Based on the <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>Donut Tutorial by Blender Guru</a>"
+				"description": "Based on the <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>Donut Tutorial by Blender Guru. I added a cherry blossom branch, also based on a Blender Guru tutorial, for an extra little decoration.</a>"
 			},
 
 			{
@@ -35,7 +35,7 @@
 				"keywords": ["art","3D","blender","render","asset","model","vase","flower","flowers","virtual"],
 				"photos": ["blender/images/budvase.png"],
 				"link": "",
-				"description": ""
+				"description": "I used the process outlined by Blender Guru for making a glass coffee cup to make my first original design in Blender - a little vase for my Blender Cafe scene."
 			},
 
 			{
@@ -117,7 +117,7 @@
 				"keywords": ["art","3D","blender","render","asset","model", "exercise","virtual"],
 				"photos": ["blender/images/yogamat.png"],
 				"link": "https://purplegreenprojects.com",
-				"description": "See if you can spot this in the scene!"
+				"description": "See if you can spot this in the <a href='www.purplegreenprojects.com/room' target='_blank'>room</a>!" //???
 			},
 
 			{
@@ -289,9 +289,8 @@
 				"date": "7/1/2017", //guessing that it was before I launched my Etsy shop (Aug/Sept 2017), because I don't remember using the old logo for that ever; was def before 12/2017 (which is when I have files dated)
 				"tags": ["digital art", "Kniterative Designs",],
 				"keywords": ["art","art","digital","knit","kd","kniterative", "logo", "etsy", "business"],
-				"photos": ["art/images/kdlogofull.png"],
-//gallery of process of designing it??
-				"link": "https://purplegreenprojects.com/kdcustomorder/",
+				"photos": ["art/images/kdlogofull.png"], // ???
+				"link": "https://purplegreenprojects.com/kdcustomorder/", //??? (add gallery for KD logo iterations, process)
 				"description": ""
 			},
 
@@ -377,13 +376,23 @@
 		// paintings
 
 			{
-				"name": "Knitting",
-				"date": "",
+				"name": "Knitting (in blue)",
+				"date": "1/19/2016",
 				"tags": ["paintings", "acrylic", "knitting"],
 				"keywords": ["art","painting","paint","knit","knitting"],
 				"photos": ["art/images/knitting.png"],
 				"link": "",
-				"description": ""
+				"description": "First painting project as an adult... I'd played around with watercolors when I was little, but nothing serious. This was the first time I bought a canvas and some acrylic paint and took the risk..."
+			},
+
+			{
+				"name": "Knitting (in green)",
+				"date": "9/13/2016",
+				"tags": ["paintings", "acrylic", "knitting"],
+				"keywords": ["art","painting","paint","knit","knitting"],
+				"photos": ["art/images/knitting.png"],
+				"link": "",
+				"description": "After I made the first version, in blue, I used tracing paper to duplicate the image so I could make another one for Grandma Fran - in her favorite color."
 			},
 
 			{
@@ -393,7 +402,7 @@
 				"keywords": ["art","watercolor","bunny","rabbit","cat","kitten", "kitty", "puppy","dog","furry friends"],
 				"photos": ["art/images/kdfurryfriends.png"],
 				"link": "",
-				"description": ""
+				"description": "Some simple doodles in watercolor"
 			},
 
 			{
@@ -403,7 +412,7 @@
 				"keywords": ["art","paint","painting","nature","kayak","river"],
 				"photos": ["art/images/kayaking.png"],
 				"link": "https://www.youtube.com/watch?v=j20pZ96E_CE",
-				"description": ""
+				"description": "The result of the first (of many) painting nights with friends. In theory we were following a Bob Ross Tutorial, although at a certain point I decided I liked the background I'd created and feared that I might ruin the whole thing by messing up the foreground... So I added a kayaker and called it a day."
 			},
 
 			{
@@ -413,7 +422,7 @@
 				"keywords": ["art","paint","painting","river","water", "flower","flowers","something less boring","slb", "tutorial"],
 				"photos": ["art/images/waterlillies.png"],
 				"link": "https://www.somethinglessboring.co.uk/",
-				"description": ""
+				"description": "Inspired by Monet's water lillies - based on a tutorial by <a href='https://www.somethinglessboring.co.uk/' target='_blank'>Something Less Boring</a>. During the early days of the COVID lockdowns there were weekly tutorials online for £5, and my mom and my aunt and bonded through painting parties, following SLB's tutorials, via videocall."
 			},
 
 			{
@@ -423,7 +432,7 @@
 				"keywords": ["art","watercolor","paint","painting","food","something less boring","slb", "tutorial"],
 				"photos": ["art/images/oranges.png"],
 				"link": "https://www.somethinglessboring.co.uk/",
-				"description": ""
+				"description": "Based on an online tutorial by <a href='https://www.somethinglessboring.co.uk/' target='_blank'>Something Less Boring</a>. I learned a lot about the importance of layers in painting - especially when it comes to watercolors."
 			},
 
 			{
@@ -433,7 +442,7 @@
 				"keywords": ["art","watercolor","paint","painting","food", "tutorial"],
 				"photos": ["art/images/cherries.png"],
 				"link": "https://www.youtube.com/watch?v=EZGBCdobwVw",
-				"description": ""
+				"description": "Based on an online tutorial by <a href='https://www.somethinglessboring.co.uk/' target='_blank'>Something Less Boring</a>. I was pleasantly surprised by how well this turned out - aside from the part where I smudged it because I stupidly brushed away eraser shavings before the paint was fully dry!"
 			},
 
 			{
@@ -443,7 +452,7 @@
 				"keywords": ["art","watercolor","paint","painting","food", "tutorial"],
 				"photos": ["art/images/blueberries.png"],
 				"link": "https://www.youtube.com/watch?v=9sM7TwhPD30",
-				"description": ""
+				"description": "Based on an online tutorial by <a href='https://www.somethinglessboring.co.uk/' target='_blank'>Something Less Boring</a>."
 			},
 
 			{
@@ -452,8 +461,8 @@
 				"tags": ["paintings", "watercolor", "tutorial", "clothes"],
 				"keywords": ["art","watercolor","paint","painting","clothes", "tutorial"],
 				"photos": ["art/images/clothesline.png"],
-				"link": "https://www.youtube.com/watch?v=V77-G8UHBcI",
-				"description": ""
+				"link": "",
+				"description": "Practicing the techniques outlined in a <a href='https://www.youtube.com/watch?v=V77-G8UHBcI' target='_blank'>tutorial by Peter Sheeler</a>. I take a lot of giddy pleasure in being cheeky with my clothing choices!"
 			},
 
 			{
@@ -463,17 +472,17 @@
 				"keywords": ["art","watercolor","paint","painting","clothes", "tutorial"],
 				"photos": ["art/images/stormylaundry.png"],
 				"link": "",
-				"description": "Based on a <a href='https://www.youtube.com/watch?v=V77-G8UHBcI' target='_blank'>tutorial by Peter Sheeler</a>"
+				"description": "Based on a <a href='https://www.youtube.com/watch?v=V77-G8UHBcI' target='_blank'>tutorial by Peter Sheeler</a>."
 			},
 
 			{
 				"name": "Sunflowers",
-				"date": "3/3/2022",
+				"date": "9/30/2020", // I think it was one of the first if not the very first SLB tutorial I followed, pretty sure in the very earliest days of COVID...
 				"tags": ["paintings", "acrylic", "tutorial", "Van Gogh", "flowers"],
 				"keywords": ["art", "paint", "painting", "something less boring", "slb", "tutorial", "flowers", "sunflower", "sunflowers"],
 				"photos": ["art/images/sunflowers.png"],
 				"link": "https://www.somethinglessboring.co.uk/",
-				"description": ""
+				"description": "Inspired by Van Gogh's Sunflowers - based on a tutorial by <a href='https://www.somethinglessboring.co.uk/' target='_blank'>Something Less Boring</a>. This was one of the first - of many - tutorials that my mom and my aunt and I followed during weekend 'painting parties' via Zoom in the early days of the COVID lockdowns."
 			},
 
 			// {
@@ -489,12 +498,21 @@
 			{
 				"name": "Mountain Sunset",
 				"date": "12/11/21",
-				"tags": ["paintings", "watercolor","acrylic","tutorial"],
-				"keywords": ["art","watercolor","acrylic","paint","painting",],
+				"tags": ["paintings","acrylic","tutorial"],
+				"keywords": ["art","acrylic","paint","painting",],
 				"photos": [], // *???*
 				"link": "",
 				"description":"<a href='https://www.youtube.com/watch?v=e63Cgln6Yag' target='_blank'>Bob Ross</a> says I make the rules in my world... So in my world, the trees are purple."
-// NEED TO LINK TO TUTORIAL
+			},
+
+			{
+				"name": "Sunflowers for Ukraine",
+				"date": "3/3/2022",
+				"tags": ["paintings", "acrylic", "tutorial", "sunflowers"],
+				"keywords": ["art","acrylic","paint","painting"],
+				"photos": [], // ??? add gallery
+				"link": "",
+				"description": "This was a tutorial by Something Less Boring - all proceeds were donated to relief efforts to help the people of Ukraine in the early days of the war."
 			},
 
 			{
@@ -505,7 +523,6 @@
 				"photos": [], // *???*
 				"link": "",
 				"description":"Wedding Present for Mom and Bob, to go with a <a href='https://www.goodreads.com/quotes/147424-two-trees-a-portion-of-your-soul-has-been-entwined' target='_blank'>poem by Janet Miles,</a> (which Aunt Diana read at their wedding)"
-// NEED TO LINK TO POEM			
 			},
 
 			{
@@ -543,7 +560,7 @@
 				"date": "2/18/2023",
 				"tags": ["paintings","acrylic","tutorial"],
 				"keywords": ["art","watercolor","acrylic","paint","painting",],
-				"photos": [],
+				"photos": [], // ???
 				"link": "",
 				"description":"Loosely based on a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>"
 			},
@@ -554,16 +571,16 @@
 			// 	"keywords": ["art","watercolor","acrylic","paint","painting",],
 			// 	"photos": [],
 			// 	"link": "",
-			// 	"description":"Very loosely based on a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>"
+			// 	"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
 			// },
 			{
 				"name": "Summer - Seasons Series",
 				"date": "8/6/2023",
 				"tags": ["paintings","acrylic","tutorial",],
 				"keywords": ["art","watercolor","acrylic","paint","painting",],
-				"photos": [],
+				"photos": [], // ???
 				"link": "",
-				"description":"Very loosely based on a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>"
+				"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
 			},
 			// {
 			// 	"name": "Fall - Seasons Series",
@@ -572,10 +589,8 @@
 			// 	"keywords": ["art","watercolor","acrylic","paint","painting",],
 			// 	"photos": [],
 			// 	"link": "",
-			// 	"description":"Very loosely based on a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>"
+			// 	"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
 			// },
-
-
 
 		// drawings
 
@@ -598,8 +613,19 @@
 				"keywords": ["art","colored pencil","draw","drawing","paint","painting", "food", "purple","green", "onion", "pepper"],
 				"photos": ["art/images/onionandpepper.png"],
 				"link": "",
-				"description": ""
+				"description": "I hadn't drawn anything in long time, so I bought a red (purple) onion and a green pepper from Foodtown (in the Bronx, where James was living and I was visiting), turned on a very bright light off to one side, and drew what I saw."
 			},
+
+			{
+				"name": "Selections from Sketchbooks",
+				"date": new Date(),
+				"tags": ["drawings art", "ink", "pen", "sketch", "sketching", "dinosaur", "special"],
+				"keywords": ["art","colored pencil","draw","drawing","paint","painting", "food", "purple","green", "onion", "pepper"],
+				"photos": [""], // ???
+				"link": "",
+				"description": "Inspired by <a href='https://www.youtube.com/@SketchBookSkool' target='_blank'>Danny Gregory's encouraging Sketchbook Skool videos</a>, I gave sketching - with a pen, not a pencil - a try for a bit... I go in fits and spurts, but the practice has resulted in some real gems that are very special to me."
+			},
+
 
 		// other art
 
@@ -610,20 +636,20 @@
 				"keywords": ["art","class","workshop"],
 				"photos": ["art/images/glass1.png","art/images/glass2.png","art/images/glass3.png"],
 				"link": "https://jamesmayr.com/blog/#glassmaking-with-liz",
-				"description": "Created at a fused glass art class through the <a href='https://www.1hotpieceofglass.com/collections/classes/products/copy-of-summer-fused-glass-classes?variant=' target='_blank'>Luke Adams Glassblowing Sudio</a>. James wrote a <a href='https://jamesmayr.com/blog/#glassmaking-with-liz' target='_blank'>blog post</a> about the experience."
+				"description": "Created in a fused glass art class at the <a href='https://www.1hotpieceofglass.com/collections/classes/products/copy-of-summer-fused-glass-classes?variant=' target='_blank'>Luke Adams Glassblowing Sudio</a>. James wrote a <a href='https://jamesmayr.com/blog/#glassmaking-with-liz' target='_blank'>blog post</a> about the experience."
 			},
 
 	// WRITING
 
 			{
 				"featured": true,
-				"name": "PurpleGreen Projects blog",
+				"name": "current blog",
 				"date": new Date(),
 				"tags": ["blog","writing","Kniterative Designs"],
 				"keywords": ["stories","story","life"],
 				"photos": [""], // *???*
 				"link": "https://purplegreenprojects.com/blog/",
-				"description": ""
+				"description": "More detailed descriptions of my works-in-progress, sometimes organized into thematic series of posts, with some musings on the creative process, my life experiences, and random ideas mixed in."
 			},
 
 			{
@@ -634,16 +660,16 @@
 				"keywords": ["poems","poem","life"],
 				"photos": [""], // *???*
 				"link": "https://purplegreenprojects.com/couplets/",
-				"description": ""
+				"description": "A collaboration with James, inspired by his poetry blog from several years ago and born out of my desire to challenge myself to write more poetry. The result was a dialogue, recorded for posterity, documenting some really tumultuous times - my first job, the pandemic, the death of two of my grandparents... - and also some really beautiful mooments."
 			},
 
 
 			{
 				"name": "other poetry",
-				"date": "7/1/2019", //before first couplets poem
+				"date": "7/1/2019", //before first couplets poem // ???
 				"tags": ["writing", "poetry"],
 				"keywords": [""], // *???*
-				"description": "",
+				"description": "Selections from poetry of mine before the <a href='https://purplegreenprojects.com/couplets/' target='_blank'>Couplets</a> project - mostly from high school.",
 				"slides": [
 					{
 						"photo": "stories/images/1.jpg",
@@ -754,7 +780,7 @@
 				"keywords": ["sew","sewn","sewing","case","bag","bags","game","games"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/25/20%20Gameboy%20cover%20sewing%201.jpg?itok=XiQZO09J"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/nintendo-switch-case",
-				"description": ""
+				"description": "Made for James, to hold the Switch and all of the game cartridges! It just so happened that when I went to get a zipper, the only one the store had that was the size I needed was red. I had already planned to make the rest of the case out of black and electric blue fabric (James' favorite colors) but the red zipper ended up accidentally fitting the color scheme of the Nintendo Switch itself!"
 			},
 			{
 				"name": "Big Girl (Reversible) Bag",
@@ -763,7 +789,7 @@
 				"keywords": ["sew","sewn","sewing","bag","bags","career","profession","professional","reversible","accessory","accessories"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20180911_070641305.jpg?itok=hPWpfXH1"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/big-girl-bag-reversible",
-				"description": ""
+				"description": "Read about the process of making this bag on <a href='https://purplegreenprojects.com/blog/#adventure-bags-part-4-big-girl-bag-for-my-big-grad-adventures' target='_blank'>my blog</a>."
 			},
 			{
 				"name": "Bags for Mom and Grandma",
@@ -772,7 +798,7 @@
 				"keywords": ["sew","sewn","sewing","gift","grandma fran","mom","bag","bags","accessory","accessories"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20171224_132413237.jpg?itok=C7fb4cuD"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/tote-bags-mom-and-grandma",
-				"description": ""
+				"description": "Read about the story behind these bags on <a href='https://purplegreenprojects.com/blog/#adventure-bags-part-3-bags-for-toting-memories' target='_blank'>my blog</a>"
 			},
 			{
 				"featured": true,
@@ -782,7 +808,7 @@
 				"keywords": ["sew","sewn","sewing","bag","bags","accessory","accessories","NYC"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20170715_204102926.jpg?itok=bl7MGkJm"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/adventure-bag",
-				"description": ""
+				"description": "Read all about the process of designing and making this bag on <a href='https://purplegreenprojects.com/blog/#adventure-bags-part-2-the-original-adventure-bag' target='_blank'>my blog</a>."
 			},
 
 		// DRESSES
@@ -795,7 +821,7 @@
 				"keywords": ["sew","sewn","sewing","dress","dresses","moneta","flowers","floral","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/14/IMG_8025.JPG?itok=xThyw_BA"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/iris-moneta",
-				"description": ""
+				"description": "Got the fabric on sale - 2 yards for ~$4, if my memory is correct! There was one little rip (or maybe accidental cut?) which I arranged to be on the back, near the neckline, and which I simply handsewed closed. I went rogue on the sleeves, choosing to experiment to come up with 'flowy' sleeves rather than traditional short sleeves - I love the result."
 			},
 
 			{
@@ -825,7 +851,7 @@
 				"keywords": ["sew","sewn","sewing","prototype","dress","dresses","moneta","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/15/IMG_20200927_182034631.jpg?itok=3_59kC6l"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/practice-moneta-old-gray-bedsheet-version",
-				"description": ""
+				"description": "The first article of clothing (aside from pajama pants and costume pieces) that I sewed for myself. I made this test dress out of an old sheet!"
 			},
 
 		// SHIRTS
@@ -846,7 +872,7 @@
 				"keywords": ["sew","sewn","sewing","prototype","blouse","blouses","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/15/IMG_20201007_230719591.jpg?itok=TDJbAITI"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/knit-top-practice",
-				"description": ""
+				"description": "Made this top out of the same old sheet I used to make my first Moneta dress."
 			},
 
 		// SKIRTS
@@ -858,7 +884,7 @@
 				"keywords": ["sew","sewn","sewing","skirt","skirts","handmade clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20200602_172303769.jpg?itok=pxUVqM-7"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/skirts-me-no-pattern-1-yard-fabric-each",
-				"description": ""
+				"description": "The fabric reminded me of how knitting looks, so I sewed a skirt out of it."
 			},
 			{
 				"name": "Sunflower skirt",
@@ -867,7 +893,7 @@
 				"keywords": ["sew","sewn","sewing","skirt","skirts","handmade clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/04/IMG_20180916_144742677_HDR.jpg?itok=yVOict1_"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/skirts-me-no-pattern-1-yard-fabric-each",
-				"description": ""
+				"description": "Made in the last few days of summer before my second year of grad school."
 			},
 
 		// PJ PANTS
@@ -879,7 +905,7 @@
 				"keywords": ["sew","sewn","sewing","gift","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/04/IMG_20210102_151356772.jpg?itok=YX37B5Ku"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
-				"description": ""
+				"description": "For Lyn, for Secret Santa 2020"
 			},
 			{
 				"name": "Monsters Inc. PJ Shorts",
@@ -888,7 +914,7 @@
 				"keywords": ["sew","sewn","sewing","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/14/IMG_20210714_163941760.jpg?itok=2Ocds1O_"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
-				"description": ""
+				"description": "My Grandma actually bought this fabric for me when I was a kid - the same summer she helped me make pajama pants for me and a tent and sleeping bags for my dolls. We didn't get around to using this fabric, so I kept it in my stash for... probably almost 20 years. Then, during a sewing phase, I finally made it into pajama shorts - fulfilling its original purpose."
 			},
 			{
 				"name": "Knitting PJ pants",
@@ -907,7 +933,7 @@
 				"keywords": ["sew","sewn","sewing","blanket","music","gift","home decor"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/15/IMG_20180830_130435931.jpg?itok=eJIc4H1v"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/music-blanket",
-				"description": ""
+				"description": "For James (and me). I tried designing this blanket to take into account the fact that his feet are always cold and I frequently stick mine out from under blankets because I get too warm. The blanket is segmented, with 'buttons' made out of felt to open/close different aeration slits. It also has a sort of sleeping bag just for feet at the base. In all honesty, we've never ended up using it much, but I'm still glad I made it - out of the leftover fabric I still had after making him music note themed pajama pants."
 			},
 			{
 				"name": "Music PJ pants",
@@ -916,7 +942,7 @@
 				"keywords": ["sew","sewn","sewing","music","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20210708_201628945.jpg?itok=0SEk-Sd_"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
-				"description": ""
+				"description": "For James"
 			},
 			{
 				"name": "Majora's Mask PJ pants",
@@ -925,7 +951,7 @@
 				"keywords": ["sew","sewn","sewing","gift","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/04/IMG_20191210_185504811_HDR.jpg?itok=clUAn9Kx"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
-				"description": ""
+				"description": "For Dan, for Secret Santa 2019. He liked the Windwaker PJ pants I made for James so much that I decided he should have a pair of his own - made out of fabric depicting his favorite Zelda game."
 			},
 
 			{
@@ -935,7 +961,7 @@
 				"keywords": ["sew","sewn","sewing","gift","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20210708_201857742.jpg?itok=q7Q9EbF1"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
-				"description": ""
+				"description": "For James - the first present I made him, for our first anniversary, after he'd introduced me to the world of The Legend of Zelda - specifically Windwaker."
 			},
 
 		// TOYS
@@ -947,7 +973,7 @@
 				"keywords": ["sew","sewn","sewing","toy"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/doll%20couch.png?itok=k0zjIx4t"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/18-doll-sofa-bed",
-				"description": ""
+				"description": "Made with the help and oversight and mentorship of Grandma Fran"
 			},
 			{
 				"name": "Doll Tent and Sleeping Bags",
@@ -956,7 +982,7 @@
 				"keywords": ["sew","sewn","sewing","toy"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/dog%20sleeping%20bag%20and%20tent.png?itok=Lugu8zhV"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/tent-and-sleeping-bags-18-dolls",
-				"description": ""
+				"description": "First major sewing project with Grandma Fran where I got to do the actual cutting and sewing fabric parts, in addition to the picking out fabric part."
 			},
 
 		// OTHER SEWING
@@ -968,7 +994,7 @@
 				"keywords": ["sew","sewn","sewing","accessory","accessories","hat","gift"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/14/IMG_20201231_154403468_0.jpg?itok=ImKnGP-H"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/cat-hood",
-				"description": ""
+				"description": "For James, who dreams of being a cat. (Also our apartment gets so cold in the winter, it's helpful for keeping warm!)"
 			},
 			
 			{
@@ -978,7 +1004,7 @@
 				"keywords": ["sew","sewn","sewing","home decor", "furniture"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_1384.JPG?itok=JS5jtgiT"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/butterfly-chair-covercushion",
-				"description": ""
+				"description": "Handcrafted replacement for a store-bought butterfly chair. The cushion part had been starting to rip at the seams, so on a whim I decided to make a new one, using the old one as a rough template. It turned out pretty well and allowed me to continue using the frame for a few more years."
 			},
 			
 	// KNITTING
@@ -991,7 +1017,7 @@
 					"name": "Carrots",
 					"date": "12/28/2017",
 					"tags": ["Kniterative Designs", "crochet", "carrots","food","toys","bunnies"],
-					"keywords": ["kniterative designs", "kniterative", "kd", "bunny", "bunnies", "rabbit", "rabbits", "crochet","food","carrot"],
+					"keywords": ["kniterative designs", "kniterative", "design", "kd", "bunny", "bunnies", "rabbit", "rabbits", "crochet","food","carrot"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/601963449/upload_medium2",
 						"https://images4-f.ravelrycache.com/uploads/KDpurplegreen/900645059/IMG_20180407_160908680_1__medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/crocheted-carrots",
@@ -1002,20 +1028,20 @@
 					"name": "Fish",
 					"date": "9/30/2020",
 					"tags": ["Kniterative Designs", "crochet", "fish", "toys", "decorations"],
-					"keywords": ["crochet","kniterative designs","kd","fish","toy","decoration"],
+					"keywords": ["crochet","kniterative designs", "design", "kd","fish","toy","decoration"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/791016771/IMG_20200909_155149000_HDR_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/crocheted-fish",
-					"description": ""
+					"description": "A later addition to the Kniterative Designs pantheon. They're a bit fiddly, but quite pretty."
 				},
 				
 				{
 					"name": "Mice",
 					"date": "11/23/2018",
 					"tags": ["Kniterative Designs","crochet", "mouse","mice", "toys", "decorations"],
-					"keywords": ["kd","crochet", "cat", "cats", "toy", "decoration"],
+					"keywords": ["kd", "kniterative designs", "design", "crochet", "cat", "cats", "toy", "decoration"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/715785584/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/crocheted-mice",
-					"description": ""
+					"description": "After designing a knitted cat pattern, a natural next step was to make mice!"
 				},
 
 			//Bunnies
@@ -1025,254 +1051,264 @@
 					"name": "Franny",
 					"date": "8/30/2020",
 					"tags": ["Kniterative Designs","knitting", "bunnies", "toys"],
-					"keywords": ["kd", "bunny", "rabbit", "knit", "knitting", "knitted", "toy"],
+					"keywords": ["kd", "kniterative designs", "design", "bunny", "rabbit", "knit", "knitting", "knitted", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/728168086/upload_medium2",
 						"https://images4-f.ravelrycache.com/uploads/eef25/728168133/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/knitpicks-fable-fur-bunny",
-					"description": ""
+					"description": "Franny may be available for adoption... I haven't made a final decision yet. I may not be able to part with her..."
 				},
 
 				{
 					"name": "Teddy",
 					"date": "7/12/2019",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"keywords": ["kd", "kniterative designs", "design", "bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715766025/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/teddy-the-fuzzy-brown-bunny",
-					"description": ""
+					"description": "Teddy is available for adoption!"
 				},
 
 				{
 					"name": "Pedro",
 					"date": "3/4/2018",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/601963453/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/tan-corduroy-bunny-pedro",
-					"description": ""
+					"description": "Pedro was adopted and moved to Halfmoon, NY"
 				},
 
 				{
 					"name": "Rosie (the Rabbiter)",
 					"date": "2/28/2018",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/715730393/IMG_20180224_011125925.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/rosie---the-rabbiter",
-					"description": ""
+					"description": "Rosie was adopted and moved to Ballston Spa, NY"
 				},
 
 				{
 					"name": "Nibbles",
 					"date": "12/20/2017",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","commission","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","commission","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/601983891/IMG_2394_medium2.JPG"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/nibbles-for-jenn-commissioned-by-max",
-					"description": ""
+					"description": "Nibbles was adopted and moved to Newburgh, NY"
 				},
 
 				{
 					"name": "Penelope",
 					"date": "12/17/2015",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/384669806/IMG_3393_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/impossibly-fuzzy-bunny",
-					"description": ""
+					"description": "Penelope was adopted and moved to Oslo, Norway! (My first international sale!)"
+				},
+
+				{
+					"name": "Owen",
+					"date": "5/29/2015",
+					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
+					"keywords": ["kd","kniterative designs","design","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"photos": ["https://images4-a.ravelrycache.com/uploads/Kniterative/306080468/IMG_1438_medium2.JPG"],
+					"link": "https://www.ravelry.com/projects/Kniterative/white-corduroy-bunny",
+					"description": "Owen was adopted and moved to Latham, NY"
 				},
 
 				{
 					"name": "Isabella",
 					"date": "3/15/2017",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/437404910/thumb_IMG_5603_1024_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/pink-bunny-revising-the-pattern-isabella",
-					"description": ""
+					"description": "Isabella was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
 				},
 
 				{
 					"name": "Bravery Bunny",
 					"date": "12/25/2015",
-					"tags": ["Kniterative Designs", "knitting", "bunnies","toys","gifts"],
-					"keywords": ["kd","gift","bunny","rabbit","knit","knitted","knitting", "toy", "grandpa john"],
+					"tags": ["knitting", "bunnies","toys","gifts"],
+					"keywords": ["gift","bunny","rabbit","knit","knitted","knitting", "toy", "grandpa john"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/347319067/IMG_1829_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/bravery-bunny-for-grandpa-john",
-					"description": ""
+					"description": "A gift for Grandpa John, Christmas 2015. This friend stayed by my Grandpa throughout his cancer journey, and when he passed my Grandma Fran cherished it for the rest of her life. Now he's back with me."
 				},
 
 				{
 					"name": "Baby Bunny",
 					"date": "3/12/2016",
 					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","bunny","rabbit","commission","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","bunny","rabbit","commission","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/363878603/tumblr_o3x5t7hpun1tdp74do1_1280_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/baby-bunny-for-aunt-ellyn",
-					"description": ""
+					"description": "Commissioned by Aunt Ellyn, for a baby shower"
 				},
 
 			// Knittens / Cats
 
 				{
 					"name": "Taylor",
-					"date": "",
+					"date": "11/2/2018",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","cat", "kitty", "kitten", "knitten","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","cat", "kitty", "kitten", "knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715763214/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/taylor-the-yellow-and-white-striped-knitten",
-					"description": ""
+					"description": "Taylor is currently available for adoption!"
 				},
 
 				{
 					"name": "Callie",
-					"date": "",
+					"date": "5/2/2019",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","cat","kitten","knitten","kitty","calico","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","cat","kitten","knitten","kitty","calico","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/624068854/IMG_20190425_212607532.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/callie-the-calico-kitten",
-					"description": ""
+					"description": "Callie is currently available for adoption!"
 				},
 
 				{
 					"name": "Adrienne",
-					"date": "",
+					"date": "11/10/2018",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","cat","kitten","kitty","knitten","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","cat","kitten","kitty","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/602057334/upload"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/adrienne-the-corduroy-cat-dark-gray-and-white",
-					"description": ""
+					"description": "Adrienne was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
 				},
 
 				{
 					"name": "Bartholomew",
-					"date": "",
+					"date": "2/7/2018",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","cat","kitten","kitty","knitten","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","cat","kitten","kitty","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/716636800/upload"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/bartholomew-the-gray-striped-knitten",
-					"description": ""
+					"description": "Bartholomew was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
 				},
 
 				{
 					"name": "Hilda",
-					"date": "",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys","gifts"],
-					"keywords": ["kd","gift","kitten","cat","kitty","knitten","siamese","knit","knitted","knitting", "toy"],
+					"date": "7/24/2017",
+					"tags": ["knitting", "kittens","cats","toys","gifts"],
+					"keywords": ["gift","kitten","cat","kitty","knitten","siamese","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/461689204/img_20170727_023820157_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/siamese-kitten",
-					"description": ""
+					"description": "A gift for Hilda, a poet and admirer of my knitted creations"
 				},
 
 				{
 					"name": "Apollo",
-					"date": "",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys","gifts"],
-					"keywords": ["kd","gift","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"date": "2/24/2017",
+					"tags": ["knitting", "kittens","cats","toys","gifts"],
+					"keywords": ["gift","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/432698020/IMG_5092_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/apollo-knitten",
-					"description": ""
+					"description": "Made for James for Christmas. James was the one who encouraged me to try designing a cat pattern after my success with my bunnies, so it was only fitting that I make a knitted version of his favorite real cat."
 				},
 
 				{
 					"featured": true,
 					"name": "Thomas",
-					"date": "",
+					"date": "7/5/2016",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/767144841/tree_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/thomas-the-orange-knitten",
-					"description": ""
+					"description": "Thomas was adopted and moved to Afton, VA"
 				},
 
 				{
 					"name": "Claire",
-					"date": "",
+					"date": "3/31/2016",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/367053653/IMG_2592_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/claire-the-yellow-cat",
-					"description": ""
+					"description": "Claire was adopted and moved to Grayslake, IL"
 				},
 
 				{
 					"name": "Amelia",
-					"date": "",
+					"date": "4/7/2016",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/767149356/amelia_medium2.png"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/amelia-the-light-gray-cat",
-					"description": ""
+					"description": "Amelia was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
 				},
 
 				{
 					"name": "Luca",
-					"date": "",
+					"date": "3/25/2016",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/368115695/IMG_2655_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/luca-the-dark-gray-cat",
-					"description": ""
+					"description": "Luca was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
 				},
 
 				{
 					"name": "Candy Corn",
-					"date": "",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys","gifts"],
-					"keywords": ["kd","gift","kitty","cat","kitten","knitten","knit","knitted","knitting", "halloween", "candy corn", "toy"],
+					"date": "11/21/2015",
+					"tags": ["knitting", "kittens","cats","toys","gifts"],
+					"keywords": ["gift","kitty","cat","kitten","knitten","knit","knitted","knitting", "halloween", "candy corn", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/338274958/tumblr_ny5mtdy6hu1tdp74do3_1280_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/candy-corn-cat",
-					"description": ""
+					"description": "A cat for my mom. She loves candy corn (and cats), so when I saw this yarn, I knew I wanted to make a candy corn cat for her!"
 				},
 
 				{
 					"name": "Olivia",
-					"date": "",
+					"date": "9/18/2015",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/325852176/IMG_0823_medium2.JPG"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/olivia-the-small-grey-cat",
-					"description": ""
+					"description": "Olivia was adopted and moved to Tempe, AZ"
 				},
 
 				{
 					"name": "Waldorf",
-					"date": "",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys","gifts"],
-					"keywords": ["kd","gift","kitty","cat","kitten","knitten","tuxedo", "knit","knitted","knitting", "toy"],
+					"date": "3/1/2016",
+					"tags": ["knitting", "kittens","cats","toys","gifts"],
+					"keywords": ["gift","kitty","cat","kitten","knitten","tuxedo", "knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/361759651/tumblr_o3jiroc1cj1tdp74do5_1280_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/tuxedo-kitten-for-dad",
-					"description": ""
+					"description": "My dad requested a tuxedo cat, which he named Waldorf, after Waldorf Tuxedos, a place in Albany where his father (my Grandpa Jim) worked for many years."
 				},
 
 				{
 					"name": "Pat",
-					"date": "",
+					"date": "1/27/2016",
 					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/767148815/pat_medium2.png"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/pat-the-gray-fuzzy-cat",
-					"description": ""
+					"description": "My first Kniterative Designs sale! Pat went to live in Cortez,CO"
 				},
 				
 				{
-					"name": "T. O'Malley",
-					"date": "",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"name": "Thomas O'Malley",
+					"date": "8/2/2015",
+					"tags": ["Kniterative Designs", "prototypes", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/325852600/20150802_190136_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/thomas-omalley",
-					"description": ""
+					"description": "My second ever proof-of-concept knitted cat -- a prototype for Kniterative Designs"
 				},
 
 				{
 					"name": "First knitten",
-					"date": "",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","prototype","kitty","cat","kitten","knitten","knit","knitted","knitting", "halloween", "black cat", "toy"],
+					"date": "7/1/2015",
+					"tags": ["Kniterative Designs","prototypes", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","design","prototype","kitty","cat","kitten","knitten","knit","knitted","knitting", "halloween", "black cat", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/325853300/IMG_0969_medium2.JPG"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/lucky-black-cat",
-					"description": ""
+					"description": "My first ever proof-of-concept knitted cat -- a prototype for Kniterative Designs"
 				},
 
 			// Puppies / Dogs
@@ -1280,132 +1316,132 @@
 				{
 					"featured": true,
 					"name": "Fred",
-					"date": "",
+					"date": "8/24/2018",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","dog","puppy","golden retriever","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","dog","puppy","golden retriever","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/715756211/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/fred-the-red-golden-retriever",
-					"description": ""
+					"description": "Fred is currently available for adoption!"
 				},
 
 				{
 					"name": "Banjo",
-					"date": "",
+					"date": "5/29/2018",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys","commission"],
-					"keywords": ["kd","dog","puppy","dachshund","commission","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","dog","puppy","dachshund","commission","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715732787/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/banjo-commission",
-					"description": ""
+					"description": "Commissioned by a woman I met at the Roost Holiday Craft Fair, Banjo is a knitted version of a beloved pet. He was given as baby shower present."
 				},
 
 				{
 					"name": "Valentine",
-					"date": "",
+					"date": "1/31/2020",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","puppy","dog","labrador","lab","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","puppy","dog","labrador","lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://kniterativedesigns.files.wordpress.com/2021/02/img_7407.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/valentine-the-pink-dog",
-					"description": "Valentine's Day Dog"	
+					"description": "Valentine is available for adoption!"	
 				},
 
 				{
 					"name": "Charlotte",
-					"date": "",
+					"date": "8/17/2018",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","puppy","dog","labrador","lab","black lab","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","puppy","dog","labrador","lab","black lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715759067/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/charlotte-the-black-lab",
-					"description": ""
+					"description": "Charlotte was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
 				},
 
 				{
 					"name": "Marcus",
-					"date": "",
+					"date": "6/26/2017",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","puppy","dog","border collie","collie","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","puppy","dog","border collie","collie","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/465091358/img_20170814_174417151_hdr_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/border-collie-marcus",
-					"description": ""
+					"description": "Marcus was adopted and traveled to McAllen, TX before moving to his final home in Mexico"
 				},
 
 				{
 					"featured": true,
 					"name": "Lady",
-					"date": "",
-					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys","gifts"],
-					"keywords": ["kd","gift","puppy","dog","knit","knitted","knitting", "toy"],
+					"date": "1/9/2017",
+					"tags": ["knitting", "puppies","dogs","toys","gifts"],
+					"keywords": ["gift","puppy","dog","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/422467321/IMG_4630_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/lady-dog-for-grandma-fran",
-					"description": ""
+					"description": "I made this friend for my Grandma Fran. She's a knitted version of their old dog, Lady, who I remember from when I was very little."
 				},
 
 				{
 					"name": "Jack",
-					"date": "",
+					"date": "10/25/2016",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","puppy","dog","lab","labrador","black lab","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","puppy","dog","lab","labrador","black lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/406325404/IMG_4388_medium2.JPG"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/jack-the-black-lab-take-2",
-					"description": ""
+					"description": "Jack was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
 				},
 
 				{
 					"name": "Chloe",
-					"date": "",
+					"date": "9/5/2016",
 					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","puppy","dog","labrador","lab","yellow lab","knit","knitted","knitting", "toy"],
+					"keywords": ["kd","kniterative designs","design","puppy","dog","labrador","lab","yellow lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/400065447/tumblr_oe1ba1oje81tdp74do1_1280_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/chloe-the-yellow-lab",
-					"description": ""
+					"description": "Chloe was adopted and moved to Schnectady, NY"
 				},
 
 				{
 					"name": "First puppy",
-					"date": "",
-					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","puppy","dog","labrador","lab","black lab","prototype","knit","knitted","knitting", "toy"],
+					"date": "6/17/2016",
+					"tags": ["Kniterative Designs", "prototypes", "knitting", "puppies","dogs","toys"],
+					"keywords": ["kd","kniterative designs","design","prototype","puppy","dog","labrador","lab","black lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/381698603/tumblr_o8y199hecg1tdp74do2_540_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/black-lab-first-knitted-dog",
-					"description": ""
+					"description": "My first ever proof-of-concept dog prototype for Kniterative Designs!"
 				},
 
 			// Horses
 
 				{
 					"name": "First Horse",
-					"date": "",
-					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys","gifts"],
-					"keywords": ["kd","gift","horse","mare","stallion","pony","knit","knitted","knitting", "toy", "grandma emily"],
+					"date": "11/1/2019", // approximate date - it was before Christmas 2019, and I worked on it on Halloween (and was almost done at that point)
+					"tags": ["Kniterative Designs", "prototypes", "knitting", "puppies","dogs","toys","gifts"],
+					"keywords": ["kd","kniterative designs","design","gift","horse","mare","stallion","pony","knit","knitted","knitting", "toy", "grandma emily"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/788401266/IMG_20210530_132707411_copy_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/first-horse#",
-					"description": "First horse, designed by me"	
+					"description": "First horse, designed by me, given to Grandma Emily"	
 				},
 
 		//GIFTS
 
 			{
-				"name": "Christmas Lamb for Grandma Fran",
-				"date": "",
+				"name": "Christmas Lamb",
+				"date": "12/10/2020",
 				"tags": ["knitted gifts","knitting","animals","sheep","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","toy","grandma fran"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/753619996/IMG_6673_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/christmas-lamb-for-grandma-fran",
-				"description": ""
+				"description": "For Grandma Fran in 2020"
 			},
 
 			{
 				"name": "Clyde",
-				"date": "",
+				"date": "8/1/2020",
 				"tags": ["knitted gifts","knitting","animals","frogs","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","frog", "toy"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/720854700/IMG_1456_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/frog-and-toad",
-				"description": ""
+				"description": "For Alex, to thank him for being a DM and commemorate my favorite character of his creation"
 			},
 
 			{
 				"name": "I love you to pieces socks",
-				"date": "",
+				"date": "5/22/2020",
 				"tags": ["knitted gifts","knitting","socks","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","socks", "accessory", "accessories", "clothes", "grandpa jim"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/706285143/IMG_20200523_134948340_medium2.jpg"],
@@ -1415,17 +1451,17 @@
 
 			{
 				"name": "Fingerless Gloves for Aunt Ellyn",
-				"date": "",
+				"date": "12/25/2017",
 				"tags": ["knitted gifts","knitting","gloves","gifts"],
 				"keywords": ["knit","knitted","knitting","gift", "gloves","accessory", "accessories", "crochet", "flower","flowers"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/499460026/IMG_20171225_154028489_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/fingerless-gloves-for-aunt-ellyn",
-				"description": "Rosie!"	
+				"description": "For Aunt Ellyn, for Christmas"	
 			},
 
 			{
 				"name": "Shrimp for Apollo",
-				"date": "",
+				"date": "11/30/2017",
 				"tags": ["knitted gifts","knitting","animals","toys","gifts"],
 				"keywords": ["knit","knitted","knitting","gift", "cat", "toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/792367869/27_Shrimp_on_a_String_knitting_medium2.jpg"],
@@ -1435,17 +1471,17 @@
 
 			{
 				"name": "Shrimp Lo Mein",
-				"date": "",
+				"date": "12/2/2017",
 				"tags": ["knitted gifts","knitting","toys","jokes","gifts"],
 				"keywords": ["knit","knitted","knitting","gift", "food"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/792367860/25_Shrimp_and_Noodles_knitting_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/laprawnda-the-shrimp",
-				"description": ""
+				"description": "A gag gift for James, completed just after making Apollo's shrimp toy. I simply gathered the stitches before completing the heads, and I used leftover yarn for the lo mein noodles!"
 			},
 
 			{
 				"name": "GoT Banner for Dan",
-				"date": "",
+				"date": "12/27/2015",
 				"tags": ["knitted gifts","knitting","decorations","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","game of thrones","direwolf","wolf","house stark","stark","banner"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/347317663/IMG_1900_medium2.jpg"],
@@ -1456,27 +1492,27 @@
 
 			{
 				"name": "Legwarmers for Brittany",
-				"date": "",
+				"date": "12/16/2015",
 				"tags": ["knitted gifts","knitting","accessories","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","accessory", "accessories", "clothes", "cable","cables"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343438082/tumblr_nzhnokyw2n1tdp74do1_540_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/chunky-cabled-boot-cuffs",
-				"description": ""
+				"description": "For Brittany, one of my roommates my senior year of college"
 			},
 
 			{
 				"name": "Orca for Connie",
-				"date": "",
+				"date": "12/11/2015",
 				"tags": ["knitted gifts","knitting","decorations","animals","whales","toys","gifts"],
 				"keywords": ["knit","knitted","knitting","toy"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343078307/tumblr_nz88x0tbmi1tdp74do3_540_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/oedipus-the-orca",
-				"description": ""
+				"description": "For Connie, one of my roommates during my senior year of college"
 			},
 
 			{
 				"name": "Wallet for James",
-				"date": "",
+				"date": "10/11/2015",
 				"tags": ["knitted gifts","knitting","accessories","gifts","Explorchestra"],
 				"keywords": ["knit","knitted","knitting","gift","accessory","accessories"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/330390480/20151010_224529__1__medium2.jpg"],
@@ -1486,47 +1522,47 @@
 
 			{
 				"name": "Mr. Bunny's brother",
-				"date": "",
+				"date": "7/26/2015",
 				"tags": ["knitted gifts","knitting","decorations","bunnies","gifts"],
 				"keywords": ["knit","knitted","knitting","bunny","rabbit","toy","gift","dad"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/320205028/IMG_0686_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/mr-bunnys-brother-mr-bunny",
-				"description": ""
+				"description": "On the day I was born, my Dad gave me a bunny he got from the hospital gift shop. My Dad named the bunny... Mr. Bunny. Mr. Bunny became my comfort toy - the one I needed in order to fall asleep. He even came with me to college. The summer after I graduated college (in the very early days of Kniterative Designs), I made my dad a Mr. Bunny of his own. I decided he's Mr. Bunny's brother... Mr. Bunny"
 			},
 
 			{
 				"name": "Pansies for Mom",
-				"date": "",
+				"date": "5/1/2015",
 				"tags": ["knitted gifts","crochet","decorations","gifts","flowers"],
 				"keywords": ["crochet","toy","flower","flowers","floral","spring"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/302248974/IMG_1080_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/grannys-pansy",
-				"description": ""
+				"description": "Completed for my mom for Mother's Day. It was the first time I ever really followed a crochet pattern - I had Youtube open in another tab the entire time, so I could keep looking up different stitches and techniques... I used KnitPicks Comfy yarn, leftover from other projects"
 			},
 
 			{
 				"name": "Bunny for Audrey",
-				"date": "",
+				"date": "1/24/2015",
 				"tags": ["knitted gifts","knitting","bunnies","toys","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","bunny","rabbit","toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/280414883/IMG_0912_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/bunny-for-audrey",
-				"description": "Rosie!"	
+				"description": "For Audrey, one of my roommates during my senior year in college."	
 			},
 
 			{
 				"name": "Explogo Bunny for Max",
-				"date": "",
+				"date": "12/30/2014",
 				"tags": ["knitted gifts","knitting","bunnies","decorations","gifts","Explorchestra"],
 				"keywords": ["knit","knitted","knitting","explorchestra","explo","bunny","rabbit","gift"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/274957935/20141230_113723_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/explogo-bunny-for-max",
-				"description": ""
+				"description": "My first knitted bunny completely of my own design... made for Max for a Secret Santa exchange. When I presented it to him, it was along with a little card that explained - tongue-in-cheek - that the bunny's father was a white bunny with an E on his back, and the mother was a black bunny with a lot of musical talent, and so somehow their child has the Explogo (a combination of a lowercase 'e' and a treble clef) marking"
 			},
 
 			{
 				"name": "Koala for Kevin",
-				"date": "",
+				"date": "12/14/2014",
 				"tags": ["knitted gifts","knitting","decorations","animals","gifts"],
 				"keywords": ["knit","knitted","knitting","koala", "gift", "toy"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/283450282/IMG_0883_medium2.jpg"],
@@ -1536,7 +1572,7 @@
 
 			{
 				"name": "Socks for Grandpa Jim",
-				"date": "",
+				"date": "6/1/2014",
 				"tags": ["knitted gifts","knitting","socks","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","grandpa jim","socks","accessory","accessories"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/234317617/IMG_6141_medium2.JPG"],
@@ -1546,17 +1582,17 @@
 
 			{
 				"name": "Fiesta",
-				"date": "",
+				"date": "4/29/2014",
 				"tags": ["knitted gifts","knitting","decorations","animals","toys","gifts"],
 				"keywords": ["knit","knitted","knitting","gift","armadillo","toy"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/234313469/IMG_6148_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/don-the-dillo-knit-armadillo",
-				"description": ""
+				"description": "Made for Allana"
 			},
 
 			{
 				"name": "Scarf for Dad",
-				"date": "",
+				"date": "12/15/2012",
 				"tags": ["knitted gifts","knitting","accessories","scarves","gifts"],
 				"keywords": ["knit","knitted","knitting","scarf","scarves","gift","dad","accessories","accessory"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/135726355/IMG_4188_medium2.jpg"],
@@ -1566,12 +1602,12 @@
 
 			{
 				"name": "Kitty Pi for Mae",
-				"date": "",
+				"date": "12/20/2007", // guessing
 				"tags": ["knitted gifts","knitting","furniture","gifts"],
 				"keywords": ["knit","knitted","knitting","felted","cat","accessory"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/116582075/IMG_3873_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/kitty-pi",
-				"description": ""
+				"description": "Made for Mae. One of my first knitting projects I ever completed (and my first experience with felting), for the first cat I ever had."
 			},
 
 		// CLOTHING
@@ -1579,17 +1615,17 @@
 			{
 				"featured": true,
 				"name": "Make a Wish sweater",
-				"date": "",
+				"date": "11/22/2020",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","cardigan","lace","sweater","clothes"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/790736421/IMG_7966_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/make-a-wish",
-				"description": ""
+				"description": "I love this sweater... The construction is unique, the lace kept it interesting, and I learned that I absolutely love a shawl collar! I knitted it over the course of several years of riding the bus to visit my partner James when he was living in NYC and I was upstate getting my masters degree."
 			},
 
 			{
 				"name": "Cozy Cardigan",
-				"date": "",
+				"date": "1/22/2016",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","sweater","cardigan","clothes","paulie", "striped","stripes","raglan"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/352500027/IMG_2049_medium2.JPG"],
@@ -1599,7 +1635,7 @@
 
 			{
 				"name": "Autumn Leaves",
-				"date": "",
+				"date": "8/10/2015",
 				"tags": ["knitted clothes","knitting","sweaters","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","sweater", "fall","accessory", "accessories", "clothes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/318662543/20150810_130308_medium2.jpg"],
@@ -1610,42 +1646,42 @@
 			{
 				"featured": true,
 				"name": "3 in 1 Sweater",
-				"date": "",
+				"date": "5/20/2014",
 				"tags": ["knitted clothes","knitting","sweaters","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","sweater","clothes","stripes", "asymmetrical"],
-				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/232302414/IMG_6091_medium2.jpg"],
+				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/880303005/IMG_0160_medium2.JPG","https://images4-g.ravelrycache.com/uploads/eef25/232302414/IMG_6091_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/3-in-1",
-				"description": ""
+				"description": "I spent a lot of time planning the color palette for this sweater... and it paid off. These are my favorite colors, in combination with each other. And the construction of this sweater is so unique! The only thing I would do differently now would be to use a superwash wool so it'd be warmer and stretchier - perhaps at some point I'll make another one!"
 			},
 
 			{
 				"name": "Purple Cables sweater",
-				"date": "",
+				"date": "12/19/2013",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","sweater","clothes","cable","cables","raglan"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/201256413/IMG_5599_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/easy-top-down-raglan-knitalong",
-				"description": ""
+				"description": "Designed this using a raglan recipe. This was my first experience with cables! Like with the 3-in-1 sweater, my only regret is that I made this sweater out of cotton yarn (what I could afford at the time) rather than some kind of washable wool. Because the cotton isn't very warm, there are only small windows in the year when it's appropriate to layer with this sweater (generally in late spring and early fall)."
 			},
 
 			{
 				"name": "Tempest in a Teapot",
-				"date": "",
+				"date": "5/23/2013",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","sweater","clotes","striped","stripes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/167055957/IMG_5118_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/tempest",
-				"description": ""
+				"description": "The first of three sweaters I made using KnitPicks Comfy yarn, which is a cotton blend. Like with the 3-in-1 and the Purple Cables sweaters, I wish I had used wool instead of cotton. I don't wear this sweater very often because it doesn't provide much warmth. That said, it's a good light layer for summer evenings..."
 			},
 
 			{
 				"name": "First Sweater Ever",
-				"date": "",
+				"date": "4/4/2010",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
 				"keywords": ["knit","knitted","knitting","clothes"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/767520498/IMG_20200727_105739298_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/95-33-jacket-with-circle-effect",
-				"description": ""
+				"description": "I rarely wear this, but I keep it because it was an important milestone. This was the first sweater I ever completed. I made it during my junior year of high school."
 			},
 
 		// ACCESSORIES
@@ -1653,177 +1689,177 @@
 			{
 				"featured": true,
 				"name": "Norway (Felted) Slippers",
-				"date": "",
+				"date": "1/10/2021",
 				"tags": ["knitted accessories","knitting","accessories","slippers"],
 				"keywords": ["knit","knitted","knitting","felted","accessory", "accessories"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/796170370/IMG_20210717_122341652_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/family-of-slippers",
-				"description": ""
+				"description": "When my dad went to Norway, he brought me back some souvenir yarn - real, non-superwash wool. I had been toying with the idea of making myself a pair of boot-style slippers. I'd only tried felting one other time, when my grandma helped me felt my 20s hat, and I wanted to give that another try. I also knew by that point that I really liked colorwork. I decided to use a basic felted slipper pattern, but put my own twist on it by pulling elements from various colorworking charts to make a whole scene. It's a hope for the future, encoded in the form of knitting. Two cats by the window, a dog outside, playing in the snow, and bunnies safe and cozy in their warrens. A steaming cup of tea warms my toes."
 			},
 
 			{
 				"featured": true,
 				"name": "Brain Hat",
-				"date": "",
+				"date": "10/30/2017",
 				"tags": ["knitted accessories","knitting","accessories","hats","costumes"],
 				"keywords": ["knit","knitted","knitting","brain","hat", "halloween","accessory", "accessories", "clothes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/499457012/IMG_20171119_141609481_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/brain-hat",
-				"description": ""
+				"description": "I made this when I was in grad school, studying the brain (as it relates to communication disorders). I'd gotten very into listening to audiobooks by Oliver Sacks during my commute, and Halloween was coming up, and... that was that. I spent a long time sewing the i-cord to the base hat, because I tried to make it as anatomically accurate as I could. I now wear it basically every Halloween, and I've gotten many requests for commission. But... no. It was a very fiddly project! I'm glad I did it, but never again."
 			},
 
 			{
 				"name": "Icebreaker Shawl",
-				"date": "",
+				"date": "10/19/2017",
 				"tags": ["knitted accessories","knitting","accessories","shawls"],
 				"keywords": ["knit","knitted","knitting","shawl","age of brass and steam","accessory", "accessories", "clothes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/499453538/IMG_20171020_144049822_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/the-age-of-brass-and-steam-kerchief",
-				"description": ""
+				"description": "Made this over the course of only a few days, to serve as an accessory for an October wedding I attended. It was the first shawl I ever made."
 			},
 
 			{
 				"name": "'20s Hat'",
-				"date": "",
+				"date": "11/29/2015",
 				"tags": ["knitted accessories","knitting","accessories","hats","costumes"],
 				"keywords": ["knit","knitted","knitting", "hat", "accessory", "accessories", "clothes"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343079178/1915263_1042385855804003_2147850894420508260_n_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/cloche-a-la-mode",
-				"description": ""
+				"description": "My first experience with felting! I don't even like hats that much, but I love this hat."
 			},
 
 			{
 				"name": "Convertible Mittens",
-				"date": "",
+				"date": "11/13/2015",
 				"tags": ["knitted accessories","knitting","accessories","mittens"],
 				"keywords": ["knit","knitted","knitting","gloves","mittens","accessory", "accessories", "clothes"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343080004/12366425_1042385789137343_3721396389953934140_n_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/flip-top-mittens-l32244",
-				"description": ""
+				"description": "These are my favorite mittens/gloves - because they're both in one! Very helpful to be able to flip the mitten part up to do tasks requiring more dexterity. And I added the thumb mitten as well, mostly so I can use my phone more easily while out and about!"
 			},
 
 			{
 				"name": "Synesthesia Scarf",
-				"date": "",
+				"date": "11/29/2012",
 				"tags": ["knitted accessories","knitting","accessories","scarves"],
 				"keywords": ["knit","knitted","knitting","scarf","scarves","striped","stripes","accessory","accessories"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/117113968/Photo_on_2012-08-22_at_22.49_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/noro-striped-scarf",
-				"description": ""
+				"description": "I love colors, I love this concept of striping two yarns that each shift in color, and I want to make another of these sometime with different (less scratchy? Less easily accidentally feltable?) yarn. Because I did accidentally half-felt this a few years ago, so I don't use it as much now."
 			},
 
 			{
 				"name": "String of Purls",
-				"date": "",
+				"date": "9/20/2012",
 				"tags": ["knitted accessories","knitting","accessories","hats"],
 				"keywords": ["knit","knitted","knitting","hat","accessory","accessories"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/165693196/521624_10151531925712668_161794041_n_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/noro-striped-scarf",
-				"description": ""
+				"description": "My first ever hat - which I don't wear that often because (a) I'm not really a hat person and (b) I made it before I really understood the pros and cons of different fibers. I made it out of Caron Simply soft because that was what I could afford at the time, but it's acrylic and not very warm."
 			},
 
 		// TOYS / STUFFIES
 
 			{
 				"name": "Explogo Bunny",
-				"date": "",
+				"date": "1/12/2015",
 				"tags": ["knitted toys", "knitting","toys","bunnies", "Explorchestra"],
 				"keywords": ["knit","knitted","knitting","bunny","rabbit","explorchestra", "explo", "toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/277562543/IMG_0753_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/explogo-bunny-20",
-				"description": ""
+				"description": "I liked the bunny I made for Max so much, I wanted to make a bunny with an Explogo marking for myself. This one has markings consistent with a Dutch rabbit"
 			},
 
 			{
 				"name": "First bunny",
-				"date": "",
-				"tags": ["knitted toys", "knitting","toys","bunnies"],
-				"keywords": ["knit","knitted","knitting","prototype","bunny","rabbit","toy"],
+				"date": "1/1/2014",
+				"tags": ["knitted toys", "Kniterative Designs","prototypes", "knitting","toys","bunnies"],
+				"keywords": ["knit","knitted","knitting","design","prototype","bunny","rabbit","toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/237977865/IMG_6361_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/yet-another-bunny",
-				"description": ""
+				"description": "First bunny entirely of my own design - a prototype for what would become the Kniterative Designs bunny method"
 			},
 
 			{
 				"name": "Mae's Cousin",
-				"date": "",
+				"date": "1/28/2013",
 				"tags": ["knitted toys", "knitting","toys","cats","kittens"],
 				"keywords": ["knit","knitted","knitting","cat","kitten","kitty","knitten","toy"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/144140493/IMG_4534_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/knitted-bunny-3",
-				"description": ""
+				"description": "This cat was born out of the fear that I'd miss my cat, Mae, when I was in college, and also a desire to try to move toward making a knitted cat design, the way I'd recently made a bunny. For this, I used elements of the <a href='https://www.ravelry.com/patterns/library/bunny-from-a-square' target='_blank'>bunny from a square pattern</a> and also the <a href='https://www.ravelry.com/patterns/sources/best-in-show-knit-your-own-cat' target='_blank'>Best in Show: Knit Your Own Cat</a> book (given to me by my cousin Laura). I started with the legs, and modified the Best in Show pattern to be a stuffed animal-sized cat (rather than a tchotchke) and to have more or less the same markings as Mae (including her 'lucky foot'). Then I cobbled together the rest of it, taking techniques from the 'bunny from a square' pattern! By the time I got to the back, I used more solid black - hence why this cat looks related to Mae, but not quite her."
 			},
 
 			{
 				"name": "Evelyn",
-				"date": "",
+				"date": "8/10/2012",
 				"tags": ["knitted toys", "knitting","toys","bunnies"],
 				"keywords": ["knit","knitted","knitting","bunny","rabbit","early","toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/115956044/IMG_3569_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/knitted-bunny",
-				"description": ""
+				"description": "I was so excited when I first saw the <a href='https://www.ravelry.com/patterns/library/bunny-from-a-square' target='_blank'>bunny from a square pattern</a> that I casted on at 1am! This was one of the first stuffed animals I knitted, and it inspired me to make my own pattern. I modified this pattern, adding short rows and increases and decreases until - to my surprise - I'd come up with my own, substantially different, design. I wouldn't have known where to start - or believed that I could design my own pattern at all - if I'd had to start completely from scratch. I am so grateful to this little pattern... And I still have Evelyn!"
 			},
 
 			{
 				"name": "Qwerty Monster",
-				"date": "",
+				"date": "8/1/2012",
 				"tags": ["knitted toys", "knitting","toys","animals","monsters"],
 				"keywords": ["knit","knitted","knitting","monster","toy","striped","stripes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/792368016/32_Confetti_Creature_knitting_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/qwerty-monster",
-				"description": ""
+				"description": "What to do with novelty Fun Fur yarn? Make a monster! This was one of my first original designs - although it's basically just a 3D rectangle with two folded rectangles for arms. Qwerty's hands have clothespins in them, so he can hold things!"
 			},
 
 			{
 				"name": "Thomas I - first cat ever made",
-				"date": "",
+				"date": "5/1/2012",
 				"tags": ["knitted toys", "knitting","toys","cats","kittens"],
 				"keywords": ["knit","knitted","knitting","cat","kitten","kitty","knitten", "early"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/115958952/IMG_2518_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/thomas-the-cat",
-				"description": ""
+				"description": "This orange cat was my first ever original design. I created him while I should have been studying for midterms during second semester of my freshman year of college. My original goal was to make the fox from The Little Prince, but as it developed it was clear it wanted to be a cat... In many ways, this became the basis and inspiration for later Kniterative Designs."
 			},
 
 			{
 				"name": "Worry Whale",
-				"date": "",
+				"date": "1/22/2012",
 				"tags": ["knitted toys", "knitting","toys","animals","whales"],
 				"keywords": ["knit","knitted","knitting","whale","big","toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/89934393/IMG_2330_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/hazel-the-humpback-whale",
-				"description": ""
+				"description": "This was the first stuffed animal I made from a pattern. It was also one of the first big projects that I actually saw through to the end! I knitted it during my first semester of my freshman year of college, one row at a time, and ultimately called it my 'Worry Whale' because knitting it helped me manage the anxiety I felt more acutely than ever during that year..."
 			},
 
 		// OTHER KNITTING
 
 			{
 				"name": "Knitted Explogo",
-				"date": "",
+				"date": "12/30/2014",
 				"tags": ["knitted other knitting","knitting","decorations","Explorchestra"],
 				"keywords": ["knit","knitted","knitting","explorchestra","explo"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/275549486/20141229_171749_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/explogo-phone-case-for-max",
-				"description": ""
+				"description": "Proof of concept for Max's Explogo Bunny and other Explogo-branded gifts"
 			},
 
 			{
 				"name": "Beaded Christmas Ball",
-				"date": "",
+				"date": "8/2/2014",
 				"tags": ["knitted other knitting","knitting","decorations"],
 				"keywords": ["knit","knitted","knitting","grandma fran","decoration"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/248682142/IMG_0263_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/deck-the-balls",
-				"description": ""
+				"description": "My Grandma Fran made beautiful beaded purses and ornaments. She passed down her materials and patterns to me."
 			},
 
 			{
 				"name": "Sweater for Mr. Bunny",
-				"date": "",
+				"date": "5/11/2011",
 				"tags": ["knitted other knitting","knitting","toys"],
 				"keywords": ["knit","knitted","knitting","raglan"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/62765626/IMG_0877_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/iphoodie-ipod-iphone-hoodie-2",
-				"description": ""
+				"description": "After I made the iPod Hoodie Cozy, I figured it wouldn't be that hard to use that same pattern (with some slight modifications) to make a raglan sweater for Mr. Bunny"
 			},
 
 			{
@@ -1833,17 +1869,17 @@
 				"keywords": ["knit","knitted","knitting","raglan"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/61756596/IMG_0825_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/iphoodie-ipod-iphone-hoodie",
-				"description": ""
+				"description": "My first introduction to concept of raglan sweater construction - but in miniature! It's still my favorite way to make a sweater..."
 			},
 
 			{
-				"name": "First Project",
-				"date": "",
+				"name": "'Square'",
+				"date": "7/15/1999", // complete guess... I may never know exactly when
 				"tags": ["knitted other knitting","knitting"],
 				"keywords": ["knit","knitted","knitting","early", "childhood"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/792367967/30_Rainbow_Yarn_-_yarn_of_color_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/first-project",
-				"description": ""
+				"description": "My first ever knitting project. I was 5 or 6 years old."
 			},
 
 	// PHOTOGRAPHY
@@ -2072,74 +2108,74 @@
 			{
 				"featured": true,
 				"name": "Chroma",
-				"date": "",
+				"date": "8/31/2012",
 				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Binghamton University"],
-				"keywords": [],
+				"keywords": ["season","fall","autumn"],
 				"photos": ["music/images/Chroma.png"],
 				"link": "music/Chroma.mp3",
 				"audio": "music/Chroma.mp3",
-				"description": ""	
+				"description": "My first finished composition, rehearsed and performed by Explorchestra. I started writing it, on piano only, during my junior year of high school - soon after I'd written my poem 'Chaos in Cirlces.' Both the poem and the piece are about fall, following the journey of a single leaf... although I decided to give Chroma a happier ending than the poem had (probably because I was infinitely happier in college than I had been in high school!)"	
 			},
 
 			{
 				"featured": true,
 				"name": "Whether",
-				"date": "",
+				"date": "8/31/2013",
 				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Binghamton University"],
-				"keywords": [],
+				"keywords": ["season","summer"],
 				"photos": ["music/images/Whether.png"],
 				"link": "music/Whether.mp3",
-				"description": ""	
+				"description": "My second composition, rehearsed and performed by Explorchestra. The intended imagery of the song comes from a pun on the title – 'weather,' specifically rain. The notes played by the marimba represent the initial, individual raindrops, and the rest of the storm follows. Meanwhile, there's a larger musing on “Whether” – decisions, choices, perspectives, perception. In the end, a shift in perspective can bring new meaning."
 			},
 
 			{
 				"name": "Elephant",
-				"date": "",
+				"date": "1/31/2014",
 				"tags": ["finished music","music", "composition","lyrics", "Explorchestra", "Binghamton University"],
-				"keywords": [],
+				"keywords": ["jazz","family"],
 				"photos": ["music/images/Elephant.jpg"],
 				"link": "music/Elephant.mp3",
-				"description": ""	
+				"description": "My third composition - and my first with lyrics - rehearsed and performed by Explorchestra. It was my first (and so far only) attempt at a song with lyrics, and also my first (and so far only) attempt at writing a jazz song. It was very fun to conduct and to hear what people did with the improvised solo seciton each time."	
 			},
 
 			{
 				"name": "These Days",
-				"date": "",
+				"date": "1/31/2015",
 				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Binghamton University"],
-				"keywords": [],
+				"keywords": ["season","spring"],
 				"photos": ["music/images/TheseDays.jpg"],
 				"link": "music/TheseDays.mp3",
-				"description": ""	
+				"description": "My fourth composition, rehearsed and performed by Explorchestra during my final undergraduate semester at Binghamton University. Inspired by the transition from winter to spring and all of the growth (and some heartbreak) I'd experienced in college, the piece is a celebration of 'living the questions' and the flow state."	
 			},
 
 			{
 				"name": "Chroma Snapshot: Chaos in Circles",
-				"date": "",
+				"date": "2/1/2016",
 				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Explo Expo", "Binghamton University"],
-				"keywords": [],
+				"keywords": ["season","fall","autumn"],
 				"photos": ["music/images/ChaosinCircles.jpg"],
 				"link": "music/ChaosinCircles.mp3",
-				"description": ""	
+				"description": "A reimagining of 'Chroma,' to be played by Explorchestra at the first Explo Expo I attended as an aluma. This version is closer to the original song I wrote on piano only when I was in high school."	
 			},
 
 			{
 				"name": "EveryTime",
-				"date": "",
+				"date": "10/23/2016",
 				"tags": ["music challenges","music","composition","album","seasons"],
-				"keywords": [],
+				"keywords": ["Anthology Symphony", "music challenge", "season","winter"],
 				"photos": ["music/images/EveryTime.jpg"],
 				"link": "music/EveryTime.mp3",
-				"description": ""	
+				"description": "My contribution to a post-college music challenge, organized by James, for which each musician friend wrote a piece of music based on a common melodic line. All of the pieces were so unique, despite the common prompt, and we had a fun time playing through all of the pieces - collectively known as the Anthology Symphony."	
 			},
 
 			{
 				"name": "Collecting Carrots",
-				"date": "",
+				"date": "2/23/2019",
 				"tags": ["finished music","music", "composition","soundtrack","games","carrots", "Explorchestra", "Explo Expo", "Binghamton University"],
-				"keywords": [],
+				"keywords": ["spring", "bunnies", "bunny", "game"],
 				"photos": ["music/images/CollectingCarrots.png"],
 				"link": "music/CollectingCarrots.mp3",
-				"description": ""	
+				"description": "My most playful song, to date. I wrote it to be a soundtrack for the Collecting Carrots mini game I coded as a sort of pseudo advertisement for Kniterative Designs bunnies. The song begins with a lawnmower sound effect produced by the trombone section and bird sounds courtesy of the flutes, to set the scene for a springtime adventure in a suburban yard filled with bunnies."	
 			},
  	
 	// CODE
