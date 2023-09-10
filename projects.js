@@ -1,12 +1,168 @@
+// PLACES (explorer of...)
+	var PLACES = [
+		{
+			"name": "Upstate NY",
+		 	"date": new Date(),
+			"tags": ["photographed places"],
+			"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
+			"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
+			"link": "novascotia/",
+			"description": ""
+		},
+
+		{
+			"name": "Nova Scotia",
+		 	"date": "8/15/2005",
+			"tags": ["photographed places"],
+			"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
+			"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
+			"link": "novascotia/",
+			"description": ""
+		},
+
+		{
+			"name": "Montreal",
+		 	"date": "7/15/2019",
+			"tags": ["photographed places"],
+			"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
+			"photos": ["montreal/images/1.jpg", "montreal/images/2.jpg", "montreal/images/3.jpg", "montreal/images/4.jpg"],
+			"link": "montreal/",
+			"description": ""
+		},
+
+		{
+			"name": "England",
+		 	"date": "8/15/2007",
+			"tags": ["photographed places"],
+			"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","europe","uk","britain","london"],
+			"photos": ["england/images/9.jpg", "england/images/12.jpg", "england/images/14.jpg", "england/images/15.jpg", "england/images/16.jpg", "england/images/19.jpg"],
+			"link": "england/",
+			"description": ""
+		},
+
+		// {
+		// 	"name": "Binghamton University",
+		//  	"date": "12/15/2015",
+		// 	"tags": ["photographed places"],
+		// 	"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
+		// 	"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
+		// 	"link": "novascotia/",
+		// 	"description": ""
+		// },
+
+		{
+			"name": "San Francisco",
+		 	"date": "1/5/2019",
+			"tags": ["photographed places"],
+			"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","california","west coast"],
+			"photos": ["sanfran/images/5.jpg", "sanfran/images/6.jpg", "sanfran/images/10.jpg", "sanfran/images/16.jpg", "sanfran/images/24.jpg", "sanfran/images/25.jpg"],
+			"link": "sanfran/",
+			"description": ""
+		},
+
+		// {
+		// 	"name": "SUNY New Paltz",
+		//  	"date": "5/21/2019",
+		// 	"tags": ["photographed places"],
+		// 	"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
+		// 	"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
+		// 	"link": "novascotia/",
+		// 	"description": ""
+		// },
+
+		{
+			"name": "New York City",
+		 	"date": "8/14/2019",
+			"tags": ["photographed places"],
+			"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation", "new york", "manhattan"],
+			"photos": ["nyc/images/2.jpg","nyc/images/5.jpg","nyc/images/22.jpg","nyc/images/32.jpg"],
+			"link": "nyc/",
+			"description": ""
+		},
+
+		{
+			"name": "Massachusetts",
+		 	"date": new Date(),
+			"tags": ["photographed places"],
+			"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation"],
+			"photos": ["massachusetts/images/1.jpg","massachusetts/images/2.jpg","massachusetts/images/3.jpg","massachusetts/images/4.jpg","massachusetts/images/5.jpg","massachusetts/images/6.jpg","massachusetts/images/7.jpg","massachusetts/images/8.jpg","massachusetts/images/9.jpg","massachusetts/images/10.JPG","massachusetts/images/11.JPG","massachusetts/images/12.jpg","massachusetts/images/13.jpg","massachusetts/images/14.jpg","massachusetts/images/15.jpg","massachusetts/images/16.jpg","massachusetts/images/17.JPG","massachusetts/images/18.JPG","massachusetts/images/19.JPG",],
+			"link": "massachusetts/",
+			"description": ""
+		},
+	]
+
 // FRIENDS
 	var FRIENDS = [
+		{
+			"name": "Fran Fishlock",
+			"tags": [],
+			"keywords": [],
+			"photos": [""],
+			"link": "", // ??? (add gallery)
+			"description": "(1934 - 2022) Knitter, sewist, grandma, and great-grandma"
+		},
+
+		{
+			"name": "Jim Ford",
+			"tags": [],
+			"keywords": [],
+			"photos": [""],
+			"link": "", // ??? (add gallery)
+			"description": "(1932 - 2020) Model train enthusiast, world builder, magician, grandpa"
+		},
+
 		{
 			"name": "Ken Ford",
 			"tags": [],
 			"keywords": [],
-			"photos": ["blender/images/blendercafe.gif"],
-			"link": "https://kenforddigitalimages.com/Pictures/KFDI3RED_final_4x7.png",
-			"description": "Dad"
+			"photos": ["https://kenforddigitalimages.com/Pictures/KFDI3RED_final_4x7.png"],
+			"link": "https://kenforddigitalimages.com/",
+			"description": "Photographer and digital image creator... and my Dad"
+		},
+
+		{
+			"name": "James Mayr",
+			"tags": [],
+			"keywords": [],
+			"photos": ["https://jamesmayr.com/resources/headshot.jpg"],
+			"link": "https://jamesmayr.com/",
+			"description": "Coder, composer, writer, gamemaker... and my partner in projects and in life!"
+		},
+
+		{
+			"name": "Elliotte",
+			"tags": [],
+			"keywords": [],
+			"photos": [""],
+			"link": "https://www.instagram.com/man1c_ferret_doodles/",
+			"description": "Artist and aspiring graphic designer"
+		},
+
+		{
+			"name": "Ayelet Kershenbaum",
+			"tags": [],
+			"keywords": [],
+			"photos": [""],
+			"link": "https://www.researchgate.net/profile/Ayelet-Kershenbaum",
+			"description": "Researcher, speech-language pathologist, and musician"
+		},
+
+		{
+			"name": "Dan Weinstein",
+			"tags": [],
+			"keywords": [],
+			"photos": ["https://yt3.googleusercontent.com/ytc/AOPolaT9DGBtDk_qatT9Q-S6QLHTyVFPOxUlCdrLA1Nc=s176-c-k-c0x00ffffff-no-rj"],
+			"link": "https://www.youtube.com/channel/UCC_qgpzUN0tqryAM_qm1X0w",
+			"description": "Writer of epic music"
+		},
+
+		{
+			"name": "Alex Berg",
+			"tags": [],
+			"keywords": [],
+			"photos": [""],
+			"link": "https://www.echotechaudio.com/",
+			"description": "Sound engineer behind ECHOTECH and musician"
 		},
 	]
 
@@ -262,13 +418,13 @@
 
 			{
 				"featured": true,
-				"name": "room",
-				"date": "11/18/2021",
-				"tags": ["art", "scene","3d art", "blender","models","projects portfolios","portfolios"],
+				"name": "PurpleGreen Projects (v.2)",
+				"date": "6/30/2021",
+				"tags": ["art", "scene","3d art", "blender","models","projects portfolios","portfolios", "code", "coding", "with James"],
 				"keywords": ["art","3D","blender","render","asset","model","purplegreen","purplegreenprojects","evolution","website","virtual"],
 				"photos": ["images/lightmode/all.png"],
 				"link": "https://purplegreenprojects.com",
-				"description": "My first big project in Blender, made through a combination of tutorials and trial-and-error, featuring many models I created from scratch!"
+				"description": "My first big project in Blender, made through a combination of tutorials and trial-and-error, featuring many models I created from scratch! James helped me code divs to layer on top of the rendered images so that I could make clickable buttons with links to galleries and other places where my projects are documented."
 			},
 
 			{
@@ -2184,142 +2340,153 @@
 
 			{
 				"name": "Clock",
-				"date": "",
+				"date": "3/1/2017", //???
 				"tags": ["code tools","code","with James"],
 				"keywords": ["code","coding","James","tutorial"],
 				"photos": ["coding/images/clock.png"],
 				"link": "clock/",
-				"description": ""
+				"description": "One of the first projects James taught me how to code. It's a pretty basic project, but I learned a lot about how computers keep track of time (the number of milliseconds since January 1, 1970!) - and of course I put my own spin on it..."
 			},
 
 			{
 				"name": "RandomLetter",
-				"date": "",
+				"date": "1/22/2017",
 				"tags": ["code tools","code","with James","games","language","literacy"],
 				"keywords": ["code","coding","SLP","literacy","game","games"],
 				"photos": ["coding/images/randomletter.png"],
 				"link": "randomletter/",
-				"description": ""
+				"description": "While teaching English as another language, I realized having a tool like this would be helpful - and not very hard to code up. Later, as a speech-language pathologist, I used it for a Scattergories-type task. I 'weighted' the letters differently by simply adding more of certain letters to the array so that there would be a great chance of those ones being picked."
 			},
 
 			{
 				"name": "Custom KD",
-				"date": "",
+				"date": "6/30/2017",
 				"tags": ["code tools","Kniterative Designs", "with James"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "cat","dog","bunny", "rabbit"],
 				"photos": ["coding/images/kdcustom.png"],
 				"link": "kdcustomorder/",
-				"description": ""	
+				"description": "The early days of Kniterative Designs coincided with the early days of learning how to code from James. We made this website together as a tool to receive custom orders. Although the service is on pause, I'm still pretty proud of the site. It was through this project that I first learned about clip-paths, and I reused my cat and bunny clip-paths for the games yarnSwatter and carrotCollector, respectively."	
 			},
 
 			{
 				"name": "What Should I Knit Next?",
-				"date": "",
+				"date": "2/19/2022",
 				"tags": ["code tools","knitting","crochet","Ravelry","API","with James"],
 				"keywords": ["knit","knitted","knitting","ravelry","api", "projects","crochet","2022"],
 				"photos": ["coding/images/whatshouldiknitnext.png"],
 				"link": "whatshouldiknitnext/",
-				"description": ""
+				"description": "This project was born out of a desire to learn how APIs work - once again, James helped me build this."
+			},
+
+			{
+				"name": "Compliment Generator",
+				"date": "12/2/2022",
+				"tags": ["code tools","knitting","crochet","Ravelry","API","with James"],
+				"keywords": ["knit","knitted","knitting","ravelry","api", "projects","crochet","2022"],
+				"photos": ["coding/images/whatshouldiknitnext.png"],
+				"link": "complimentgenerator/", // ???
+				"description": "Inspired by the <a href='https://theraccoonsociety.com/' target='_blank'>Raccoon Society</a>'s Pep Talk Generator poster. James also helped me make it into a Slackbot, essentially by creating an API of our own."
 			},
 
 		// GAMES
 
 			{
 				"name": "Memory",
-				"date": "",
+				"date": "7/1/2017",
 				"tags": ["code games","coding", "with James"],
 				"keywords": ["code","coding","game","games","James"],
 				"photos": ["coding/images/memory.png"],
 				"link": "memory/",
-				"description": ""
+				"description": "One of my first coding projects I made with"
 			},
 
 			{
 				"name": "yarnSwatter",
-				"date": "",
+				"date": "1/27/2018",
 				"tags": ["code games","Kniterative Designs", "games","with James", "cats","kittens","yarn"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "cat","kitty","kitten","yarn,","game","games"],
 				"photos": ["coding/images/yarnswatter.png"],
 				"link": "yarnswatter/",
-				"description": ""
+				"description": "Long before I discovered Blender, James taught me how to animate divs using code. I used the cat clip-path I'd made for the Kniterative Designs Custom Orders website to make my div look like a cat! Circles with pictures of yarn for the background made simple in-game yarn balls... very basic, but kind of cute."
 			},
 
 			{
 				"featured": true,
 				"name": "carrotCollector",
-				"date": "",
+				"date": "12/5/2018",
 				"tags": ["code games","Kniterative Designs", "games","with James", "bunnies","carrots","flowers"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "bunny","rabbit","bunnies","carrot,","game","games"],
 				"photos": ["coding/images/carrotcollector10.png"],
 				"link": "carrotcollector/",
-				"description": ""
+				"description": "A more polished follow-up project in the same vein as yarnSwatter, this time featuring bunnies, using the bunny clip-path and a photograph of one of my newly created Kniterative Designs carrot! I also made some rudimentary flowers, grass, clouds, and even a watering can, for the background/obstacles."
 			},
 
 		// EXPERIMENTS
 
 			{
 				"name": "Bubblewrap",
-				"date": "",
+				"date": "5/29/2017",
 				"tags": ["code experiments","with James","arrays"],
 				"keywords": ["code","coding","fun","silly","fidget"],
 				"photos": ["coding/images/bubblewrap.png"],
 				"link": "bubblewrap/",
-				"description": ""
+				"description": "James was teaching me how to use Javascript to dynamically generate multiple divs (rather than creating each one individually in html) and also how to implement click listeners when I had an idea... I added some gradients, a 'popped' state visual to be triggered by a click, and a sound effect, and... voila! Virtual Bubblewrap."
 			},
 
 			{
 				"featured": true,
 				"name": "Synesthesia",
-				"date": "",
+				"date": "7/28/2017",
 				"tags": ["code experiments","with James","colors","synesthesia"],
 				"keywords": ["code","coding","color","colors","letter","letters"],
 				"photos": ["coding/images/synesthesia.png"],
 				"link": "synesthesia/",
-				"description": ""
+				"description": "So that others can see an approximation of what letters and numbers look like to me!"
 			},
 
 			{
 				"name": "SciFi Sounds",
-				"date": "",
+				"date": "12/31/2018",
 				"tags": ["code experiments","with James","games","jokes"],
 				"keywords": ["coding","code","sound","soundboard","game","effect", "effects"],
 				"photos": ["coding/images/scifisounds.png"],
 				"link": "scifisoundboard/",
-				"description": ""
+				"description": "I created this while taking part in my first RPG experience - it added some ambiance to the word of 'Lasers and Feelings.'"
 			},
 
 			{
 				"name": "Window",
-				"date": "",
+				"date": "1/1/2019",
 				"tags": ["code experiments","with James","canvas","seasons"],
 				"keywords": ["coding","code","season","seasons","winter","spring","summer","fall","scenes","scenery","view"],
 				"photos": ["coding/images/window_winter.png"],
 				"link": "window/#winter",
-				"description": ""
+				"description": "Along with being a fun experimental project in itself (which taught me how to use JS Canvas elements), this was also a proof of concept for my <a href='oldpurplegreenprojectsroom/' target='_blank'>first PurpleGreen Projects portfolio</a>."
 			},
 
 			{
 				"name": "nimbusNotes",
-				"date": "",
+				"date": "10/19/2019",
 				"tags": ["code experiments","with James","music","Whether","seasons"],
 				"keywords": ["code","coding","James","hackathon","music","cloud","clouds","rain","raining","rainy","song"],
 				"photos": ["coding/images/nimbusnotes.png"],
 				"link": "https://nimbusnotes.jamesmayr.com",
-				"description": ""
+				"description": "James and I made this together at a Music Hackaton event in NYC."
 			},
 
 		// past portfolios
 
 			{
 				"featured": true,
-				"name": "PurpleGreen Projects",
-				"date": "",
+				"name": "PurpleGreen Projects (v.1)",
+				"date": "11/1/2019", //showed at Demo Day 2019
 				"tags": ["code past portfolios", "code", "with James","projects","room","3d space","canvas","window"],
 				"keywords": [],
 				"photos": ["coding/images/oldpurplegreenprojects.png"],
 				"link": "oldpurplegreenprojectsroom/",
-				"description": ""
+				"description": "My first attempt at collecting all of my projects up to that point into one virtual portfolio. I decided that I am a big fan of skeuomorphism (even if it has fallen out of fashion) - this was like a virtual dollhouse that I could make completely from scratch, with interactive elements! Although v.2 of this design (created in Blender) looks more realistic, this version will always have a special place in my heart."
 			},
+
 	] 
 
 			

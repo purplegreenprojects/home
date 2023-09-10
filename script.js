@@ -328,7 +328,7 @@
 				var topicButton = document.createElement("button")
 				topicButton.className = "filter-topic-suggestion"
 				topicButton.innerText = topics[i]
-				topicButton.value = topics[i].trim()
+				topicButton.value = CONSTANTS.mediums[medium].topics[topics[i]].trim()
 				topicButton.addEventListener("click",searchByTag)
 				ELEMENTS.filtersSuggestions.appendChild(topicButton)
 			}
@@ -348,7 +348,6 @@
 		function searchByTag(event) {
 			var tagButton = event.target
 			var termForSearch = tagButton.value
-
 
 			if (!tagButton.className.includes("filter-topic-suggestion")) {
 				ELEMENTS.filtersMediumCurrent.value = "maker"
