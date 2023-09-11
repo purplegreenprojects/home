@@ -2,20 +2,20 @@
 	var PLACES = [
 		{
 			"name": "Upstate NY",
-		 	"date": new Date(),
+			"date": "8/13/2019",
 			"tags": ["photographed places"],
-			"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
-			"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
-			"link": "novascotia/",
+			"keywords": ["photography","photo","photos","home"],
+			"photos": ["upstateny/images/1.jpg","upstateny/images/2.jpg", "upstateny/images/3.jpg", "upstateny/images/4.jpg", "upstateny/images/5.jpg", "upstateny/images/6.jpg", "upstateny/images/7.jpg"],
+			"link": "upstateny/",
 			"description": ""
-		},
+		},	
 
 		{
 			"name": "Nova Scotia",
 		 	"date": "8/15/2005",
 			"tags": ["photographed places"],
 			"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
-			"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
+			"photos": ["novascotia/images/2.jpg","novascotia/images/1.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
 			"link": "novascotia/",
 			"description": ""
 		},
@@ -85,7 +85,7 @@
 		 	"date": new Date(),
 			"tags": ["photographed places"],
 			"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation"],
-			"photos": ["massachusetts/images/1.jpg","massachusetts/images/2.jpg","massachusetts/images/3.jpg","massachusetts/images/4.jpg","massachusetts/images/5.jpg","massachusetts/images/6.jpg","massachusetts/images/7.jpg","massachusetts/images/8.jpg","massachusetts/images/9.jpg","massachusetts/images/10.JPG","massachusetts/images/11.JPG","massachusetts/images/12.jpg","massachusetts/images/13.jpg","massachusetts/images/14.jpg","massachusetts/images/15.jpg","massachusetts/images/16.jpg","massachusetts/images/17.JPG","massachusetts/images/18.JPG","massachusetts/images/19.JPG",],
+			"photos": ["massachusetts/images/1.jpg","massachusetts/images/2.jpg","massachusetts/images/3.jpg","massachusetts/images/4.jpg","massachusetts/images/5.jpg","massachusetts/images/6.jpg","massachusetts/images/7.jpg","massachusetts/images/8.jpg","massachusetts/images/9.jpg","massachusetts/images/10.JPG","massachusetts/images/11.JPG","massachusetts/images/12.jpg","massachusetts/images/13.jpg","massachusetts/images/14.jpg","massachusetts/images/15.jpg","massachusetts/images/16.jpg","massachusetts/images/17.JPG","massachusetts/images/18.JPG","massachusetts/images/19.JPG"],
 			"link": "massachusetts/",
 			"description": ""
 		},
@@ -93,29 +93,29 @@
 
 // FRIENDS
 	var FRIENDS = [
-		{
-			"name": "Fran Fishlock",
-			"tags": [],
-			"keywords": [],
-			"photos": [""],
-			"link": "", // ??? (add gallery)
-			"description": "(1934 - 2022) Knitter, sewist, grandma, and great-grandma"
-		},
+		// {
+		// 	"name": "Fran Fishlock",
+		// 	"tags": [],
+		// 	"keywords": [],
+		// 	"photos": [""],
+		// 	"link": "", // ??? (add gallery)
+		// 	"description": "(1934 - 2022) Knitter, sewist, grandma, and great-grandma"
+		// },
 
-		{
-			"name": "Jim Ford",
-			"tags": [],
-			"keywords": [],
-			"photos": [""],
-			"link": "", // ??? (add gallery)
-			"description": "(1932 - 2020) Model train enthusiast, world builder, magician, grandpa"
-		},
+		// {
+		// 	"name": "Jim Ford",
+		// 	"tags": [],
+		// 	"keywords": [],
+		// 	"photos": [""],
+		// 	"link": "", // ??? (add gallery)
+		// 	"description": "(1932 - 2020) Model train enthusiast, world builder, magician, grandpa"
+		// },
 
 		{
 			"name": "Ken Ford",
 			"tags": [],
 			"keywords": [],
-			"photos": ["https://kenforddigitalimages.com/Pictures/KFDI3RED_final_4x7.png"],
+			"photos": ["images/friends/Ken.png"],
 			"link": "https://kenforddigitalimages.com/",
 			"description": "Photographer and digital image creator... and my Dad"
 		},
@@ -124,7 +124,7 @@
 			"name": "James Mayr",
 			"tags": [],
 			"keywords": [],
-			"photos": ["https://jamesmayr.com/resources/headshot.jpg"],
+			"photos": ["images/friends/James.jpg"],
 			"link": "https://jamesmayr.com/",
 			"description": "Coder, composer, writer, gamemaker... and my partner in projects and in life!"
 		},
@@ -133,7 +133,7 @@
 			"name": "Elliotte",
 			"tags": [],
 			"keywords": [],
-			"photos": [""],
+			"photos": ["images/friends/Elliotte.jpg"],
 			"link": "https://www.instagram.com/man1c_ferret_doodles/",
 			"description": "Artist and aspiring graphic designer"
 		},
@@ -142,7 +142,7 @@
 			"name": "Ayelet Kershenbaum",
 			"tags": [],
 			"keywords": [],
-			"photos": [""],
+			"photos": ["images/friends/Ayelet.jpg"],
 			"link": "https://www.researchgate.net/profile/Ayelet-Kershenbaum",
 			"description": "Researcher, speech-language pathologist, and musician"
 		},
@@ -151,7 +151,7 @@
 			"name": "Dan Weinstein",
 			"tags": [],
 			"keywords": [],
-			"photos": ["https://yt3.googleusercontent.com/ytc/AOPolaT9DGBtDk_qatT9Q-S6QLHTyVFPOxUlCdrLA1Nc=s176-c-k-c0x00ffffff-no-rj"],
+			"photos": ["images/friends/Dan.jpg"],
 			"link": "https://www.youtube.com/channel/UCC_qgpzUN0tqryAM_qm1X0w",
 			"description": "Writer of epic music"
 		},
@@ -160,7 +160,7 @@
 			"name": "Alex Berg",
 			"tags": [],
 			"keywords": [],
-			"photos": [""],
+			"photos": ["images/friends/Alex.png"],
 			"link": "https://www.echotechaudio.com/",
 			"description": "Sound engineer behind ECHOTECH and musician"
 		},
@@ -178,7 +178,7 @@
 				"name": "Blender Cafe",
 				"date": "2/15/2020",
 				"tags": ["art","3d art", "scene", "blender", "donut tutorial", "tutorial", "food", "scenes", "digital art"],
-				"keywords": ["art","3D","blender","render","scene","donut","coffee", "blender guru","tutorial", "vase","flower","flowers","glass","breakfast", "first projects", "virtual"],
+				"keywords": ["art","3d","blender","render","scene","donut","coffee", "blender guru","tutorial", "vase","flower","flowers","glass","breakfast", "first projects", "virtual"],
 				"photos": ["blender/images/blendercafe.gif"],
 				"link": "",
 				"description": "Based on the <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>Donut Tutorial by Blender Guru. I added a cherry blossom branch, also based on a Blender Guru tutorial, for an extra little decoration.</a>"
@@ -188,7 +188,7 @@
 				"name": "bud vase",
 				"date": "2/14/2020",
 				"tags": ["3d art", "model", "blender", "glass", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","vase","flower","flowers","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","vase","flower","flowers","virtual"],
 				"photos": ["blender/images/budvase.png"],
 				"link": "",
 				"description": "I used the process outlined by Blender Guru for making a glass coffee cup to make my first original design in Blender - a little vase for my Blender Cafe scene."
@@ -198,17 +198,17 @@
 				"name": "bagels",
 				"date": "3/15/2020",
 				"tags": ["3d art", "model", "blender", "food", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","food","breakfast", "first projects","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","food","breakfast", "first projects","virtual"],
 				"photos": ["blender/images/bagels.png"],
 				"link": "",
 				"description": "Loosely based on the <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>Donut Tutorial by Blender Guru</a>"
 			},
 
 			{
-				"name": "pinic breakfast",
+				"name": "picnic breakfast",
 				"date": "7/4/2021",
 				"tags": ["art","3d art", "scene", "blender", "food", "scenes", "digital art"],
-				"keywords": ["art","3D","blender","render","scene","breakfast","brunch","food","glass", "nature","virtual"],
+				"keywords": ["art","3d","blender","render","scene","breakfast","brunch","food","glass", "nature","virtual"],
 				"photos": ["blender/images/breakfastpicnic.png"],
 				"link": "https://polyhaven.com/a/flower_road",
 				"description": "Uses a <a href='https://polyhaven.com/a/flower_road' target='_blank'>free HDRI</a> from Polyhaven"
@@ -218,7 +218,7 @@
 				"name": "bread",
 				"date": "2/29/2020",
 				"tags": ["3d art", "model", "blender", "food", "models", "tutorial"],
-				"keywords": ["art","3D","blender","render","asset","model","food","blender guru","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","food","blender guru","virtual"],
 				"photos": ["blender/images/bread.png"],
 				"link": "",
 				"description": "Based on a <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>tutorial by Blender Guru</a>"
@@ -228,7 +228,7 @@
 				"name": "apples",
 				"date": "3/10/2020",
 				"tags": ["3d art", "scene", "blender", "food", "tutorial", "scenes", "digital art"],
-				"keywords": ["art","3D","blender","render","asset","model","food","tutorial","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","food","tutorial","virtual"],
 				"photos": ["blender/images/apples.png"],
 				"link": "",
 				"description": "Based on a <a href='https://www.youtube.com/watch?v=j14b25SnYRY&list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0' target='_blank'>tutorial by CG Boost</a>"
@@ -238,7 +238,7 @@
 				"name": "teddy bear",
 				"date": "2/19/2020",
 				"tags": ["art","3d art", "scene", "blender", "toys", "tutorial", "scenes", "digital art"],
-				"keywords": ["art","3D","blender","render","asset","model","toy","stuffie","bear","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","toy","stuffie","bear","virtual"],
 				"photos": ["blender/images/teddybear.png"],
 				"link": "",
 				"description": "Loosely based on <a href='https://www.youtube.com/watch?v=Ebx2qbBlvh0' target='_blank'>this video by Blender Guru</a>"
@@ -249,7 +249,7 @@
 				"name": "neon sign",
 				"date": "12/30/2020",
 				"tags": ["art","3d art", "scene", "blender", "decorations", "tutorial", "scenes", "digital art","lights"],
-				"keywords": ["art","3D","blender","render","asset","model","light","glow","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","light","glow","virtual"],
 				"photos": ["blender/images/neonsign.png"],
 				"link": "",
 				"description": "Based on a <a href='https://www.youtube.com/watch?v=eQjQfmjDXXA' target='_blank'>tutorial by Blender Guru</a>"
@@ -259,9 +259,9 @@
 				"name": "cube shelf",
 				"date": "5/15/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 				"tags": ["3d art", "model", "blender", "furniture", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","furniture","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","furniture","virtual"],
 				"photos": ["blender/images/shelf_cube.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": "Model based on my actual cube shelves from Target"
 			},
 
@@ -270,19 +270,19 @@
 				"name": "yoga mat",
 				"date": "6/24/2021",
 				"tags": ["3d art", "model", "blender", "models"],
-				"keywords": ["art","3D","blender","render","asset","model", "exercise","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model", "exercise","virtual"],
 				"photos": ["blender/images/yogamat.png"],
-				"link": "https://purplegreenprojects.com",
-				"description": "See if you can spot this in the <a href='www.purplegreenprojects.com/room' target='_blank'>room</a>!" //???
+				"link": "room/",
+				"description": "See if you can spot this in the <a href='room/' target='_blank'>room</a>!"
 			},
 
 			{
 				"name": "desk",
 				"date": "2/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 				"tags": ["3d art", "model", "blender", "furniture", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","furniture", "office","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","furniture", "office","virtual"],
 				"photos": ["blender/images/desk_drawing.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": "Model based on my drawing desk (with some creative liberties taken)"
 			},
 
@@ -290,9 +290,9 @@
 				"name": "bulletin board",
 				"date": "6/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 				"tags": ["3d art", "model", "blender", "furniture", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","office","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","office","virtual"],
 				"photos": ["blender/images/bulletinboard.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": "See if you can spot this in the scene!"
 			},
 
@@ -300,9 +300,9 @@
 				"name": "piano",
 				"date": "1/23/2021",
 				"tags": ["3d art", "model", "blender", "furniture", "models", "music"],
-				"keywords": ["art","3D","blender","render","asset","model","music","instrument", "composing","composition","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","music","instrument", "composing","composition","virtual"],
 				"photos": ["blender/images/piano.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": "Model based on my actual piano"
 			},
 
@@ -310,9 +310,9 @@
 				"name": "sewing machine",
 				"date": "3/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 				"tags": ["3d art", "model", "blender", "furniture", "models", "sewing"],
-				"keywords": ["art","3D","blender","render","asset","model","sew","sewing","sewn","sewist","seamstress","clothes", "singer","Grandma","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","sew","sewing","sewn","sewist","seamstress","clothes", "singer","grandma","virtual"],
 				"photos": ["blender/images/sewingmachine.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": "Model loosely based on my sewing machine"
 			},
 
@@ -320,27 +320,27 @@
 				"name": "dress form",
 				"date": "4/23/2021",
 				"tags": ["3d art", "model", "blender", "furniture", "models", "sewing", "clothes"],
-				"keywords": ["art","3D","blender","render","asset","model","dress","sewing","sew","seamstress","clothes","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","dress","sewing","sew","seamstress","clothes","virtual"],
 				"photos": ["blender/images/sewingdressform.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": "See if you can spot this in the scene!"
 			},
 
 			{
 				"name": "banker's lamp",
-				"date": "",
+				"date": "4/1/2021",
 				"tags": ["3d art", "model", "blender", "furniture", "lights", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","lamp","light","green","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","lamp","light","green","virtual"],
 				"photos": ["blender/images/lamp_banker.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": "See if you can spot this in the scene!"
 			},
 
 			{
 				"name": "G'pa Chair",
-				"date": "",
+				"date": "6/26/2021",
 				"tags": ["3d art", "model", "blender", "furniture", "chairs", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","Grandpa","chair","furniture","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","grandpa","chair","furniture","virtual"],
 				"photos": ["blender/images/chair_gpa.png"],
 				"link": "",
 				"description": "Model based on my Grandpa Jim's chair, with help from <a href='https://www.youtube.com/watch?v=Y4whyFTilsA&list=PLjEaoINr3zgGgS-N9Ews90bDAYYLoP0NO' target='_blank'>this tutorial by Blender Guru</a>"
@@ -350,7 +350,7 @@
 				"name": "end table",
 				"date": "6/7/2021",
 				"tags": ["3d art", "model", "blender", "furniture", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","furniture","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","furniture","virtual"],
 				"photos": ["blender/images/table_end.png"],
 				"link": "",
 				"description": "See if you can spot this in the scene!"
@@ -360,9 +360,9 @@
 				"name": "house plant",
 				"date": "6/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 				"tags": ["3d art", "model", "blender", "plants", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","plant","plants","houseplant","houseplants","house plants", "house plant", "garden", "gardening","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","plant","plants","houseplant","houseplants","house plants", "house plant", "garden", "gardening","virtual"],
 				"photos": ["blender/images/plant_pothos.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": "Based on a <a href='https://www.youtube.com/watch?v=JoW1XWi4Lw0' target='_blank'>tutorial by yojigraphics</a>"
 			},
 
@@ -370,9 +370,9 @@
 				"name": "poang chair",
 				"date": "5/2/2021",
 				"tags": ["3d art", "model", "blender", "furniture", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","furniture","chair","ikea","reading","read","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","furniture","chair","ikea","reading","read","virtual"],
 				"photos": ["blender/images/chair_poang.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": "Model based on <a href='https://www.ikea.com/us/en/cat/poaeng-series-07472/' target='_blank'>Poäng by IKEA</a>"
 			},
 
@@ -380,9 +380,9 @@
 				"name": "floor lamp",
 				"date": "6/15/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 				"tags": ["3d art", "model", "blender", "furniture", "lights", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","lamp","light","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","lamp","light","virtual"],
 				"photos": ["blender/images/lamp_floor.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": "Many thanks to <a href='https://leomoon.com/store/shaders/ies-lights-pack/' target='_blank'>LeoMoon Studios' free IES Lights Pack</a>"
 			},
 
@@ -390,9 +390,9 @@
 				"name": "reading lamp",
 				"date": "6/15/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 				"tags": ["3d art", "model", "blender", "furniture", "lights", "models"],
-				"keywords": ["art","3D","blender","render","asset","model","light","lamp","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","light","lamp","virtual"],
 				"photos": ["blender/images/lamp_reading.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": "Many thanks to <a href='https://leomoon.com/store/shaders/ies-lights-pack/' target='_blank'>LeoMoon Studios' free IES Lights Pack</a>"
 			},
 
@@ -400,9 +400,9 @@
 				"name": "book",
 				"date": "3/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 				"tags": ["3d art", "model", "blender","models"],
-				"keywords": ["art","3D","blender","render","asset","model","book","reading","read","current","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","book","reading","read","current","virtual"],
 				"photos": ["blender/images/books.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": ""
 			},
 
@@ -410,9 +410,9 @@
 				"name": "notebook",
 				"date": "3/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 				"tags": ["3d art", "model", "blender","models"],
-				"keywords": ["art","3D","blender","render","asset","model","writing","write","poetry","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","writing","write","poetry","virtual"],
 				"photos": ["blender/images/compositionnotebooks.png"],
-				"link": "https://purplegreenprojects.com",
+				"link": "room/",
 				"description": ""
 			},
 
@@ -420,21 +420,21 @@
 				"featured": true,
 				"name": "PurpleGreen Projects (v.2)",
 				"date": "6/30/2021",
-				"tags": ["art", "scene","3d art", "blender","models","projects portfolios","portfolios", "code", "coding", "with James"],
-				"keywords": ["art","3D","blender","render","asset","model","purplegreen","purplegreenprojects","evolution","website","virtual"],
-				"photos": ["images/lightmode/all.png"],
-				"link": "https://purplegreenprojects.com",
+				"tags": ["art", "scene","3d art", "blender","models","projects portfolios","portfolios", "code", "coding", "with james"],
+				"keywords": ["art","3d","blender","render","asset","model","purplegreen","purplegreenprojects","evolution","website","virtual"],
+				"photos": ["room/images/lightmode/all.png"],
+				"link": "room/",
 				"description": "My first big project in Blender, made through a combination of tutorials and trial-and-error, featuring many models I created from scratch! James helped me code divs to layer on top of the rendered images so that I could make clickable buttons with links to galleries and other places where my projects are documented."
 			},
 
 			{
 				"name": "Snow Sculptures",
-				"date": "12/1/2010", //guess, most recent one was senior year of high school...
+				"date": "12/1/2003", //guess, most recent one was senior year of high school, but chronologically I want this to show up when I made the first batch, in elementary school
 				"tags": ["art","3d art", "sculptures", "snow","bunnies"],
-				"keywords": ["art", "other art", "sculpt","sculpture","snow","snowman", "bunny","bunnies","rabbit","3D", "first projects","childhood"],
+				"keywords": ["art", "other art", "sculpt","sculpture","snow","snowman", "bunny","bunnies","rabbit","3d", "first projects","childhood"],
 				"photos": ["art/images/2011snowbunny.jpg"],
 				"link": "snowsculptures/",
-				"description": ""
+				"description": "When I was little, I loved playing outside in the snow - however, I did not like that I was not allowed to bring my stuffed animals out with me. So, I made a bunny out of snow and fed it icicle carrots. I loved that it had the weight of a real bunny and that I could make it look realistic... In a way, this was a precursor to Kniterative Designs!"
 			},
 
 		// digital
@@ -443,11 +443,11 @@
 				"featured": true,
 				"name": "Kniterative Designs Logo",
 				"date": "7/1/2017", //guessing that it was before I launched my Etsy shop (Aug/Sept 2017), because I don't remember using the old logo for that ever; was def before 12/2017 (which is when I have files dated)
-				"tags": ["digital art", "Kniterative Designs",],
+				"tags": ["digital art", "kniterative designs"],
 				"keywords": ["art","art","digital","knit","kd","kniterative", "logo", "etsy", "business"],
-				"photos": ["art/images/kdlogofull.png"], // ???
-				"link": "https://purplegreenprojects.com/kdcustomorder/", //??? (add gallery for KD logo iterations, process)
-				"description": ""
+				"photos": ["art/images/kdlogofull.png","art/images/kdfavicon.png"],
+				"link": "kdcustomorder/", //??? (add gallery for KD logo iterations, process)
+				"description": "Before launching my Etsy Shop, I created this logo for my small business, Kniterative Designs. The full logo depicts letters formed out of the knitting itself as well as the knittting needles and the yarn. The favicon (smaller, abbreviated version) shows the 'K' formed by knitted stitches and a lowercase 'd' formed by a ball of yarn and single knitting needle." 
 			},
 
 			{
@@ -459,75 +459,6 @@
 				"link": "https://jamesmayr.com/meteoriteminer/",
 				"description": `Art by me for a game by <a href="https://jamesmayr.com" target="_blank">James</a>, using <a href="https://jamesmayr.com/spritemaker/" target="_blank">spriteMaker</a>`
 			},
-
-			// {
-			// 	"name": "Chroma (album art)",
-			// 	"date": "",
-			// 	"tags": ["digital art", "design", "music", "imagery", "photography", "fall"],
-			// 	"keywords": ["art","digital", "design", "first projects", "composition", "song", "songs", "album"],
-			// 	"photos": ["music/images/chroma.jpg"],
-			// 	"link": "",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "Whether (album art)",
-			// 	"date": "",
-			// 	"tags": ["digital art", "design", "music", "imagery", "drawing", "spring", "summer"],
-			// 	"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
-			// 	"photos": ["music/images/whether.png"],
-			// 	"link": "",
-			// 	"description": ""
-			// },
-			// {
-			// 	"name": "Elephant (album art)",
-			// 	"date": "",
-			// 	"tags": ["digital art", "design", "music", "imagery", "photography"],
-			// 	"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
-			// 	"photos": ["music/images/elephant.jpg"],
-			// 	"link": "",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "These Days (album art)",
-			// 	"date": "",
-			// 	"tags": ["digital art", "design", "music", "imagery", "photography", "winter", "spring", "Binghamton University"],
-			// 	"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
-			// 	"photos": ["music/images/thesedays.jpg"],
-			// 	"link": "",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "Chroma Snapshot: Chaos in Circles (album art)",
-			// 	"date": "",
-			// 	"tags": ["digital art", "design", "music", "imagery", "photography", "Chroma"],
-			// 	"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
-			// 	"photos": ["music/images/chaosincircles.jpg"],
-			// 	"link": "",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "EveryTime (album art)",
-			// 	"date": "",
-			// 	"tags": ["digital art", "design", "music", "imagery", "photography"],
-			// 	"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
-			// 	"photos": ["music/images/everytime.jpg"],
-			// 	"link": "",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "Collecting Carrots (album art)",
-			// 	"date": "",
-			// 	"tags": ["digital art", "design", "music", "imagery", "game", "soundtrack"],
-			// 	"keywords": ["art","digital", "design","composition", "song", "songs", "album"],
-			// 	"photos": ["music/images/collectingcarrots.png"],
-			// 	"link": "",
-			// 	"description": ""
-			// },
 
 		// paintings
 
@@ -541,15 +472,15 @@
 				"description": "First painting project as an adult... I'd played around with watercolors when I was little, but nothing serious. This was the first time I bought a canvas and some acrylic paint and took the risk..."
 			},
 
-			{
-				"name": "Knitting (in green)",
-				"date": "9/13/2016",
-				"tags": ["paintings", "acrylic", "knitting"],
-				"keywords": ["art","painting","paint","knit","knitting"],
-				"photos": ["art/images/knitting.png"],
-				"link": "",
-				"description": "After I made the first version, in blue, I used tracing paper to duplicate the image so I could make another one for Grandma Fran - in her favorite color."
-			},
+			// {
+			// 	"name": "Knitting (in green)",
+			// 	"date": "9/13/2016",
+			// 	"tags": ["paintings", "acrylic", "knitting"],
+			// 	"keywords": ["art","painting","paint","knit","knitting"],
+			// 	"photos": ["art/images/knitting.png"],
+			// 	"link": "",
+			// 	"description": "After I made the first version, in blue, I used tracing paper to duplicate the image so I could make another one for Grandma Fran - in her favorite color."
+			// },
 
 			{
 				"name": "Kniterative Designs Friends",
@@ -614,7 +545,7 @@
 			{
 				"name": "Clothesline",
 				"date": "6/5/2021",
-				"tags": ["paintings", "watercolor", "tutorial", "clothes"],
+				"tags": ["paintings", "watercolor", "tutorial", "clothes", "laundry"],
 				"keywords": ["art","watercolor","paint","painting","clothes", "tutorial"],
 				"photos": ["art/images/clothesline.png"],
 				"link": "",
@@ -632,31 +563,31 @@
 			},
 
 			{
+				"name": "Laundry Day",
+				"date": "6/5/2021",
+				"tags": ["paintings", "acrylic", "tutorial", "clothes"],
+				"keywords": ["art","acrylic","paint","painting","clothes", "tutorial"],
+				"photos": ["art/images/acryliclaundry1.jpg","art/images/acryliclaundry2.jpg","art/images/acryliclaundry3.jpg","art/images/acryliclaundry4.jpg","art/images/acryliclaundry5.jpg"],
+				"link": "",
+				"description": "Based on a <a href='https://www.youtube.com/watch?v=V77-G8UHBcI' target='_blank'>tutorial by Peter Sheeler</a>, but this time I used acrylic paint on a canvas that had already been painted, by somebody else, and discarded. I placed my tape very carefully this time, paying attention to what color would come through after I'd painted the scene over the rest of it. It was an intersting experiment!"
+			},
+
+			{
 				"name": "Sunflowers",
 				"date": "9/30/2020", // I think it was one of the first if not the very first SLB tutorial I followed, pretty sure in the very earliest days of COVID...
-				"tags": ["paintings", "acrylic", "tutorial", "Van Gogh", "flowers"],
+				"tags": ["paintings", "acrylic", "tutorial", "van gogh", "flowers"],
 				"keywords": ["art", "paint", "painting", "something less boring", "slb", "tutorial", "flowers", "sunflower", "sunflowers"],
 				"photos": ["art/images/sunflowers.png"],
 				"link": "https://www.somethinglessboring.co.uk/",
 				"description": "Inspired by Van Gogh's Sunflowers - based on a tutorial by <a href='https://www.somethinglessboring.co.uk/' target='_blank'>Something Less Boring</a>. This was one of the first - of many - tutorials that my mom and my aunt and I followed during weekend 'painting parties' via Zoom in the early days of the COVID lockdowns."
 			},
 
-			// {
-			// 	"name": "Pansies",
-			// 	"date": "",
-			// 	"tags": ["paintings", "watercolor", "tutorial", "flowers"],
-			// 	"keywords": ["art","watercolor","paint","painting","flower", "flowers", "pansy", "pansies", "something less boring","slb","tutorial"],
-			// 	"photos": ["art/images/pansies.png"],
-			// "link": "https://www.somethinglessboring.co.uk/",
-			// 	"description": ""
-			// },
-
 			{
 				"name": "Mountain Sunset",
 				"date": "12/11/21",
 				"tags": ["paintings","acrylic","tutorial"],
-				"keywords": ["art","acrylic","paint","painting",],
-				"photos": [], // *???*
+				"keywords": ["art","acrylic","paint","painting"],
+				"photos": ["art/images/mountainsunset.jpg"], //
 				"link": "",
 				"description":"<a href='https://www.youtube.com/watch?v=e63Cgln6Yag' target='_blank'>Bob Ross</a> says I make the rules in my world... So in my world, the trees are purple."
 			},
@@ -666,7 +597,7 @@
 				"date": "3/3/2022",
 				"tags": ["paintings", "acrylic", "tutorial", "sunflowers"],
 				"keywords": ["art","acrylic","paint","painting"],
-				"photos": [], // ??? add gallery
+				"photos": ["art/images/ukrainesunflowers1.jpg","art/images/ukrainesunflowers2.jpg","art/images/ukrainesunflowers3.jpg","art/images/ukrainesunflowers4.jpg","art/images/ukrainesunflowers5.jpg"],
 				"link": "",
 				"description": "This was a tutorial by Something Less Boring - all proceeds were donated to relief efforts to help the people of Ukraine in the early days of the war."
 			},
@@ -676,7 +607,7 @@
 				"date": "6/18/2022",
 				"tags": ["paintings", "watercolor","gifts","trees"],
 				"keywords": ["art","watercolor","paint","painting","nature","tree","gift"],
-				"photos": [], // *???*
+				"photos": ["art/images/birches1.jpg","art/images/birches7.png","art/images/birches8.png","art/images/birches2.jpg","art/images/birches3.jpg","art/images/birches4.jpg","art/images/birches5.jpg","art/images/birches6.jpg"],
 				"link": "",
 				"description":"Wedding Present for Mom and Bob, to go with a <a href='https://www.goodreads.com/quotes/147424-two-trees-a-portion-of-your-soul-has-been-entwined' target='_blank'>poem by Janet Miles,</a> (which Aunt Diana read at their wedding)"
 			},
@@ -685,8 +616,8 @@
 				"name": "Deep Purple Dream",
 				"date": "9/18/2022",
 				"tags": ["paintings","acrylic","tutorial","nature","moon"],
-				"keywords": ["art","acrylic","paint","painting",],
-				"photos": [], // *???*
+				"keywords": ["art","acrylic","paint","painting"],
+				"photos": ["art/images/deeppurpledream.jpg"],
 				"link": "",
 				"description": "Based on a <a href='https://www.youtube.com/watch?v=zSdqkSTfB0Q' target='_blank'>tutorial by Joony art</a>"
 			},
@@ -695,8 +626,8 @@
 				"name": "Yarn Balls",
 				"date": "11/6/2022",
 				"tags": ["paintings", "watercolor","tutorial"],
-				"keywords": ["art","watercolor","paint","painting",],
-				"photos": [], // *???*
+				"keywords": ["art","watercolor","paint","painting"],
+				"photos": ["art/images/yarnballs1.jpg","art/images/yarnballs2.jpg","art/images/yarnballs3.jpg"],
 				"link": "",
 				"description":"Based on a <a href='https://www.youtube.com/watch?v=DNTuDu0Unfc' target='_blank'>tutorial by Nianiani</a>"
 			},
@@ -705,8 +636,8 @@
 				"name": "Winter Owl",
 				"date": "1/19/2023",
 				"tags": ["paintings","acrylic","tutorial"],
-				"keywords": ["art","watercolor","acrylic","paint","painting",],
-				"photos": [], // *???*
+				"keywords": ["art","watercolor","acrylic","paint","painting"],
+				"photos": ["art/images/winterowl1.jpg","art/images/winterowl2.jpg","art/images/winterowl3.jpg"],
 				"link": "",
 				"description":"Based on a <a href='https://app.jesserobertson.com/#/details/winter-watcher' target='_blank'>tutorial by Jesse Robertson</a>"
 			},
@@ -715,26 +646,26 @@
 				"name": "Winter - Seasons Series",
 				"date": "2/18/2023",
 				"tags": ["paintings","acrylic","tutorial"],
-				"keywords": ["art","watercolor","acrylic","paint","painting",],
-				"photos": [], // ???
+				"keywords": ["art","watercolor","acrylic","paint","painting"],
+				"photos": ["art/images/seasonwinter.jpg"],
 				"link": "",
 				"description":"Loosely based on a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>"
 			},
-			// {
-			// 	"name": "Spring - Seasons Series",
-			// 	"date": "5/6/2023",
-			// 	"tags": ["paintings","acrylic","tutorial"],
-			// 	"keywords": ["art","watercolor","acrylic","paint","painting",],
-			// 	"photos": [],
-			// 	"link": "",
-			// 	"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
-			// },
+			{
+				"name": "Spring - Seasons Series",
+				"date": "5/6/2023",
+				"tags": ["paintings","acrylic","tutorial"],
+				"keywords": ["art","watercolor","acrylic","paint","painting"],
+				"photos": ["art/images/seasonspring.jpg"],
+				"link": "",
+				"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
+			},
 			{
 				"name": "Summer - Seasons Series",
 				"date": "8/6/2023",
-				"tags": ["paintings","acrylic","tutorial",],
-				"keywords": ["art","watercolor","acrylic","paint","painting",],
-				"photos": [], // ???
+				"tags": ["paintings","acrylic","tutorial"],
+				"keywords": ["art","watercolor","acrylic","paint","painting"],
+				"photos": ["art/images/seasonsummer.jpg"], 
 				"link": "",
 				"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
 			},
@@ -742,7 +673,7 @@
 			// 	"name": "Fall - Seasons Series",
 			// 	"date": "",
 			// 	"tags": ["paintings","acrylic","tutorial"],
-			// 	"keywords": ["art","watercolor","acrylic","paint","painting",],
+			// 	"keywords": ["art","watercolor","acrylic","paint","painting"],
 			// 	"photos": [],
 			// 	"link": "",
 			// 	"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
@@ -754,7 +685,7 @@
 				"featured": true,
 				"name": "Nova Scotia",
 				"date": "4/15/2008", // obvs after Nova Scotia trip... not sure if during 7th grade or 8th or 9th... I remember painting it during spring semester... Maybe during April break?
-				"tags": ["drawings art", "favorite places", "Nova Scotia", "water", "watercolor"],
+				"tags": ["drawings art", "favorite places", "nova scotia", "water", "watercolor"],
 				"keywords": ["art","watercolor", "water color", "colored pencil", "draw","drawing","paint","painting", "travel","adventure","trip","trek","canada","favorite", "place", "cape breton", "ocean", "water","beach","face"],
 				"photos": ["art/images/novascotia.png"],
 				"link": "",
@@ -772,15 +703,15 @@
 				"description": "I hadn't drawn anything in long time, so I bought a red (purple) onion and a green pepper from Foodtown (in the Bronx, where James was living and I was visiting), turned on a very bright light off to one side, and drew what I saw."
 			},
 
-			{
-				"name": "Selections from Sketchbooks",
-				"date": new Date(),
-				"tags": ["drawings art", "ink", "pen", "sketch", "sketching", "dinosaur", "special"],
-				"keywords": ["art","colored pencil","draw","drawing","paint","painting", "food", "purple","green", "onion", "pepper"],
-				"photos": [""], // ???
-				"link": "",
-				"description": "Inspired by <a href='https://www.youtube.com/@SketchBookSkool' target='_blank'>Danny Gregory's encouraging Sketchbook Skool videos</a>, I gave sketching - with a pen, not a pencil - a try for a bit... I go in fits and spurts, but the practice has resulted in some real gems that are very special to me."
-			},
+			// {
+			// 	"name": "Selections from Sketchbooks",
+			// 	"date": new Date(),
+			// 	"tags": ["drawings art", "ink", "pen", "sketch", "sketching", "dinosaur", "special"],
+			// 	"keywords": ["art","colored pencil","draw","drawing","paint","painting", "food", "purple","green", "onion", "pepper"],
+			// 	"photos": [""], // ???
+			// 	"link": "",
+			// 	"description": "Inspired by <a href='https://www.youtube.com/@SketchBookSkool' target='_blank'>Danny Gregory's encouraging Sketchbook Skool videos</a>, I gave sketching - with a pen, not a pencil - a try for a bit... I go in fits and spurts, but the practice has resulted in some real gems that are very special to me."
+			// },
 
 
 		// other art
@@ -788,9 +719,9 @@
 			{
 				"name": "glass suncatcher",
 				"date": "2/15/2020", //around Feb break right before the pandemic
-				"tags": ["art","glass"],
+				"tags": ["art","glass", "3d"],
 				"keywords": ["art","class","workshop"],
-				"photos": ["art/images/glass1.png","art/images/glass2.png","art/images/glass3.png"],
+				"photos": ["art/images/glass1.png","art/images/glass2.png","art/images/glass3.png","art/images/glass4.png","art/images/glass5.png"],
 				"link": "https://jamesmayr.com/blog/#glassmaking-with-liz",
 				"description": "Created in a fused glass art class at the <a href='https://www.1hotpieceofglass.com/collections/classes/products/copy-of-summer-fused-glass-classes?variant=' target='_blank'>Luke Adams Glassblowing Sudio</a>. James wrote a <a href='https://jamesmayr.com/blog/#glassmaking-with-liz' target='_blank'>blog post</a> about the experience."
 			},
@@ -801,129 +732,34 @@
 				"featured": true,
 				"name": "current blog",
 				"date": new Date(),
-				"tags": ["blog","writing","Kniterative Designs"],
+				"tags": ["blog","writing","kniterative designs"],
 				"keywords": ["stories","story","life"],
-				"photos": [""], // *???*
-				"link": "https://purplegreenprojects.com/blog/",
-				"description": "More detailed descriptions of my works-in-progress, sometimes organized into thematic series of posts, with some musings on the creative process, my life experiences, and random ideas mixed in."
+				"photos": ["blog/KDfaviconPGPgradient.png","blog/blogsquare.png"], 
+				"link": "blog/",
+				"description": "Kniterative Designs and other PurpleGreen Projects - More detailed descriptions of my works-in-progress, sometimes organized into thematic series of posts, with some musings on the creative process, my life experiences, and random ideas mixed in."
 			},
 
 			{
 				"featured": true,
 				"name": "Couplets",
 				"date": new Date(),
-				"tags": ["poetry","writing","James"],
+				"tags": ["poetry","writing","james"],
 				"keywords": ["poems","poem","life"],
-				"photos": [""], // *???*
-				"link": "https://purplegreenprojects.com/couplets/",
+				"photos": ["couplets/coupletslogo.png"],
+				"link": "couplets/",
 				"description": "A collaboration with James, inspired by his poetry blog from several years ago and born out of my desire to challenge myself to write more poetry. The result was a dialogue, recorded for posterity, documenting some really tumultuous times - my first job, the pandemic, the death of two of my grandparents... - and also some really beautiful mooments."
 			},
 
 
 			{
 				"name": "other poetry",
-				"date": "7/1/2019", //before first couplets poem // ???
+				"date": "7/1/2019", //before first couplets poem
 				"tags": ["writing", "poetry"],
-				"keywords": [""], // *???*
-				"description": "Selections from poetry of mine before the <a href='https://purplegreenprojects.com/couplets/' target='_blank'>Couplets</a> project - mostly from high school.",
-				"slides": [
-					{
-						"photo": "stories/images/1.jpg",
-						"description": "adaasfdasfasf",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/2.jpg",
-						"description": "fdjkalfjdlks",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/3.jpg",
-						"description": "jkl;jkl;jkl;",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/4.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/5.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/6.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/7.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/8.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/9.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/10.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/11.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/12.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/13.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/14.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/15.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/16.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/17.jpg",
-						"description": "",
-						"link": ""
-					},
-				]
+				"keywords": [""],
+				"photos": ["writing/images/doublemeaning.png","writing/images/moments.png"],
+				"description": "Selections from poetry of mine before the <a href='https://purplegreenprojects.com/couplets/' target='_blank'>Couplets</a> project - starting when I was in high school.",
+				"link":"writing/"
 			},
-
-			// {
-			// 	"name": "journals",
-			// 	"date": "",
-			// 	"tags": ["writing","life"],
-			// 	"keywords": [""],
-			// 	"photos": [""],
-			// 	"link": "",
-			// 	"description": ""
-			// },
 
 	// SEWING
 
@@ -961,7 +797,7 @@
 				"name": "Adventure Bag",
 				"date": "7/2/2017",
 				"tags": ["sewn bags", "sewing", "bags","treks","adventures","handmade accessories"],
-				"keywords": ["sew","sewn","sewing","bag","bags","accessory","accessories","NYC"],
+				"keywords": ["sew","sewn","sewing","bag","bags","accessory","accessories","nyc"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20170715_204102926.jpg?itok=bl7MGkJm"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/adventure-bag",
 				"description": "Read all about the process of designing and making this bag on <a href='https://purplegreenprojects.com/blog/#adventure-bags-part-2-the-original-adventure-bag' target='_blank'>my blog</a>."
@@ -1040,7 +876,7 @@
 				"keywords": ["sew","sewn","sewing","skirt","skirts","handmade clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20200602_172303769.jpg?itok=pxUVqM-7"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/skirts-me-no-pattern-1-yard-fabric-each",
-				"description": "The fabric reminded me of how knitting looks, so I sewed a skirt out of it."
+				"description": "The fabric reminded me of how knitting looks, so I sewed a skirt out of it. It's mostly retired now, but I wore it a lot during the pandemic, whenever I needed a pop of color and whimsy!"
 			},
 			{
 				"name": "Sunflower skirt",
@@ -1172,8 +1008,8 @@
 				{
 					"name": "Carrots",
 					"date": "12/28/2017",
-					"tags": ["Kniterative Designs", "crochet", "carrots","food","toys","bunnies"],
-					"keywords": ["kniterative designs", "kniterative", "design", "kd", "bunny", "bunnies", "rabbit", "rabbits", "crochet","food","carrot"],
+					"tags": ["kniterative designs", "crochet", "carrots","food","toys","bunnies"],
+					"keywords": ["kniterative designs", "kniterative", "designs", "design", "kd", "bunny", "bunnies", "rabbit", "rabbits", "crochet","food","carrot"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/601963449/upload_medium2",
 						"https://images4-f.ravelrycache.com/uploads/KDpurplegreen/900645059/IMG_20180407_160908680_1__medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/crocheted-carrots",
@@ -1183,8 +1019,8 @@
 				{
 					"name": "Fish",
 					"date": "9/30/2020",
-					"tags": ["Kniterative Designs", "crochet", "fish", "toys", "decorations"],
-					"keywords": ["crochet","kniterative designs", "design", "kd","fish","toy","decoration"],
+					"tags": ["kniterative designs", "crochet", "fish", "toys", "decorations"],
+					"keywords": ["crochet","kniterative designs", "kniterative", "designs", "design", "kd","fish","toy","decoration"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/791016771/IMG_20200909_155149000_HDR_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/crocheted-fish",
 					"description": "A later addition to the Kniterative Designs pantheon. They're a bit fiddly, but quite pretty."
@@ -1193,8 +1029,8 @@
 				{
 					"name": "Mice",
 					"date": "11/23/2018",
-					"tags": ["Kniterative Designs","crochet", "mouse","mice", "toys", "decorations"],
-					"keywords": ["kd", "kniterative designs", "design", "crochet", "cat", "cats", "toy", "decoration"],
+					"tags": ["kniterative designs","crochet", "mouse","mice", "toys", "decorations"],
+					"keywords": ["kd", "kniterative designs", "kniterative", "designs", "design", "crochet", "cat", "cats", "toy", "decoration"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/715785584/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/crocheted-mice",
 					"description": "After designing a knitted cat pattern, a natural next step was to make mice!"
@@ -1206,8 +1042,8 @@
 					"featured": true,
 					"name": "Franny",
 					"date": "8/30/2020",
-					"tags": ["Kniterative Designs","knitting", "bunnies", "toys"],
-					"keywords": ["kd", "kniterative designs", "design", "bunny", "rabbit", "knit", "knitting", "knitted", "toy"],
+					"tags": ["kniterative designs","knitting", "bunnies", "toys"],
+					"keywords": ["kd", "kniterative designs", "kniterative", "designs", "design", "bunny", "rabbit", "knit", "knitting", "knitted", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/728168086/upload_medium2",
 						"https://images4-f.ravelrycache.com/uploads/eef25/728168133/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/knitpicks-fable-fur-bunny",
@@ -1217,8 +1053,8 @@
 				{
 					"name": "Teddy",
 					"date": "7/12/2019",
-					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd", "kniterative designs", "design", "bunny","rabbit","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "bunnies","toys"],
+					"keywords": ["kd", "kniterative designs", "kniterative", "designs", "design", "bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715766025/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/teddy-the-fuzzy-brown-bunny",
 					"description": "Teddy is available for adoption!"
@@ -1227,8 +1063,8 @@
 				{
 					"name": "Pedro",
 					"date": "3/4/2018",
-					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","kniterative designs","design","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "bunnies","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/601963453/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/tan-corduroy-bunny-pedro",
 					"description": "Pedro was adopted and moved to Halfmoon, NY"
@@ -1237,8 +1073,8 @@
 				{
 					"name": "Rosie (the Rabbiter)",
 					"date": "2/28/2018",
-					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","kniterative designs","design","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "bunnies","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/715730393/IMG_20180224_011125925.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/rosie---the-rabbiter",
 					"description": "Rosie was adopted and moved to Ballston Spa, NY"
@@ -1247,8 +1083,8 @@
 				{
 					"name": "Nibbles",
 					"date": "12/20/2017",
-					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","kniterative designs","design","commission","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "bunnies","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","commission","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/601983891/IMG_2394_medium2.JPG"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/nibbles-for-jenn-commissioned-by-max",
 					"description": "Nibbles was adopted and moved to Newburgh, NY"
@@ -1257,8 +1093,8 @@
 				{
 					"name": "Penelope",
 					"date": "12/17/2015",
-					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","kniterative designs","design","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "bunnies","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/384669806/IMG_3393_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/impossibly-fuzzy-bunny",
 					"description": "Penelope was adopted and moved to Oslo, Norway! (My first international sale!)"
@@ -1267,18 +1103,18 @@
 				{
 					"name": "Owen",
 					"date": "5/29/2015",
-					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","kniterative designs","design","bunny","rabbit","knit","knitted","knitting", "toy"],
-					"photos": ["https://images4-a.ravelrycache.com/uploads/Kniterative/306080468/IMG_1438_medium2.JPG"],
-					"link": "https://www.ravelry.com/projects/Kniterative/white-corduroy-bunny",
+					"tags": ["kniterative designs", "knitting", "bunnies","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/944486438/IMG_1438_medium2_medium2.JPG"],
+					"link": "https://www.ravelry.com/projects/KDpurplegreen/owen",
 					"description": "Owen was adopted and moved to Latham, NY"
 				},
 
 				{
 					"name": "Isabella",
 					"date": "3/15/2017",
-					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","kniterative designs","design","bunny","rabbit","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "bunnies","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","bunny","rabbit","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/437404910/thumb_IMG_5603_1024_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/pink-bunny-revising-the-pattern-isabella",
 					"description": "Isabella was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
@@ -1297,8 +1133,8 @@
 				{
 					"name": "Baby Bunny",
 					"date": "3/12/2016",
-					"tags": ["Kniterative Designs", "knitting", "bunnies","toys"],
-					"keywords": ["kd","kniterative designs","design","bunny","rabbit","commission","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "bunnies","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","bunny","rabbit","commission","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/363878603/tumblr_o3x5t7hpun1tdp74do1_1280_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/baby-bunny-for-aunt-ellyn",
 					"description": "Commissioned by Aunt Ellyn, for a baby shower"
@@ -1309,8 +1145,8 @@
 				{
 					"name": "Taylor",
 					"date": "11/2/2018",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","cat", "kitty", "kitten", "knitten","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","cat", "kitty", "kitten", "knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715763214/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/taylor-the-yellow-and-white-striped-knitten",
 					"description": "Taylor is currently available for adoption!"
@@ -1319,8 +1155,8 @@
 				{
 					"name": "Callie",
 					"date": "5/2/2019",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","cat","kitten","knitten","kitty","calico","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","cat","kitten","knitten","kitty","calico","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/624068854/IMG_20190425_212607532.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/callie-the-calico-kitten",
 					"description": "Callie is currently available for adoption!"
@@ -1329,8 +1165,8 @@
 				{
 					"name": "Adrienne",
 					"date": "11/10/2018",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","cat","kitten","kitty","knitten","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","cat","kitten","kitty","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/602057334/upload"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/adrienne-the-corduroy-cat-dark-gray-and-white",
 					"description": "Adrienne was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
@@ -1339,8 +1175,8 @@
 				{
 					"name": "Bartholomew",
 					"date": "2/7/2018",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","cat","kitten","kitty","knitten","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","cat","kitten","kitty","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/716636800/upload"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/bartholomew-the-gray-striped-knitten",
 					"description": "Bartholomew was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
@@ -1370,8 +1206,8 @@
 					"featured": true,
 					"name": "Thomas",
 					"date": "7/5/2016",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/767144841/tree_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/thomas-the-orange-knitten",
 					"description": "Thomas was adopted and moved to Afton, VA"
@@ -1380,8 +1216,8 @@
 				{
 					"name": "Claire",
 					"date": "3/31/2016",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/367053653/IMG_2592_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/claire-the-yellow-cat",
 					"description": "Claire was adopted and moved to Grayslake, IL"
@@ -1390,8 +1226,8 @@
 				{
 					"name": "Amelia",
 					"date": "4/7/2016",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/767149356/amelia_medium2.png"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/amelia-the-light-gray-cat",
 					"description": "Amelia was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
@@ -1400,8 +1236,8 @@
 				{
 					"name": "Luca",
 					"date": "3/25/2016",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/368115695/IMG_2655_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/luca-the-dark-gray-cat",
 					"description": "Luca was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
@@ -1420,8 +1256,8 @@
 				{
 					"name": "Olivia",
 					"date": "9/18/2015",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/325852176/IMG_0823_medium2.JPG"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/olivia-the-small-grey-cat",
 					"description": "Olivia was adopted and moved to Tempe, AZ"
@@ -1440,8 +1276,8 @@
 				{
 					"name": "Pat",
 					"date": "1/27/2016",
-					"tags": ["Kniterative Designs", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/767148815/pat_medium2.png"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/pat-the-gray-fuzzy-cat",
 					"description": "My first Kniterative Designs sale! Pat went to live in Cortez,CO"
@@ -1450,8 +1286,8 @@
 				{
 					"name": "Thomas O'Malley",
 					"date": "8/2/2015",
-					"tags": ["Kniterative Designs", "prototypes", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "prototypes", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","kitty","cat","kitten","knitten","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/325852600/20150802_190136_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/thomas-omalley",
 					"description": "My second ever proof-of-concept knitted cat -- a prototype for Kniterative Designs"
@@ -1460,8 +1296,8 @@
 				{
 					"name": "First knitten",
 					"date": "7/1/2015",
-					"tags": ["Kniterative Designs","prototypes", "knitting", "kittens","cats","toys"],
-					"keywords": ["kd","kniterative designs","design","prototype","kitty","cat","kitten","knitten","knit","knitted","knitting", "halloween", "black cat", "toy"],
+					"tags": ["kniterative designs","prototypes", "knitting", "kittens","cats","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","prototype","kitty","cat","kitten","knitten","knit","knitted","knitting", "halloween", "black cat", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/325853300/IMG_0969_medium2.JPG"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/lucky-black-cat",
 					"description": "My first ever proof-of-concept knitted cat -- a prototype for Kniterative Designs"
@@ -1473,8 +1309,8 @@
 					"featured": true,
 					"name": "Fred",
 					"date": "8/24/2018",
-					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","kniterative designs","design","dog","puppy","golden retriever","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "puppies","dogs","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","dog","puppy","golden retriever","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/715756211/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/fred-the-red-golden-retriever",
 					"description": "Fred is currently available for adoption!"
@@ -1483,8 +1319,8 @@
 				{
 					"name": "Banjo",
 					"date": "5/29/2018",
-					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys","commission"],
-					"keywords": ["kd","kniterative designs","design","dog","puppy","dachshund","commission","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "puppies","dogs","toys","commission"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","dog","puppy","dachshund","commission","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715732787/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/banjo-commission",
 					"description": "Commissioned by a woman I met at the Roost Holiday Craft Fair, Banjo is a knitted version of a beloved pet. He was given as baby shower present."
@@ -1493,8 +1329,8 @@
 				{
 					"name": "Valentine",
 					"date": "1/31/2020",
-					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","kniterative designs","design","puppy","dog","labrador","lab","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "puppies","dogs","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","puppy","dog","labrador","lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://kniterativedesigns.files.wordpress.com/2021/02/img_7407.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/valentine-the-pink-dog",
 					"description": "Valentine is available for adoption!"	
@@ -1503,8 +1339,8 @@
 				{
 					"name": "Charlotte",
 					"date": "8/17/2018",
-					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","kniterative designs","design","puppy","dog","labrador","lab","black lab","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "puppies","dogs","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","puppy","dog","labrador","lab","black lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/715759067/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/charlotte-the-black-lab",
 					"description": "Charlotte was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
@@ -1513,8 +1349,8 @@
 				{
 					"name": "Marcus",
 					"date": "6/26/2017",
-					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","kniterative designs","design","puppy","dog","border collie","collie","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "puppies","dogs","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","puppy","dog","border collie","collie","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/465091358/img_20170814_174417151_hdr_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/border-collie-marcus",
 					"description": "Marcus was adopted and traveled to McAllen, TX before moving to his final home in Mexico"
@@ -1534,8 +1370,8 @@
 				{
 					"name": "Jack",
 					"date": "10/25/2016",
-					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","kniterative designs","design","puppy","dog","lab","labrador","black lab","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "puppies","dogs","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","puppy","dog","lab","labrador","black lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/406325404/IMG_4388_medium2.JPG"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/jack-the-black-lab-take-2",
 					"description": "Jack was adopted at the Roost Holiday Craft Fair in New Paltz, NY"
@@ -1544,8 +1380,8 @@
 				{
 					"name": "Chloe",
 					"date": "9/5/2016",
-					"tags": ["Kniterative Designs", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","kniterative designs","design","puppy","dog","labrador","lab","yellow lab","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "knitting", "puppies","dogs","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","puppy","dog","labrador","lab","yellow lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/400065447/tumblr_oe1ba1oje81tdp74do1_1280_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/chloe-the-yellow-lab",
 					"description": "Chloe was adopted and moved to Schnectady, NY"
@@ -1554,8 +1390,8 @@
 				{
 					"name": "First puppy",
 					"date": "6/17/2016",
-					"tags": ["Kniterative Designs", "prototypes", "knitting", "puppies","dogs","toys"],
-					"keywords": ["kd","kniterative designs","design","prototype","puppy","dog","labrador","lab","black lab","knit","knitted","knitting", "toy"],
+					"tags": ["kniterative designs", "prototypes", "knitting", "puppies","dogs","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","prototype","puppy","dog","labrador","lab","black lab","knit","knitted","knitting", "toy"],
 					"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/381698603/tumblr_o8y199hecg1tdp74do2_540_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/black-lab-first-knitted-dog",
 					"description": "My first ever proof-of-concept dog prototype for Kniterative Designs!"
@@ -1566,8 +1402,8 @@
 				{
 					"name": "First Horse",
 					"date": "11/1/2019", // approximate date - it was before Christmas 2019, and I worked on it on Halloween (and was almost done at that point)
-					"tags": ["Kniterative Designs", "prototypes", "knitting", "puppies","dogs","toys","gifts"],
-					"keywords": ["kd","kniterative designs","design","gift","horse","mare","stallion","pony","knit","knitted","knitting", "toy", "grandma emily"],
+					"tags": ["kniterative designs", "prototypes", "knitting", "puppies","dogs","toys","gifts"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","gift","horse","mare","stallion","pony","knit","knitted","knitting", "toy", "grandma emily"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/788401266/IMG_20210530_132707411_copy_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/first-horse#",
 					"description": "First horse, designed by me, given to Grandma Emily"	
@@ -1642,7 +1478,7 @@
 				"keywords": ["knit","knitted","knitting","gift","game of thrones","direwolf","wolf","house stark","stark","banner"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/347317663/IMG_1900_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/house-stark-banner-for-dan",
-				"description": ""
+				"description": "For Secret Santa 2015"
 			},
 
 
@@ -1669,11 +1505,11 @@
 			{
 				"name": "Wallet for James",
 				"date": "10/11/2015",
-				"tags": ["knitted gifts","knitting","accessories","gifts","Explorchestra"],
+				"tags": ["knitted gifts","knitting","accessories","gifts","explorchestra"],
 				"keywords": ["knit","knitted","knitting","gift","accessory","accessories"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/330390480/20151010_224529__1__medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/explogo-phone-case-for-james",
-				"description": ""
+				"description": "...and he still uses it!"
 			},
 
 			{
@@ -1709,7 +1545,7 @@
 			{
 				"name": "Explogo Bunny for Max",
 				"date": "12/30/2014",
-				"tags": ["knitted gifts","knitting","bunnies","decorations","gifts","Explorchestra"],
+				"tags": ["knitted gifts","knitting","bunnies","decorations","gifts","explorchestra"],
 				"keywords": ["knit","knitted","knitting","explorchestra","explo","bunny","rabbit","gift"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/274957935/20141230_113723_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/explogo-bunny-for-max",
@@ -1796,7 +1632,7 @@
 				"keywords": ["knit","knitted","knitting","sweater", "fall","accessory", "accessories", "clothes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/318662543/20150810_130308_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/sprig",
-				"description": ""
+				"description": "My Grandma Fran got me this yarn from her local yarn shop. The pattern is from Botanical Knits - gorgeous!"
 			},
 
 			{
@@ -1919,7 +1755,7 @@
 			{
 				"name": "Explogo Bunny",
 				"date": "1/12/2015",
-				"tags": ["knitted toys", "knitting","toys","bunnies", "Explorchestra"],
+				"tags": ["knitted toys", "knitting","toys","bunnies", "explorchestra"],
 				"keywords": ["knit","knitted","knitting","bunny","rabbit","explorchestra", "explo", "toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/277562543/IMG_0753_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/explogo-bunny-20",
@@ -1929,7 +1765,7 @@
 			{
 				"name": "First bunny",
 				"date": "1/1/2014",
-				"tags": ["knitted toys", "Kniterative Designs","prototypes", "knitting","toys","bunnies"],
+				"tags": ["knitted toys", "kniterative designs","prototypes", "knitting","toys","bunnies"],
 				"keywords": ["knit","knitted","knitting","design","prototype","bunny","rabbit","toy"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/237977865/IMG_6361_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/yet-another-bunny",
@@ -1991,7 +1827,7 @@
 			{
 				"name": "Knitted Explogo",
 				"date": "12/30/2014",
-				"tags": ["knitted other knitting","knitting","decorations","Explorchestra"],
+				"tags": ["knitted other knitting","knitting","decorations","explorchestra"],
 				"keywords": ["knit","knitted","knitting","explorchestra","explo"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/275549486/20141229_171749_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/explogo-phone-case-for-max",
@@ -2020,7 +1856,7 @@
 
 			{
 				"name": "iPod Hoodie Cozy",
-				"date": "",
+				"date": "5/1/2011",
 				"tags": ["knitted other knitting","knitting","decorations","accessories"],
 				"keywords": ["knit","knitted","knitting","raglan"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/61756596/IMG_0825_medium2.JPG"],
@@ -2045,100 +1881,13 @@
 			{
 				"featured": true,
 				"name": "interesting",
-				"date": "",
+				"date": "12/31/2021",
 				"tags": ["photographed stories"],
-				"description": "",
 				"keywords": ["photography","photo","photos","story","stories","water","sky","patterns"],
-				"slides": [
-					{
-						"photo": "stories/images/1.jpg",
-						"description": "adaasfdasfasf",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/2.jpg",
-						"description": "fdjkalfjdlks",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/3.jpg",
-						"description": "jkl;jkl;jkl;",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/4.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/5.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/6.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/7.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/8.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/9.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/10.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/11.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/12.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/13.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/14.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/15.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/16.jpg",
-						"description": "",
-						"link": ""
-					},
-					{
-						"photo": "stories/images/17.jpg",
-						"description": "",
-						"link": ""
-					},
-				]
+				"photos": ["stories/images/1.jpg","stories/images/2.jpg","stories/images/3.jpg","stories/images/4.jpg","stories/images/5.jpg","stories/images/6.jpg","stories/images/7.jpg","stories/images/8.jpg","stories/images/9.jpg","stories/images/10.jpg","stories/images/11.jpg","stories/images/12.jpg","stories/images/13.jpg","stories/images/14.jpg","stories/images/15.jpg","stories/images/16.jpg","stories/images/17.jpg"],
+				"link": "stories/",
+				"description":"My photographs showcasing interesting scenes, including abstracts and story starters"
 			},
-
-			//put chroma, whether, etc associated images here
 
 		// abstract
 
@@ -2148,113 +1897,42 @@
 			
 			{
 				"name": "sky",
-				"date": "",
+				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","story","stories","sunset","sunrise","rain","rainbow","cloud","clouds", "sky"],
 				"photos": ["sky/images/1.jpg", "sky/images/2.jpg", "sky/images/3.jpg", "sky/images/4.jpg", "sky/images/5.jpg", "sky/images/6.jpg", "sky/images/7.jpg", "sky/images/8.jpg", "sky/images/9.jpg", "sky/images/10.jpg", "sky/images/11.jpg", "sky/images/12.jpg", "sky/images/13.jpg", "sky/images/14.jpg", "sky/images/15.jpg", "sky/images/16.jpg", "sky/images/17.JPG", "sky/images/18.jpg"],
 				"link": "sky/",
-				"description": ""
+				"description": "My photographs showcasing the sky, in its many forms."
 			},
 			{
 				"name": "animals",
-				"date": "",
+				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","pet","pets","zoo","zoos","cat","cats","dog","dogs"],
-				"photos": ["animals/images/2.jpg", "animals/images/3.jpg", "animals/images/4.jpg"],
+				"photos": ["animals/images/a.gif", "animals/images/2.jpg", "animals/images/3.jpg", "animals/images/4.jpg"],
 				"link": "animals/",
-				"description": ""
+				"description": "My photographs of animals"
 			},
 			{
 				"name": "plants",
-				"date": "",
+				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","tree","trees","flower","flowers","nature","leaf","leaves", "garden", "grass"],
 				"photos": ["plants/images/1.jpg", "plants/images/2.jpg", "plants/images/3.jpg", "plants/images/4.jpg", "plants/images/5.jpg", "plants/images/6.jpg", "plants/images/7.jpg", "plants/images/8.JPG", "plants/images/9.JPG", "plants/images/10.JPG", "plants/images/11.JPG", "plants/images/12.JPG", "plants/images/13.JPG", "plants/images/14.JPG", "plants/images/15.JPG", "plants/images/16.jpg"],
 				"link": "plants/",
-				"description": ""
+				"description": "My photographs of plants"
 			},
 			{
 				"featured": true,
 				"name": "water",
-				"date": "",
+				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","water","ocean","beach","waves","rain","puddle"],
 				"photos": ["water/images/1.jpg", "water/images/2.jpg", "water/images/3.jpg", "water/images/4.JPG", "water/images/5.JPG", "water/images/6.JPG", "water/images/7.JPG", "water/images/8.JPG", "water/images/9.JPG", "water/images/10.JPG", "water/images/11.JPG"],
 				"link": "water/",
-				"description": ""
+				"description": "My photographs showcasing the beauty and movement of water."
 			},
 
-		// favorite places
-
-			{
-				"name": "Favorite Places",
-				"date": "",
-				"tags": ["photographed places"],
-				"keywords": ["photography","photo","photos","home"],
-				"photos": ["favoriteplaces/images/2.jpg", "favoriteplaces/images/3.jpg", "favoriteplaces/images/4.jpg", "favoriteplaces/images/5.jpg", "favoriteplaces/images/6.jpg", "favoriteplaces/images/7.jpg"],
-				"link": "favoriteplaces/",
-				"description": ""
-			},	
-
-			// {
-			// 	"name": "Nova Scotia",
-			//  "date": "",
-			// 	"tags": ["photographed places"],
-			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
-			// 	"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
-			// "link": "novascotia/",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "Montreal",
-			//  "date": "",
-			// 	"tags": ["photographed places"],
-			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
-			// 	"photos": ["montreal/images/1.jpg", "montreal/images/2.jpg", "montreal/images/3.jpg", "montreal/images/4.jpg"],
-			// "link": "montreal/",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "England",
-			//  "date": "",
-			// 	"tags": ["photographed places"],
-			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","europe","uk","britain","london"],
-			// 	"photos": ["england/images/9.jpg", "england/images/12.jpg", "england/images/14.jpg", "england/images/15.jpg", "england/images/16.jpg", "england/images/19.jpg"],
-			// "link": "england/",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "San Francisco",
-			//  "date": "",
-			// 	"tags": ["photographed places"],
-			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","california","west coast"],
-			// 	"photos": ["sanfran/images/5.jpg", "sanfran/images/6.jpg", "sanfran/images/10.jpg", "sanfran/images/16.jpg", "sanfran/images/24.jpg", "sanfran/images/25.jpg"],
-			// "link": "sanfran/",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "New York City",
-			//  "date": "",
-			// 	"tags": ["photographed places"],
-			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation", "new york", "manhattan"],
-			// 	"photos": ["nyc/images/2.jpg","nyc/images/5.jpg","nyc/images/22.jpg","nyc/images/32.jpg"],
-			// "link": "nyc/",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "Massachusetts",
-			//  "date": "",
-			// 	"tags": ["photographed places"],
-			// 	"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation"],
-			// 	"photos": ["massachusetts/images/1.jpg","massachusetts/images/2.jpg","massachusetts/images/3.jpg","massachusetts/images/4.jpg","massachusetts/images/5.jpg","massachusetts/images/6.jpg","massachusetts/images/7.jpg","massachusetts/images/8.jpg","massachusetts/images/9.jpg","massachusetts/images/10.JPG","massachusetts/images/11.JPG","massachusetts/images/12.jpg","massachusetts/images/13.jpg","massachusetts/images/14.jpg","massachusetts/images/15.jpg","massachusetts/images/16.jpg","massachusetts/images/17.JPG","massachusetts/images/18.JPG","massachusetts/images/19.JPG",],
-			// "link": "massachusetts/",
-			// 	"description": ""
-			// },
 
 	// MUSIC
 
@@ -2265,8 +1943,8 @@
 				"featured": true,
 				"name": "Chroma",
 				"date": "8/31/2012",
-				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Binghamton University"],
-				"keywords": ["season","fall","autumn"],
+				"tags": ["finished music","music", "composition","album","seasons", "explorchestra", "binghamton university"],
+				"keywords": ["season","fall","autumn","digital art", "art"],
 				"photos": ["music/images/Chroma.png"],
 				"link": "music/Chroma.mp3",
 				"audio": "music/Chroma.mp3",
@@ -2277,8 +1955,8 @@
 				"featured": true,
 				"name": "Whether",
 				"date": "8/31/2013",
-				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Binghamton University"],
-				"keywords": ["season","summer"],
+				"tags": ["finished music","music", "composition","album","seasons", "explorchestra", "binghamton university"],
+				"keywords": ["season","summer","digital art", "art"],
 				"photos": ["music/images/Whether.png"],
 				"link": "music/Whether.mp3",
 				"description": "My second composition, rehearsed and performed by Explorchestra. The intended imagery of the song comes from a pun on the title – 'weather,' specifically rain. The notes played by the marimba represent the initial, individual raindrops, and the rest of the storm follows. Meanwhile, there's a larger musing on “Whether” – decisions, choices, perspectives, perception. In the end, a shift in perspective can bring new meaning."
@@ -2287,8 +1965,8 @@
 			{
 				"name": "Elephant",
 				"date": "1/31/2014",
-				"tags": ["finished music","music", "composition","lyrics", "Explorchestra", "Binghamton University"],
-				"keywords": ["jazz","family"],
+				"tags": ["finished music","music", "composition","lyrics", "explorchestra", "binghamton university"],
+				"keywords": ["jazz","family","digital art", "art"],
 				"photos": ["music/images/Elephant.jpg"],
 				"link": "music/Elephant.mp3",
 				"description": "My third composition - and my first with lyrics - rehearsed and performed by Explorchestra. It was my first (and so far only) attempt at a song with lyrics, and also my first (and so far only) attempt at writing a jazz song. It was very fun to conduct and to hear what people did with the improvised solo seciton each time."	
@@ -2297,8 +1975,8 @@
 			{
 				"name": "These Days",
 				"date": "1/31/2015",
-				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Binghamton University"],
-				"keywords": ["season","spring"],
+				"tags": ["finished music","music", "composition","album","seasons", "explorchestra", "binghamton university"],
+				"keywords": ["season","spring","digital art", "art"],
 				"photos": ["music/images/TheseDays.jpg"],
 				"link": "music/TheseDays.mp3",
 				"description": "My fourth composition, rehearsed and performed by Explorchestra during my final undergraduate semester at Binghamton University. Inspired by the transition from winter to spring and all of the growth (and some heartbreak) I'd experienced in college, the piece is a celebration of 'living the questions' and the flow state."	
@@ -2307,8 +1985,8 @@
 			{
 				"name": "Chroma Snapshot: Chaos in Circles",
 				"date": "2/1/2016",
-				"tags": ["finished music","music", "composition","album","seasons", "Explorchestra", "Explo Expo", "Binghamton University"],
-				"keywords": ["season","fall","autumn"],
+				"tags": ["finished music","music", "composition","album","seasons", "explorchestra", "explo expo", "binghamton university"],
+				"keywords": ["season","fall","autumn","digital art", "art"],
 				"photos": ["music/images/ChaosinCircles.jpg"],
 				"link": "music/ChaosinCircles.mp3",
 				"description": "A reimagining of 'Chroma,' to be played by Explorchestra at the first Explo Expo I attended as an aluma. This version is closer to the original song I wrote on piano only when I was in high school."	
@@ -2318,7 +1996,7 @@
 				"name": "EveryTime",
 				"date": "10/23/2016",
 				"tags": ["music challenges","music","composition","album","seasons"],
-				"keywords": ["Anthology Symphony", "music challenge", "season","winter"],
+				"keywords": ["anthology symphony", "music challenge", "season","winter","digital art", "art"],
 				"photos": ["music/images/EveryTime.jpg"],
 				"link": "music/EveryTime.mp3",
 				"description": "My contribution to a post-college music challenge, organized by James, for which each musician friend wrote a piece of music based on a common melodic line. All of the pieces were so unique, despite the common prompt, and we had a fun time playing through all of the pieces - collectively known as the Anthology Symphony."	
@@ -2327,8 +2005,8 @@
 			{
 				"name": "Collecting Carrots",
 				"date": "2/23/2019",
-				"tags": ["finished music","music", "composition","soundtrack","games","carrots", "Explorchestra", "Explo Expo", "Binghamton University"],
-				"keywords": ["spring", "bunnies", "bunny", "game"],
+				"tags": ["finished music","music", "composition","soundtrack","games","carrots", "explorchestra", "explo expo", "binghamton university"],
+				"keywords": ["spring", "bunnies", "bunny", "game","digital art", "art"],
 				"photos": ["music/images/CollectingCarrots.png"],
 				"link": "music/CollectingCarrots.mp3",
 				"description": "My most playful song, to date. I wrote it to be a soundtrack for the Collecting Carrots mini game I coded as a sort of pseudo advertisement for Kniterative Designs bunnies. The song begins with a lawnmower sound effect produced by the trombone section and bird sounds courtesy of the flutes, to set the scene for a springtime adventure in a suburban yard filled with bunnies."	
@@ -2340,9 +2018,9 @@
 
 			{
 				"name": "Clock",
-				"date": "3/1/2017", //???
-				"tags": ["code tools","code","with James"],
-				"keywords": ["code","coding","James","tutorial"],
+				"date": "3/1/2017", //?
+				"tags": ["code tools","code","with james"],
+				"keywords": ["code","coding","james","tutorial"],
 				"photos": ["coding/images/clock.png"],
 				"link": "clock/",
 				"description": "One of the first projects James taught me how to code. It's a pretty basic project, but I learned a lot about how computers keep track of time (the number of milliseconds since January 1, 1970!) - and of course I put my own spin on it..."
@@ -2351,8 +2029,8 @@
 			{
 				"name": "RandomLetter",
 				"date": "1/22/2017",
-				"tags": ["code tools","code","with James","games","language","literacy"],
-				"keywords": ["code","coding","SLP","literacy","game","games"],
+				"tags": ["code tools","code","with james","games","language","literacy"],
+				"keywords": ["code","coding","slp","literacy","game","games"],
 				"photos": ["coding/images/randomletter.png"],
 				"link": "randomletter/",
 				"description": "While teaching English as another language, I realized having a tool like this would be helpful - and not very hard to code up. Later, as a speech-language pathologist, I used it for a Scattergories-type task. I 'weighted' the letters differently by simply adding more of certain letters to the array so that there would be a great chance of those ones being picked."
@@ -2361,7 +2039,7 @@
 			{
 				"name": "Custom KD",
 				"date": "6/30/2017",
-				"tags": ["code tools","Kniterative Designs", "with James"],
+				"tags": ["code tools","kniterative designs", "with james"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "cat","dog","bunny", "rabbit"],
 				"photos": ["coding/images/kdcustom.png"],
 				"link": "kdcustomorder/",
@@ -2371,7 +2049,7 @@
 			{
 				"name": "What Should I Knit Next?",
 				"date": "2/19/2022",
-				"tags": ["code tools","knitting","crochet","Ravelry","API","with James"],
+				"tags": ["code tools","knitting","crochet","ravelry","api","with james"],
 				"keywords": ["knit","knitted","knitting","ravelry","api", "projects","crochet","2022"],
 				"photos": ["coding/images/whatshouldiknitnext.png"],
 				"link": "whatshouldiknitnext/",
@@ -2381,10 +2059,10 @@
 			{
 				"name": "Compliment Generator",
 				"date": "12/2/2022",
-				"tags": ["code tools","knitting","crochet","Ravelry","API","with James"],
+				"tags": ["code tools","knitting","crochet","ravelry","api","with james"],
 				"keywords": ["knit","knitted","knitting","ravelry","api", "projects","crochet","2022"],
-				"photos": ["coding/images/whatshouldiknitnext.png"],
-				"link": "complimentgenerator/", // ???
+				"photos": ["coding/images/complimentgenerator.png"],
+				"link": "complimentgenerator/",
 				"description": "Inspired by the <a href='https://theraccoonsociety.com/' target='_blank'>Raccoon Society</a>'s Pep Talk Generator poster. James also helped me make it into a Slackbot, essentially by creating an API of our own."
 			},
 
@@ -2393,17 +2071,17 @@
 			{
 				"name": "Memory",
 				"date": "7/1/2017",
-				"tags": ["code games","coding", "with James"],
-				"keywords": ["code","coding","game","games","James"],
+				"tags": ["code games","coding", "with james"],
+				"keywords": ["code","coding","game","games","james"],
 				"photos": ["coding/images/memory.png"],
 				"link": "memory/",
-				"description": "One of my first coding projects I made with"
+				"description": "One of my first coding projects I made with James when he was first teaching me the basics"
 			},
 
 			{
 				"name": "yarnSwatter",
 				"date": "1/27/2018",
-				"tags": ["code games","Kniterative Designs", "games","with James", "cats","kittens","yarn"],
+				"tags": ["code games","kniterative designs", "games","with james", "cats","kittens","yarn"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "cat","kitty","kitten","yarn,","game","games"],
 				"photos": ["coding/images/yarnswatter.png"],
 				"link": "yarnswatter/",
@@ -2414,7 +2092,7 @@
 				"featured": true,
 				"name": "carrotCollector",
 				"date": "12/5/2018",
-				"tags": ["code games","Kniterative Designs", "games","with James", "bunnies","carrots","flowers"],
+				"tags": ["code games","kniterative designs", "games","with james", "bunnies","carrots","flowers"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "bunny","rabbit","bunnies","carrot,","game","games"],
 				"photos": ["coding/images/carrotcollector10.png"],
 				"link": "carrotcollector/",
@@ -2426,7 +2104,7 @@
 			{
 				"name": "Bubblewrap",
 				"date": "5/29/2017",
-				"tags": ["code experiments","with James","arrays"],
+				"tags": ["code experiments","with james","arrays"],
 				"keywords": ["code","coding","fun","silly","fidget"],
 				"photos": ["coding/images/bubblewrap.png"],
 				"link": "bubblewrap/",
@@ -2437,7 +2115,7 @@
 				"featured": true,
 				"name": "Synesthesia",
 				"date": "7/28/2017",
-				"tags": ["code experiments","with James","colors","synesthesia"],
+				"tags": ["code experiments","with james","colors","synesthesia"],
 				"keywords": ["code","coding","color","colors","letter","letters"],
 				"photos": ["coding/images/synesthesia.png"],
 				"link": "synesthesia/",
@@ -2447,7 +2125,7 @@
 			{
 				"name": "SciFi Sounds",
 				"date": "12/31/2018",
-				"tags": ["code experiments","with James","games","jokes"],
+				"tags": ["code experiments","with james","games","jokes"],
 				"keywords": ["coding","code","sound","soundboard","game","effect", "effects"],
 				"photos": ["coding/images/scifisounds.png"],
 				"link": "scifisoundboard/",
@@ -2457,7 +2135,7 @@
 			{
 				"name": "Window",
 				"date": "1/1/2019",
-				"tags": ["code experiments","with James","canvas","seasons"],
+				"tags": ["code experiments","with james","canvas","seasons"],
 				"keywords": ["coding","code","season","seasons","winter","spring","summer","fall","scenes","scenery","view"],
 				"photos": ["coding/images/window_winter.png"],
 				"link": "window/#winter",
@@ -2466,9 +2144,9 @@
 
 			{
 				"name": "nimbusNotes",
-				"date": "10/19/2019",
-				"tags": ["code experiments","with James","music","Whether","seasons"],
-				"keywords": ["code","coding","James","hackathon","music","cloud","clouds","rain","raining","rainy","song"],
+				"date": "2/2/2019",
+				"tags": ["code experiments","with james","music","whether","weather","seasons"],
+				"keywords": ["code","coding","james","hackathon","music","cloud","clouds","rain","raining","rainy","song"],
 				"photos": ["coding/images/nimbusnotes.png"],
 				"link": "https://nimbusnotes.jamesmayr.com",
 				"description": "James and I made this together at a Music Hackaton event in NYC."
@@ -2480,83 +2158,11 @@
 				"featured": true,
 				"name": "PurpleGreen Projects (v.1)",
 				"date": "11/1/2019", //showed at Demo Day 2019
-				"tags": ["code past portfolios", "code", "with James","projects","room","3d space","canvas","window"],
+				"tags": ["code past portfolios", "code", "with james","projects","room","3d space","canvas","window"],
 				"keywords": [],
 				"photos": ["coding/images/oldpurplegreenprojects.png"],
 				"link": "oldpurplegreenprojectsroom/",
 				"description": "My first attempt at collecting all of my projects up to that point into one virtual portfolio. I decided that I am a big fan of skeuomorphism (even if it has fallen out of fashion) - this was like a virtual dollhouse that I could make completely from scratch, with interactive elements! Although v.2 of this design (created in Blender) looks more realistic, this version will always have a special place in my heart."
 			},
 
-	] 
-
-			
-
-
-
-
-
-
-////////////////////////////////
-
-			// {
-			// 	"name": "running",
-			//  "date": "",
-			// 	"tags": [],
-			// 	"keywords": ["run", "exercise", "sneaker","sneakers","5k","gallery","galleries"],
-			// 	"photos": ["exercise/running.jpg"],
-			//  "link": "exercise/",
-			// 	"description": ""
-			// },
-			
-
-			// {
-			// 	"name": "poetry",
-			//  "date": "",
-			// 	"tags": [],
-			// 	"keywords": ["writing"],
-			// 	"photos": [],
-			//  "link": "writing/",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "Shaker High School",
-			//  "date": "",
-			// 	"tags": [],
-			// 	"keywords": ["education","school","learn","learning","english"],
-			// 	"photos": ["educationprofession/images/SHS.JPG", "educationprofession/images/SHS1.JPG"],
-			//  "link": "https://www.northcolonie.org",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "Binghamton University",
-			//  "date": "",
-			// 	"tags": [],
-			// 	"keywords": ["education","college","undergrad","undergraduate","english","bing", "BU"],
-			// 	"photos": ["educationprofession/images/Bing.jpg", "educationprofession/images/Bing1.jpg"],
-			//  "link": "https://www.binghamton.edu/",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "SUNY New Paltz",
-			//  "date": "",
-			// 	"tags": [],
-			// 	"keywords": ["education","graduate","graduate school","communication","communication disorders","science", "language","speech","SLP","speech-language pathology"],
-			// 	"photos": ["educationprofession/images/NP.JPG", "educationprofession/images/NP1.JPG"],
-			//  "link": "https://www.newpaltz.edu/commdis",
-			// 	"description": ""
-			// },
-
-			// {
-			// 	"name": "SLP/Literacy",
-			//  "date": "",
-			// 	"tags": [],
-			// 	"keywords": ["communication","communication disorders","science", "language","speech","SLP","speech-language pathology","reading","read","book","books","career","profession","story","stories"],
-			// 	"photos": ["educationprofession/images/SLP.jpg"],
-			//  "link": "https://drive.google.com/drive/folders/15hO_LddoZryhhteHKZASoAAZQ4MsbJBp?usp=sharing",
-			// 	"description": ""
-			// },
-
-
+	]

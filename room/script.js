@@ -1783,7 +1783,7 @@
 				"tags": ["3d","blender","render","asset","model","purplegreen","purplegreenprojects","evolution","website"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../images/all.png"],
+				"photos": ["images/all.png"],
 				"link": "../blender/#image-25",
 				"description": ""
 			},
@@ -2343,7 +2343,7 @@ function changeWall(event){
 	}
 
 	containers.backgroundVideo.style.opacity = 1
-	containers.backgroundVideoSource.src = "../videos/" + mode + "/" + ids[0] + "-to-" + ids[1] + ".mov"
+	containers.backgroundVideoSource.src = "videos/" + mode + "/" + ids[0] + "-to-" + ids[1] + ".mov"
 	containers.backgroundVideo.load()
 	containers.backgroundVideo.play()
 

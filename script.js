@@ -1,28 +1,24 @@
-// TO DO ???  
-
-	// projects JSON additions/revisions
-		// add dates 
-		// switch tutorial links to be in description instead of external links button
-		// add descriptions for other projects?
-		// friends of... cards
-			// Demo Day -- slide decks?
-		// add more recent projects
-		// missing project pictures
-			// add gallery (and link to gallery) of KD logo in progress...
-		// fix tags in projects json (& duplicate tags for capitalization)
-			// 3d art not working displaying as expected when filtered?
-			// album artwork shouldn't show on music medium
-			// painting and blender models shouldn't show up in knitting, sewing, etc.
-		// resume PDF
-
-
-
-
+// TO DO
 	// After MVP
+		// friends of... cards - galleries for Grandma Fran, Grandpa Jim... (& link to...?)
+		// exporer of... card for Upstate NY
+		// Selections from Sketchbooks gallery
+		// Knitting (in Green) -- get pic of painting (and find pic of giving to Grandma?)
+		// find old pic of snow bunnies - add to project gallery (as first pic)
+		// Demo Day -- slide decks?
+
+		// add more recent projects
+		// add galleries of WIP photos - esp. if otherwise no external link! (ex: KD logo; paintings)
+		// links in about paragraphs (to set project searches)
 		// if medium and search combo doesn't yield anything, in "empty" section, can we suggest any mediums that would yield a result with that search term?
 		// stream ?
 		// teacher of... (knitting slide deck, OG stories, SLP summative doc, etc.)
 		// ..."one stitch at a time" slides??
+		// filtered by season
+		// filtered by featured?
+		// further refine tags
+		// explo banner
+
 
 // ELEMENTS
 	var ELEMENTS = {
@@ -251,6 +247,9 @@
 				if (medium == "friend") {
 					ELEMENTS.filtersSearchInput.setAttribute("placeholder", "...")
 				}
+				else if (medium == "explorer") {
+					ELEMENTS.filtersSearchInput.setAttribute("placeholder", "places")
+				}
 				else {
 					ELEMENTS.filtersSearchInput.setAttribute("placeholder", "...projects")
 				}
@@ -411,6 +410,10 @@
 				var filteredProjects = JSON.parse(JSON.stringify(FRIENDS))
 			}
 
+			else if (medium == "explorer") {
+				var filteredProjects = JSON.parse(JSON.stringify(PLACES))
+			}
+
 			else {
 				var craft = CONSTANTS.mediums[medium].tag
 				var filteredProjects = PROJECTS.filter(filterByMedium)
@@ -437,22 +440,22 @@
 				}
 
 			// SORT
-				if (medium !== "friend") {
+				if (medium !== "friend" && medium !== "explorer") {
 					filteredProjects = filteredProjects.sort(sortByDate)
 					function sortByDate(projectA, projectB) {
 						return (new Date(projectB.date).getTime()) - (new Date(projectA.date).getTime())
 					}
 				}
 
-				if (medium == "maker") {
-					filteredProjects.sort(sortByFeatured)
-					function sortByFeatured(projectA, projectB) {
-						if (projectB.featured && !projectA.featured) {
-							return 1
-						}
-						return -1
-					}
-				}
+				// if (medium == "maker") {
+				// 	filteredProjects.sort(sortByFeatured)
+				// 	function sortByFeatured(projectA, projectB) {
+				// 		if (projectB.featured && !projectA.featured) {
+				// 			return 1
+				// 		}
+				// 		return -1
+				// 	}
+				// }
 
 			// add cards that meet filter requirements to content section
 				populateCards(filteredProjects)
@@ -515,8 +518,13 @@
 				var link = document.createElement("a")
 					link.className = "project-link"
 					link.title = projectData.name
-					link.href = projectData.url
-					link.target = "_blank"
+					if (projectData.link && projectData.link.length) {
+						link.href = projectData.link
+						link.target = "_blank"
+					}
+					else {
+						link.setAttribute("disabled", true)
+					}
 				infoContainer.appendChild(link)
 
 				var projectName = document.createElement("h2")

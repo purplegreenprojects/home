@@ -369,11 +369,11 @@ body[mode="darkmode"] {
 /* ALL */
 
 	#all {
-		background-image: url("../images/lightmode/all.png");
+		background-image: url("images/lightmode/all.png");
 	}
 
 	body[mode="darkmode"] #all {
-		background-image: url("../images/darkmode/all.png");
+		background-image: url("images/darkmode/all.png");
 	}
 
 	#header {
@@ -491,11 +491,11 @@ body[mode="darkmode"] {
 /* PURPLE WALL */
 
 	#purple {
-		background-image: url("../images/lightmode/purple.png");
+		background-image: url("images/lightmode/purple.png");
 	}
 
 	body[mode="darkmode"] #purple {
-		background-image: url("../images/darkmode/purple.png");
+		background-image: url("images/darkmode/purple.png");
 	}
 
 	#purple-floorLamp {
@@ -561,7 +561,7 @@ body[mode="darkmode"] {
 				transform: rotate(30deg);
 				top: 28%;
 				left: 10%;
-				background-image: url("../images/yarnharlot.png");
+				background-image: url("images/yarnharlot.png");
 			}
 
 				#yarnharlot .bulletinBoard-pin {
@@ -574,7 +574,7 @@ body[mode="darkmode"] {
 				transform: rotate(0deg);
 				top: 45%;
 				left: 7%;
-				background-image: url("../images/espacetricot.png");
+				background-image: url("images/espacetricot.png");
 			}
 
 				#espacetricot .bulletinBoard-pin {
@@ -587,7 +587,7 @@ body[mode="darkmode"] {
 				transform: rotate(-5deg);
 				top: 32%;
 				left: 65%;
-				background-image: url("../images/rhinebeck.png");
+				background-image: url("images/rhinebeck.png");
 			}
 
 				#rhinebeck .bulletinBoard-pin {
@@ -600,7 +600,7 @@ body[mode="darkmode"] {
 				transform: rotate(10deg);
 				top: 66%;
 				left: 55%;
-				background-image: url("../images/onthemend.png");
+				background-image: url("images/onthemend.png");
 			}
 
 				#onthemend .bulletinBoard-pin {
@@ -613,7 +613,7 @@ body[mode="darkmode"] {
 				transform: rotate(5deg);
 				top: 6%;
 				left: 36%;
-				background-image: url("../images/ravelry.png");
+				background-image: url("images/ravelry.png");
 				border-radius: 15px;
 			}
 
@@ -634,7 +634,7 @@ body[mode="darkmode"] {
 				transform: rotate(-5deg);
 				top: 70%;
 				left: 24%;
-				background-image: url("../images/textillia.png");
+				background-image: url("images/textillia.png");
 				border-radius: 35px;
 			}
 
@@ -808,11 +808,11 @@ body[mode="darkmode"] {
 /* WHITE */
 
 	#white {
-		background-image: url("../images/lightmode/white.png");
+		background-image: url("images/lightmode/white.png");
 	}
 
 	body[mode="darkmode"] #white {
-		background-image: url("../images/darkmode/white.png");
+		background-image: url("images/darkmode/white.png");
 	}
 
 	#white-floorLamp {
@@ -870,7 +870,7 @@ body[mode="darkmode"] {
 
 	/* NOT FOR DEMO DAY "LIGHT MODE" - REALLY MEDIUM MODE - BUT YES FOR REAL LIGHTMODE (NO FOR MEDIUM MODE)
 	/*body[mode="lightmode"] #window {
-		background-image: url("../images/windowscene.jpg");
+		background-image: url("images/windowscene.jpg");
 	}*/
 	
 
@@ -883,7 +883,7 @@ body[mode="darkmode"] {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: url("../images/windowscene.jpg");
+		background-image: url("images/windowscene.jpg");
 	}*/
 
 	/*#window {
@@ -895,7 +895,7 @@ body[mode="darkmode"] {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		/*background-image: url("../images/windowscene.jpg");*/
+		/*background-image: url("images/windowscene.jpg");*/
 	}*/
 
 	#desktop {
@@ -1239,7 +1239,7 @@ body[mode="darkmode"] {
 		left: 59.15%;
 		height: 5%;
 		width: 2.7%;
-		background-image: url("../images/storygraph.png");
+		background-image: url("images/storygraph.png");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -1258,11 +1258,11 @@ body[mode="darkmode"] {
 /* GREEN */
 
 	#green {
-		background-image: url("../images/lightmode/green.png");
+		background-image: url("images/lightmode/green.png");
 	}
 
 	body[mode="darkmode"] #green {
-		background-image: url("../images/darkmode/green.png");
+		background-image: url("images/darkmode/green.png");
 	}
 
 
@@ -1351,7 +1351,7 @@ body[mode="darkmode"] {
 				transform: rotate(0deg);
 				top: 10%;
 				left: 8%;
-				background-image: url("../images/jamesmayr.png");
+				background-image: url("images/jamesmayr.png");
 			}
 				
 				#jamesmayr .bulletinBoard-pin {
@@ -1371,7 +1371,7 @@ body[mode="darkmode"] {
 				transform: rotate(10deg);
 				top: 60%;
 				left: 10%;
-				background-image: url("../images/kfdi.png");
+				background-image: url("images/kfdi.png");
 			}
 				
 				#kfdi .bulletinBoard-pin {
@@ -1393,7 +1393,7 @@ body[mode="darkmode"] {
 				transform: rotate(-5deg);
 				top: 26%;
 				left: 65%;
-				background-image: url("../images/BGdonut.png");
+				background-image: url("images/BGdonut.png");
 			}
 
 				#BGdonut .bulletinBoard-pin {
@@ -1406,7 +1406,7 @@ body[mode="darkmode"] {
 				transform: rotate(-8deg);
 				top: 45%;
 				left: 42%;
-				background-image: url("../images/explogo.png");
+				background-image: url("images/explogo.png");
 			}
 
 				#explogo .bulletinBoard-pin {
@@ -1426,7 +1426,7 @@ body[mode="darkmode"] {
 				transform: rotate(19deg);
 				top: 80%;
 				left: 70%;
-				background-image: url("../images/slb.png");
+				background-image: url("images/slb.png");
 			}
 
 				#slb .bulletinBoard-pin {

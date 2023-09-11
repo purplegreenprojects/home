@@ -128,8 +128,8 @@ window.onload = function() {
 			image: "https://static.thenounproject.com/png/1126595-200.png"
 		},
 			{
-				text: "Favorite Places",
-				url: "../favoriteplaces/index.html",
+				text: "Upstate NY",
+				url: "../upstateny/index.html",
 				color: "#222059"
 			},
 			{

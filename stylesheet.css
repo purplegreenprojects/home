@@ -192,12 +192,26 @@
 					margin-bottom: 0;
 				}
 
+					#about-description a, #about-description a:visited {
+						color: var(--medium-purple);
+						cursor: pointer;
+						text-decoration: none;
+						transition: var(--transition-time);
+						outline: none;
+					}
+
+					#about-description a:hover, #about-description a:focus {
+						color: var(--medium-purple);
+						text-shadow: 0 0 var(--shadow-size) var(--medium-purple);
+					}
+
 			#about-images img {
 				display: flex;
 				margin: auto auto;
 				width: calc(3 * var(--font-size-large));
 				height: auto;
 				border-radius: var(--border-radius);
+				user-select: none;
 			}
 
 		#filters {
@@ -649,8 +663,8 @@
 					font-size: var(--font-size-small);
 					font-family: var(--font-main);
 					color: var(--white);
-					fill: var(--white);
 					background-color: var(--dark-purple);
+					border: var(--shadow-size) solid var(--medium-purple);
 					text-decoration: none;
 					cursor: pointer;
 					transition: var(--transition-time);
@@ -661,7 +675,14 @@
 					outline: none;
 					margin-top: var(--gap-size-medium);
 					margin-bottom: var(--gap-size-medium);
+					user-select: none;
 				}
+
+					.project-link[disabled] {
+						border: var(--shadow-size) solid var(--dark-purple) !important;
+						cursor: default !important;
+						background-color: var(--dark-purple) !important;
+					}
 
 					.project-link:hover, .project-link:focus {
 						background-color: var(--medium-purple);
@@ -670,7 +691,6 @@
 					.project-name {
 						font-family: var(--font-main);
 						font-size: var(--font-size-medium);
-						color: var(--white);
 						width: 100%;
 						text-align: center;
 						height: auto;
@@ -693,6 +713,7 @@
 					overflow-y: auto;
 					outline: none;
 					scrollbar-color: var(--dark-purple) transparent;
+					user-select: none;
 				}
 
 					.project-description::-webkit-scrollbar {
@@ -707,7 +728,7 @@
 					}
 
 					.project-description a, .project-description a:visited {
-						color: var(--dark-purple);
+						color: var(--medium-purple);
 						cursor: pointer;
 						text-decoration: none;
 						transition: var(--transition-time);
@@ -717,6 +738,7 @@
 
 					.project-description a:hover, .project-description a:focus {
 						color: var(--medium-purple);
+						text-shadow: 0 0 var(--shadow-size) var(--medium-purple);
 					}
 						
 		#content-empty {
