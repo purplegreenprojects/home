@@ -3,7 +3,7 @@
 		{
 			"name": "Upstate NY",
 			"date": "8/13/2019",
-			"tags": ["photographed places"],
+			"tags": ["places"],
 			"keywords": ["photography","photo","photos","home"],
 			"photos": ["upstateny/images/1.jpg","upstateny/images/2.jpg", "upstateny/images/3.jpg", "upstateny/images/4.jpg", "upstateny/images/5.jpg", "upstateny/images/6.jpg", "upstateny/images/7.jpg"],
 			"link": "upstateny/",
@@ -13,7 +13,7 @@
 		{
 			"name": "Nova Scotia",
 		 	"date": "8/15/2005",
-			"tags": ["photographed places"],
+			"tags": ["places"],
 			"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
 			"photos": ["novascotia/images/2.jpg","novascotia/images/1.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
 			"link": "novascotia/",
@@ -23,7 +23,7 @@
 		{
 			"name": "Montreal",
 		 	"date": "7/15/2019",
-			"tags": ["photographed places"],
+			"tags": ["places"],
 			"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
 			"photos": ["montreal/images/1.jpg", "montreal/images/2.jpg", "montreal/images/3.jpg", "montreal/images/4.jpg"],
 			"link": "montreal/",
@@ -33,7 +33,7 @@
 		{
 			"name": "England",
 		 	"date": "8/15/2007",
-			"tags": ["photographed places"],
+			"tags": ["places"],
 			"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","europe","uk","britain","london"],
 			"photos": ["england/images/9.jpg", "england/images/12.jpg", "england/images/14.jpg", "england/images/15.jpg", "england/images/16.jpg", "england/images/19.jpg"],
 			"link": "england/",
@@ -43,7 +43,7 @@
 		// {
 		// 	"name": "Binghamton University",
 		//  	"date": "12/15/2015",
-		// 	"tags": ["photographed places"],
+		// 	"tags": ["places"],
 		// 	"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
 		// 	"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
 		// 	"link": "novascotia/",
@@ -53,7 +53,7 @@
 		{
 			"name": "San Francisco",
 		 	"date": "1/5/2019",
-			"tags": ["photographed places"],
+			"tags": ["places"],
 			"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","california","west coast"],
 			"photos": ["sanfran/images/5.jpg", "sanfran/images/6.jpg", "sanfran/images/10.jpg", "sanfran/images/16.jpg", "sanfran/images/24.jpg", "sanfran/images/25.jpg"],
 			"link": "sanfran/",
@@ -63,7 +63,7 @@
 		// {
 		// 	"name": "SUNY New Paltz",
 		//  	"date": "5/21/2019",
-		// 	"tags": ["photographed places"],
+		// 	"tags": ["places"],
 		// 	"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
 		// 	"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
 		// 	"link": "novascotia/",
@@ -73,7 +73,7 @@
 		{
 			"name": "New York City",
 		 	"date": "8/14/2019",
-			"tags": ["photographed places"],
+			"tags": ["places"],
 			"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation", "new york", "manhattan"],
 			"photos": ["nyc/images/2.jpg","nyc/images/5.jpg","nyc/images/22.jpg","nyc/images/32.jpg"],
 			"link": "nyc/",
@@ -83,7 +83,7 @@
 		{
 			"name": "Massachusetts",
 		 	"date": new Date(),
-			"tags": ["photographed places"],
+			"tags": ["places"],
 			"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation"],
 			"photos": ["massachusetts/images/1.jpg","massachusetts/images/2.jpg","massachusetts/images/3.jpg","massachusetts/images/4.jpg","massachusetts/images/5.jpg","massachusetts/images/6.jpg","massachusetts/images/7.jpg","massachusetts/images/8.jpg","massachusetts/images/9.jpg","massachusetts/images/10.JPG","massachusetts/images/11.JPG","massachusetts/images/12.jpg","massachusetts/images/13.jpg","massachusetts/images/14.jpg","massachusetts/images/15.jpg","massachusetts/images/16.jpg","massachusetts/images/17.JPG","massachusetts/images/18.JPG","massachusetts/images/19.JPG"],
 			"link": "massachusetts/",
@@ -643,41 +643,14 @@
 			},
 
 			{
-				"name": "Winter - Seasons Series",
-				"date": "2/18/2023",
-				"tags": ["paintings","acrylic","tutorial"],
-				"keywords": ["art","watercolor","acrylic","paint","painting"],
-				"photos": ["art/images/seasonwinter.jpg"],
-				"link": "",
-				"description":"Loosely based on a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>"
-			},
-			{
-				"name": "Spring - Seasons Series",
-				"date": "5/6/2023",
-				"tags": ["paintings","acrylic","tutorial"],
-				"keywords": ["art","watercolor","acrylic","paint","painting"],
-				"photos": ["art/images/seasonspring.jpg"],
-				"link": "",
-				"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
-			},
-			{
-				"name": "Summer - Seasons Series",
+				"name": "Seasons Series",
 				"date": "8/6/2023",
 				"tags": ["paintings","acrylic","tutorial"],
 				"keywords": ["art","watercolor","acrylic","paint","painting"],
-				"photos": ["art/images/seasonsummer.jpg"], 
+				"photos": ["art/images/seasonsummer.jpg","art/images/seasonwinter.jpg"],
 				"link": "",
 				"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
 			},
-			// {
-			// 	"name": "Fall - Seasons Series",
-			// 	"date": "",
-			// 	"tags": ["paintings","acrylic","tutorial"],
-			// 	"keywords": ["art","watercolor","acrylic","paint","painting"],
-			// 	"photos": [],
-			// 	"link": "",
-			// 	"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
-			// },
 
 		// drawings
 
@@ -768,7 +741,7 @@
 			{
 				"name": "Nintendo Switch case",
 				"date": "3/4/2019",
-				"tags": ["sewn bags", "sewing", "bags", "gifts","games"],
+				"tags": ["sewn bags", "sewing", "design", "bags", "gifts","games"],
 				"keywords": ["sew","sewn","sewing","case","bag","bags","game","games"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/25/20%20Gameboy%20cover%20sewing%201.jpg?itok=XiQZO09J"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/nintendo-switch-case",
@@ -778,7 +751,7 @@
 				"name": "Big Girl (Reversible) Bag",
 				"date": "9/1/2018", //guess - night before first day of NDH clinical placement
 				"tags": ["sewn bags", "sewing", "bags", "handmade accessories", "profession","career"],
-				"keywords": ["sew","sewn","sewing","bag","bags","career","profession","professional","reversible","accessory","accessories"],
+				"keywords": ["sew","sewn","sewing", "design","bag","bags","career","profession","professional","reversible","accessory","accessories"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20180911_070641305.jpg?itok=hPWpfXH1"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/big-girl-bag-reversible",
 				"description": "Read about the process of making this bag on <a href='https://purplegreenprojects.com/blog/#adventure-bags-part-4-big-girl-bag-for-my-big-grad-adventures' target='_blank'>my blog</a>."
@@ -786,7 +759,7 @@
 			{
 				"name": "Bags for Mom and Grandma",
 				"date": "12/22/2017",
-				"tags": ["sewn bags", "sewing", "bags", "family", "gifts", "handmade accessories"],
+				"tags": ["sewn bags", "sewing", "bags", "design", "family", "gifts", "handmade accessories"],
 				"keywords": ["sew","sewn","sewing","gift","grandma fran","mom","bag","bags","accessory","accessories"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20171224_132413237.jpg?itok=C7fb4cuD"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/tote-bags-mom-and-grandma",
@@ -796,7 +769,7 @@
 				"featured": true,
 				"name": "Adventure Bag",
 				"date": "7/2/2017",
-				"tags": ["sewn bags", "sewing", "bags","treks","adventures","handmade accessories"],
+				"tags": ["sewn bags", "sewing", "bags", "design","treks","adventures","handmade accessories"],
 				"keywords": ["sew","sewn","sewing","bag","bags","accessory","accessories","nyc"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20170715_204102926.jpg?itok=bl7MGkJm"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/adventure-bag",
@@ -921,7 +894,7 @@
 			{
 				"name": "Music Blanket",
 				"date": "8/1/2018", //guess - in NP loft apartment, probably around/for our anniversary...
-				"tags": ["sewn other sewing","blanket","sewing"],
+				"tags": ["sewn other sewing", "design","blanket","sewing"],
 				"keywords": ["sew","sewn","sewing","blanket","music","gift","home decor"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/15/IMG_20180830_130435931.jpg?itok=eJIc4H1v"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/music-blanket",
@@ -992,7 +965,7 @@
 			{
 				"name": "Butterfly Chair cover",
 				"date": "5/21/2017",
-				"tags": ["sewn other sewing","furniture"],
+				"tags": ["sewn other sewing", "design","furniture"],
 				"keywords": ["sew","sewn","sewing","home decor", "furniture"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_1384.JPG?itok=JS5jtgiT"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/butterfly-chair-covercushion",
@@ -2019,7 +1992,7 @@
 			{
 				"name": "Clock",
 				"date": "3/1/2017", //?
-				"tags": ["code tools","code","with james"],
+				"tags": ["tools","code","with james"],
 				"keywords": ["code","coding","james","tutorial"],
 				"photos": ["coding/images/clock.png"],
 				"link": "clock/",
@@ -2029,7 +2002,7 @@
 			{
 				"name": "RandomLetter",
 				"date": "1/22/2017",
-				"tags": ["code tools","code","with james","games","language","literacy"],
+				"tags": ["tools","code","with james","games","language","literacy"],
 				"keywords": ["code","coding","slp","literacy","game","games"],
 				"photos": ["coding/images/randomletter.png"],
 				"link": "randomletter/",
@@ -2039,7 +2012,7 @@
 			{
 				"name": "Custom KD",
 				"date": "6/30/2017",
-				"tags": ["code tools","kniterative designs", "with james"],
+				"tags": ["tools","kniterative designs", "with james"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "cat","dog","bunny", "rabbit"],
 				"photos": ["coding/images/kdcustom.png"],
 				"link": "kdcustomorder/",
@@ -2049,7 +2022,7 @@
 			{
 				"name": "What Should I Knit Next?",
 				"date": "2/19/2022",
-				"tags": ["code tools","knitting","crochet","ravelry","api","with james"],
+				"tags": ["tools","knitting","crochet","ravelry","api","with james","code","coding"],
 				"keywords": ["knit","knitted","knitting","ravelry","api", "projects","crochet","2022"],
 				"photos": ["coding/images/whatshouldiknitnext.png"],
 				"link": "whatshouldiknitnext/",
@@ -2059,8 +2032,8 @@
 			{
 				"name": "Compliment Generator",
 				"date": "12/2/2022",
-				"tags": ["code tools","knitting","crochet","ravelry","api","with james"],
-				"keywords": ["knit","knitted","knitting","ravelry","api", "projects","crochet","2022"],
+				"tags": ["tools","api","with james", "mental health", "code", "coding"],
+				"keywords": [],
 				"photos": ["coding/images/complimentgenerator.png"],
 				"link": "complimentgenerator/",
 				"description": "Inspired by the <a href='https://theraccoonsociety.com/' target='_blank'>Raccoon Society</a>'s Pep Talk Generator poster. James also helped me make it into a Slackbot, essentially by creating an API of our own."
@@ -2071,7 +2044,7 @@
 			{
 				"name": "Memory",
 				"date": "7/1/2017",
-				"tags": ["code games","coding", "with james"],
+				"tags": ["games","coding", "with james"],
 				"keywords": ["code","coding","game","games","james"],
 				"photos": ["coding/images/memory.png"],
 				"link": "memory/",
@@ -2081,7 +2054,7 @@
 			{
 				"name": "yarnSwatter",
 				"date": "1/27/2018",
-				"tags": ["code games","kniterative designs", "games","with james", "cats","kittens","yarn"],
+				"tags": ["games","kniterative designs", "games","with james", "cats","kittens","yarn"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "cat","kitty","kitten","yarn,","game","games"],
 				"photos": ["coding/images/yarnswatter.png"],
 				"link": "yarnswatter/",
@@ -2092,7 +2065,7 @@
 				"featured": true,
 				"name": "carrotCollector",
 				"date": "12/5/2018",
-				"tags": ["code games","kniterative designs", "games","with james", "bunnies","carrots","flowers"],
+				"tags": ["games","kniterative designs", "games","with james", "bunnies","carrots","flowers"],
 				"keywords": ["code","coding","kd","kniterative","kniterativedesigns", "bunny","rabbit","bunnies","carrot,","game","games"],
 				"photos": ["coding/images/carrotcollector10.png"],
 				"link": "carrotcollector/",
@@ -2104,7 +2077,7 @@
 			{
 				"name": "Bubblewrap",
 				"date": "5/29/2017",
-				"tags": ["code experiments","with james","arrays"],
+				"tags": ["experiments","with james","arrays"],
 				"keywords": ["code","coding","fun","silly","fidget"],
 				"photos": ["coding/images/bubblewrap.png"],
 				"link": "bubblewrap/",
@@ -2115,7 +2088,7 @@
 				"featured": true,
 				"name": "Synesthesia",
 				"date": "7/28/2017",
-				"tags": ["code experiments","with james","colors","synesthesia"],
+				"tags": ["experiments","with james","colors","synesthesia"],
 				"keywords": ["code","coding","color","colors","letter","letters"],
 				"photos": ["coding/images/synesthesia.png"],
 				"link": "synesthesia/",
@@ -2125,7 +2098,7 @@
 			{
 				"name": "SciFi Sounds",
 				"date": "12/31/2018",
-				"tags": ["code experiments","with james","games","jokes"],
+				"tags": ["experiments","with james","games","jokes"],
 				"keywords": ["coding","code","sound","soundboard","game","effect", "effects"],
 				"photos": ["coding/images/scifisounds.png"],
 				"link": "scifisoundboard/",
@@ -2135,7 +2108,7 @@
 			{
 				"name": "Window",
 				"date": "1/1/2019",
-				"tags": ["code experiments","with james","canvas","seasons"],
+				"tags": ["experiments","with james","canvas","seasons"],
 				"keywords": ["coding","code","season","seasons","winter","spring","summer","fall","scenes","scenery","view"],
 				"photos": ["coding/images/window_winter.png"],
 				"link": "window/#winter",
@@ -2145,7 +2118,7 @@
 			{
 				"name": "nimbusNotes",
 				"date": "2/2/2019",
-				"tags": ["code experiments","with james","music","whether","weather","seasons"],
+				"tags": ["experiments","with james","music","whether","weather","seasons"],
 				"keywords": ["code","coding","james","hackathon","music","cloud","clouds","rain","raining","rainy","song"],
 				"photos": ["coding/images/nimbusnotes.png"],
 				"link": "https://nimbusnotes.jamesmayr.com",
@@ -2158,7 +2131,7 @@
 				"featured": true,
 				"name": "PurpleGreen Projects (v.1)",
 				"date": "11/1/2019", //showed at Demo Day 2019
-				"tags": ["code past portfolios", "code", "with james","projects","room","3d space","canvas","window"],
+				"tags": ["portfolios", "code", "with james","projects","room","3d space","canvas","window"],
 				"keywords": [],
 				"photos": ["coding/images/oldpurplegreenprojects.png"],
 				"link": "oldpurplegreenprojectsroom/",

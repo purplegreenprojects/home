@@ -531,6 +531,7 @@
 		text-align: center;
 		opacity: 0;
 		scrollbar-color: var(--dark-purple) transparent;
+		scroll-behavior: smooth;
 	}
 
 		#content::-webkit-scrollbar {

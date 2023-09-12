@@ -31,6 +31,7 @@
 		filtersClearButton: document.querySelector("#filters-clear"),
 		filtersSearchInput: document.querySelector("#filters-search"),
 		filtersSuggestions: document.querySelector("#filters-suggestions"),
+		content: document.querySelector("#content"),
 		contentSection: document.querySelector("#content-cards"),
 		contentEmptyButton: document.querySelector("#content-empty-all-projects-button"),
 		contentEmptyTagButtons: Array.from(document.querySelectorAll("#content-empty .content-empty-button")),
@@ -54,7 +55,7 @@
 			designer: {
 				tag: "design",
 				topics: {
-					"Kniterative Designs": "kd",
+					"Kniterative Designs": "kniterative designs",
 					"   prototypes":"prototypes",
 					"   bunnies": "bunnies",
 					"   cats": "cats",
@@ -64,6 +65,7 @@
 					"   mice": "mice",
 					"   carrots": "carrots",
 					"bags": "bags",
+					"home decor":"home decor"
 				}
 			},			
 			knitter: {
@@ -74,11 +76,11 @@
 					"   sweaters": "sweaters",
 					"   skirts": "skirts",
 					"accessories": "accessories",
-					"   hats": "headwear",
+					"   hats, etc.": "headwear",
 					"   scarves, cowls, & shawls": "neckwear",
 					"   mittens & gloves": "handwear",
 					"toys": "toys",
-					"Kniterative Designs": "kd",
+					"Kniterative Designs": "kniterative designs",
 					"   bunnies": "bunnies",
 					"   cats": "cats",
 					"   dogs": "dogs",
@@ -116,8 +118,8 @@
 				tag: "music",
 				topics: {
 					"Chroma album": "album",
-					"Explorchestra": "Explorchestra",
-					"   Explo Expos": "Explo Expo",
+					"Explorchestra": "explorchestra",
+					"   Explo Expos": "explo expo",
 					"Music Challenges": "music challenges",
 				}
 			},
@@ -140,17 +142,16 @@
 			coder: {
 				tag: "code",
 				topics: {
-					"tools":"code tools",
-					"games": "code games",
-					"experiments": "code experiments",
-					"past portfolios": "portfolios"
+					"tools":"tools",
+					"games": "games",
+					"experiments": "experiments",
+					"portfolios": "portfolios"
 				}
 			},
 			explorer: {
 				tag: "explore",
 				topics: {
-					"places": "photographed places",
-					
+					"places": "places",
 				}
 			},
 			friend: {
@@ -200,8 +201,8 @@
 			ELEMENTS.filtersMediumOptions.appendChild(mediumButton)
 		}
 
-		if (parameterObject.medium && Object.keys(CONSTANTS.mediums).includes(parameterObject.medium)) {
-			ELEMENTS.filtersMediumCurrent.value = parameterObject.medium
+		if (parameterObject.persona && Object.keys(CONSTANTS.mediums).includes(parameterObject.persona)) {
+			ELEMENTS.filtersMediumCurrent.value = parameterObject.persona
 		}
 		else {
 			// select the default medium (e.g. "maker" or "learner"), as defined in CONSTANTS as value of mediums dropdown
@@ -278,6 +279,7 @@
 			filterProjects()
 			updateURL()
 			event.target.blur()
+			ELEMENTS.content.scrollTo(0, 0)
 		}
 
 		// (define function)
@@ -380,7 +382,7 @@
 				return
 			}
 			else {
-				var newParameterString = "?medium=" + currentMedium
+				var newParameterString = "?persona=" + currentMedium
 
 				if (currentSearch) {
 					newParameterString = newParameterString + "&search=" + currentSearch
