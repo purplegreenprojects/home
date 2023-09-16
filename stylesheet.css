@@ -294,7 +294,7 @@
 				#filters-medium-options {
 					width: 100%;
 					height: auto;
-					max-height: calc(100vh - 200px); /* to make list scrollable if it would be cut off; based on header section height */
+					max-height: calc(100vh - 240px); /* to make list scrollable if it would be cut off; based on header section height */
 					overflow-x: hidden;
 					overflow-y: auto;
 					background-color: var(--medium-teal);
@@ -499,7 +499,7 @@
 				#filters-suggestions {
 					width: 100%;
 					height: auto;
-					max-height: calc(100vh - 200px); /* to make list scrollable if it would be cut off; based on header section height */
+					max-height: calc(100vh - 240px); /* to make list scrollable if it would be cut off; based on header section height */
 					overflow-x: hidden;
 					overflow-y: auto;
 					background-color: var(--medium-teal);
@@ -586,7 +586,7 @@
 
 		#header[collapsed] ~ #content {
 			opacity: 1;
-			height: calc(100% - (var(--font-size-large) + 3 * var(--gap-size-large)) - (var(--font-size-large) + 2 * var(--gap-size-small)) - var(--stream-height) - (var(--font-size-small) + 2 * var(--gap-size-small)));
+			height: calc(100% - (var(--font-size-large) + 3 * var(--gap-size-large)) - (var(--font-size-large) + 2 * var(--gap-size-small)) - var(--stream-height) - (var(--font-size-small) + 4 * var(--gap-size-small)));
 			padding-bottom: var(--gap-size-large);
 		}
 
@@ -947,7 +947,7 @@
 			}
 
 			#filters-suggestions {
-				max-height: calc(100vh - 280px); /* to make list scrollable if it would be cut off; based on header section height */
+				max-height: calc(100vh - 320px); /* to make list scrollable if it would be cut off; based on header section height */
 			}
 
 		#header[collapsed="true"] ~ #content {
