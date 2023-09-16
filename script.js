@@ -1,5 +1,8 @@
 // TO DO
 	// After MVP
+		// mobile 404 screen - lower font size
+		// resize large pics
+		// lazy loading (for blog too)
 		// friends of... cards - galleries for Grandma Fran, Grandpa Jim... (& link to...?)
 		// exporer of... card for Upstate NY
 		// Selections from Sketchbooks gallery
@@ -25,6 +28,7 @@
 		header: document.querySelector("#header"),
 		nameButton: document.querySelector("#name-button"),
 		about: document.querySelector("#about"),
+		filtersMediumForm: document.querySelector("#filters-medium-form"),
 		filtersMediumCurrent: document.querySelector("#filters-medium-current"),
 		filtersMediumOptions: document.querySelector("#filters-medium-options"),
 		filtersTopicSelect: document.querySelector("#filters-topic"),
@@ -151,7 +155,6 @@
 			explorer: {
 				tag: "explore",
 				topics: {
-					"places": "places",
 				}
 			},
 			friend: {
@@ -197,7 +200,7 @@
 			mediumButton.className = "filter-medium-suggestion"
 			mediumButton.innerText = i
 			mediumButton.value = i
-			mediumButton.addEventListener("click",updateBasedOnMedium)
+			mediumButton.addEventListener("mousedown", updateBasedOnMedium)
 			ELEMENTS.filtersMediumOptions.appendChild(mediumButton)
 		}
 
@@ -278,7 +281,9 @@
 			setAboutView()
 			filterProjects()
 			updateURL()
-			event.target.blur()
+			setTimeout(function() {
+				ELEMENTS.filtersSearchInput.focus()
+			}, 0)
 			ELEMENTS.content.scrollTo(0, 0)
 		}
 
@@ -330,7 +335,7 @@
 				topicButton.className = "filter-topic-suggestion"
 				topicButton.innerText = topics[i]
 				topicButton.value = CONSTANTS.mediums[medium].topics[topics[i]].trim()
-				topicButton.addEventListener("click",searchByTag)
+				topicButton.addEventListener("mousedown", searchByTag)
 				ELEMENTS.filtersSuggestions.appendChild(topicButton)
 			}
 

@@ -587,7 +587,7 @@
 				"date": "12/11/21",
 				"tags": ["paintings","acrylic","tutorial"],
 				"keywords": ["art","acrylic","paint","painting"],
-				"photos": ["art/images/mountainsunset.jpg"], //
+				"photos": ["art/images/mountainsunset.JPG"],
 				"link": "",
 				"description":"<a href='https://www.youtube.com/watch?v=e63Cgln6Yag' target='_blank'>Bob Ross</a> says I make the rules in my world... So in my world, the trees are purple."
 			},

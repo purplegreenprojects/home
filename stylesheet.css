@@ -89,7 +89,7 @@
 				cursor: pointer;
 				transition: var(--transition-time);
 				outline: none;
-				padding: 0;
+				padding: 0 var(--gap-size-medium);
 			}
 
 				#name-button:hover, #name-button:focus {
@@ -217,7 +217,7 @@
 		#filters {
 			width: 100%;
 			padding: 0;
-			height: calc(var(--font-size-large) + 2 * var(--gap-size-small) + var(--gap-size-large));
+			height: calc(var(--font-size-large) + 4 * var(--gap-size-small) + var(--gap-size-large));
 			box-sizing: border-box;
 			text-align: center;
 			filter: drop-shadow(0 calc(-1 * var(--shadow-size)) calc(var(--shadow-size) / 2) var(--translucent-dark-purple));
@@ -225,7 +225,7 @@
 
 			#filters-medium-form {
 				width: var(--tab-width);
-				height: calc(var(--font-size-large) + 2 * var(--gap-size-small));
+				height: calc(var(--font-size-large) + 4 * var(--gap-size-small));
 				box-sizing: border-box;
 				padding: 0;
 				display: inline-block;
@@ -237,9 +237,9 @@
 				#filters-medium-current {
 					width: 100%;
 					font-size: var(--font-size-large);
-					height: calc(var(--font-size-large) + 2 * var(--gap-size-small));
+					height: calc(var(--font-size-large) + 4 * var(--gap-size-small));
 					box-sizing: border-box;
-					padding: 0 var(--gap-size-small) 0 var(--gap-size-small);
+					padding: var(--gap-size-small) var(--gap-size-small) var(--gap-size-small) var(--gap-size-small);
 					border-radius: var(--border-radius) var(--border-radius) 0 0;
 					border: none;
 					font-family: var(--font-handwriting);
@@ -294,12 +294,29 @@
 				#filters-medium-options {
 					width: 100%;
 					height: auto;
+					max-height: calc(100vh - 200px); /* to make list scrollable if it would be cut off; based on header section height */
+					overflow-x: hidden;
+					overflow-y: auto;
 					background-color: var(--medium-teal);
 					box-sizing: border-box;
 					padding: var(--gap-size-small);
 					border-radius: 0 0 var(--border-radius) var(--border-radius);
 					box-shadow: 0 var(--shadow-size) var(--shadow-size) var(--dark-purple);
+					scrollbar-color: var(--dark-purple) transparent;
+					scroll-behavior: smooth;
 				}
+
+					#filters-medium-options::-webkit-scrollbar {
+						background-color: transparent;
+						width: var(--gap-size-medium);
+					}
+
+					#filters-medium-options::-webkit-scrollbar-thumb {
+						height: calc(var(--font-size-large) * 2);
+						background-color: var(--dark-purple);
+						border-radius: var(--border-radius);
+						border: var(--border-size) solid var(--medium-teal);
+					}
 
 					.filter-medium-suggestion {
 						width: 100%;
@@ -329,7 +346,7 @@
 			#filters-of-outer {
 				height: calc(var(--font-size-large) + 2 * var(--gap-size-small));
 				box-sizing: border-box;
-				padding: var(--gap-size-small);
+				padding: var(--gap-size-medium) var(--gap-size-small) 0 var(--gap-size-small);
 				display: inline-block;
 				vertical-align: top;
 			}
@@ -351,7 +368,7 @@
 
 			#filters-topic-form {
 				width: var(--tab-width);
-				height: calc(var(--font-size-large) + 2 * var(--gap-size-small));
+				height: calc(var(--font-size-large) + 4 * var(--gap-size-small));
 				box-sizing: border-box;
 				padding: var(--gap-size-small) 0 0 0;
 				display: inline-block;
@@ -362,19 +379,22 @@
 
 				#filters-search {
 					height: 100%;
-					width: calc(100% - 2 * var(--gap-size-small));
+					width: calc(100% - 2 * var(--gap-size-small) - (var(--font-size-medium) * 1.5));
+					margin-left: var(--gap-size-small);
 					border: none;
 					background-color: var(--medium-teal);
 					border-radius: calc(var(--border-radius) / 2);
-					padding: var(--gap-size-small) calc(var(--font-size-medium) * 1.5) var(--gap-size-small) var(--gap-size-small);
+					padding: 0 0 var(--gap-size-small) 0;
 					font-size: var(--font-size-large);
 					color: var(--dark-purple);
 					font-family: var(--font-handwriting);
 					outline: none;
 					transition: var(--transition-time);
 					box-sizing: border-box;
-					line-height: var(--line-height);
+					line-height: 1;
 					text-align: center;
+					position: relative;
+					z-index: 2;
 				}
 
 					#filters-search::placeholder {
@@ -418,8 +438,8 @@
 					color: var(--dark-teal);
 					position: relative;
  					height: 100%;
- 					width: calc(var(--font-size-medium) * 1.5);
- 					margin-left: calc(-1.5 * var(--font-size-medium));
+ 					width: calc(var(--font-size-medium) * 1.5 + var(--gap-size-small));
+ 					padding-left: var(--gap-size-small);
 					z-index: 2;
 					line-height: var(--line-height);
 					box-sizing: border-box;
@@ -438,7 +458,7 @@
 					box-sizing: border-box;
 					font-size: var(--font-size-medium);
 					text-align: center;
-					padding: var(--gap-size-small) var(--gap-size-small) 0 var(--gap-size-small);
+					padding: var(--gap-size-small) var(--gap-size-small) 0 0;
 					border: none;
 					background: transparent;
 					cursor: pointer;
@@ -479,12 +499,30 @@
 				#filters-suggestions {
 					width: 100%;
 					height: auto;
+					max-height: calc(100vh - 200px); /* to make list scrollable if it would be cut off; based on header section height */
+					overflow-x: hidden;
+					overflow-y: auto;
 					background-color: var(--medium-teal);
 					box-sizing: border-box;
 					padding: var(--gap-size-small);
 					border-radius: 0 0 var(--border-radius) var(--border-radius);
 					box-shadow: 0 var(--shadow-size) var(--shadow-size) var(--dark-purple);
+					scrollbar-color: var(--dark-purple) transparent;
+					scroll-behavior: smooth;
+					position: relative;
 				}
+
+					#filters-suggestions::-webkit-scrollbar {
+						background-color: transparent;
+						width: var(--gap-size-medium);
+					}
+
+					#filters-suggestions::-webkit-scrollbar-thumb {
+						height: calc(var(--font-size-large) * 2);
+						background-color: var(--dark-purple);
+						border-radius: var(--border-radius);
+						border: var(--border-size) solid var(--medium-teal);
+					}
 
 					.filter-topic-suggestion {
 						width: 100%;
@@ -857,7 +895,7 @@
 			position: relative;
 			top: 0;
 			left: 0;
-			height: calc(var(--font-size-large) * 2 + 2 * var(--gap-size-small) + var(--gap-size-large));
+			height: calc(var(--font-size-large) * 2 + 4 * var(--gap-size-small) + var(--gap-size-large));
 		}
 
 			#filters-medium-form {
@@ -908,8 +946,12 @@
 				margin: auto auto;
 			}
 
+			#filters-suggestions {
+				max-height: calc(100vh - 280px); /* to make list scrollable if it would be cut off; based on header section height */
+			}
+
 		#header[collapsed="true"] ~ #content {
-			height: calc(100% - (var(--font-size-large) * 2 + 3 * var(--gap-size-large)) - (var(--font-size-large) + 2 * var(--gap-size-small)) - var(--stream-height) - (var(--font-size-small) + 2 * var(--gap-size-small)));
+			height: calc(100% - (var(--font-size-large) * 2 + 3 * var(--gap-size-large)) - (var(--font-size-large) + 2 * var(--gap-size-small)) - var(--stream-height) - (var(--font-size-small) + 4 * var(--gap-size-small)));
 		}
 
 		#content {
