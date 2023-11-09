@@ -173,16 +173,222 @@
 
 		// 3D
 
-			{
-				"featured": true,
-				"name": "Blender Cafe",
-				"date": "2/15/2020",
-				"tags": ["art","3d art", "scene", "blender", "donut tutorial", "tutorial", "food", "scenes", "digital art"],
-				"keywords": ["art","3d","blender","render","scene","donut","coffee", "blender guru","tutorial", "vase","flower","flowers","glass","breakfast", "first projects", "virtual"],
-				"photos": ["blender/images/blendercafe.gif"],
-				"link": "",
-				"description": "Based on the <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>Donut Tutorial by Blender Guru. I added a cherry blossom branch, also based on a Blender Guru tutorial, for an extra little decoration.</a>"
-			},
+			// SCENES
+
+				{
+					"featured": true,
+					"name": "PurpleGreen Projects (v.2)",
+					"date": "6/30/2021",
+					"tags": ["art", "scene","room","3d art", "blender","models","projects portfolios","portfolios", "code", "coding", "with james"],
+					"keywords": ["art","3d","blender","render","asset","model","purplegreen","purplegreenprojects","evolution","website","virtual"],
+					"photos": ["room/images/lightmode/all.png"],
+					"link": "room/",
+					"description": "My first big project in Blender, made through a combination of tutorials and trial-and-error, featuring many models I created from scratch! James helped me code divs to layer on top of the rendered images so that I could make clickable buttons with links to galleries and other places where my projects are documented."
+				},
+
+				{
+					"featured": true,
+					"name": "Blender Cafe",
+					"date": "2/15/2020",
+					"tags": ["art","3d art", "scene", "blender", "donut tutorial", "tutorial", "food", "scenes", "digital art"],
+					"keywords": ["art","3d","blender","render","scene","donut","coffee", "blender guru","tutorial", "vase","flower","flowers","glass","breakfast", "first projects", "virtual"],
+					"photos": ["blender/images/blendercafe.gif"],
+					"link": "",
+					"description": "Based on the <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>Donut Tutorial by Blender Guru. I added a cherry blossom branch, also based on a Blender Guru tutorial, for an extra little decoration.</a>"
+				},
+
+				{
+					"name": "picnic breakfast",
+					"date": "7/4/2021",
+					"tags": ["art","3d art", "scene", "blender", "food", "scenes", "digital art"],
+					"keywords": ["art","3d","blender","render","scene","breakfast","brunch","food","glass", "nature","virtual"],
+					"photos": ["blender/images/breakfastpicnic.png"],
+					"link": "https://polyhaven.com/a/flower_road",
+					"description": "Uses a <a href='https://polyhaven.com/a/flower_road' target='_blank'>free HDRI</a> from Polyhaven"
+				},
+
+
+
+			// MODELS
+
+
+				// FURNITURE
+
+					{
+						"name": "G'pa Chair",
+						"date": "6/26/2021",
+						"tags": ["3d art", "model", "blender", "furniture", "chairs", "models"],
+						"keywords": ["art","3d","blender","render","asset","model","grandpa","chair","furniture","virtual"],
+						"photos": ["blender/images/chair_gpa.png"],
+						"link": "",
+						"description": "Model based on my Grandpa Jim's chair, with help from <a href='https://www.youtube.com/watch?v=Y4whyFTilsA&list=PLjEaoINr3zgGgS-N9Ews90bDAYYLoP0NO' target='_blank'>this tutorial by Blender Guru</a>"
+					},
+
+					{
+						"name": "poang chair",
+						"date": "5/2/2021",
+						"tags": ["3d art", "model", "blender", "furniture", "models"],
+						"keywords": ["art","3d","blender","render","asset","model","furniture","chair","ikea","reading","read","virtual"],
+						"photos": ["blender/images/chair_poang.png"],
+						"link": "room/",
+						"description": "Model based on <a href='https://www.ikea.com/us/en/cat/poaeng-series-07472/' target='_blank'>Poäng by IKEA</a>"
+					},
+
+					{
+						"name": "desk",
+						"date": "2/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
+						"tags": ["3d art", "model", "blender", "furniture", "models"],
+						"keywords": ["art","3d","blender","render","asset","model","furniture", "office","virtual"],
+						"photos": ["blender/images/desk_drawing.png"],
+						"link": "room/",
+						"description": "Model based on my drawing desk (with some creative liberties taken)"
+					},
+
+					{
+						"name": "end table",
+						"date": "6/7/2021",
+						"tags": ["3d art", "model", "blender", "furniture", "models"],
+						"keywords": ["art","3d","blender","render","asset","model","furniture","virtual"],
+						"photos": ["blender/images/table_end.png"],
+						"link": "",
+						"description": "See if you can spot this in the scene!"
+					},
+
+					{
+						"name": "cube shelf",
+						"date": "5/15/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
+						"tags": ["3d art", "model", "blender", "furniture", "models"],
+						"keywords": ["art","3d","blender","render","asset","model","furniture","virtual"],
+						"photos": ["blender/images/shelf_cube.png"],
+						"link": "room/",
+						"description": "Model based on my actual cube shelves from Target"
+					},
+					
+
+				// LIGHTS
+					{
+						"name": "banker's lamp",
+						"date": "4/1/2021",
+						"tags": ["3d art", "model", "blender", "furniture", "lights", "models"],
+						"keywords": ["art","3d","blender","render","asset","model","lamp","light","green","virtual"],
+						"photos": ["blender/images/lamp_banker.png"],
+						"link": "room/",
+						"description": "See if you can spot this in the scene!"
+					},
+
+					{
+						"name": "floor lamp",
+						"date": "6/15/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
+						"tags": ["3d art", "model", "blender", "furniture", "lights", "models"],
+						"keywords": ["art","3d","blender","render","asset","model","lamp","light","virtual"],
+						"photos": ["blender/images/lamp_floor.png"],
+						"link": "room/",
+						"description": "Many thanks to <a href='https://leomoon.com/store/shaders/ies-lights-pack/' target='_blank'>LeoMoon Studios' free IES Lights Pack</a>"
+					},
+
+					{
+						"name": "reading lamp",
+						"date": "6/15/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
+						"tags": ["3d art", "model", "blender", "furniture", "lights", "models"],
+						"keywords": ["art","3d","blender","render","asset","model","light","lamp","virtual"],
+						"photos": ["blender/images/lamp_reading.png"],
+						"link": "room/",
+						"description": "Many thanks to <a href='https://leomoon.com/store/shaders/ies-lights-pack/' target='_blank'>LeoMoon Studios' free IES Lights Pack</a>"
+					},
+
+				// FOOD
+					{
+						"name": "bagels",
+						"date": "3/15/2020",
+						"tags": ["3d art", "model", "blender", "food", "models"],
+						"keywords": ["art","3d","blender","render","asset","model","food","breakfast", "first projects","virtual"],
+						"photos": ["blender/images/bagels.png"],
+						"link": "",
+						"description": "Loosely based on the <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>Donut Tutorial by Blender Guru</a>"
+					},
+
+					{
+						"name": "bread",
+						"date": "2/29/2020",
+						"tags": ["3d art", "model", "blender", "food", "models", "tutorial"],
+						"keywords": ["art","3d","blender","render","asset","model","food","blender guru","virtual"],
+						"photos": ["blender/images/bread.png"],
+						"link": "",
+						"description": "Based on a <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>tutorial by Blender Guru</a>"
+					},
+
+					{
+						"name": "apples",
+						"date": "3/10/2020",
+						"tags": ["3d art", "scene", "blender", "food", "tutorial", "scenes", "digital art"],
+						"keywords": ["art","3d","blender","render","asset","model","food","tutorial","virtual"],
+						"photos": ["blender/images/apples.png"],
+						"link": "",
+						"description": "Based on a <a href='https://www.youtube.com/watch?v=j14b25SnYRY&list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0' target='_blank'>tutorial by CG Boost</a>"
+					},
+
+				// PROPS / MISC.
+
+					{
+						"featured": true,
+						"name": "neon sign",
+						"date": "12/30/2020",
+						"tags": ["art","3d art", "scene", "blender", "decorations", "tutorial", "scenes", "digital art","lights"],
+						"keywords": ["art","3d","blender","render","asset","model","light","glow","virtual"],
+						"photos": ["blender/images/neonsign.png"],
+						"link": "",
+						"description": "Based on a <a href='https://www.youtube.com/watch?v=eQjQfmjDXXA' target='_blank'>tutorial by Blender Guru</a>"
+					},
+
+					{
+						"name": "house plant",
+						"date": "6/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
+						"tags": ["3d art", "model", "blender", "plants", "models"],
+						"keywords": ["art","3d","blender","render","asset","model","plant","plants","houseplant","houseplants","house plants", "house plant", "garden", "gardening","virtual"],
+						"photos": ["blender/images/plant_pothos.png"],
+						"link": "room/",
+						"description": "Based on a <a href='https://www.youtube.com/watch?v=JoW1XWi4Lw0' target='_blank'>tutorial by yojigraphics</a>"
+					},
+
+					{
+						"name": "piano",
+						"date": "1/23/2021",
+						"tags": ["3d art", "model", "blender", "furniture", "models", "music"],
+						"keywords": ["art","3d","blender","render","asset","model","music","instrument", "composing","composition","virtual"],
+						"photos": ["blender/images/piano.png"],
+						"link": "room/",
+						"description": "Model based on my actual piano"
+					},
+
+					{
+						"name": "sewing machine",
+						"date": "3/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
+						"tags": ["3d art", "model", "blender", "furniture", "models", "sewing"],
+						"keywords": ["art","3d","blender","render","asset","model","sew","sewing","sewn","sewist","seamstress","clothes", "singer","grandma","virtual"],
+						"photos": ["blender/images/sewingmachine.png"],
+						"link": "room/",
+						"description": "Model loosely based on my sewing machine"
+					},
+
+					{
+						"name": "dress form",
+						"date": "4/23/2021",
+						"tags": ["3d art", "model", "blender", "furniture", "models", "sewing", "clothes"],
+						"keywords": ["art","3d","blender","render","asset","model","dress","sewing","sew","seamstress","clothes","virtual"],
+						"photos": ["blender/images/sewingdressform.png"],
+						"link": "room/",
+						"description": "See if you can spot this in the scene!"
+					},
+
+					{
+						"name": "teddy bear",
+						"date": "2/19/2020",
+						"tags": ["art","3d art", "scene", "blender", "toys", "tutorial", "scenes", "digital art"],
+						"keywords": ["art","3d","blender","render","asset","model","toy","stuffie","bear","virtual"],
+						"photos": ["blender/images/teddybear.png"],
+						"link": "",
+						"description": "Loosely based on <a href='https://www.youtube.com/watch?v=Ebx2qbBlvh0' target='_blank'>this video by Blender Guru</a>"
+					},
 
 			{
 				"name": "bud vase",
@@ -192,77 +398,6 @@
 				"photos": ["blender/images/budvase.png"],
 				"link": "",
 				"description": "I used the process outlined by Blender Guru for making a glass coffee cup to make my first original design in Blender - a little vase for my Blender Cafe scene."
-			},
-
-			{
-				"name": "bagels",
-				"date": "3/15/2020",
-				"tags": ["3d art", "model", "blender", "food", "models"],
-				"keywords": ["art","3d","blender","render","asset","model","food","breakfast", "first projects","virtual"],
-				"photos": ["blender/images/bagels.png"],
-				"link": "",
-				"description": "Loosely based on the <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>Donut Tutorial by Blender Guru</a>"
-			},
-
-			{
-				"name": "picnic breakfast",
-				"date": "7/4/2021",
-				"tags": ["art","3d art", "scene", "blender", "food", "scenes", "digital art"],
-				"keywords": ["art","3d","blender","render","scene","breakfast","brunch","food","glass", "nature","virtual"],
-				"photos": ["blender/images/breakfastpicnic.png"],
-				"link": "https://polyhaven.com/a/flower_road",
-				"description": "Uses a <a href='https://polyhaven.com/a/flower_road' target='_blank'>free HDRI</a> from Polyhaven"
-			},
-
-			{
-				"name": "bread",
-				"date": "2/29/2020",
-				"tags": ["3d art", "model", "blender", "food", "models", "tutorial"],
-				"keywords": ["art","3d","blender","render","asset","model","food","blender guru","virtual"],
-				"photos": ["blender/images/bread.png"],
-				"link": "",
-				"description": "Based on a <a href='https://www.youtube.com/watch?v=TPrnSACiTJ4' target='_blank'>tutorial by Blender Guru</a>"
-			},
-
-			{
-				"name": "apples",
-				"date": "3/10/2020",
-				"tags": ["3d art", "scene", "blender", "food", "tutorial", "scenes", "digital art"],
-				"keywords": ["art","3d","blender","render","asset","model","food","tutorial","virtual"],
-				"photos": ["blender/images/apples.png"],
-				"link": "",
-				"description": "Based on a <a href='https://www.youtube.com/watch?v=j14b25SnYRY&list=PL3UWN2F2M2C8-zUjbFlbgtWPQa0NXBsp0' target='_blank'>tutorial by CG Boost</a>"
-			},
-
-			{
-				"name": "teddy bear",
-				"date": "2/19/2020",
-				"tags": ["art","3d art", "scene", "blender", "toys", "tutorial", "scenes", "digital art"],
-				"keywords": ["art","3d","blender","render","asset","model","toy","stuffie","bear","virtual"],
-				"photos": ["blender/images/teddybear.png"],
-				"link": "",
-				"description": "Loosely based on <a href='https://www.youtube.com/watch?v=Ebx2qbBlvh0' target='_blank'>this video by Blender Guru</a>"
-			},
-
-			{
-				"featured": true,
-				"name": "neon sign",
-				"date": "12/30/2020",
-				"tags": ["art","3d art", "scene", "blender", "decorations", "tutorial", "scenes", "digital art","lights"],
-				"keywords": ["art","3d","blender","render","asset","model","light","glow","virtual"],
-				"photos": ["blender/images/neonsign.png"],
-				"link": "",
-				"description": "Based on a <a href='https://www.youtube.com/watch?v=eQjQfmjDXXA' target='_blank'>tutorial by Blender Guru</a>"
-			},
-
-			{
-				"name": "cube shelf",
-				"date": "5/15/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
-				"tags": ["3d art", "model", "blender", "furniture", "models"],
-				"keywords": ["art","3d","blender","render","asset","model","furniture","virtual"],
-				"photos": ["blender/images/shelf_cube.png"],
-				"link": "room/",
-				"description": "Model based on my actual cube shelves from Target"
 			},
 
 			{
@@ -277,16 +412,6 @@
 			},
 
 			{
-				"name": "desk",
-				"date": "2/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
-				"tags": ["3d art", "model", "blender", "furniture", "models"],
-				"keywords": ["art","3d","blender","render","asset","model","furniture", "office","virtual"],
-				"photos": ["blender/images/desk_drawing.png"],
-				"link": "room/",
-				"description": "Model based on my drawing desk (with some creative liberties taken)"
-			},
-
-			{
 				"name": "bulletin board",
 				"date": "6/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 				"tags": ["3d art", "model", "blender", "furniture", "models"],
@@ -294,107 +419,7 @@
 				"photos": ["blender/images/bulletinboard.png"],
 				"link": "room/",
 				"description": "See if you can spot this in the scene!"
-			},
-
-			{
-				"name": "piano",
-				"date": "1/23/2021",
-				"tags": ["3d art", "model", "blender", "furniture", "models", "music"],
-				"keywords": ["art","3d","blender","render","asset","model","music","instrument", "composing","composition","virtual"],
-				"photos": ["blender/images/piano.png"],
-				"link": "room/",
-				"description": "Model based on my actual piano"
-			},
-
-			{
-				"name": "sewing machine",
-				"date": "3/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
-				"tags": ["3d art", "model", "blender", "furniture", "models", "sewing"],
-				"keywords": ["art","3d","blender","render","asset","model","sew","sewing","sewn","sewist","seamstress","clothes", "singer","grandma","virtual"],
-				"photos": ["blender/images/sewingmachine.png"],
-				"link": "room/",
-				"description": "Model loosely based on my sewing machine"
-			},
-
-			{
-				"name": "dress form",
-				"date": "4/23/2021",
-				"tags": ["3d art", "model", "blender", "furniture", "models", "sewing", "clothes"],
-				"keywords": ["art","3d","blender","render","asset","model","dress","sewing","sew","seamstress","clothes","virtual"],
-				"photos": ["blender/images/sewingdressform.png"],
-				"link": "room/",
-				"description": "See if you can spot this in the scene!"
-			},
-
-			{
-				"name": "banker's lamp",
-				"date": "4/1/2021",
-				"tags": ["3d art", "model", "blender", "furniture", "lights", "models"],
-				"keywords": ["art","3d","blender","render","asset","model","lamp","light","green","virtual"],
-				"photos": ["blender/images/lamp_banker.png"],
-				"link": "room/",
-				"description": "See if you can spot this in the scene!"
-			},
-
-			{
-				"name": "G'pa Chair",
-				"date": "6/26/2021",
-				"tags": ["3d art", "model", "blender", "furniture", "chairs", "models"],
-				"keywords": ["art","3d","blender","render","asset","model","grandpa","chair","furniture","virtual"],
-				"photos": ["blender/images/chair_gpa.png"],
-				"link": "",
-				"description": "Model based on my Grandpa Jim's chair, with help from <a href='https://www.youtube.com/watch?v=Y4whyFTilsA&list=PLjEaoINr3zgGgS-N9Ews90bDAYYLoP0NO' target='_blank'>this tutorial by Blender Guru</a>"
-			},
-
-			{
-				"name": "end table",
-				"date": "6/7/2021",
-				"tags": ["3d art", "model", "blender", "furniture", "models"],
-				"keywords": ["art","3d","blender","render","asset","model","furniture","virtual"],
-				"photos": ["blender/images/table_end.png"],
-				"link": "",
-				"description": "See if you can spot this in the scene!"
-			},
-
-			{
-				"name": "house plant",
-				"date": "6/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
-				"tags": ["3d art", "model", "blender", "plants", "models"],
-				"keywords": ["art","3d","blender","render","asset","model","plant","plants","houseplant","houseplants","house plants", "house plant", "garden", "gardening","virtual"],
-				"photos": ["blender/images/plant_pothos.png"],
-				"link": "room/",
-				"description": "Based on a <a href='https://www.youtube.com/watch?v=JoW1XWi4Lw0' target='_blank'>tutorial by yojigraphics</a>"
-			},
-
-			{
-				"name": "poang chair",
-				"date": "5/2/2021",
-				"tags": ["3d art", "model", "blender", "furniture", "models"],
-				"keywords": ["art","3d","blender","render","asset","model","furniture","chair","ikea","reading","read","virtual"],
-				"photos": ["blender/images/chair_poang.png"],
-				"link": "room/",
-				"description": "Model based on <a href='https://www.ikea.com/us/en/cat/poaeng-series-07472/' target='_blank'>Poäng by IKEA</a>"
-			},
-
-			{
-				"name": "floor lamp",
-				"date": "6/15/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
-				"tags": ["3d art", "model", "blender", "furniture", "lights", "models"],
-				"keywords": ["art","3d","blender","render","asset","model","lamp","light","virtual"],
-				"photos": ["blender/images/lamp_floor.png"],
-				"link": "room/",
-				"description": "Many thanks to <a href='https://leomoon.com/store/shaders/ies-lights-pack/' target='_blank'>LeoMoon Studios' free IES Lights Pack</a>"
-			},
-
-			{
-				"name": "reading lamp",
-				"date": "6/15/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
-				"tags": ["3d art", "model", "blender", "furniture", "lights", "models"],
-				"keywords": ["art","3d","blender","render","asset","model","light","lamp","virtual"],
-				"photos": ["blender/images/lamp_reading.png"],
-				"link": "room/",
-				"description": "Many thanks to <a href='https://leomoon.com/store/shaders/ies-lights-pack/' target='_blank'>LeoMoon Studios' free IES Lights Pack</a>"
-			},
+			},	
 
 			{
 				"name": "book",
@@ -416,24 +441,15 @@
 				"description": ""
 			},
 
-			{
-				"featured": true,
-				"name": "PurpleGreen Projects (v.2)",
-				"date": "6/30/2021",
-				"tags": ["art", "scene","3d art", "blender","models","projects portfolios","portfolios", "code", "coding", "with james"],
-				"keywords": ["art","3d","blender","render","asset","model","purplegreen","purplegreenprojects","evolution","website","virtual"],
-				"photos": ["room/images/lightmode/all.png"],
-				"link": "room/",
-				"description": "My first big project in Blender, made through a combination of tutorials and trial-and-error, featuring many models I created from scratch! James helped me code divs to layer on top of the rendered images so that I could make clickable buttons with links to galleries and other places where my projects are documented."
-			},
+			
 
 			{
 				"name": "Snow Sculptures",
 				"date": "12/1/2003", //guess, most recent one was senior year of high school, but chronologically I want this to show up when I made the first batch, in elementary school
 				"tags": ["art","3d art", "sculptures", "snow","bunnies"],
 				"keywords": ["art", "other art", "sculpt","sculpture","snow","snowman", "bunny","bunnies","rabbit","3d", "first projects","childhood"],
-				"photos": ["art/images/2011snowbunny.jpg"],
-				"link": "snowsculptures/",
+				"photos": ["art-sculptures/images/3.jpg","art-sculptures/images/2.jpg","art-sculptures/images/2011snowbunny.jpg"],
+				"link": "art-sculptures/",
 				"description": "When I was little, I loved playing outside in the snow - however, I did not like that I was not allowed to bring my stuffed animals out with me. So, I made a bunny out of snow and fed it icicle carrots. I loved that it had the weight of a real bunny and that I could make it look realistic... In a way, this was a precursor to Kniterative Designs!"
 			},
 
@@ -445,8 +461,8 @@
 				"date": "7/1/2017", //guessing that it was before I launched my Etsy shop (Aug/Sept 2017), because I don't remember using the old logo for that ever; was def before 12/2017 (which is when I have files dated)
 				"tags": ["digital art", "kniterative designs"],
 				"keywords": ["art","art","digital","knit","kd","kniterative", "logo", "etsy", "business"],
-				"photos": ["art/images/kdlogofull.png","art/images/kdfavicon.png"],
-				"link": "kdcustomorder/", //??? (add gallery for KD logo iterations, process)
+				"photos": ["art-digital/images/kdlogofull.png","art-digital/images/kdfavicon.png"],
+				"link": "art-digital/", //??? (add gallery for KD logo iterations, process)
 				"description": "Before launching my Etsy Shop, I created this logo for my small business, Kniterative Designs. The full logo depicts letters formed out of the knitting itself as well as the knittting needles and the yarn. The favicon (smaller, abbreviated version) shows the 'K' formed by knitted stitches and a lowercase 'd' formed by a ball of yarn and single knitting needle." 
 			},
 
@@ -455,8 +471,8 @@
 				"date": "1/1/2019", //guess - James' meteoriteMiner project is dated Jan 2019, so... probably. (Probably was in the Brox visiting before we went to SF during winter break)
 				"tags": ["digital art", "pixel art"],
 				"keywords": ["art","digital","game","8-bit", "pixel", "design"],
-				"photos": ["art/images/meteoriteminer.png"],
-				"link": "https://jamesmayr.com/meteoriteminer/",
+				"photos": ["art-digital/images/meteoriteminer.png"],
+				"link": "art-digital/",
 				"description": `Art by me for a game by <a href="https://jamesmayr.com" target="_blank">James</a>, using <a href="https://jamesmayr.com/spritemaker/" target="_blank">spriteMaker</a>`
 			},
 
@@ -467,8 +483,8 @@
 				"date": "1/19/2016",
 				"tags": ["paintings", "acrylic", "knitting"],
 				"keywords": ["art","painting","paint","knit","knitting"],
-				"photos": ["art/images/knitting.png"],
-				"link": "",
+				"photos": ["art-paintings/images/knitting-in-blue.png"],
+				"link": "art-paintings/#knitting-in-blue",
 				"description": "First painting project as an adult... I'd played around with watercolors when I was little, but nothing serious. This was the first time I bought a canvas and some acrylic paint and took the risk..."
 			},
 
@@ -487,8 +503,8 @@
 				"date": "7/25/2020",
 				"tags": ["paintings", "watercolor", "kniterative designs","cats", "dogs", "bunnies"],
 				"keywords": ["art","watercolor","bunny","rabbit","cat","kitten", "kitty", "puppy","dog","furry friends"],
-				"photos": ["art/images/kdfurryfriends.png"],
-				"link": "",
+				"photos": ["art-paintings/images/kdfurryfriends.png"],
+				"link": "art-paintings/#kd-furry-friends",
 				"description": "Some simple doodles in watercolor"
 			},
 
@@ -497,9 +513,9 @@
 				"date": "1/15/2021",
 				"tags": ["paintings", "acrylic", "tutorial", "water"],
 				"keywords": ["art","paint","painting","nature","kayak","river"],
-				"photos": ["art/images/kayaking.png"],
-				"link": "https://www.youtube.com/watch?v=j20pZ96E_CE",
-				"description": "The result of the first (of many) painting nights with friends. In theory we were following a Bob Ross Tutorial, although at a certain point I decided I liked the background I'd created and feared that I might ruin the whole thing by messing up the foreground... So I added a kayaker and called it a day."
+				"photos": ["art-paintings/images/kayaking.png"],
+				"link": "art-paintings/#kayaking",
+				"description": "The result of the first (of many) painting nights with friends. In theory we were following a <a href='https://www.youtube.com/watch?v=j20pZ96E_CE' target='_blank'>Bob Ross Tutorial</a>, although at a certain point I decided I liked the background I'd created and feared that I might ruin the whole thing by messing up the foreground... So I added a kayaker and called it a day."
 			},
 
 			{
@@ -507,8 +523,8 @@
 				"date": "3/13/2021",
 				"tags": ["paintings", "acrylic", "tutorial", "water", "flowers"],
 				"keywords": ["art","paint","painting","river","water", "flower","flowers","something less boring","slb", "tutorial"],
-				"photos": ["art/images/waterlillies.png"],
-				"link": "https://www.somethinglessboring.co.uk/",
+				"photos": ["art-paintings/images/waterlillies.png"],
+				"link": "art-paintings/index.html#water-lillies",
 				"description": "Inspired by Monet's water lillies - based on a tutorial by <a href='https://www.somethinglessboring.co.uk/' target='_blank'>Something Less Boring</a>. During the early days of the COVID lockdowns there were weekly tutorials online for £5, and my mom and my aunt and bonded through painting parties, following SLB's tutorials, via videocall."
 			},
 
@@ -517,8 +533,8 @@
 				"date": "3/6/2021",
 				"tags": ["paintings", "watercolor", "tutorial", "food"],
 				"keywords": ["art","watercolor","paint","painting","food","something less boring","slb", "tutorial"],
-				"photos": ["art/images/oranges.png"],
-				"link": "https://www.somethinglessboring.co.uk/",
+				"photos": ["art-paintings/images/oranges.png"],
+				"link": "art-paintings/index.html#oranges",
 				"description": "Based on an online tutorial by <a href='https://www.somethinglessboring.co.uk/' target='_blank'>Something Less Boring</a>. I learned a lot about the importance of layers in painting - especially when it comes to watercolors."
 			},
 
@@ -527,9 +543,9 @@
 				"date": "6/5/2021",
 				"tags": ["paintings", "watercolor", "tutorial", "food"],
 				"keywords": ["art","watercolor","paint","painting","food", "tutorial"],
-				"photos": ["art/images/cherries.png"],
-				"link": "https://www.youtube.com/watch?v=EZGBCdobwVw",
-				"description": "Based on an online tutorial by <a href='https://www.somethinglessboring.co.uk/' target='_blank'>Something Less Boring</a>. I was pleasantly surprised by how well this turned out - aside from the part where I smudged it because I stupidly brushed away eraser shavings before the paint was fully dry!"
+				"photos": ["art-paintings/images/cherries.png"],
+				"link": "art-paintings/index.html#cherries",
+				"description": "Based on an online tutorial by <a href='https://www.youtube.com/watch?v=EZGBCdobwVw' target='_blank'>Nianiani</a>. I was pleasantly surprised by how well this turned out - aside from the part where I smudged it because I stupidly brushed away eraser shavings before the paint was fully dry!"
 			},
 
 			{
@@ -537,9 +553,9 @@
 				"date": "7/3/2021",
 				"tags": ["paintings", "watercolor", "tutorial", "food"],
 				"keywords": ["art","watercolor","paint","painting","food", "tutorial"],
-				"photos": ["art/images/blueberries.png"],
-				"link": "https://www.youtube.com/watch?v=9sM7TwhPD30",
-				"description": "Based on an online tutorial by <a href='https://www.somethinglessboring.co.uk/' target='_blank'>Something Less Boring</a>."
+				"photos": ["art-paintings/images/blueberries.png"],
+				"link": "art-paintings/index.html#blueberries",
+				"description": "Based on an online tutorial by <a href='https://www.youtube.com/watch?v=9sM7TwhPD30' target='_blank'>Nianiani</a>."
 			},
 
 			{
@@ -547,8 +563,8 @@
 				"date": "6/5/2021",
 				"tags": ["paintings", "watercolor", "tutorial", "clothes", "laundry"],
 				"keywords": ["art","watercolor","paint","painting","clothes", "tutorial"],
-				"photos": ["art/images/clothesline.png"],
-				"link": "",
+				"photos": ["art-paintings/images/clothesline.png"],
+				"link": "art-paintings/index.html#clothesline",
 				"description": "Practicing the techniques outlined in a <a href='https://www.youtube.com/watch?v=V77-G8UHBcI' target='_blank'>tutorial by Peter Sheeler</a>. I take a lot of giddy pleasure in being cheeky with my clothing choices!"
 			},
 
@@ -557,8 +573,8 @@
 				"date": "6/5/2021",
 				"tags": ["paintings", "watercolor", "tutorial", "clothes"],
 				"keywords": ["art","watercolor","paint","painting","clothes", "tutorial"],
-				"photos": ["art/images/stormylaundry.png"],
-				"link": "",
+				"photos": ["art-paintings/images/stormylaundry.png"],
+				"link": "art-paintings/index.html#stormy-laundry",
 				"description": "Based on a <a href='https://www.youtube.com/watch?v=V77-G8UHBcI' target='_blank'>tutorial by Peter Sheeler</a>."
 			},
 
@@ -567,8 +583,8 @@
 				"date": "6/5/2021",
 				"tags": ["paintings", "acrylic", "tutorial", "clothes"],
 				"keywords": ["art","acrylic","paint","painting","clothes", "tutorial"],
-				"photos": ["art/images/acryliclaundry1.jpg","art/images/acryliclaundry2.jpg","art/images/acryliclaundry3.jpg","art/images/acryliclaundry4.jpg","art/images/acryliclaundry5.jpg"],
-				"link": "",
+				"photos": ["art-paintings/images/acryliclaundry1.jpg","art-paintings/images/acryliclaundry2.jpg","art-paintings/images/acryliclaundry3.jpg","art-paintings/images/acryliclaundry4.jpg","art-paintings/images/acryliclaundry5.jpg"],
+				"link": "art-paintings/index.html#laundry-day-1",
 				"description": "Based on a <a href='https://www.youtube.com/watch?v=V77-G8UHBcI' target='_blank'>tutorial by Peter Sheeler</a>, but this time I used acrylic paint on a canvas that had already been painted, by somebody else, and discarded. I placed my tape very carefully this time, paying attention to what color would come through after I'd painted the scene over the rest of it. It was an intersting experiment!"
 			},
 
@@ -577,8 +593,8 @@
 				"date": "9/30/2020", // I think it was one of the first if not the very first SLB tutorial I followed, pretty sure in the very earliest days of COVID...
 				"tags": ["paintings", "acrylic", "tutorial", "van gogh", "flowers"],
 				"keywords": ["art", "paint", "painting", "something less boring", "slb", "tutorial", "flowers", "sunflower", "sunflowers"],
-				"photos": ["art/images/sunflowers.png"],
-				"link": "https://www.somethinglessboring.co.uk/",
+				"photos": ["art-paintings/images/sunflowers.png"],
+				"link": "art-paintings/index.html#van-gogh-sunflowers",
 				"description": "Inspired by Van Gogh's Sunflowers - based on a tutorial by <a href='https://www.somethinglessboring.co.uk/' target='_blank'>Something Less Boring</a>. This was one of the first - of many - tutorials that my mom and my aunt and I followed during weekend 'painting parties' via Zoom in the early days of the COVID lockdowns."
 			},
 
@@ -587,8 +603,8 @@
 				"date": "12/11/21",
 				"tags": ["paintings","acrylic","tutorial"],
 				"keywords": ["art","acrylic","paint","painting"],
-				"photos": ["art/images/mountainsunset.JPG"],
-				"link": "",
+				"photos": ["art-paintings/images/mountainsunset.JPG"],
+				"link": "art-paintings/index.html#mountain-sunset",
 				"description":"<a href='https://www.youtube.com/watch?v=e63Cgln6Yag' target='_blank'>Bob Ross</a> says I make the rules in my world... So in my world, the trees are purple."
 			},
 
@@ -597,8 +613,8 @@
 				"date": "3/3/2022",
 				"tags": ["paintings", "acrylic", "tutorial", "sunflowers"],
 				"keywords": ["art","acrylic","paint","painting"],
-				"photos": ["art/images/ukrainesunflowers1.jpg","art/images/ukrainesunflowers2.jpg","art/images/ukrainesunflowers3.jpg","art/images/ukrainesunflowers4.jpg","art/images/ukrainesunflowers5.jpg"],
-				"link": "",
+				"photos": ["art-paintings/images/ukrainesunflowers1.jpg","art/images/ukrainesunflowers2.jpg","art/images/ukrainesunflowers3.jpg","art/images/ukrainesunflowers4.jpg","art/images/ukrainesunflowers5.jpg"],
+				"link": "art-paintings/index.html#sunflowers-for-ukraine-1",
 				"description": "This was a tutorial by Something Less Boring - all proceeds were donated to relief efforts to help the people of Ukraine in the early days of the war."
 			},
 
@@ -607,8 +623,8 @@
 				"date": "6/18/2022",
 				"tags": ["paintings", "watercolor","gifts","trees"],
 				"keywords": ["art","watercolor","paint","painting","nature","tree","gift"],
-				"photos": ["art/images/birches1.jpg","art/images/birches7.png","art/images/birches8.png","art/images/birches2.jpg","art/images/birches3.jpg","art/images/birches4.jpg","art/images/birches5.jpg","art/images/birches6.jpg"],
-				"link": "",
+				"photos": ["art-paintings/images/birches1.jpg","art-paintings/images/birches7.png","art-paintings/images/birches8.png","art-paintings/images/birches2.jpg","art-paintings/images/birches3.jpg","art-paintings/images/birches4.jpg","art-paintings/images/birches5.jpg","art-paintings/images/birches6.jpg"],
+				"link": "art-paintings/index.html#birch-trees-for-mom-and-bob-1",
 				"description":"Wedding Present for Mom and Bob, to go with a <a href='https://www.goodreads.com/quotes/147424-two-trees-a-portion-of-your-soul-has-been-entwined' target='_blank'>poem by Janet Miles,</a> (which Aunt Diana read at their wedding)"
 			},
 
@@ -617,8 +633,8 @@
 				"date": "9/18/2022",
 				"tags": ["paintings","acrylic","tutorial","nature","moon"],
 				"keywords": ["art","acrylic","paint","painting"],
-				"photos": ["art/images/deeppurpledream.jpg"],
-				"link": "",
+				"photos": ["art-paintings/images/deeppurpledream.jpg"],
+				"link": "art-paintings/index.html#deep-purple-dream",
 				"description": "Based on a <a href='https://www.youtube.com/watch?v=zSdqkSTfB0Q' target='_blank'>tutorial by Joony art</a>"
 			},
 
@@ -627,8 +643,8 @@
 				"date": "11/6/2022",
 				"tags": ["paintings", "watercolor","tutorial"],
 				"keywords": ["art","watercolor","paint","painting"],
-				"photos": ["art/images/yarnballs1.jpg","art/images/yarnballs2.jpg","art/images/yarnballs3.jpg"],
-				"link": "",
+				"photos": ["art-paintings/images/yarnballs1.jpg","art-paintings/images/yarnballs2.jpg","art-paintings/images/yarnballs3.jpg"],
+				"link": "art-paintings/index.html#yarn-balls-1",
 				"description":"Based on a <a href='https://www.youtube.com/watch?v=DNTuDu0Unfc' target='_blank'>tutorial by Nianiani</a>"
 			},
 
@@ -637,18 +653,18 @@
 				"date": "1/19/2023",
 				"tags": ["paintings","acrylic","tutorial"],
 				"keywords": ["art","watercolor","acrylic","paint","painting"],
-				"photos": ["art/images/winterowl1.jpg","art/images/winterowl2.jpg","art/images/winterowl3.jpg"],
-				"link": "",
+				"photos": ["art-paintings/images/winterowl1.jpg","art-paintings/images/winterowl2.jpg","art-paintings/images/winterowl3.jpg"],
+				"link": "art-paintings/index.html#winter-owl-1",
 				"description":"Based on a <a href='https://app.jesserobertson.com/#/details/winter-watcher' target='_blank'>tutorial by Jesse Robertson</a>"
 			},
 
 			{
 				"name": "Seasons Series",
-				"date": "8/6/2023",
+				"date": "10/28/2023",
 				"tags": ["paintings","acrylic","tutorial"],
 				"keywords": ["art","watercolor","acrylic","paint","painting"],
-				"photos": ["art/images/seasonsummer.jpg","art/images/seasonwinter.jpg"],
-				"link": "",
+				"photos": ["art-paintings/images/seasonwinter.jpg","art-paintings/images/seasonspring.jpg","art-paintings/images/seasonsummer.jpg","art-paintings/images/seasonfall.jpg"],
+				"link": "art-paintings/index.html#seasons-series-winter",
 				"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
 			},
 
@@ -659,20 +675,30 @@
 				"name": "Nova Scotia",
 				"date": "4/15/2008", // obvs after Nova Scotia trip... not sure if during 7th grade or 8th or 9th... I remember painting it during spring semester... Maybe during April break?
 				"tags": ["drawings art", "favorite places", "nova scotia", "water", "watercolor"],
-				"keywords": ["art","watercolor", "water color", "colored pencil", "draw","drawing","paint","painting", "travel","adventure","trip","trek","canada","favorite", "place", "cape breton", "ocean", "water","beach","face"],
-				"photos": ["art/images/novascotia.png"],
-				"link": "",
+				"keywords": ["art","watercolor", "water color", "colored pencil", "draw","drawing", "travel","adventure","trip","trek","canada","favorite", "place", "cape breton", "ocean", "water","beach","face"],
+				"photos": ["art-drawings/images/novascotia.png"],
+				"link": "art-drawings/#nova-scotia",
 				"description": "Based on a photograph taken at <a href='https://www.google.com/maps/place/Meat+cove+beach/@47.0237197,-60.5575756,16.44z/data=!4m13!1m7!3m6!1s0x4b66ebec4bc2649d:0x7e720f7a208fb37a!2sMeat+Cove,+NS+B0C+1E0,+Canada!3b1!8m2!3d47.026539!4d-60.559561!3m4!1s0x0:0x2a31d21d40c0e9c7!8m2!3d47.0254553!4d-60.5570557' target='_blank'>Meat Cove, Nova Scotia</a>"
 			},
 
 			{
+				"name": "Jazz",
+				"date": "7/24/2008", //the year is a guess - but sometime in middle school/high school, and likely before junior year (definitely before senior year)
+				"tags": ["drawings art", "pencil", "music"],
+				"keywords": ["art","colored pencil","draw","drawing", "music"],
+				"photos": ["art-drawings/images/jazz.jpg"],
+				"link": "art-drawings/index.html#jazz",
+				"description": "This started as a sketch of my saxophone but turned into a playful experiment with a novel (if very impractical) typeface to capture my interest in jazz."
+			},
+
+			{
 				"featured": true,
-				"name": "PurpleGreen",
+				"name": "Purple & Green",
 				"date": "3/15/2018", //spring break first year of grad school
 				"tags": ["drawings art", "colored pencil", "food"],
 				"keywords": ["art","colored pencil","draw","drawing","paint","painting", "food", "purple","green", "onion", "pepper"],
-				"photos": ["art/images/onionandpepper.png"],
-				"link": "",
+				"photos": ["art-drawings/images/onionandpepper.png"],
+				"link": "art-drawings/index.html#purplegreen",
 				"description": "I hadn't drawn anything in long time, so I bought a red (purple) onion and a green pepper from Foodtown (in the Bronx, where James was living and I was visiting), turned on a very bright light off to one side, and drew what I saw."
 			},
 
@@ -692,10 +718,10 @@
 			{
 				"name": "glass suncatcher",
 				"date": "2/15/2020", //around Feb break right before the pandemic
-				"tags": ["art","glass", "3d"],
-				"keywords": ["art","class","workshop"],
-				"photos": ["art/images/glass1.png","art/images/glass2.png","art/images/glass3.png","art/images/glass4.png","art/images/glass5.png"],
-				"link": "https://jamesmayr.com/blog/#glassmaking-with-liz",
+				"tags": ["art","glass", "3d", "sculptures"],
+				"keywords": ["art","class","workshop","sculpture"],
+				"photos": ["art-sculptures/images/glass1.png","art-sculptures/images/glass2.png","art-sculptures/images/glass3.png","art-sculptures/images/glass4.jpg","art-sculptures/images/glass5.jpg"],
+				"link": "art-sculptures/",
 				"description": "Created in a fused glass art class at the <a href='https://www.1hotpieceofglass.com/collections/classes/products/copy-of-summer-fused-glass-classes?variant=' target='_blank'>Luke Adams Glassblowing Sudio</a>. James wrote a <a href='https://jamesmayr.com/blog/#glassmaking-with-liz' target='_blank'>blog post</a> about the experience."
 			},
 
@@ -1857,8 +1883,8 @@
 				"date": "12/31/2021",
 				"tags": ["photographed stories"],
 				"keywords": ["photography","photo","photos","story","stories","water","sky","patterns"],
-				"photos": ["stories/images/1.jpg","stories/images/2.jpg","stories/images/3.jpg","stories/images/4.jpg","stories/images/5.jpg","stories/images/6.jpg","stories/images/7.jpg","stories/images/8.jpg","stories/images/9.jpg","stories/images/10.jpg","stories/images/11.jpg","stories/images/12.jpg","stories/images/13.jpg","stories/images/14.jpg","stories/images/15.jpg","stories/images/16.jpg","stories/images/17.jpg"],
-				"link": "stories/",
+				"photos": ["photo-stories/images/1.jpg","photo-stories/images/2.jpg","photo-stories/images/3.jpg","photo-stories/images/4.jpg","photo-stories/images/5.jpg","photo-stories/images/6.jpg","photo-stories/images/7.jpg","photo-stories/images/8.jpg","photo-stories/images/9.jpg","photo-stories/images/10.jpg","photo-stories/images/11.jpg","photo-stories/images/12.jpg","photo-stories/images/13.jpg","photo-stories/images/14.jpg","photo-stories/images/15.jpg","photo-stories/images/16.jpg","photo-stories/images/17.jpg"],
+				"link": "photo-stories/",
 				"description":"My photographs showcasing interesting scenes, including abstracts and story starters"
 			},
 
@@ -1873,8 +1899,8 @@
 				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","story","stories","sunset","sunrise","rain","rainbow","cloud","clouds", "sky"],
-				"photos": ["sky/images/1.jpg", "sky/images/2.jpg", "sky/images/3.jpg", "sky/images/4.jpg", "sky/images/5.jpg", "sky/images/6.jpg", "sky/images/7.jpg", "sky/images/8.jpg", "sky/images/9.jpg", "sky/images/10.jpg", "sky/images/11.jpg", "sky/images/12.jpg", "sky/images/13.jpg", "sky/images/14.jpg", "sky/images/15.jpg", "sky/images/16.jpg", "sky/images/17.JPG", "sky/images/18.jpg"],
-				"link": "sky/",
+				"photos": ["photo-sky/images/1.jpg", "photo-sky/images/2.jpg", "photo-sky/images/3.jpg", "photo-sky/images/4.jpg", "photo-sky/images/5.jpg", "photo-sky/images/6.jpg", "photo-sky/images/7.jpg", "photo-sky/images/8.jpg", "photo-sky/images/9.jpg", "photo-sky/images/10.jpg", "photo-sky/images/11.jpg", "photo-sky/images/12.jpg", "photo-sky/images/13.jpg", "photo-sky/images/14.jpg", "photo-sky/images/15.jpg", "photo-sky/images/16.jpg", "photo-sky/images/17.JPG", "photo-sky/images/18.jpg"],
+				"link": "photo-sky/",
 				"description": "My photographs showcasing the sky, in its many forms."
 			},
 			{
@@ -1882,8 +1908,8 @@
 				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","pet","pets","zoo","zoos","cat","cats","dog","dogs"],
-				"photos": ["animals/images/a.gif", "animals/images/2.jpg", "animals/images/3.jpg", "animals/images/4.jpg"],
-				"link": "animals/",
+				"photos": ["photo-animals/images/a.gif", "photo-animals/images/2.jpg", "photo-animals/images/3.jpg", "photo-animals/images/4.jpg"],
+				"link": "photo-animals/",
 				"description": "My photographs of animals"
 			},
 			{
@@ -1891,8 +1917,8 @@
 				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","tree","trees","flower","flowers","nature","leaf","leaves", "garden", "grass"],
-				"photos": ["plants/images/1.jpg", "plants/images/2.jpg", "plants/images/3.jpg", "plants/images/4.jpg", "plants/images/5.jpg", "plants/images/6.jpg", "plants/images/7.jpg", "plants/images/8.JPG", "plants/images/9.JPG", "plants/images/10.JPG", "plants/images/11.JPG", "plants/images/12.JPG", "plants/images/13.JPG", "plants/images/14.JPG", "plants/images/15.JPG", "plants/images/16.jpg"],
-				"link": "plants/",
+				"photos": ["photo-plants/images/1.jpg", "photo-plants/images/2.jpg", "photo-plants/images/3.jpg", "photo-plants/images/4.jpg", "photo-plants/images/5.jpg", "photo-plants/images/6.jpg", "photo-plants/images/7.jpg", "photo-plants/images/8.JPG", "photo-plants/images/9.JPG", "photo-plants/images/10.JPG", "photo-plants/images/11.JPG", "photo-plants/images/12.JPG", "photo-plants/images/13.JPG", "photo-plants/images/14.JPG", "photo-plants/images/15.JPG", "photo-plants/images/16.jpg"],
+				"link": "photo-plants/",
 				"description": "My photographs of plants"
 			},
 			{
@@ -1901,9 +1927,19 @@
 				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","water","ocean","beach","waves","rain","puddle"],
-				"photos": ["water/images/1.jpg", "water/images/2.jpg", "water/images/3.jpg", "water/images/4.JPG", "water/images/5.JPG", "water/images/6.JPG", "water/images/7.JPG", "water/images/8.JPG", "water/images/9.JPG", "water/images/10.JPG", "water/images/11.JPG"],
-				"link": "water/",
+				"photos": ["photo-water/images/1.jpg", "photo-water/images/2.jpg", "photo-water/images/3.jpg", "photo-water/images/4.JPG", "photo-water/images/5.JPG", "photo-water/images/6.JPG", "photo-water/images/7.JPG", "photo-water/images/8.JPG", "photo-water/images/9.JPG", "photo-water/images/10.JPG", "photo-water/images/11.JPG"],
+				"link": "photo-water/",
 				"description": "My photographs showcasing the beauty and movement of water."
+			},
+			{
+				"featured": true,
+				"name": "night light",
+				"date": "10/27/2023",
+				"tags": ["photographed nature"],
+				"keywords": ["photography","photo","photos","night","nights","light","lights","trains","cars","neon"],
+				"photos": ["photo-night/images/fullmoon-octwitchhat.JPG", "photo-night/images/cars1.JPG", "photo-night/images/neon-sorry1-cropped.JPG", "photo-night/images/fullmoon-dramatic.JPG","photo-night/images/jupiter+moons-cropped.JPG"],
+				"link": "photo-night/",
+				"description": "My photographs of various kinds of light at night."
 			},
 
 
