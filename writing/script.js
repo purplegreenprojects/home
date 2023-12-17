@@ -26,7 +26,7 @@ window.onload = function() {
 				url: "images/moments.png"
 			},
 			{
-				text: "Read more recent poetry at purplegreenprojects.com/couplets",
+				text: "Read more recent poetry at projectsbyliz.com/couplets",
 				url: "images/couplets.png"
 			},
 		]

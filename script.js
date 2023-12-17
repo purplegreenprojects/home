@@ -165,6 +165,8 @@
 		}
 	}
 
+	var OBSERVER = new IntersectionObserver(loadPictures)
+
 // SETUP
 	onStart()
 	function onStart() {
@@ -495,7 +497,8 @@
 					function addPicture(pictureURL) {
 						var picture = document.createElement("div")
 						picture.className = "project-gallery-picture"
-						picture.style.backgroundImage = "url(" + pictureURL + ")"
+						picture.setAttribute("laterloadImage", pictureURL)
+						// picture.style.backgroundImage = "url(" + pictureURL + ")"
 						pictureArea.appendChild(picture)
 					if (!alreadySet) {
 							alreadySet = true
@@ -543,6 +546,8 @@
 					projectDescription.className = "project-description"
 					projectDescription.innerHTML = projectData.description
 				infoContainer.appendChild(projectDescription)
+
+			OBSERVER.observe(card)
 		}
 
 
@@ -589,4 +594,23 @@
 
 			pictures[activePicIndex].removeAttribute("active")
 			pictures[newPicIndex].setAttribute("active", true)
+		}
+
+		function loadPictures(cards) {
+			for (var i in cards){
+				if (cards[i].isIntersecting) {
+					var cardElement = cards[i].target
+					var imageElements = Array.from(cardElement.querySelectorAll(".project-gallery-picture"))
+					
+					for(var j in imageElements){
+						var picture = imageElements[j]
+						var pictureURL = picture.getAttribute("laterloadImage")
+
+						if (pictureURL) {
+							picture.removeAttribute("laterloadImage")
+							picture.style.backgroundImage = "url(" + pictureURL + ")"
+						}
+					}
+				}
+			}
 		}

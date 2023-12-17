@@ -410,7 +410,7 @@ $(document).ready(function() {
 					$("#content").remove();
 
 				//append the welcome message and start button
-					$("body").append("<a id='e-logo' href='https://purplegreenprojects.com' target='_blank'></a>")
+					$("body").append("<a id='e-logo' href='https://projectsbyliz.com' target='_blank'></a>")
 					$("body").append("<div id='welcome1'></div>");
 
 					$("#welcome1").append("<div id='welcome_fulllogo' alt='Kniterative Designs'></div>")

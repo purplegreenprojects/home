@@ -91,5 +91,19 @@
 			<a href="https://www.pollybecks.com/" target="_blank">Polly Becks</a>
 		</div>
 	</div>
+
+	<script>
+		if(window.location.host && window.location.host != "projectsbyliz.com") {
+			var popup = document.createElement("div")
+			popup.innerHTML = `<div style="position: absolute; top: 0; left: 0; height: 100vh; width: 100vw; background-color: rgba(0,0,0,0.5); z-index: 1000000000; overflow: hidden;"></div>
+				<div style="position: absolute; top: 50vh; left: 50vw; transform: translateX(-50%) translateY(-50%); text-align: center; padding: var(--gap-size-medium); border-radius: var(--border-radius); font-family: var(--font); font-size: var(--font-size-large); background-color: var(--main-dark); color: white; box-shadow: 0 0 10px var(--main-medium); height: auto; width: 800px; max-width: calc(100vw - 50px); z-index: 1000000001;">This content has moved to <a href="https://projectsbyliz.com/blog" style="color: var(--KDcolor-light); cursor: pointer;">projectsbyliz.com/blog</a>!</div>`
+			document.body.append(popup)
+			document.body.style.overflow = "hidden"
+			document.querySelector("#header").style.filter = "blur(5px)"
+			document.querySelector("#cardsContainer").style.filter = "blur(5px)"
+			document.querySelector("#postContainer").style.filter = "blur(5px)"
+			document.querySelector("#footer").style.filter = "blur(5px)"
+		}
+	</script>
 </body>
 </html>

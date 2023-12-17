@@ -756,7 +756,7 @@
 				"tags": ["writing", "poetry"],
 				"keywords": [""],
 				"photos": ["writing/images/doublemeaning.png","writing/images/moments.png"],
-				"description": "Selections from poetry of mine before the <a href='https://purplegreenprojects.com/couplets/' target='_blank'>Couplets</a> project - starting when I was in high school.",
+				"description": "Selections from poetry of mine before the <a href='https://projectsbyliz.com/couplets/' target='_blank'>Couplets</a> project - starting when I was in high school.",
 				"link":"writing/"
 			},
 
@@ -780,7 +780,7 @@
 				"keywords": ["sew","sewn","sewing", "design","bag","bags","career","profession","professional","reversible","accessory","accessories"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20180911_070641305.jpg?itok=hPWpfXH1"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/big-girl-bag-reversible",
-				"description": "Read about the process of making this bag on <a href='https://purplegreenprojects.com/blog/#adventure-bags-part-4-big-girl-bag-for-my-big-grad-adventures' target='_blank'>my blog</a>."
+				"description": "Read about the process of making this bag on <a href='https://projectsbyliz.com/blog/#adventure-bags-part-4-big-girl-bag-for-my-big-grad-adventures' target='_blank'>my blog</a>."
 			},
 			{
 				"name": "Bags for Mom and Grandma",
@@ -789,7 +789,7 @@
 				"keywords": ["sew","sewn","sewing","gift","grandma fran","mom","bag","bags","accessory","accessories"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20171224_132413237.jpg?itok=C7fb4cuD"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/tote-bags-mom-and-grandma",
-				"description": "Read about the story behind these bags on <a href='https://purplegreenprojects.com/blog/#adventure-bags-part-3-bags-for-toting-memories' target='_blank'>my blog</a>"
+				"description": "Read about the story behind these bags on <a href='https://projectsbyliz.com/blog/#adventure-bags-part-3-bags-for-toting-memories' target='_blank'>my blog</a>"
 			},
 			{
 				"featured": true,
@@ -799,7 +799,7 @@
 				"keywords": ["sew","sewn","sewing","bag","bags","accessory","accessories","nyc"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20170715_204102926.jpg?itok=bl7MGkJm"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/adventure-bag",
-				"description": "Read all about the process of designing and making this bag on <a href='https://purplegreenprojects.com/blog/#adventure-bags-part-2-the-original-adventure-bag' target='_blank'>my blog</a>."
+				"description": "Read all about the process of designing and making this bag on <a href='https://projectsbyliz.com/blog/#adventure-bags-part-2-the-original-adventure-bag' target='_blank'>my blog</a>."
 			},
 
 		// DRESSES
