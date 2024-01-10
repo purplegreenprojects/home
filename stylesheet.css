@@ -752,7 +752,7 @@
 
 				.project-description {
 					width: 100%;
-					height: calc(var(--font-size-small) * 3 + 2 * var(--gap-size-small));
+					height: calc(var(--font-size-small) * 5 + 2 * var(--gap-size-small));
 					margin-top: calc(2 * var(--gap-size-small));
 					margin-bottom: 0;
 					font-size: var(--font-size-small);

@@ -79,6 +79,7 @@
 					"clothes":"clothes",
 					"   sweaters": "sweaters",
 					"   skirts": "skirts",
+					"   socks & slippers": "footwear",
 					"accessories": "accessories",
 					"   hats, etc.": "headwear",
 					"   scarves, cowls, & shawls": "neckwear",
@@ -96,8 +97,16 @@
 				topics: {
 				}
 			},
+			felter: {
+				tag: "felted",
+				topics: {
+					"wool paintings": "wool paintings",
+					"wool sculptures": "wool sculptures",
+					"clothing & accessories": "felted accessories",
+				}
+			},
 			sewist: {
-				tag: "sewing",
+				tag: "sewing projects",
 				topics: {
 					"bags": "bags",
 					"clothes": "clothes",
@@ -106,6 +115,7 @@
 					"   skirts": "skirts",
 					"   pajamas": "pajamas",
 					"toys": "toys",
+					"miscellaneous": "miscellaneous sewing"
 				}
 			},
 			artist: {
@@ -119,7 +129,7 @@
 				}
 			},
 			composer: {
-				tag: "music",
+				tag: "music compositions",
 				topics: {
 					"Chroma album": "album",
 					"Explorchestra": "explorchestra",
@@ -130,14 +140,14 @@
 			photographer: {
 				tag: "photography",
 				topics: {
-					"abstracts": "abstract",
+					"abstracts": "abstracts",
 					"story starters": "stories",
 					"night light": "night",
 					"nature": "nature",
 				}
 			},
 			writer: {
-				tag: "writing",
+				tag: "my writing",
 				topics: {
 					"poetry": "poetry",
 					"blogs": "blog",

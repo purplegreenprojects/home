@@ -1,62 +1,88 @@
+/* 
+
+*ALL SEWING PROJECTS PICS NEED TO PULL FROM MY FOLDER, NOT TEXTILIA
+*all knitting projects pics should pull from my folder / blog too, rather than ravelry... (in case the same thing happens)
+all Blender project button links...
+
+ADDED
+	--- needle felted nova scotia
+	--- needle felted self-portrait
+	--- tealia
+	--- couplets book (link to James' gallery)
+	--- birkin sweater
+	--- green knit pj pants
+	--- fish sweater for adelina
+	--- pumpkin hat for adelina
+	--- ass-warmer
+	--- purple shawl
+	--- socks for grandma emily
+	--- headbands
+
+
+TO PHOTOGRAPH
+	-->needle felted succulent (add to completed projects + take final photo)
+	-cherry tree tire swing painting (take final photo -- replace first cherrytree3 in GALLERY)
+	-needle felted demo day (take final photo)
+	-totoro
+	>bear (and scarf for bear) for Elliotte (take photos)
+	James' gloves
+	selections from sketchbooks
+
+
+TO ADD
+	little mountain painting (on record player)
+
+	toe sock (adaptive clothing)
+
+
+	-dyeing (primarily backpack) - BLOG POST
+
+	[needle felted Apollo portrait (finish, take final photo in hoop or frame)]
+
+	[slippers - once done]
+	
+	[rag rug - once done]
+	[monet's waterlilies cardigan - once done]
+	[fall coffee by river - once done]
+
+
+
+Feature Wish List
+	- svg icons in "persona" list next to each medium
+
+
+*/
+
+
 // PLACES (explorer of...)
 	var PLACES = [
 		{
-			"name": "Upstate NY",
-			"date": "8/13/2019",
+			"name": "Massachusetts",
+		 	"date": new Date(),
 			"tags": ["places"],
-			"keywords": ["photography","photo","photos","home"],
-			"photos": ["upstateny/images/1.jpg","upstateny/images/2.jpg", "upstateny/images/3.jpg", "upstateny/images/4.jpg", "upstateny/images/5.jpg", "upstateny/images/6.jpg", "upstateny/images/7.jpg"],
-			"link": "upstateny/",
-			"description": ""
-		},	
-
-		{
-			"name": "Nova Scotia",
-		 	"date": "8/15/2005",
-			"tags": ["places"],
-			"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
-			"photos": ["novascotia/images/2.jpg","novascotia/images/1.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
-			"link": "novascotia/",
+			"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation"],
+			"photos": ["massachusetts/images/1.jpg"],
+			"link": "massachusetts/",
 			"description": ""
 		},
-
-		{
-			"name": "Montreal",
-		 	"date": "7/15/2019",
-			"tags": ["places"],
-			"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
-			"photos": ["montreal/images/1.jpg", "montreal/images/2.jpg", "montreal/images/3.jpg", "montreal/images/4.jpg"],
-			"link": "montreal/",
-			"description": ""
-		},
-
-		{
-			"name": "England",
-		 	"date": "8/15/2007",
-			"tags": ["places"],
-			"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","europe","uk","britain","london"],
-			"photos": ["england/images/9.jpg", "england/images/12.jpg", "england/images/14.jpg", "england/images/15.jpg", "england/images/16.jpg", "england/images/19.jpg"],
-			"link": "england/",
-			"description": ""
-		},
-
-		// {
-		// 	"name": "Binghamton University",
-		//  	"date": "12/15/2015",
-		// 	"tags": ["places"],
-		// 	"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
-		// 	"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
-		// 	"link": "novascotia/",
-		// 	"description": ""
-		// },
 
 		{
 			"name": "San Francisco",
 		 	"date": "1/5/2019",
 			"tags": ["places"],
 			"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","california","west coast"],
-			"photos": ["sanfran/images/5.jpg", "sanfran/images/6.jpg", "sanfran/images/10.jpg", "sanfran/images/16.jpg", "sanfran/images/24.jpg", "sanfran/images/25.jpg"],
+			"photos": ["sanfran/images/5.jpg"],
 			"link": "sanfran/",
+			"description": ""
+		},
+
+		{
+			"name": "New York City",
+		 	"date": "8/14/2019",
+			"tags": ["places"],
+			"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation", "new york", "manhattan"],
+			"photos": ["nyc/images/2.jpg",],
+			"link": "nyc/",
 			"description": ""
 		},
 
@@ -70,25 +96,56 @@
 		// 	"description": ""
 		// },
 
+		// {
+		// 	"name": "Binghamton University",
+		//  	"date": "12/15/2015",
+		// 	"tags": ["places"],
+		// 	"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
+		// 	"photos": ["novascotia/images/1.jpg", "novascotia/images/2.jpg", "novascotia/images/3.jpg", "novascotia/images/4.jpg", "novascotia/images/5.jpg", "novascotia/images/6.jpg", "novascotia/images/7.jpg", "novascotia/images/8.jpg", "novascotia/images/9.jpg", "novascotia/images/10.jpg", "novascotia/images/11.jpg", "novascotia/images/12.jpg", "novascotia/images/13.jpg", "novascotia/images/14.jpg", "novascotia/images/15.jpg", "novascotia/images/16.jpg", "novascotia/images/17.jpg", "novascotia/images/18.jpg"],
+		// 	"link": "novascotia/",
+		// 	"description": ""
+		// },
+
 		{
-			"name": "New York City",
-		 	"date": "8/14/2019",
+			"name": "England",
+		 	"date": "8/15/2007",
 			"tags": ["places"],
-			"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation", "new york", "manhattan"],
-			"photos": ["nyc/images/2.jpg","nyc/images/5.jpg","nyc/images/22.jpg","nyc/images/32.jpg"],
-			"link": "nyc/",
+			"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","europe","uk","britain","london"],
+			"photos": ["england/images/14.jpg",],
+			"link": "england/",
 			"description": ""
 		},
 
 		{
-			"name": "Massachusetts",
-		 	"date": new Date(),
+			"name": "Montreal",
+		 	"date": "7/15/2019",
 			"tags": ["places"],
-			"keywords": ["photography","photo","photos","trips","travel","traveling","home","vacation"],
-			"photos": ["massachusetts/images/1.jpg","massachusetts/images/2.jpg","massachusetts/images/3.jpg","massachusetts/images/4.jpg","massachusetts/images/5.jpg","massachusetts/images/6.jpg","massachusetts/images/7.jpg","massachusetts/images/8.jpg","massachusetts/images/9.jpg","massachusetts/images/10.JPG","massachusetts/images/11.JPG","massachusetts/images/12.jpg","massachusetts/images/13.jpg","massachusetts/images/14.jpg","massachusetts/images/15.jpg","massachusetts/images/16.jpg","massachusetts/images/17.JPG","massachusetts/images/18.JPG","massachusetts/images/19.JPG"],
-			"link": "massachusetts/",
+			"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
+			"photos": ["montreal/images/1preview.jpg"],
+			"link": "montreal/",
 			"description": ""
 		},
+
+		{
+			"name": "Nova Scotia",
+		 	"date": "8/15/2005",
+			"tags": ["places"],
+			"keywords": ["photography","photo","photos","trips","travel","traveling","canada","vacation"],
+			"photos": ["novascotia/images/2.jpg"],
+			"link": "novascotia/",
+			"description": ""
+		},
+
+		{
+			"name": "Upstate NY",
+			"date": "8/13/2019",
+			"tags": ["places"],
+			"keywords": ["photography","photo","photos","home"],
+			"photos": ["upstateny/images/1.jpg",],
+			"link": "upstateny/",
+			"description": ""
+		},	
+		
 	]
 
 // FRIENDS
@@ -144,7 +201,7 @@
 			"keywords": [],
 			"photos": ["images/friends/Ayelet.jpg"],
 			"link": "https://www.researchgate.net/profile/Ayelet-Kershenbaum",
-			"description": "Researcher, speech-language pathologist, and musician"
+			"description": "Researcher, speech-language pathologist, musician, and card maker"
 		},
 
 		{
@@ -162,7 +219,7 @@
 			"keywords": [],
 			"photos": ["images/friends/Alex.png"],
 			"link": "https://www.echotechaudio.com/",
-			"description": "Sound engineer behind ECHOTECH and musician"
+			"description": "Musician and sound engineer behind ECHOTECH"
 		},
 	]
 
@@ -179,7 +236,7 @@
 					"featured": true,
 					"name": "PurpleGreen Projects (v.2)",
 					"date": "6/30/2021",
-					"tags": ["art", "scene","room","3d art", "blender","models","projects portfolios","portfolios", "code", "coding", "with james"],
+					"tags": ["art", "scene","room","3d art", "blender","models","digital art","projects portfolios","portfolios", "code", "coding", "with james"],
 					"keywords": ["art","3d","blender","render","asset","model","purplegreen","purplegreenprojects","evolution","website","virtual"],
 					"photos": ["room/images/lightmode/all.png"],
 					"link": "room/",
@@ -218,7 +275,7 @@
 						"name": "G'pa Chair",
 						"date": "6/26/2021",
 						"tags": ["3d art", "model", "blender", "furniture", "chairs", "models"],
-						"keywords": ["art","3d","blender","render","asset","model","grandpa","chair","furniture","virtual"],
+						"keywords": ["art","3d","blender","render","asset","model","grandpa","grandpa jim","chair","furniture","virtual"],
 						"photos": ["blender/images/chair_gpa.png"],
 						"link": "",
 						"description": "Model based on my Grandpa Jim's chair, with help from <a href='https://www.youtube.com/watch?v=Y4whyFTilsA&list=PLjEaoINr3zgGgS-N9Ews90bDAYYLoP0NO' target='_blank'>this tutorial by Blender Guru</a>"
@@ -364,7 +421,7 @@
 						"name": "sewing machine",
 						"date": "3/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 						"tags": ["3d art", "model", "blender", "furniture", "models", "sewing"],
-						"keywords": ["art","3d","blender","render","asset","model","sew","sewing","sewn","sewist","seamstress","clothes", "singer","grandma","virtual"],
+						"keywords": ["art","3d","blender","render","asset","model","sew","sewing","sewn","sewist","seamstress","clothes", "singer","virtual"],
 						"photos": ["blender/images/sewingmachine.png"],
 						"link": "room/",
 						"description": "Model loosely based on my sewing machine"
@@ -428,17 +485,17 @@
 				"keywords": ["art","3d","blender","render","asset","model","book","reading","read","current","virtual"],
 				"photos": ["blender/images/books.png"],
 				"link": "room/",
-				"description": ""
+				"description": "See if you can spot this in the scene!"
 			},
 
 			{
 				"name": "notebook",
 				"date": "3/1/2021", //guess, sometime before 6/25/21 when I made files for each individual model, outside of the room file
 				"tags": ["3d art", "model", "blender","models"],
-				"keywords": ["art","3d","blender","render","asset","model","writing","write","poetry","virtual"],
+				"keywords": ["art","3d","blender","render","asset","model","writing","write","virtual"],
 				"photos": ["blender/images/compositionnotebooks.png"],
 				"link": "room/",
-				"description": ""
+				"description": "See if you can spot this in the scene!"
 			},
 
 			
@@ -446,7 +503,7 @@
 			{
 				"name": "Snow Sculptures",
 				"date": "12/1/2003", //guess, most recent one was senior year of high school, but chronologically I want this to show up when I made the first batch, in elementary school
-				"tags": ["art","3d art", "sculptures", "snow","bunnies"],
+				"tags": ["art", "sculptures", "snow","bunnies"],
 				"keywords": ["art", "other art", "sculpt","sculpture","snow","snowman", "bunny","bunnies","rabbit","3d", "first projects","childhood"],
 				"photos": ["art-sculptures/images/3.jpg","art-sculptures/images/2.jpg","art-sculptures/images/2011snowbunny.jpg"],
 				"link": "art-sculptures/",
@@ -472,7 +529,7 @@
 				"tags": ["digital art", "pixel art"],
 				"keywords": ["art","digital","game","8-bit", "pixel", "design"],
 				"photos": ["art-digital/images/meteoriteminer.png"],
-				"link": "art-digital/",
+				"link": "art-digital/index.html#meteoriteminer",
 				"description": `Art by me for a game by <a href="https://jamesmayr.com" target="_blank">James</a>, using <a href="https://jamesmayr.com/spritemaker/" target="_blank">spriteMaker</a>`
 			},
 
@@ -668,6 +725,16 @@
 				"description":"James had the idea of painting the same scene in every season. We started with winter, for which we used a <a href='https://www.youtube.com/watch?v=Ew6ujcZoe-Y' target='_blank'>tutorial by URARTSTUDIO</a>. The other season paintings are therefore very loosely based on that tutorial, but with inspiration from other tutorials and reference photos to get the colors of each season."
 			},
 
+			{
+				"name": "Cherry Tree Tire Swing",
+				"date": "12/10/2023",
+				"tags": ["art","paintings","acrylic","tutorial"],
+				"keywords": ["art","watercolor","acrylic","paint","painting","spring","season","seasons"],
+				"photos": ["art-paintings/images/cherrytreetireswing3.jpg","art-paintings/images/cherrytreetireswing1.jpg","art-paintings/images/cherrytreetireswing2.jpg"],
+				"link": "art-paintings/index.html#cherrytreetireswing1",
+				"description":"As a child, one of my favorite activities at my grandparents' house was to go on the tire swing that hung from the big butternut tree in their backyard. My mom and I did this <a href='https://app.jesserobertson.com/#/details/spring_swing' target='_blank'>painting tutorial by Jesse Robertson</a> in memory of that tire swing, and all the memories surrounding it. Of course, this is a much more idealized scene, with the cherry blossoms and the rolling hills..."		
+			},
+
 		// drawings
 
 			{
@@ -731,7 +798,7 @@
 				"featured": true,
 				"name": "current blog",
 				"date": new Date(),
-				"tags": ["blog","writing","kniterative designs"],
+				"tags": ["blog","writing","kniterative designs","my writing"],
 				"keywords": ["stories","story","life"],
 				"photos": ["blog/KDfaviconPGPgradient.png","blog/blogsquare.png"], 
 				"link": "blog/",
@@ -742,18 +809,29 @@
 				"featured": true,
 				"name": "Couplets",
 				"date": new Date(),
-				"tags": ["poetry","writing","james"],
+				"tags": ["poetry","writing","james", "collaboration", "my writing"],
 				"keywords": ["poems","poem","life"],
 				"photos": ["couplets/coupletslogo.png"],
 				"link": "couplets/",
 				"description": "A collaboration with James, inspired by his poetry blog from several years ago and born out of my desire to challenge myself to write more poetry. The result was a dialogue, recorded for posterity, documenting some really tumultuous times - my first job, the pandemic, the death of two of my grandparents... - and also some really beautiful mooments."
 			},
 
+			{
+				"featured": true,
+				"name": "Selections from Couplets",
+				"date": "9/3/2023",
+				"tags": ["poetry","writing","james", "books","sewing","sewing projects","sew","leather", "collaboration", "my writing"],
+				"keywords": ["poems","poem","life", "book", "collaborate","collaborative"],
+				"photos": ["https://i.ibb.co/Qd6q8Bd/bookbinding-with-liz-and-lexie-12.jpg","https://i.ibb.co/vB3C5B1/bookbinding-with-liz-and-lexie-01.jpg","https://i.ibb.co/GCT7tSX/bookbinding-with-liz-and-lexie-02.jpg","https://i.ibb.co/xC7Y39M/bookbinding-with-liz-and-lexie-09.jpg"],
+				"link": "https://jamesmayr.com/coupletsbook/#01",
+				"description": "When we found out that James' brother's partner Lexie had experience with book-binding, James and I curated our favorite poems from our poetry collaboration, <a href='https://projectsbyliz.com/couplets/' target='_blank'>Couplets</a>, and got them printed. Then, with help from Lexie and using cardboard, real leather, a needle and special thread, and SO much glue, we made a book!"
+			},
+
 
 			{
 				"name": "other poetry",
 				"date": "7/1/2019", //before first couplets poem
-				"tags": ["writing", "poetry"],
+				"tags": ["writing", "poetry", "my writing"],
 				"keywords": [""],
 				"photos": ["writing/images/doublemeaning.png","writing/images/moments.png"],
 				"description": "Selections from poetry of mine before the <a href='https://projectsbyliz.com/couplets/' target='_blank'>Couplets</a> project - starting when I was in high school.",
@@ -767,7 +845,7 @@
 			{
 				"name": "Nintendo Switch case",
 				"date": "3/4/2019",
-				"tags": ["sewn bags", "sewing", "design", "bags", "gifts","games"],
+				"tags": ["sewing projects","sewn bags", "sewing", "design", "bags", "gifts","games"],
 				"keywords": ["sew","sewn","sewing","case","bag","bags","game","games"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/25/20%20Gameboy%20cover%20sewing%201.jpg?itok=XiQZO09J"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/nintendo-switch-case",
@@ -776,7 +854,7 @@
 			{
 				"name": "Big Girl (Reversible) Bag",
 				"date": "9/1/2018", //guess - night before first day of NDH clinical placement
-				"tags": ["sewn bags", "sewing", "bags", "handmade accessories", "profession","career"],
+				"tags": ["sewing projects","sewn bags", "sewing", "bags", "handmade accessories", "profession","career"],
 				"keywords": ["sew","sewn","sewing", "design","bag","bags","career","profession","professional","reversible","accessory","accessories"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20180911_070641305.jpg?itok=hPWpfXH1"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/big-girl-bag-reversible",
@@ -785,8 +863,8 @@
 			{
 				"name": "Bags for Mom and Grandma",
 				"date": "12/22/2017",
-				"tags": ["sewn bags", "sewing", "bags", "design", "family", "gifts", "handmade accessories"],
-				"keywords": ["sew","sewn","sewing","gift","grandma fran","mom","bag","bags","accessory","accessories"],
+				"tags": ["sewing projects","sewn bags", "sewing", "bags", "design", "family", "gifts", "handmade accessories"],
+				"keywords": ["sew","sewn","sewing","gift","grandma fran","mom","bag","bags","accessory","accessories", "grandma"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20171224_132413237.jpg?itok=C7fb4cuD"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/tote-bags-mom-and-grandma",
 				"description": "Read about the story behind these bags on <a href='https://projectsbyliz.com/blog/#adventure-bags-part-3-bags-for-toting-memories' target='_blank'>my blog</a>"
@@ -795,7 +873,7 @@
 				"featured": true,
 				"name": "Adventure Bag",
 				"date": "7/2/2017",
-				"tags": ["sewn bags", "sewing", "bags", "design","treks","adventures","handmade accessories"],
+				"tags": ["sewing projects","sewn bags", "sewing", "bags", "design","treks","adventures","handmade accessories"],
 				"keywords": ["sew","sewn","sewing","bag","bags","accessory","accessories","nyc"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20170715_204102926.jpg?itok=bl7MGkJm"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/adventure-bag",
@@ -808,7 +886,7 @@
 				"featured": true,
 				"name": "Iris Moneta",
 				"date": "11/1/2020",
-				"tags": ["sewn dresses","sewing", "dresses", "handmade clothes"],
+				"tags": ["sewing projects","sewn dresses","sewing", "dresses", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","dress","dresses","moneta","flowers","floral","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/14/IMG_8025.JPG?itok=xThyw_BA"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/iris-moneta",
@@ -818,7 +896,7 @@
 			{
 				"name": "Water Moneta",
 				"date": "10/20/2020",
-				"tags": ["sewn dresses","sewing", "dresses", "handmade clothes"],
+				"tags": ["sewing projects","sewn dresses","sewing", "dresses", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","dress","dresses","moneta","striped","stripes","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/14/IMG_7987.JPG?itok=UeUGINLH"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/water-moneta",
@@ -828,7 +906,7 @@
 			{
 				"name": "Purple Moneta",
 				"date": "10/5/2020",
-				"tags": ["sewn dresses","sewing", "dresses", "handmade clothes"],
+				"tags": ["sewing projects","sewn dresses","sewing", "dresses", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","dress","dresses","moneta","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/14/IMG_6324.JPG?itok=QBKdrc5l"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/purple-moneta-also-made-out-sheet-new-one-time",
@@ -838,7 +916,7 @@
 			{
 				"name": "Practice Gray Moneta",
 				"date": "9/27/2020",
-				"tags": ["sewn dresses","sewing", "dresses", "handmade clothes"],
+				"tags": ["sewing projects","sewn dresses","sewing", "dresses", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","prototype","dress","dresses","moneta","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/15/IMG_20200927_182034631.jpg?itok=3_59kC6l"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/practice-moneta-old-gray-bedsheet-version",
@@ -850,7 +928,7 @@
 			{
 				"name": "Embroidered Flowers Knit Top",
 				"date": "10/11/2020", //guess - it was a time when James was away, with Max? and I made it while he was gone
-				"tags": ["sewn shirts", "sewing","shirts", "handmade clothes"],
+				"tags": ["sewing projects","sewn shirts", "sewing","shirts", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","blouse","blouses","flowers","floral","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/04/IMG_20201010_223156708.jpg?itok=NPJXEdGV"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/knit-top-practice",
@@ -859,7 +937,7 @@
 			{
 				"name": "Practice Gray Knit Top",
 				"date": "10/7/2020",
-				"tags": ["sewn shirts", "sewing","shirts", "handmade clothes"],
+				"tags": ["sewing projects","sewn shirts", "sewing","shirts", "handmade clothes"],
 				"keywords": ["sew","sewn","sewing","prototype","blouse","blouses","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/06/15/IMG_20201007_230719591.jpg?itok=TDJbAITI"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/knit-top-practice",
@@ -871,7 +949,7 @@
 			{
 				"name": "Knitting skirt",
 				"date": "11/1/2019", //guess - got the knitting-themed flannel that I made pj pants out of around the same time / same Joann trip, which was apparently spring or summer 2019...
-				"tags": ["sewn skirts","sewing","clothes"],
+				"tags": ["sewing projects","sewn skirts","sewing","clothes"],
 				"keywords": ["sew","sewn","sewing","skirt","skirts","handmade clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20200602_172303769.jpg?itok=pxUVqM-7"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/skirts-me-no-pattern-1-yard-fabric-each",
@@ -880,7 +958,7 @@
 			{
 				"name": "Sunflower skirt",
 				"date": "8/28/2018", //don't know the exact day, but before the semester started and I think after comps? right before I made my big girl bag
-				"tags": ["sewn skirts","sewing","clothes"],
+				"tags": ["sewing projects","sewn skirts","sewing","clothes"],
 				"keywords": ["sew","sewn","sewing","skirt","skirts","handmade clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/04/IMG_20180916_144742677_HDR.jpg?itok=yVOict1_"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/skirts-me-no-pattern-1-yard-fabric-each",
@@ -888,11 +966,20 @@
 			},
 
 		// PJ PANTS
+			{
+				"name": "Christmas PJ pants",
+				"date": "12/26/2022", 
+				"tags": ["sewing projects","sewn pj pants","sewing","handmade clothes"],
+				"keywords": ["sew","sewn","sewing","gift","pajama","pajamas","pants","clothes"],
+				"photos": ["sewing-clothing/images/xmaspjs_james&me.JPG","sewing-clothing/images/xmaspjs_me.JPG","sewing-clothing/images/xmaspjs_apollo&me.JPG"],
+				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
+				"description": "For Christmas 2022, I gave James the gift of a project - I bought him some fleece fabric with moons on it and taught him how to sew his own pajama pants! I also gave myself a gift - green fleece fabric with a knitted cables print - and made myself a pair as well. Apollo doesn't wear pajama pants, but that didn't stop him from getting involved in the project too."
+			},
 
 			{
 				"name": "Sushi PJ pants",
 				"date": "12/1/2020", //guess - made them for Lyn for Secret Santa 2020, so guessing it was either in Dec 2020 or possibly Jan 2021 (if we did the exchange later)
-				"tags": ["sewn pj pants","sewing","handmade clothes", "gifts"],
+				"tags": ["sewing projects","sewn pj pants","sewing","handmade clothes", "gifts"],
 				"keywords": ["sew","sewn","sewing","gift","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/04/IMG_20210102_151356772.jpg?itok=YX37B5Ku"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
@@ -901,7 +988,7 @@
 			{
 				"name": "Monsters Inc. PJ Shorts",
 				"date": "7/1/2021", //guess
-				"tags": ["sewn pj pants","sewing","handmade clothes"],
+				"tags": ["sewing projects","sewn pj pants","sewing","handmade clothes"],
 				"keywords": ["sew","sewn","sewing","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/14/IMG_20210714_163941760.jpg?itok=2Ocds1O_"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
@@ -910,7 +997,7 @@
 			{
 				"name": "Knitting PJ pants",
 				"date": "9/1/2019", //guess
-				"tags": ["sewn pj pants","sewing","handmade clothes"],
+				"tags": ["sewing projects","sewn pj pants","sewing","handmade clothes"],
 				"keywords": ["sew","sewn","sewing","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/14/IMG_20210714_161445130.jpg?itok=y1OkFmFy"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
@@ -920,7 +1007,7 @@
 			{
 				"name": "Music Blanket",
 				"date": "8/1/2018", //guess - in NP loft apartment, probably around/for our anniversary...
-				"tags": ["sewn other sewing", "design","blanket","sewing"],
+				"tags": ["sewing projects","sewn other sewing", "design","blanket","sewing"],
 				"keywords": ["sew","sewn","sewing","blanket","music","gift","home decor"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/15/IMG_20180830_130435931.jpg?itok=eJIc4H1v"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/music-blanket",
@@ -929,7 +1016,7 @@
 			{
 				"name": "Music PJ pants",
 				"date": "12/1/2017", //guess, but I know I was making them around when I made the tote bags for Mom and Grandma Fran
-				"tags": ["sewn pj pants","sewing","handmade clothes"],
+				"tags": ["sewing projects","sewn pj pants","sewing","handmade clothes"],
 				"keywords": ["sew","sewn","sewing","music","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20210708_201628945.jpg?itok=0SEk-Sd_"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
@@ -938,7 +1025,7 @@
 			{
 				"name": "Majora's Mask PJ pants",
 				"date": "12/1/2019", //guess - for Dan for Secret Santa 2019
-				"tags": ["sewn pj pants","sewing","handmade clothes","gifts"],
+				"tags": ["sewing projects","sewn pj pants","sewing","handmade clothes","gifts"],
 				"keywords": ["sew","sewn","sewing","gift","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/04/IMG_20191210_185504811_HDR.jpg?itok=clUAn9Kx"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
@@ -948,7 +1035,7 @@
 			{
 				"name": "Windwaker PJ pants",
 				"date": "8/1/2017", //guess on the day, but definitely August of 2017 (made for our anniversary)
-				"tags": ["sewn pj pants","sewing","handmade clothes","gifts"],
+				"tags": ["sewing projects","sewn pj pants","sewing","handmade clothes","gifts"],
 				"keywords": ["sew","sewn","sewing","gift","pajama","pajamas","pants","clothes"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_20210708_201857742.jpg?itok=q7Q9EbF1"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
@@ -958,10 +1045,20 @@
 		// TOYS
 
 			{
+				"name": "Tealia",
+				"date": "9/2/2023", 
+				"tags": ["sewing projects","sewn toys", "sewing", "toys"],
+				"keywords": ["sew","sewn","sewing","toy"],
+				"photos": ["sewing-toys/images/tealia10.jpg","sewing-toys/images/tealia1.jpg","sewing-toys/images/tealia2.jpg","sewing-toys/images/tealia8.jpg","sewing-toys/images/tealia9.jpg",],
+				"link": "sewing-toys/index.html#tealia0",
+				"description": "A collaboration with James' mom, Becky, who is an accomplished sewist. We started making this teal dragon the night (and finished in the wee hours of the morning) before going to the Maryland Rennaissance Faire. Read the full story of Tealia's creation on <a href='https://projectsbyliz.com/blog/#interlude' target='_blank'>my blog</a>!"
+			},
+			
+			{
 				"name": "Doll Sofa Bed",
 				"date": "8/15/2006", //guess - definitely in the summertime, probably August - zoo camp week; surprises me that we made anything in 2006, but would make sense - that was our zoo camp week project... Didn't have the red panda until 2005, so couldn't have been 2004. Has to have been either 2005 (but pj pants, doll tent, and doll sleeping bags would be too many projects for one week) or 2006, which I think is right...
-				"tags": ["sewn toys", "sewing", "toys"],
-				"keywords": ["sew","sewn","sewing","toy"],
+				"tags": ["sewing projects","sewn toys", "sewing", "toys"],
+				"keywords": ["sew","sewn","sewing","toy", "grandma","grandma fran"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/doll%20couch.png?itok=k0zjIx4t"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/18-doll-sofa-bed",
 				"description": "Made with the help and oversight and mentorship of Grandma Fran"
@@ -969,8 +1066,8 @@
 			{
 				"name": "Doll Tent and Sleeping Bags",
 				"date": "8/15/2005", //guess - definitely in the summertime, probably August - zoo camp week; Had to be 2005, because Madagascar had come out in May of that year. Also border collie is fitting - would make sense summer after 6th grade, summer I turned 12. Doll tent and sleeping bags had to be the same summer as first pj pants, because we used the leftover fabric from the pj pants for the lining of the sleeping bags (Madagascar for green one, penguins for blue one). Oh, also penguins - so definitely would make sense for summer after 6th grade. Also hips, pj pants... definitely summer after 6th grade, before 7th
-				"tags": ["sewn toys", "sewing", "toys"],
-				"keywords": ["sew","sewn","sewing","toy"],
+				"tags": ["sewing projects","sewn toys", "sewing", "toys"],
+				"keywords": ["sew","sewn","sewing","toy","grandma","grandma fran"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/dog%20sleeping%20bag%20and%20tent.png?itok=Lugu8zhV"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/tent-and-sleeping-bags-18-dolls",
 				"description": "First major sewing project with Grandma Fran where I got to do the actual cutting and sewing fabric parts, in addition to the picking out fabric part."
@@ -981,8 +1078,8 @@
 			{
 				"name": "Cat Hood",
 				"date": "12/28/2020", //ish - I think I made it while James was at Max's bday
-				"tags": ["sewn other sewing","costumes","gifts"],
-				"keywords": ["sew","sewn","sewing","accessory","accessories","hat","gift"],
+				"tags": ["sewing projects","sewn other sewing","costumes","gifts"],
+				"keywords": ["sew","sewn","sewing","accessory","accessories","hat","gift","miscellaneous sewing"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/14/IMG_20201231_154403468_0.jpg?itok=ImKnGP-H"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/cat-hood",
 				"description": "For James, who dreams of being a cat. (Also our apartment gets so cold in the winter, it's helpful for keeping warm!)"
@@ -991,11 +1088,21 @@
 			{
 				"name": "Butterfly Chair cover",
 				"date": "5/21/2017",
-				"tags": ["sewn other sewing", "design","furniture"],
-				"keywords": ["sew","sewn","sewing","home decor", "furniture"],
+				"tags": ["sewing projects","sewn other sewing", "design","furniture"],
+				"keywords": ["sew","sewn","sewing","home decor", "furniture","miscellaneous sewing"],
 				"photos": ["https://www.textillia.com/system/files/styles/large/private/img/2021/07/09/IMG_1384.JPG?itok=JS5jtgiT"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/butterfly-chair-covercushion",
 				"description": "Handcrafted replacement for a store-bought butterfly chair. The cushion part had been starting to rip at the seams, so on a whim I decided to make a new one, using the old one as a rough template. It turned out pretty well and allowed me to continue using the frame for a few more years."
+			},
+
+			{
+				"name": "Explo Banner",
+				"date": "8/1/2013", //guess - it was the summer between sophomore and junior year
+				"tags": ["sewing projects","sewn other sewing", "design","decor", "explorchestra","explo"],
+				"keywords": ["sew","sewn","sewing","home decor", "miscellaneous sewing"],
+				"photos": ["sewing-misc/images/explobanner7.jpg"],
+				"link": "sewing-misc/",
+				"description": "When I joined Explorchestra, the club didn't have any kind of banner to display at performances and recruitment opportunities around campus. (My first year on Eboard, we used paper from the giant rolls in the RA office - but that was prone to ripping and curling up on itself.) So, during the summer between my sophomore and junior years, I made one! I used felt so that the letters wouldn't have raw edges and so the whole thing would be durable and low-maintenance (not prone to wrinkling!). And now, years after I graduated and even though no one in the club knows me personally, <a href='https://www.instagram.com/explorchestra/?hl=en' target='_blank'>they still use the banner</a>. In addition to being a composer and serving as music librarian and vice president, this banner is my legacy."
 			},
 			
 	// KNITTING
@@ -1029,7 +1136,7 @@
 					"name": "Mice",
 					"date": "11/23/2018",
 					"tags": ["kniterative designs","crochet", "mouse","mice", "toys", "decorations"],
-					"keywords": ["kd", "kniterative designs", "kniterative", "designs", "design", "crochet", "cat", "cats", "toy", "decoration"],
+					"keywords": ["kd", "kniterative designs", "kniterative", "designs", "design", "crochet", "toy", "decoration"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/715785584/upload_medium2"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/crocheted-mice",
 					"description": "After designing a knitted cat pattern, a natural next step was to make mice!"
@@ -1123,7 +1230,7 @@
 					"name": "Bravery Bunny",
 					"date": "12/25/2015",
 					"tags": ["knitting", "bunnies","toys","gifts"],
-					"keywords": ["gift","bunny","rabbit","knit","knitted","knitting", "toy", "grandpa john"],
+					"keywords": ["gift","bunny","rabbit","knit","knitted","knitting", "toy", "grandpa john","grandpa"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/347319067/IMG_1829_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/bravery-bunny-for-grandpa-john",
 					"description": "A gift for Grandpa John, Christmas 2015. This friend stayed by my Grandpa throughout his cancer journey, and when he passed my Grandma Fran cherished it for the rest of her life. Now he's back with me."
@@ -1360,7 +1467,7 @@
 					"name": "Lady",
 					"date": "1/9/2017",
 					"tags": ["knitting", "puppies","dogs","toys","gifts"],
-					"keywords": ["gift","puppy","dog","knit","knitted","knitting", "toy"],
+					"keywords": ["gift","puppy","dog","knit","knitted","knitting", "toy","grandma","grandma fran"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/422467321/IMG_4630_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/lady-dog-for-grandma-fran",
 					"description": "I made this friend for my Grandma Fran. She's a knitted version of their old dog, Lady, who I remember from when I was very little."
@@ -1399,10 +1506,30 @@
 			// Horses
 
 				{
+					"name": "First Unicorn",
+					"date": "12/7/2022",
+					"tags": ["kniterative designs", "prototypes", "knitting", "horses","horse","toys"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","horse","mare","stallion","pony","knit","knitted","knitting", "toy",],
+					"photos": ["kd/images/firstunicorn.jpg"],
+					"link": "https://www.ravelry.com/projects/KDpurplegreen/first-unicorn#",
+					"description": "First unicorn designed by me! Blue fringe mane and a crocheted horn"	
+				},
+
+				// {
+				// 	"name": "Black Stallion",
+				// 	"date": "11/20/2022", // approximate date - it was before demo day 2022 and I think before the unicorn
+				// 	"tags": ["kniterative designs", "prototypes", "knitting", "horses","horse","toys","gifts"],
+				// 	"keywords": ["kd","kniterative designs","kniterative", "designs", "design","gift","horse","mare","stallion","pony","knit","knitted","knitting", "toy",],
+				// 	"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/788401266/IMG_20210530_132707411_copy_medium2.jpg"],
+				// 	"link": "https://www.ravelry.com/projects/KDpurplegreen/first-horse#",
+				// 	"description": "First horse, designed by me, given to Grandma Emily"	
+				// },
+
+				{
 					"name": "First Horse",
 					"date": "11/1/2019", // approximate date - it was before Christmas 2019, and I worked on it on Halloween (and was almost done at that point)
-					"tags": ["kniterative designs", "prototypes", "knitting", "puppies","dogs","toys","gifts"],
-					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","gift","horse","mare","stallion","pony","knit","knitted","knitting", "toy", "grandma emily"],
+					"tags": ["kniterative designs", "prototypes", "knitting", "horses","horse","toys","gifts"],
+					"keywords": ["kd","kniterative designs","kniterative", "designs", "design","gift","horse","mare","stallion","pony","knit","knitted","knitting", "toy", "grandma emily","grandma"],
 					"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/788401266/IMG_20210530_132707411_copy_medium2.jpg"],
 					"link": "https://www.ravelry.com/projects/KDpurplegreen/first-horse#",
 					"description": "First horse, designed by me, given to Grandma Emily"	
@@ -1410,14 +1537,54 @@
 
 		//GIFTS
 
+			// {
+			// 	"name": "Bear for Elliotte",
+			// 	"date": "11/30/2023", //guess - it was before surgery
+			// 	"tags": ["knitted gifts","knitting","animals","bear","gifts"],
+			// 	"keywords": ["knit","knitted","knitting","gift","toy","elliotte"],
+			// 	"photos": [""],
+			// 	"link": "https://www.ravelry.com/projects/KDpurplegreen/otso",
+			// 	"description": "For my cousin Elliotte, Christmas 2023"
+			// },
+
+			{
+				"name": "Fish(lock) Sweater",
+				"date": "7/1/2023", //guess - it was before the 4th of july
+				"tags": ["knitted gifts","knitting","animals","sheep","gifts","clothes"],
+				"keywords": ["knit","knitted","knitting","gift","grandma","grandma fran"],
+				"photos": ["https://lh3.googleusercontent.com/pw/AJFCJaUdRR3Vcyy8qyX5lS2dYy7ZPTPYROMK740Jue9jBeHqKe8Gcv-JsbpHJRFUIzuGY3e8XjdCqfzlSl6YJ4O1azG4RYZbWbPcE16njGCehCKc05maBSWE9PiGmOWwrLLFLvcMjKyaX2b334stlICK4w9J=w2580-h1668-s-no?authuser=0","https://lh3.googleusercontent.com/pw/AJFCJaWxg4YVASQvqgVVANqf9xubzOfkbsYH4qCMAq8TKhwRMp9cCWdPhzRlh_n4fx7I9PSEcMbVLBXlTWhzCbmM_KY7k7XT8wBMBNOpaz726zD5MAWF2UpNwU65PQiCEz_QwOrgWVY3QITHUF2iURUJS_4S=w1272-h954-s-no?authuser=0","https://lh3.googleusercontent.com/pw/AJFCJaVbDEEDq_JAgwasuSFDb5n1TS_dD8ilw6JwoK9HflSKy2VSRP104WtxB6Fchxl7bUKdCMUWQJJZZaAsPjSuhhGIeVo-rl0rEAEI6UykTXtR7iR0nE7CapZgm9C7BV0T4pcPqxXEV-f1CeoR27mwtgr7=w1252-h1668-s-no?authuser=0","https://lh3.googleusercontent.com/pw/AJFCJaXObVdsTvHO_RzXFoGY5IzjU-GcfOS-dgbL13LDVaD38lQ8hQGvJjJP2SA93sj9c2YjtaaMKTxniUZcKLFiJG1vCDtNfmvoaYQQuN6ylwaZRvNed6IfFeNflLDW0l6kwiBK6Et5RsYEM3b5Dn9OOSrJ=w1252-h1668-s-no?authuser=0",],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/christmas-lamb-for-grandma-fran",
+				"description": "For my cousin Laura's baby, Adelina. I wanted to knit a sweater because it's what our Grandma Fran would have done - and did do, for Laura and me! I thought about Fran Fishlock a lot while I was making this for Laura's baby shower, and I wrote some of those thoughts down in <a href='https://projectsbyliz.com/blog/#june--a-month-of-knitting-gifts-with-various-grandmas-in-mind' target='_blank'>this blog post</a>."
+			},
+
+			{
+				"name": "Pumpkin Hat",
+				"date": "7/1/2023", //guess - it was before the 4th of july
+				"tags": ["knitted gifts","knitting","hat","accessories","gifts","headwear"],
+				"keywords": ["knit","knitted","knitting","gift","hat","accessory"],
+				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968279323/upload_medium2", "https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968279247/upload_medium2","https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968279287/upload_medium2"],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/0-966-sweet-pumpkin",
+				"description": "For my cousin Laura's baby, Adelina. I knew she would be born in September, and I've always wanted to knit one of those baby hats that looks like a fruit, so the pumpkin hat seemed like a great choice! I wrote about the process of knitting this hat in <a href='https://projectsbyliz.com/blog/#worldwide-knit-in-public-day-a-day-late' target='_blank'>this blog post</a> and <a href='https://projectsbyliz.com/blog/#june--a-month-of-knitting-gifts-with-various-grandmas-in-mind' target='_blank'>also this one</a>."
+			},
+
+			{
+				"name": "Florida Socks",
+				"date": "7/1/2023", //guess - it was before the 4th of july
+				"tags": ["knitted gifts","knitting","sock","socks","gifts","footwear","clothes"],
+				"keywords": ["knit","knitted","knitting","gift","grandma","grandma emily"],
+				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968519462/upload_medium2"],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/trusty-toe-up-socks-2",
+				"description": "<a href='https://projectsbyliz.com/blog/#june--a-month-of-knitting-gifts-with-various-grandmas-in-mind' target='_blank'>For Grandma Emily</a> - when she can't get down to Florida in the wintertime, hopefully these socks will keep her feet as warm as the sand at the beach!"
+			},
+
 			{
 				"name": "Christmas Lamb",
 				"date": "12/10/2020",
 				"tags": ["knitted gifts","knitting","animals","sheep","gifts"],
-				"keywords": ["knit","knitted","knitting","gift","toy","grandma fran"],
+				"keywords": ["knit","knitted","knitting","gift","toy","grandma","grandma fran"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/753619996/IMG_6673_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/christmas-lamb-for-grandma-fran",
-				"description": "For Grandma Fran in 2020"
+				"description": "<a href='https://projectsbyliz.com/blog/#merry-thanks-new-year' target='_blank'>For Grandma Fran</a> in 2020"
 			},
 
 			{
@@ -1433,21 +1600,31 @@
 			{
 				"name": "I love you to pieces socks",
 				"date": "5/22/2020",
-				"tags": ["knitted gifts","knitting","socks","gifts"],
-				"keywords": ["knit","knitted","knitting","gift","socks", "accessory", "accessories", "clothes", "grandpa jim"],
+				"tags": ["knitted gifts","knitting","socks","gifts","footwear"],
+				"keywords": ["knit","knitted","knitting","gift","socks", "accessory", "accessories", "clothes", "grandpa jim","grandpa"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/706285143/IMG_20200523_134948340_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/warm-and-cozy-socks",
 				"description": "For Grandpa Jim, as promised."	
 			},
 
+			// {
+			// 	"name": "Fuzzy Gloves for James",
+			// 	"date": "12/25/2018", //a guess - I was making them when I was in grad school
+			// 	"tags": ["knitted gifts","knitting","gloves","gifts","handwear"],
+			// 	"keywords": ["knit","knitted","knitting","gift", "gloves","accessory", "accessories"],
+			// 	"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/499460026/IMG_20171225_154028489_medium2.jpg"],
+			// 	"link": "https://www.ravelry.com/projects/KDpurplegreen/fingerless-gloves-for-aunt-ellyn",
+			// 	"description": "For Aunt Ellyn, for Christmas. The gloves are knitted and both have a decorative crocheted rose attached."	
+			// },
+
 			{
 				"name": "Fingerless Gloves for Aunt Ellyn",
 				"date": "12/25/2017",
-				"tags": ["knitted gifts","knitting","gloves","gifts"],
+				"tags": ["knitted gifts","knitting","gloves","gifts","handwear"],
 				"keywords": ["knit","knitted","knitting","gift", "gloves","accessory", "accessories", "crochet", "flower","flowers"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/499460026/IMG_20171225_154028489_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/fingerless-gloves-for-aunt-ellyn",
-				"description": "For Aunt Ellyn, for Christmas"	
+				"description": "For Aunt Ellyn, for Christmas. The gloves are knitted and both have a decorative crocheted rose attached."	
 			},
 
 			{
@@ -1485,7 +1662,7 @@
 				"name": "Legwarmers for Brittany",
 				"date": "12/16/2015",
 				"tags": ["knitted gifts","knitting","accessories","gifts"],
-				"keywords": ["knit","knitted","knitting","gift","accessory", "accessories", "clothes", "cable","cables"],
+				"keywords": ["knit","knitted","knitting","gift","accessory", "accessories", "cable","cables"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343438082/tumblr_nzhnokyw2n1tdp74do1_540_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/chunky-cabled-boot-cuffs",
 				"description": "For Brittany, one of my roommates my senior year of college"
@@ -1504,7 +1681,7 @@
 			{
 				"name": "Wallet for James",
 				"date": "10/11/2015",
-				"tags": ["knitted gifts","knitting","accessories","gifts","explorchestra"],
+				"tags": ["knitted gifts","knitting","accessories","gifts","explorchestra","explo","explogo"],
 				"keywords": ["knit","knitted","knitting","gift","accessory","accessories"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/330390480/20151010_224529__1__medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/explogo-phone-case-for-james",
@@ -1564,8 +1741,8 @@
 			{
 				"name": "Socks for Grandpa Jim",
 				"date": "6/1/2014",
-				"tags": ["knitted gifts","knitting","socks","gifts"],
-				"keywords": ["knit","knitted","knitting","gift","grandpa jim","socks","accessory","accessories"],
+				"tags": ["knitted gifts","knitting","socks","gifts","footwear","clothes"],
+				"keywords": ["knit","knitted","knitting","gift","grandpa jim","grandpa", "socks"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/234317617/IMG_6141_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/basic-socks",
 				"description": ""
@@ -1585,7 +1762,7 @@
 				"name": "Scarf for Dad",
 				"date": "12/15/2012",
 				"tags": ["knitted gifts","knitting","accessories","scarves","gifts"],
-				"keywords": ["knit","knitted","knitting","scarf","scarves","gift","dad","accessories","accessory"],
+				"keywords": ["knit","knitted","knitting","scarf","scarves","gift","dad","accessories","accessory","neckwear"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/135726355/IMG_4188_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/scarf-for-dad",
 				"description": ""
@@ -1595,13 +1772,35 @@
 				"name": "Kitty Pi for Mae",
 				"date": "12/20/2007", // guessing
 				"tags": ["knitted gifts","knitting","furniture","gifts"],
-				"keywords": ["knit","knitted","knitting","felted","cat","accessory"],
+				"keywords": ["knit","knitted","knitting","felted","cat","accessory","felted accessories"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/116582075/IMG_3873_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/kitty-pi",
 				"description": "Made for Mae. One of my first knitting projects I ever completed (and my first experience with felting), for the first cat I ever had."
 			},
 
 		// CLOTHING
+
+			{
+				"featured": true,
+				"name": "Golden Hour",
+				"date": "11/22/2023",
+				"tags": ["knitted clothes","knitting","sweaters","handmade clothes","colorworking","color","flowers"],
+				"keywords": ["knit","knitted","knitting","sweater","clothes"],
+				"photos": ["knitting/images/Birkinfinished1.jpg","knitting/images/Birkinfinished2.jpg"],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/birkin",
+				"description": "This sweater was born out of a conundrum. I had inherited several skeins of orange-ish brown-ish yarn from my Grandma Fran's stash. It was a sweater quantity of yarn, but it wasn't a color that I would normally wear. But it did look good with jeans! So, I decided that it would make a good backdrop for a colorwork sweater - and Birkin, by Caitlyn Hunter, seemed like the right pattern to honor my Grandma Fran and bring out the beauty of the color of the yarn. In the context of leaves and flowers, the yarn no longer reminded me of rust, but of honey and autumn leaves and the light of a low sun at golden hour... Eventually, with help from my dad, I found the perfect pairing of colors for the flower and leaf motifs. I added some subtle waist shaping, but I also kept the sweater fairly cropped - a new kind of fit for me - and it turned out to be very flattering!"
+			},
+
+			{
+				"featured": true,
+				"name": "First Fitted Skirt",
+				"date": "2/20/2023",
+				"tags": ["knitted clothes","knitting","skirts","handmade clothes","clothes"],
+				"keywords": ["knit","knitted","knitting","skirt","stripes","clothing"],
+				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/910819668/upload_medium2","https://images4-a.ravelrycache.com/uploads/KDpurplegreen/911078684/DSC_0511_copy_medium2.JPG"],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/simple-ass-warmer",
+				"description": "I like wearing skirts over leggings. I used to wear flared skirts pretty much exclusively, believing that I couldn't 'pull off' or feel comfortable in a more fitted style. I set out to knit a flared skirt, but I wasn't sure I'd have enough yarn already in my stash - that's when I started seriously toying with the idea of trying the 'Simple Ass-Warmer' pattern (partly because the name made me smile). And so, this project ended up being both a <a href='https://projectsbyliz.com/blog/#stashbusting-and-personal-mythbusting-part-5' target='_blank'>stash-busting effort and personal myth-busting one, too</a>."
+			},
 
 			{
 				"featured": true,
@@ -1628,7 +1827,7 @@
 				"name": "Autumn Leaves",
 				"date": "8/10/2015",
 				"tags": ["knitted clothes","knitting","sweaters","handmade clothes"],
-				"keywords": ["knit","knitted","knitting","sweater", "fall","accessory", "accessories", "clothes"],
+				"keywords": ["knit","knitted","knitting","sweater", "fall", "clothes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/318662543/20150810_130308_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/sprig",
 				"description": "My Grandma Fran got me this yarn from her local yarn shop. The pattern is from Botanical Knits - gorgeous!"
@@ -1659,7 +1858,7 @@
 				"name": "Tempest in a Teapot",
 				"date": "5/23/2013",
 				"tags": ["knitted clothes","knitting","sweaters","cardigans","handmade clothes"],
-				"keywords": ["knit","knitted","knitting","sweater","clotes","striped","stripes"],
+				"keywords": ["knit","knitted","knitting","sweater","clothes","striped","stripes"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/167055957/IMG_5118_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/tempest",
 				"description": "The first of three sweaters I made using KnitPicks Comfy yarn, which is a cotton blend. Like with the 3-in-1 and the Purple Cables sweaters, I wish I had used wool instead of cotton. I don't wear this sweater very often because it doesn't provide much warmth. That said, it's a good light layer for summer evenings..."
@@ -1679,10 +1878,54 @@
 
 			{
 				"featured": true,
+				"name": "Knit Headbands",
+				"date": "5/29/2023", //finish date of first one
+				"tags": ["knitted accessories","knitting","accessories","headbands"],
+				"keywords": ["knit","knitted","knitting","hat", "accessory", "accessories", "headwear"],
+				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968527205/IMG_20230529_092832602_medium2.jpg", "https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968527271/DSC_0732_medium2.JPG"],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/rosie-headband",
+				"description": "As part of my attempt to embrace my curly hair and find fresh ways of styling it, I've knitted some headbands!"
+			},
+
+			{
+				"featured": true,
+				"name": "Purple Shawl",
+				"date": "2/26/2023", //guess - next weekend after finishing hat and cowl set?
+				"tags": ["knitted accessories","knitting","accessories","hats","cowls"],
+				"keywords": ["knit","knitted","knitting","hat", "accessory", "accessories", "neckwear", "cowl","cables"],
+				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/909550703/upload_medium2","https://images4-a.ravelrycache.com/uploads/KDpurplegreen/909551109/upload_medium2", "https://images4-a.ravelrycache.com/uploads/KDpurplegreen/909550658/upload_medium2"],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/azteca",
+				"description": "I made this triangle shawl as part of the great <a href='https://projectsbyliz.com/blog/#stashbusting-and-personal-mythbusting-part-4' target='_blank'>stash-busting (and personal myth-busting)</a> initiative of 2023."
+			},
+
+			{
+				"featured": true,
+				"name": "Hat and Cowl set",
+				"date": "2/19/2023",
+				"tags": ["knitted accessories","knitting","accessories","hats","cowls","headwear"],
+				"keywords": ["knit","knitted","knitting","hat", "accessory", "accessories", "neckwear", "cowl","cables"],
+				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/908249485/DSC_0438_medium2.JPG","https://images4-a.ravelrycache.com/uploads/KDpurplegreen/908249477/DSC_0429_medium2.JPG"],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/up--up-hat",
+				"description": "I made this hat and cowl set as part of the great <a href='https://projectsbyliz.com/blog/#stashbusting-and-personal-mythbusting-part-3' target='_blank'>stash-busting (and personal myth-busting)</a> initiative of 2023. I'd been avoiding cables and seed stitch, but I did both for these projects!"
+			},
+
+			{
+				"featured": true,
+				"name": "PurpleGreen Socks",
+				"date": "12/11/2022", //guess - whenever demo day 2022 (first night) was, that's when I finished putting in the heels
+				"tags": ["knitted accessories","knitting","clothes","footwear","handmade clothes"],
+				"keywords": ["knit","knitted","knitting", "socks"],
+				"photos": ["knitting/images/purplegreensocks.jpg"],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/trusty-toe-up-socks",
+				"description": "My friend Dan gave me purple and green self-striping yarn, and I made the softest socks ever that always brighten my day when I wear them!"
+			},
+
+			{
+				"featured": true,
 				"name": "Norway (Felted) Slippers",
 				"date": "1/10/2021",
-				"tags": ["knitted accessories","knitting","accessories","slippers"],
-				"keywords": ["knit","knitted","knitting","felted","accessory", "accessories"],
+				"tags": ["knitted accessories","knitting","clothes","slippers","footwear","handmade clothes"],
+				"keywords": ["knit","knitted","knitting","felted", "felted accessories"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/796170370/IMG_20210717_122341652_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/family-of-slippers",
 				"description": "When my dad went to Norway, he brought me back some souvenir yarn - real, non-superwash wool. I had been toying with the idea of making myself a pair of boot-style slippers. I'd only tried felting one other time, when my grandma helped me felt my 20s hat, and I wanted to give that another try. I also knew by that point that I really liked colorwork. I decided to use a basic felted slipper pattern, but put my own twist on it by pulling elements from various colorworking charts to make a whole scene. It's a hope for the future, encoded in the form of knitting. Two cats by the window, a dog outside, playing in the snow, and bunnies safe and cozy in their warrens. A steaming cup of tea warms my toes."
@@ -1692,8 +1935,8 @@
 				"featured": true,
 				"name": "Brain Hat",
 				"date": "10/30/2017",
-				"tags": ["knitted accessories","knitting","accessories","hats","costumes"],
-				"keywords": ["knit","knitted","knitting","brain","hat", "halloween","accessory", "accessories", "clothes"],
+				"tags": ["knitted accessories","knitting","accessories","hats","costumes","headwear"],
+				"keywords": ["knit","knitted","knitting","brain","hat", "halloween","accessory",],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/499457012/IMG_20171119_141609481_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/brain-hat",
 				"description": "I made this when I was in grad school, studying the brain (as it relates to communication disorders). I'd gotten very into listening to audiobooks by Oliver Sacks during my commute, and Halloween was coming up, and... that was that. I spent a long time sewing the i-cord to the base hat, because I tried to make it as anatomically accurate as I could. I now wear it basically every Halloween, and I've gotten many requests for commission. But... no. It was a very fiddly project! I'm glad I did it, but never again."
@@ -1702,8 +1945,8 @@
 			{
 				"name": "Icebreaker Shawl",
 				"date": "10/19/2017",
-				"tags": ["knitted accessories","knitting","accessories","shawls"],
-				"keywords": ["knit","knitted","knitting","shawl","age of brass and steam","accessory", "accessories", "clothes"],
+				"tags": ["knitted accessories","knitting","accessories","shawls","neckwear"],
+				"keywords": ["knit","knitted","knitting","shawl","age of brass and steam","accessory", "accessories",],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/499453538/IMG_20171020_144049822_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/the-age-of-brass-and-steam-kerchief",
 				"description": "Made this over the course of only a few days, to serve as an accessory for an October wedding I attended. It was the first shawl I ever made."
@@ -1712,18 +1955,18 @@
 			{
 				"name": "'20s Hat'",
 				"date": "11/29/2015",
-				"tags": ["knitted accessories","knitting","accessories","hats","costumes"],
-				"keywords": ["knit","knitted","knitting", "hat", "accessory", "accessories", "clothes"],
+				"tags": ["knitted accessories","knitting","accessories","hats","costumes", "felted", "felted accessories","headwear","handmade clothes"],
+				"keywords": ["knit","knitted","knitting", "hat", "accessory", "accessories",],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343079178/1915263_1042385855804003_2147850894420508260_n_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/cloche-a-la-mode",
-				"description": "My first experience with felting! I don't even like hats that much, but I love this hat."
+				"description": "My first experience with felting a wearable! I don't even like hats that much, but I love this hat."
 			},
 
 			{
 				"name": "Convertible Mittens",
 				"date": "11/13/2015",
-				"tags": ["knitted accessories","knitting","accessories","mittens"],
-				"keywords": ["knit","knitted","knitting","gloves","mittens","accessory", "accessories", "clothes"],
+				"tags": ["knitted accessories","knitting","accessories","mittens","handwear"],
+				"keywords": ["knit","knitted","knitting","gloves","mittens","accessory", "accessories", "handmade clothes"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343080004/12366425_1042385789137343_3721396389953934140_n_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/flip-top-mittens-l32244",
 				"description": "These are my favorite mittens/gloves - because they're both in one! Very helpful to be able to flip the mitten part up to do tasks requiring more dexterity. And I added the thumb mitten as well, mostly so I can use my phone more easily while out and about!"
@@ -1732,7 +1975,7 @@
 			{
 				"name": "Synesthesia Scarf",
 				"date": "11/29/2012",
-				"tags": ["knitted accessories","knitting","accessories","scarves"],
+				"tags": ["knitted accessories","knitting","accessories","scarves","neckwear"],
 				"keywords": ["knit","knitted","knitting","scarf","scarves","striped","stripes","accessory","accessories"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/117113968/Photo_on_2012-08-22_at_22.49_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/noro-striped-scarf",
@@ -1742,7 +1985,7 @@
 			{
 				"name": "String of Purls",
 				"date": "9/20/2012",
-				"tags": ["knitted accessories","knitting","accessories","hats"],
+				"tags": ["knitted accessories","knitting","accessories","hats","headwear"],
 				"keywords": ["knit","knitted","knitting","hat","accessory","accessories"],
 				"photos": ["https://images4-g.ravelrycache.com/uploads/eef25/165693196/521624_10151531925712668_161794041_n_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/noro-striped-scarf",
@@ -1751,6 +1994,16 @@
 
 		// TOYS / STUFFIES
 
+			{
+				"name": "Totoro",
+				"date": "12/27/2023",
+				"tags": ["knitted toys", "knitting","toys"],
+				"keywords": ["knit","knitted","knitting","toy"],
+				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968574234/IMG_20231227_214039763_medium2.jpg","https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968574303/IMG_20231227_214123918_HDR_medium2.jpg"],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/otso-2",
+				"description": "After making a bear for my cousin Elliotte, I decided that the <a href='https://loopknitting.com/en-us/collections/loop-blog-patterns-1/products/otso-bear' target='_blank'>pattern</a> I'd used created more or less the same shape as Totoro, from the Studio Ghibli film <a href='https://www.imdb.com/title/tt0096283/' target='_blank'>My Neighbor Totoro</a>. I've always wanted a stuffie of Totoro, and I was stuck on the couch recovering from ankle surgery, so... I tried making one! He is positively, delightfully ROTUND and extremely huggable."
+				// "description": "After making a <a href='https://projectsbyliz.com/?persona=knitter&search=bear%20for%20Elliotte' target='_blank'>bear for my cousin Elliotte</a>, I decided that the <a href='https://loopknitting.com/en-us/collections/loop-blog-patterns-1/products/otso-bear' target='_blank'>pattern</a> I'd used created more or less the same shape as Totoro, from the Studio Ghibli film <a href='https://www.imdb.com/title/tt0096283/' target='_blank'>My Neighbor Totoro</a>. I've always wanted a stuffie of Totoro, and I was stuck on the couch recovering from ankle surgery, so... I tried making one! He is positively, delightfully ROTUND and extremely huggable."
+			},
 			{
 				"name": "Explogo Bunny",
 				"date": "1/12/2015",
@@ -1837,7 +2090,7 @@
 				"name": "Beaded Christmas Ball",
 				"date": "8/2/2014",
 				"tags": ["knitted other knitting","knitting","decorations"],
-				"keywords": ["knit","knitted","knitting","grandma fran","decoration"],
+				"keywords": ["knit","knitted","knitting","grandma","grandma fran","decoration"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/248682142/IMG_0263_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/deck-the-balls",
 				"description": "My Grandma Fran made beautiful beaded purses and ornaments. She passed down her materials and patterns to me."
@@ -1860,7 +2113,7 @@
 				"keywords": ["knit","knitted","knitting","raglan"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/61756596/IMG_0825_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/iphoodie-ipod-iphone-hoodie",
-				"description": "My first introduction to concept of raglan sweater construction - but in miniature! It's still my favorite way to make a sweater..."
+				"description": "My first introduction to the concept of raglan sweater construction - but in miniature! It's still my favorite way to make a sweater..."
 			},
 
 			{
@@ -1873,6 +2126,48 @@
 				"description": "My first ever knitting project. I was 5 or 6 years old."
 			},
 
+		// needle felting
+			{
+				"name": "Self-portrait",
+				"date": "10/16/2023", //approximately - look up and correct later
+				"tags": ["needle felting", "felted", "wool paintings", "nova scotia", "tutorials","me"],
+				"keywords": ["wool painting", "2d art"],
+				"photos": ["art-felting/images/feltednovascotiaselfportrait3.jpg","art-felting/images/feltednovascotiaselfportrait4.jpg","art-felting/images/feltednovascotiaselfportrait1.jpg"],
+				"link": "art-felting/index.html#feltednovascotiaselfportrait1",
+				"description": "After making the Nova Scotia scene from the kit, I still had some wool batting leftover, so I created a needle-felted self-portrait based on a photograph and added her to the scene. Read the full story on <a href='https://projectsbyliz.com/blog/#firsts-trying-needle-felting' target='_blank'>my blog</a>!"
+			},
+
+			{
+				"name": "Nova Scotia scene",
+				"date": "10/15/2023", //approximately - look up and correct later
+				"tags": ["needle felting", "felted", "wool paintings", "nova scotia", "tutorials"],
+				"keywords": ["wool painting", "2d art", "tutorial"],
+				"photos": ["art-felting/images/feltnovascotia1.jpg","art-felting/images/feltnovascotia2.jpg","art-felting/images/feltnovascotia3.jpg","art-felting/images/feltnovascotia4.jpg","art-felting/images/feltnovascotia5.jpg","art-felting/images/feltnovascotia6.jpg",],
+				"link": "art-felting/index.html#feltnovascotia1",
+				"description": "This project (made using a kit & tutorial by <a href='https://feltedsky.com/' target='_blank'>Felted Sky</a>) was my first introduction to needle felting - more specifically wool painting. I bought the kit at the Rhinebeck Sheep and Wool Festival because I'd been considering trying needle felting for a while, and the scene was so reminiscent of my favorite place in Nova Scotia - <a href='https://parks.canada.ca/pn-np/ns/kejimkujik/visit/seaside-bord-de-mer' target='_blank'>Kejimkujik National Park Seaside</a>. Read the full story of my experience making this on <a href='https://projectsbyliz.com/blog/#firsts-trying-needle-felting' target='_blank'>my blog</a>!"
+			},
+
+			{
+				"name": "Felted Demo Day",
+				"date": "11/11/2023", 
+				"tags": ["needle felting", "felted", "with friends", "collaborations"],
+				"keywords": ["wool painting", "2d art", "original","collaboration"],
+				"photos": ["art-felting/images/demodaylogofinal.png","art-felting/images/demodaylogowip.jpg","art-felting/images/demodaylogofriends.jpg"],
+				"link": "art-felting/index.html#demodaylogo1",
+				"description": "At Demo Day 2023, I introduced the craft of needle felting to my friends. I showed them my Nova Scotia scene and self portrait as well as my portrait of Apollo, and then I encouraged my friends to give it a try by filling in the Demo Day logo (originally designed by James) that I'd outlined onto some fabric. It turned out great! A true symbol of creative collaboration and the collective joy of a new craft..."
+			},
+			
+			{
+				"name": "Succulent for Ayelet",
+				"date": "12/17/2023", 
+				"tags": ["needle felting", "felted", "wool sculptures","tutorials"],
+				"keywords": ["wool sculpture", "sculptures", "sculpture"],
+				"photos": ["art-felting/images/succulent5.jpg","art-felting/images/succulent2.jpg","art-felting/images/succulent3.jpg","art-felting/images/succulent4.jpg"],
+				"link": "art-felting/art-felting/index.html#succulent1",
+				"description": "This was my first attempt at creating 3D needle felted art - another kit by <a href='https://feltedsky.com/' target='_blank'>Felted Sky</a>. It was a good first project, because each component was made separately and didn't need to be particularly uniform. In the end, I think it looks like a pretty passable succulent - if a bit fuzzy!"
+			},
+
+
 	// PHOTOGRAPHY
 
 		// stories
@@ -1884,12 +2179,9 @@
 				"tags": ["photographed stories"],
 				"keywords": ["photography","photo","photos","story","stories","water","sky","patterns"],
 				"photos": ["photo-stories/images/1.jpg","photo-stories/images/2.jpg","photo-stories/images/3.jpg","photo-stories/images/4.jpg","photo-stories/images/5.jpg","photo-stories/images/6.jpg","photo-stories/images/7.jpg","photo-stories/images/8.jpg","photo-stories/images/9.jpg","photo-stories/images/10.jpg","photo-stories/images/11.jpg","photo-stories/images/12.jpg","photo-stories/images/13.jpg","photo-stories/images/14.jpg","photo-stories/images/15.jpg","photo-stories/images/16.jpg","photo-stories/images/17.jpg"],
-				"link": "photo-stories/",
+				"link": "", // ADD BACK LINK ONCE NEW GALLERY IS DONE
 				"description":"My photographs showcasing interesting scenes, including abstracts and story starters"
 			},
-
-		// abstract
-
 
 		// nature
 
@@ -1900,7 +2192,7 @@
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","story","stories","sunset","sunrise","rain","rainbow","cloud","clouds", "sky"],
 				"photos": ["photo-sky/images/1.jpg", "photo-sky/images/2.jpg", "photo-sky/images/3.jpg", "photo-sky/images/4.jpg", "photo-sky/images/5.jpg", "photo-sky/images/6.jpg", "photo-sky/images/7.jpg", "photo-sky/images/8.jpg", "photo-sky/images/9.jpg", "photo-sky/images/10.jpg", "photo-sky/images/11.jpg", "photo-sky/images/12.jpg", "photo-sky/images/13.jpg", "photo-sky/images/14.jpg", "photo-sky/images/15.jpg", "photo-sky/images/16.jpg", "photo-sky/images/17.JPG", "photo-sky/images/18.jpg"],
-				"link": "photo-sky/",
+				"link": "", // ADD BACK LINK ONCE NEW GALLERY IS DONE
 				"description": "My photographs showcasing the sky, in its many forms."
 			},
 			{
@@ -1908,8 +2200,8 @@
 				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","pet","pets","zoo","zoos","cat","cats","dog","dogs"],
-				"photos": ["photo-animals/images/a.gif", "photo-animals/images/2.jpg", "photo-animals/images/3.jpg", "photo-animals/images/4.jpg"],
-				"link": "photo-animals/",
+				"photos": ["photo-animals/images/birds-finch5.JPG","photo-animals/images/birds-duck2.JPG","photo-animals/images/zoo-elephant6.JPG", "photo-animals/images/bugs-bee.JPG", "photo-animals/images/bugs-dragonfly.JPG"],
+				"link": "", // ADD BACK LINK ONCE NEW GALLERY IS DONE
 				"description": "My photographs of animals"
 			},
 			{
@@ -1917,8 +2209,8 @@
 				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","tree","trees","flower","flowers","nature","leaf","leaves", "garden", "grass"],
-				"photos": ["photo-plants/images/1.jpg", "photo-plants/images/2.jpg", "photo-plants/images/3.jpg", "photo-plants/images/4.jpg", "photo-plants/images/5.jpg", "photo-plants/images/6.jpg", "photo-plants/images/7.jpg", "photo-plants/images/8.JPG", "photo-plants/images/9.JPG", "photo-plants/images/10.JPG", "photo-plants/images/11.JPG", "photo-plants/images/12.JPG", "photo-plants/images/13.JPG", "photo-plants/images/14.JPG", "photo-plants/images/15.JPG", "photo-plants/images/16.jpg"],
-				"link": "photo-plants/",
+				"photos": ["photo-plants/images/1.jpg", "photo-plants/images/2.jpg", "photo-plants/images/3.jpg",],
+				"link": "", // ADD BACK LINK ONCE NEW GALLERY IS DONE
 				"description": "My photographs of plants"
 			},
 			{
@@ -1928,7 +2220,7 @@
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","water","ocean","beach","waves","rain","puddle"],
 				"photos": ["photo-water/images/1.jpg", "photo-water/images/2.jpg", "photo-water/images/3.jpg", "photo-water/images/4.JPG", "photo-water/images/5.JPG", "photo-water/images/6.JPG", "photo-water/images/7.JPG", "photo-water/images/8.JPG", "photo-water/images/9.JPG", "photo-water/images/10.JPG", "photo-water/images/11.JPG"],
-				"link": "photo-water/",
+				"link": "", // ADD BACK LINK ONCE NEW GALLERY IS DONE
 				"description": "My photographs showcasing the beauty and movement of water."
 			},
 			{
@@ -1937,9 +2229,21 @@
 				"date": "10/27/2023",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","night","nights","light","lights","trains","cars","neon"],
-				"photos": ["photo-night/images/fullmoon-octwitchhat.JPG", "photo-night/images/cars1.JPG", "photo-night/images/neon-sorry1-cropped.JPG", "photo-night/images/fullmoon-dramatic.JPG","photo-night/images/jupiter+moons-cropped.JPG"],
-				"link": "photo-night/",
+				"photos": ["photo-night/images/fullmoon-octwitchhat.JPG"], // will split this card into many different cards (moon pics, moving light of trains/cars, etc.)
+				"link": "photo-night/", // ...those many cards for different topics/instances will all point to this gallery
 				"description": "My photographs of various kinds of light at night."
+			},
+
+		// abstract
+			{
+				"featured": true,
+				"name": "abstracts",
+				"date": "10/8/2023",
+				"tags": ["photographed stories", "abstracts"],
+				"keywords": ["photography","photo","photos","photographs","water","bubbles","patterns","abstract"],
+				"photos": ["photo-abstracts/images/4.JPG"], // could split this card into several different cards (old abstracts too...)
+				"link": "photo-abstracts/",// ...those many cards for different topics/instances will all point to this gallery
+				"description":"My abstract photographs"
 			},
 
 
@@ -1947,24 +2251,65 @@
 
 		// MUSIC CHALLENGES	
 
+			{
+				"featured": true,
+				"name": "Gyntnopedie",
+				"date": "4/1/2023", //guess on day, but definitely April 2023
+				"tags": ["music compositions","music", "composition","music challenges","music challenge",],
+				"keywords": ["with friends", "collaboration","collaborations"],
+				"photos": ["music/images/gyntnopedie1.png","music/images/gyntnopedie2.png","music/images/gyntnopedie3.png"],
+				"link": "https://musicchallenge.onrender.com/?challenge=waitwhowrotethatagain_april2023&composer=Elizabeth%20Ford",
+				"description": "For the 'Wait, Who Wrote that Again?' music challenge, issued by Manar. My task was to reimagine 'In the Hall of the Mountain King' (or another piece by Edvard Grieg) in the style of Satie's 'Gymnopedie.' It certainly was a challenge! (Click the title to hear the final result!)"	
+			},
+			{
+				"featured": true,
+				"name": "Exquisite Corpse",
+				"date": "8/1/2022", //guess on day, but definitely August 2022
+				"tags": ["music compositions","music", "composition","music challenges","music challenge",],
+				"keywords": ["with friends", "collaboration","collaborations"],
+				"photos": ["music/images/exquisitecorpse.png"],
+				"link": "https://musicchallenge.onrender.com/?challenge=exquisitecorpse_august2022&composer=%5Bcombined%5D",
+				"description": "My contribution to the 'Exquisite Corpse' music challenge, issued by Dan. The idea came from a drawing game called the Exquisite Corpse, invented by Surrealist artists - the players collectively create one monstrous creature, using limited information. Dan had a vision of a similar exercise, but substituting music for drawing! Each contributing composer wrote about 30 seconds of music, then sent only the last few measures to the next composer. At the end, Manar combined all the music into one musical monstrosity. Listen to the <a href='https://musicchallenge.onrender.com/?challenge=exquisitecorpse_august2022&composer=%5Bcombined%5D' target='_blank'>full composition</a> and see if you can tell which section I wrote... (It's <a href='https://musicchallenge.onrender.com/?challenge=exquisitecorpse_august2022&composer=Elizabeth%20Ford' target='_blank'>this one</a>!)"	
+			},
+			{
+				"featured": true,
+				"name": "Jet Ski Hunter",
+				"date": "4/1/2022",
+				"tags": ["music compositions","music", "composition","music challenges","music challenge",],
+				"keywords": ["with friends", "collaboration","collaborations"],
+				"photos": ["music/images/jetskihunter.png"],
+				"link": "https://musicchallenge.onrender.com/?challenge=gamesoundtrack_april2022&composer=Elizabeth%20Ford",
+				"description": "My prompt for the first 'fake video game title' music challenge (issued by Alex) was 'Jet Ski Hunter.' The narrative implied by the title seemed simple enough at first - a hunter who rides a jet ski. But what if the real hunter is a creature surfacing from the depths to hunt the jet ski (and its rider!). This piece is short and playful, using instruments way outside of their playable ranges (bass BASS ukelele!) to achieve the sounds I heard in my head."	
+			},
+			{
+				"featured": true,
+				"name": "Weird Dreams",
+				"date": "6/1/2020",
+				"tags": ["music compositions","music", "composition","music challenges","music challenge",],
+				"keywords": ["with friends","2020","collaboration","collaborations"],
+				"photos": ["music/images/weirddreams.png"],
+				"link": "https://musicchallenge.onrender.com/?challenge=musichackathon_june2020&composer=Elizabeth%20Ford",
+				"description": "The 'hackaton' music challenge, issued by James, was to write a piece of music in one day. It was 2020 and we were all stuck at home, so... why not? I'd been having a lot of weird dreams - I think brought on by the stress of the situation and simultaneous lack of much stimulation beyond the walls of my apartment. Although it is short and rather unfinished, I think this piece captures my mental state at the time that I wrote it..."	
+			},
+
 		// EXPLORCHESTRA
 			{
 				"featured": true,
 				"name": "Chroma",
 				"date": "8/31/2012",
-				"tags": ["finished music","music", "composition","album","seasons", "explorchestra", "binghamton university"],
+				"tags": ["music compositions","finished music","music", "composition","album","seasons", "explorchestra", "binghamton university"],
 				"keywords": ["season","fall","autumn","digital art", "art"],
 				"photos": ["music/images/Chroma.png"],
 				"link": "music/Chroma.mp3",
 				"audio": "music/Chroma.mp3",
-				"description": "My first finished composition, rehearsed and performed by Explorchestra. I started writing it, on piano only, during my junior year of high school - soon after I'd written my poem 'Chaos in Cirlces.' Both the poem and the piece are about fall, following the journey of a single leaf... although I decided to give Chroma a happier ending than the poem had (probably because I was infinitely happier in college than I had been in high school!)"	
+				"description": "My first finished composition, rehearsed and performed by Explorchestra. I started writing it, on piano only, during my junior year of high school - soon after I'd written my poem 'Chaos in Circles.' Both the poem and the piece are about fall, following the journey of a single leaf... although I decided to give Chroma a happier ending than the poem had (probably because I was infinitely happier in college than I had been in high school!)"	
 			},
 
 			{
 				"featured": true,
 				"name": "Whether",
 				"date": "8/31/2013",
-				"tags": ["finished music","music", "composition","album","seasons", "explorchestra", "binghamton university"],
+				"tags": ["music compositions","finished music","music", "composition","album","seasons", "explorchestra", "binghamton university"],
 				"keywords": ["season","summer","digital art", "art"],
 				"photos": ["music/images/Whether.png"],
 				"link": "music/Whether.mp3",
@@ -1974,7 +2319,7 @@
 			{
 				"name": "Elephant",
 				"date": "1/31/2014",
-				"tags": ["finished music","music", "composition","lyrics", "explorchestra", "binghamton university"],
+				"tags": ["music compositions","finished music","music", "composition","lyrics", "explorchestra", "binghamton university"],
 				"keywords": ["jazz","family","digital art", "art"],
 				"photos": ["music/images/Elephant.jpg"],
 				"link": "music/Elephant.mp3",
@@ -1984,7 +2329,7 @@
 			{
 				"name": "These Days",
 				"date": "1/31/2015",
-				"tags": ["finished music","music", "composition","album","seasons", "explorchestra", "binghamton university"],
+				"tags": ["music compositions","finished music","music", "composition","album","seasons", "explorchestra", "binghamton university"],
 				"keywords": ["season","spring","digital art", "art"],
 				"photos": ["music/images/TheseDays.jpg"],
 				"link": "music/TheseDays.mp3",
@@ -1994,7 +2339,7 @@
 			{
 				"name": "Chroma Snapshot: Chaos in Circles",
 				"date": "2/1/2016",
-				"tags": ["finished music","music", "composition","album","seasons", "explorchestra", "explo expo", "binghamton university"],
+				"tags": ["music compositions","finished music","music", "composition","album","seasons", "explorchestra", "explo expo", "binghamton university"],
 				"keywords": ["season","fall","autumn","digital art", "art"],
 				"photos": ["music/images/ChaosinCircles.jpg"],
 				"link": "music/ChaosinCircles.mp3",
@@ -2004,8 +2349,8 @@
 			{
 				"name": "EveryTime",
 				"date": "10/23/2016",
-				"tags": ["music challenges","music","composition","album","seasons"],
-				"keywords": ["anthology symphony", "music challenge", "season","winter","digital art", "art"],
+				"tags": ["music compositions","music challenges","music","composition","album","seasons"],
+				"keywords": ["anthology symphony", "music challenge", "season","winter","digital art", "art", "with friends","collaboration","collaborations"],
 				"photos": ["music/images/EveryTime.jpg"],
 				"link": "music/EveryTime.mp3",
 				"description": "My contribution to a post-college music challenge, organized by James, for which each musician friend wrote a piece of music based on a common melodic line. All of the pieces were so unique, despite the common prompt, and we had a fun time playing through all of the pieces - collectively known as the Anthology Symphony."	
@@ -2014,7 +2359,7 @@
 			{
 				"name": "Collecting Carrots",
 				"date": "2/23/2019",
-				"tags": ["finished music","music", "composition","soundtrack","games","carrots", "explorchestra", "explo expo", "binghamton university"],
+				"tags": ["music compositions","finished music","music", "composition","soundtrack","games","carrots", "explorchestra", "explo expo", "binghamton university"],
 				"keywords": ["spring", "bunnies", "bunny", "game","digital art", "art"],
 				"photos": ["music/images/CollectingCarrots.png"],
 				"link": "music/CollectingCarrots.mp3",
@@ -2056,13 +2401,13 @@
 			},
 
 			{
-				"name": "What Should I Knit Next?",
+				"name": "What Should I...?",
 				"date": "2/19/2022",
 				"tags": ["tools","knitting","crochet","ravelry","api","with james","code","coding"],
 				"keywords": ["knit","knitted","knitting","ravelry","api", "projects","crochet","2022"],
 				"photos": ["coding/images/whatshouldiknitnext.png"],
 				"link": "whatshouldiknitnext/",
-				"description": "This project was born out of a desire to learn how APIs work - once again, James helped me build this."
+				"description": "For the knitter or crocheter who can't decide what pattern to try next, here is a random pattern generator that pulls from Ravelry's API. This coding project was born out of a desire to learn how APIs work - once again, James helped me build this."
 			},
 
 			{

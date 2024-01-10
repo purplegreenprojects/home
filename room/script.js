@@ -1280,7 +1280,7 @@
 				"tags": ["run", "exercise", "sneaker","sneakers","5k","gallery","galleries"],
 				"color": colors["transparent"],
 				"viewer": "window",
-				"photos": ["../exercise/running.jpg"],
+				"photos": ["../exercise/images/running.jpg"],
 				"link": "../exercise/",
 				"description": ""
 			},
@@ -1294,7 +1294,7 @@
 				"color": colors["transparent"],
 				"viewer": "",
 				"photos": [""],
-				"link": "../writing/", 
+				"link": "../writing", 
 				"description": ""
 			},
 
@@ -1429,7 +1429,7 @@
 				"link": "https://drive.google.com/drive/folders/15hO_LddoZryhhteHKZASoAAZQ4MsbJBp?usp=sharing",
 				"description": ""
 			},
-
+// ---->
 			{
 				"container": "deskshelf3",
 				"name": "interesting",
@@ -1437,8 +1437,8 @@
 				"tags": ["photography","photo","photos","story","stories","water","sky","patterns"],
 				"color": colors["transparent"],
 				"viewer": "window",
-				"photos": ["../stories/images/1.jpg", "../stories/images/2.jpg", "../stories/images/3.jpg", "../stories/images/4.jpg", "../stories/images/5.jpg", "../stories/images/6.jpg", "../stories/images/7.jpg", "../stories/images/8.jpg", "../stories/images/9.jpg", "../stories/images/10.jpg", "../stories/images/11.jpg", "../stories/images/12.jpg", "../stories/images/13.jpg", "../stories/images/14.jpg", "../stories/images/15.jpg", "../stories/images/16.jpg", "../stories/images/17.jpg"],
-				"link": "../stories/",
+				"photos": ["../photo-stories/images/1.jpg", "../photo-stories/images/2.jpg", "../photo-stories/images/3.jpg", "../photo-stories/images/4.jpg", "../photo-stories/images/5.jpg", "../photo-stories/images/6.jpg", "../photo-stories/images/7.jpg", "../photo-stories/images/8.jpg", "../photo-stories/images/9.jpg", "../photo-stories/images/10.jpg", "../photo-stories/images/11.jpg", "../photo-stories/images/12.jpg", "../photo-stories/images/13.jpg", "../photo-stories/images/14.jpg", "../photo-stories/images/15.jpg", "../photo-stories/images/16.jpg", "../photo-stories/images/17.jpg"],
+				"link": "../photo-stories/",
 				"description": ""
 			},
 			{
@@ -1795,8 +1795,8 @@
 				"tags": ["art","sculpture","sculptures","snow","snowman", "bunny","bunnies","rabbit","3d"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/2011snowbunny.jpg"],
-				"link": "../snowsculptures/", 
+				"photos": ["../art-sculptures/images/2011snowbunny.jpg"],
+				"link": "../art-sculptures/", 
 				"description": ""
 			},
 
@@ -1807,8 +1807,8 @@
 				"tags": ["art","watercolor", "water color", "colored pencil", "draw","drawing","paint","painting", "travel","adventure","trip","trek","canada","favorite", "place", "cape breton", "ocean", "water","beach","face"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/novascotia.png"],
-				"link": "../art/#image-2", 
+				"photos": ["../art-drawings/images/novascotia.png"],
+				"link": "../art-drawings/#image-2", 
 				"description": ""
 			},
 
@@ -1819,8 +1819,8 @@
 				"tags": ["art","colored pencil","draw","drawing","paint","painting", "food", "purple","green", "onion", "pepper"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/onionandpepper.png"],
-				"link": "../art/#image-3", 
+				"photos": ["../art-drawings/images/onionandpepper.png"],
+				"link": "../art-drawings/#purplegreen", 
 				"description": ""
 			},
 
@@ -1831,8 +1831,8 @@
 				"tags": ["art","painting","paint","knit","knitting"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/knitting.png"],
-				"link": "../art/#image-4", 
+				"photos": ["../art-paintings/images/knitting-in-blue.png"],
+				"link": "../art-paintings/#knitting-in-blue", 
 				"description": ""
 			},
 
@@ -1843,8 +1843,8 @@
 				"tags": ["art","digital","knit","kd","kniterative", "logo", "etsy", "business"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/kdlogofull.png"],
-				"link": "../art/#image-5", 
+				"photos": ["../art-digital/images/kdlogofull.png"],
+				"link": "../art-digital/#kdlogofull", 
 				"description": ""
 			},
 
@@ -1855,8 +1855,8 @@
 				"tags": ["art","watercolor","bunny","rabbit","cat","kitten", "kitty", "puppy","dog","furry friends"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/kdfurryfriends.png"],
-				"link": "../art/#image-6", 
+				"photos": ["../art-paintings/images/kdfurryfriends.png"],
+				"link": "../art-paintings/index.html#kd-furry-friends", 
 				"description": ""
 			},
 
@@ -1867,8 +1867,8 @@
 				"tags": ["art","paint","painting","nature","kayak","river"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/kayaking.png"],
-				"link": "../art/#image-7", 
+				"photos": ["../art-paintings/images/kayaking.png"],
+				"link": "../art-paintings/index.html#kayaking", 
 				"description": ""
 			},
 
@@ -1879,8 +1879,8 @@
 				"tags": ["art","paint","painting","river","water", "flower","flowers","something less boring","slb", "tutorial"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/waterlillies.png"],
-				"link": "../art/#image-8", 
+				"photos": ["../art-paintings/images/waterlillies.png"],
+				"link": "../art-paintings/index.html#water-lillies", 
 				"description": ""
 			},
 
@@ -1891,8 +1891,8 @@
 				"tags": ["art","watercolor","paint","painting","food","something less boring","slb", "tutorial"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/oranges.png"],
-				"link": "../art/#image-9", 
+				"photos": ["../art-paintings/images/oranges.png"],
+				"link": "../art-paintings/index.html#oranges", 
 				"description": ""
 			},
 
@@ -1903,8 +1903,8 @@
 				"tags": ["art","watercolor","paint","painting","food", "tutorial"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/cherries.png"],
-				"link": "../art/#image-10", 
+				"photos": ["../art-paintings/images/cherries.png"],
+				"link": "../art-paintings/index.html#cherries", 
 				"description": ""
 			},
 
@@ -1915,8 +1915,8 @@
 				"tags": ["art","watercolor","paint","painting","food", "tutorial"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/blueberries.png"],
-				"link": "../art/#image-11", 
+				"photos": ["../art-paintings/images/blueberries.png"],
+				"link": "../art-paintings/index.html#blueberries", 
 				"description": ""
 			},
 
@@ -1927,8 +1927,8 @@
 				"tags": ["art","watercolor","paint","painting","clothes", "tutorial"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/clothesline.png"],
-				"link": "../art/#image-12", 
+				"photos": ["../art-paintings/images/clothesline.png"],
+				"link": "../art-paintings/index.html#clothesline", 
 				"description": ""
 			},
 
@@ -1939,8 +1939,8 @@
 				"tags": ["art","watercolor","paint","painting","clothes", "tutorial"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/stormylaundry.png"],
-				"link": "../art/#image-13", 
+				"photos": ["../art-paintings/images/stormylaundry.png"],
+				"link": "../art-paintings/index.html#stormy-laundry", 
 				"description": ""
 			},
 
@@ -1951,22 +1951,22 @@
 				"tags": ["art","paint","painting","something less boring","slb", "tutorial"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/sunflowers.png"],
-				"link": "../art/#image-14", 
+				"photos": ["../art-paintings/images/sunflowers.png"],
+				"link": "../art-paintings/index.html#van-gogh-sunflowers", 
 				"description": ""
 			},
 
-			{
-				"container": "shelf-medium",
-				"name": "Pansies",
-				"icons": [],
-				"tags": ["art","watercolor","paint","painting","flower", "flowers","something less boring","slb","tutorial"],
-				"color": chooseRandom(colors.greens),
-				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/pansies.png"],
-				"link": "../art/#image-15", 
-				"description": ""
-			},
+			// {
+			// 	"container": "shelf-medium",
+			// 	"name": "Pansies",
+			// 	"icons": [],
+			// 	"tags": ["art","watercolor","paint","painting","flower", "flowers","something less boring","slb","tutorial"],
+			// 	"color": chooseRandom(colors.greens),
+			// 	"viewer": "bulletinBoard-green",
+			// 	"photos": ["../art-paintings/images/pansies.png"],
+			// 	"link": "../art-paintings/index.html#pansies", 
+			// 	"description": ""
+			// },
 
 			{
 				"container": "shelf-medium",
@@ -1975,8 +1975,8 @@
 				"tags": ["art","digital","game","8-bit","design"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["../art/images/meteoriteminer.png"],
-				"link": "../art/#image-16", 
+				"photos": ["../art-digital/images/meteoriteminer.png"],
+				"link": "../art-digital/index.html#meteoriteminer", 
 				"description": ""
 			},
 
@@ -2037,7 +2037,7 @@
 				"tags": ["code","coding","game","games","James"],
 				"color": chooseRandom(colors.greens),
 				"viewer": "bulletinBoard-green",
-				"photos": ["coding/images/memory.png"],
+				"photos": ["../coding/images/memory.png"],
 				"link": "../memory/", 
 				"description": ""
 			},
