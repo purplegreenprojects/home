@@ -971,7 +971,7 @@ Feature Wish List
 				"date": "12/26/2022", 
 				"tags": ["sewing projects","sewn pj pants","sewing","handmade clothes"],
 				"keywords": ["sew","sewn","sewing","gift","pajama","pajamas","pants","clothes"],
-				"photos": ["sewing-clothing/images/xmaspjs_james&me.JPG","sewing-clothing/images/xmaspjs_me.JPG","sewing-clothing/images/xmaspjs_apollo&me.JPG"],
+				"photos": ["sewing-clothing/images/xmaspjs_james&me.jpg","sewing-clothing/images/xmaspjs_me.jpg","sewing-clothing/images/xmaspjs_apollo&me.jpg"],
 				"link": "https://www.textillia.com/members/purplegreenprojects/projects/pj-pants-various-people-over-years",
 				"description": "For Christmas 2022, I gave James the gift of a project - I bought him some fleece fabric with moons on it and taught him how to sew his own pajama pants! I also gave myself a gift - green fleece fabric with a knitted cables print - and made myself a pair as well. Apollo doesn't wear pajama pants, but that didn't stop him from getting involved in the project too."
 			},
@@ -2191,7 +2191,7 @@ Feature Wish List
 				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","story","stories","sunset","sunrise","rain","rainbow","cloud","clouds", "sky"],
-				"photos": ["photo-sky/images/1.jpg", "photo-sky/images/2.jpg", "photo-sky/images/3.jpg", "photo-sky/images/4.jpg", "photo-sky/images/5.jpg", "photo-sky/images/6.jpg", "photo-sky/images/7.jpg", "photo-sky/images/8.jpg", "photo-sky/images/9.jpg", "photo-sky/images/10.jpg", "photo-sky/images/11.jpg", "photo-sky/images/12.jpg", "photo-sky/images/13.jpg", "photo-sky/images/14.jpg", "photo-sky/images/15.jpg", "photo-sky/images/16.jpg", "photo-sky/images/17.JPG", "photo-sky/images/18.jpg"],
+				"photos": ["photo-sky/images/1.jpg", "photo-sky/images/2.jpg", "photo-sky/images/3.jpg", "photo-sky/images/4.jpg", "photo-sky/images/5.jpg", "photo-sky/images/6.jpg", "photo-sky/images/7.jpg", "photo-sky/images/8.jpg", "photo-sky/images/9.jpg", "photo-sky/images/10.jpg", "photo-sky/images/11.jpg", "photo-sky/images/12.jpg", "photo-sky/images/13.jpg", "photo-sky/images/14.jpg", "photo-sky/images/15.jpg", "photo-sky/images/16.jpg", "photo-sky/images/17.jpg", "photo-sky/images/18.jpg"],
 				"link": "", // ADD BACK LINK ONCE NEW GALLERY IS DONE
 				"description": "My photographs showcasing the sky, in its many forms."
 			},
@@ -2200,7 +2200,7 @@ Feature Wish List
 				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","pet","pets","zoo","zoos","cat","cats","dog","dogs"],
-				"photos": ["photo-animals/images/birds-finch5.JPG","photo-animals/images/birds-duck2.JPG","photo-animals/images/zoo-elephant6.JPG", "photo-animals/images/bugs-bee.JPG", "photo-animals/images/bugs-dragonfly.JPG"],
+				"photos": ["photo-animals/images/birds-finch5.jpg","photo-animals/images/birds-duck2.jpg","photo-animals/images/zoo-elephant6.jpg", "photo-animals/images/bugs-bee.jpg", "photo-animals/images/bugs-dragonfly.jpg"],
 				"link": "", // ADD BACK LINK ONCE NEW GALLERY IS DONE
 				"description": "My photographs of animals"
 			},
@@ -2219,7 +2219,7 @@ Feature Wish List
 				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","water","ocean","beach","waves","rain","puddle"],
-				"photos": ["photo-water/images/1.jpg", "photo-water/images/2.jpg", "photo-water/images/3.jpg", "photo-water/images/4.JPG", "photo-water/images/5.JPG", "photo-water/images/6.JPG", "photo-water/images/7.JPG", "photo-water/images/8.JPG", "photo-water/images/9.JPG", "photo-water/images/10.JPG", "photo-water/images/11.JPG"],
+				"photos": ["photo-water/images/1.jpg", "photo-water/images/2.jpg", "photo-water/images/3.jpg", "photo-water/images/4.jpg", "photo-water/images/5.jpg", "photo-water/images/6.jpg", "photo-water/images/7.jpg", "photo-water/images/8.jpg", "photo-water/images/9.jpg", "photo-water/images/10.jpg", "photo-water/images/11.jpg"],
 				"link": "", // ADD BACK LINK ONCE NEW GALLERY IS DONE
 				"description": "My photographs showcasing the beauty and movement of water."
 			},
@@ -2229,7 +2229,7 @@ Feature Wish List
 				"date": "10/27/2023",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","night","nights","light","lights","trains","cars","neon"],
-				"photos": ["photo-night/images/fullmoon-octwitchhat.JPG"], // will split this card into many different cards (moon pics, moving light of trains/cars, etc.)
+				"photos": ["photo-night/images/fullmoon-octwitchhat.jpg"], // will split this card into many different cards (moon pics, moving light of trains/cars, etc.)
 				"link": "photo-night/", // ...those many cards for different topics/instances will all point to this gallery
 				"description": "My photographs of various kinds of light at night."
 			},
@@ -2241,7 +2241,7 @@ Feature Wish List
 				"date": "10/8/2023",
 				"tags": ["photographed stories", "abstracts"],
 				"keywords": ["photography","photo","photos","photographs","water","bubbles","patterns","abstract"],
-				"photos": ["photo-abstracts/images/4.JPG"], // could split this card into several different cards (old abstracts too...)
+				"photos": ["photo-abstracts/images/4.jpg"], // could split this card into several different cards (old abstracts too...)
 				"link": "photo-abstracts/",// ...those many cards for different topics/instances will all point to this gallery
 				"description":"My abstract photographs"
 			},
