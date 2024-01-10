@@ -660,7 +660,7 @@ Feature Wish List
 				"date": "12/11/21",
 				"tags": ["paintings","acrylic","tutorial"],
 				"keywords": ["art","acrylic","paint","painting"],
-				"photos": ["art-paintings/images/mountainsunset.JPG"],
+				"photos": ["art-paintings/images/mountainsunset.jpg"],
 				"link": "art-paintings/index.html#mountain-sunset",
 				"description":"<a href='https://www.youtube.com/watch?v=e63Cgln6Yag' target='_blank'>Bob Ross</a> says I make the rules in my world... So in my world, the trees are purple."
 			},
