@@ -35,6 +35,7 @@
 		filtersClearButton: document.querySelector("#filters-clear"),
 		filtersSearchInput: document.querySelector("#filters-search"),
 		filtersSuggestions: document.querySelector("#filters-suggestions"),
+		filtersMagnifyingGlass: document.querySelector("#filters-magnifying-glass"),
 		content: document.querySelector("#content"),
 		contentSection: document.querySelector("#content-cards"),
 		contentEmptyButton: document.querySelector("#content-empty-all-projects-button"),
@@ -256,6 +257,7 @@
 				ELEMENTS.header.removeAttribute("collapsed")
 				ELEMENTS.filtersSearchInput.setAttribute("placeholder", "skills")
 				ELEMENTS.filtersSearchInput.setAttribute("disabled", true)
+				ELEMENTS.nameButton.focus()
 			}
 			// if the medium (the value of #filters-medium) is anything except "learner", collapse the about section (by setting the collapse attribute to "true"), set the placeholder text in #filters-search to "...projects", and make the text field and submit button accessible again (by removing "disabled" attribute)
 			else {
@@ -326,7 +328,7 @@
 				ELEMENTS.filtersTopicSelect.appendChild(option)
 			}
 		}
-	
+		
 		ELEMENTS.filtersSearchInput.addEventListener("focus", buildFilteredTopicsList)
 		ELEMENTS.filtersSearchInput.addEventListener("input", buildFilteredTopicsList)
 		function buildFilteredTopicsList(){
@@ -355,6 +357,7 @@
 			updateURL()
 		}
 
+		ELEMENTS.filtersMagnifyingGlass.addEventListener("click", resetFilteredTopics)
 		ELEMENTS.filtersClearButton.addEventListener("click", resetFilteredTopics)
 		function resetFilteredTopics(){
 			ELEMENTS.filtersSearchInput.value = ""

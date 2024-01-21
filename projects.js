@@ -17,15 +17,15 @@ ADDED
 	--- purple shawl
 	--- socks for grandma emily
 	--- headbands
+	-->needle felted succulent
+	>bear (and scarf for bear) for Elliotte (take photos)
+	James' gloves
 
 
 TO PHOTOGRAPH
-	-->needle felted succulent (add to completed projects + take final photo)
 	-cherry tree tire swing painting (take final photo -- replace first cherrytree3 in GALLERY)
 	-needle felted demo day (take final photo)
 	-totoro
-	>bear (and scarf for bear) for Elliotte (take photos)
-	James' gloves
 	selections from sketchbooks
 
 
@@ -111,7 +111,7 @@ Feature Wish List
 		 	"date": "8/15/2007",
 			"tags": ["places"],
 			"keywords": ["photography","photo","photos","trips","travel","traveling","vacation","europe","uk","britain","london"],
-			"photos": ["england/images/14.jpg",],
+			"photos": ["england/images/15.jpg",],
 			"link": "england/",
 			"description": ""
 		},
@@ -813,7 +813,7 @@ Feature Wish List
 				"keywords": ["poems","poem","life"],
 				"photos": ["couplets/coupletslogo.png"],
 				"link": "couplets/",
-				"description": "A collaboration with James, inspired by his poetry blog from several years ago and born out of my desire to challenge myself to write more poetry. The result was a dialogue, recorded for posterity, documenting some really tumultuous times - my first job, the pandemic, the death of two of my grandparents... - and also some really beautiful mooments."
+				"description": "A collaboration with James, inspired by his poetry blog from several years ago and born out of my desire to challenge myself to write more poetry. The result was a dialogue, recorded for posterity, documenting some really tumultuous times - my first job, the pandemic, the death of two of my grandparents... - and also some really beautiful moments."
 			},
 
 			{
@@ -1537,15 +1537,15 @@ Feature Wish List
 
 		//GIFTS
 
-			// {
-			// 	"name": "Bear for Elliotte",
-			// 	"date": "11/30/2023", //guess - it was before surgery
-			// 	"tags": ["knitted gifts","knitting","animals","bear","gifts"],
-			// 	"keywords": ["knit","knitted","knitting","gift","toy","elliotte"],
-			// 	"photos": [""],
-			// 	"link": "https://www.ravelry.com/projects/KDpurplegreen/otso",
-			// 	"description": "For my cousin Elliotte, Christmas 2023"
-			// },
+			{
+				"name": "Bear for Elliotte",
+				"date": "11/30/2023", //guess - it was before surgery
+				"tags": ["knitted gifts","knitting","animals","bear","gifts"],
+				"keywords": ["knit","knitted","knitting","gift","toy","elliotte"],
+				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/971577443/IMG_9472_medium2.JPG","https://images4-a.ravelrycache.com/uploads/KDpurplegreen/971577450/IMG_9474_medium2.JPG"],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/otso",
+				"description": "For my cousin Elliotte, Christmas 2023"
+			},
 
 			{
 				"name": "Fish(lock) Sweater",
@@ -1607,15 +1607,15 @@ Feature Wish List
 				"description": "For Grandpa Jim, as promised."	
 			},
 
-			// {
-			// 	"name": "Fuzzy Gloves for James",
-			// 	"date": "12/25/2018", //a guess - I was making them when I was in grad school
-			// 	"tags": ["knitted gifts","knitting","gloves","gifts","handwear"],
-			// 	"keywords": ["knit","knitted","knitting","gift", "gloves","accessory", "accessories"],
-			// 	"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/499460026/IMG_20171225_154028489_medium2.jpg"],
-			// 	"link": "https://www.ravelry.com/projects/KDpurplegreen/fingerless-gloves-for-aunt-ellyn",
-			// 	"description": "For Aunt Ellyn, for Christmas. The gloves are knitted and both have a decorative crocheted rose attached."	
-			// },
+			{
+				"name": "Fuzzy Gloves for James",
+				"date": "12/23/2018",
+				"tags": ["knitted gifts","knitting","gloves","gifts","handwear"],
+				"keywords": ["knit","knitted","knitting","gift", "gloves","accessory", "accessories"],
+				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/971581430/IMG_20240110_082150605_medium2.jpg"],
+				"link": "https://www.ravelry.com/projects/KDpurplegreen/evil-genius-glove-recipe",
+				"description": "For James, for Christmas. He specifically requested me to make them out of the fuzzy corduroy texture yarn I'd used to make <a href='file:///Users/elizabethford/*projects/coding/home/index.html?persona=designer&search=Charlotte' target='_blank'>a knitted dog for Kniterative Designs</a>. He says they're warm and he uses them every winter!"	
+			},
 
 			{
 				"name": "Fingerless Gloves for Aunt Ellyn",
@@ -1966,7 +1966,7 @@ Feature Wish List
 				"name": "Convertible Mittens",
 				"date": "11/13/2015",
 				"tags": ["knitted accessories","knitting","accessories","mittens","handwear"],
-				"keywords": ["knit","knitted","knitting","gloves","mittens","accessory", "accessories", "handmade clothes"],
+				"keywords": ["knit","knitted","knitting","gloves","glove","mittens","accessory", "accessories", "handmade clothes"],
 				"photos": ["https://images4-f.ravelrycache.com/uploads/eef25/343080004/12366425_1042385789137343_3721396389953934140_n_medium2.jpg"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/flip-top-mittens-l32244",
 				"description": "These are my favorite mittens/gloves - because they're both in one! Very helpful to be able to flip the mitten part up to do tasks requiring more dexterity. And I added the thumb mitten as well, mostly so I can use my phone more easily while out and about!"
@@ -1999,7 +1999,7 @@ Feature Wish List
 				"date": "12/27/2023",
 				"tags": ["knitted toys", "knitting","toys"],
 				"keywords": ["knit","knitted","knitting","toy"],
-				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968574234/IMG_20231227_214039763_medium2.jpg","https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968574303/IMG_20231227_214123918_HDR_medium2.jpg"],
+				"photos": ["https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968574234/IMG_20231227_214039763_medium2.jpg","https://images4-a.ravelrycache.com/uploads/KDpurplegreen/968574303/IMG_20231227_214123918_HDR_medium2.jpg", "https://images4-a.ravelrycache.com/uploads/KDpurplegreen/971576704/IMG_9501_medium2.JPG"],
 				"link": "https://www.ravelry.com/projects/KDpurplegreen/otso-2",
 				"description": "After making a bear for my cousin Elliotte, I decided that the <a href='https://loopknitting.com/en-us/collections/loop-blog-patterns-1/products/otso-bear' target='_blank'>pattern</a> I'd used created more or less the same shape as Totoro, from the Studio Ghibli film <a href='https://www.imdb.com/title/tt0096283/' target='_blank'>My Neighbor Totoro</a>. I've always wanted a stuffie of Totoro, and I was stuck on the couch recovering from ankle surgery, so... I tried making one! He is positively, delightfully ROTUND and extremely huggable."
 				// "description": "After making a <a href='https://projectsbyliz.com/?persona=knitter&search=bear%20for%20Elliotte' target='_blank'>bear for my cousin Elliotte</a>, I decided that the <a href='https://loopknitting.com/en-us/collections/loop-blog-patterns-1/products/otso-bear' target='_blank'>pattern</a> I'd used created more or less the same shape as Totoro, from the Studio Ghibli film <a href='https://www.imdb.com/title/tt0096283/' target='_blank'>My Neighbor Totoro</a>. I've always wanted a stuffie of Totoro, and I was stuck on the couch recovering from ankle surgery, so... I tried making one! He is positively, delightfully ROTUND and extremely huggable."
@@ -2162,8 +2162,8 @@ Feature Wish List
 				"date": "12/17/2023", 
 				"tags": ["needle felting", "felted", "wool sculptures","tutorials"],
 				"keywords": ["wool sculpture", "sculptures", "sculpture"],
-				"photos": ["art-felting/images/succulent5.jpg","art-felting/images/succulent2.jpg","art-felting/images/succulent3.jpg","art-felting/images/succulent4.jpg"],
-				"link": "art-felting/art-felting/index.html#succulent1",
+				"photos": ["art-felting/images/succulent7.png","art-felting/images/succulent2.jpg","art-felting/images/succulent3.jpg","art-felting/images/succulent4.jpg","art-felting/images/succulent5.jpg","art-felting/images/succulent6.png"],
+				"link": "art-felting/index.html#succulent1",
 				"description": "This was my first attempt at creating 3D needle felted art - another kit by <a href='https://feltedsky.com/' target='_blank'>Felted Sky</a>. It was a good first project, because each component was made separately and didn't need to be particularly uniform. In the end, I think it looks like a pretty passable succulent - if a bit fuzzy!"
 			},
 
@@ -2200,7 +2200,7 @@ Feature Wish List
 				"date": "12/31/2021",
 				"tags": ["photographed nature"],
 				"keywords": ["photography","photo","photos","pet","pets","zoo","zoos","cat","cats","dog","dogs"],
-				"photos": ["photo-animals/images/birds-finch5.jpg","photo-animals/images/birds-duck2.jpg","photo-animals/images/zoo-elephant6.jpg", "photo-animals/images/bugs-bee.jpg", "photo-animals/images/bugs-dragonfly.jpg"],
+				"photos": ["photo-animals/images/zoo-elephant6.jpg","photo-animals/images/bugs-dragonfly.jpg","photo-animals/images/birds-finch5.jpg",],
 				"link": "", // ADD BACK LINK ONCE NEW GALLERY IS DONE
 				"description": "My photographs of animals"
 			},
@@ -2267,9 +2267,9 @@ Feature Wish List
 				"date": "8/1/2022", //guess on day, but definitely August 2022
 				"tags": ["music compositions","music", "composition","music challenges","music challenge",],
 				"keywords": ["with friends", "collaboration","collaborations"],
-				"photos": ["music/images/exquisitecorpse.png"],
+				"photos": ["music/images/exquisitecorpse.png","art-drawings/images/exquisitecorpse-wip.jpg","art-drawings/images/exquisitecorpse2square.png"],
 				"link": "https://musicchallenge.onrender.com/?challenge=exquisitecorpse_august2022&composer=%5Bcombined%5D",
-				"description": "My contribution to the 'Exquisite Corpse' music challenge, issued by Dan. The idea came from a drawing game called the Exquisite Corpse, invented by Surrealist artists - the players collectively create one monstrous creature, using limited information. Dan had a vision of a similar exercise, but substituting music for drawing! Each contributing composer wrote about 30 seconds of music, then sent only the last few measures to the next composer. At the end, Manar combined all the music into one musical monstrosity. Listen to the <a href='https://musicchallenge.onrender.com/?challenge=exquisitecorpse_august2022&composer=%5Bcombined%5D' target='_blank'>full composition</a> and see if you can tell which section I wrote... (It's <a href='https://musicchallenge.onrender.com/?challenge=exquisitecorpse_august2022&composer=Elizabeth%20Ford' target='_blank'>this one</a>!)"	
+				"description": "My contribution to the 'Exquisite Corpse' music challenge, issued by Dan. The idea came from a drawing game called the Exquisite Corpse, invented by surrealist artists - the players collectively create one monstrous creature, using limited information. Dan had a vision of a similar exercise, but substituting music for drawing! Each contributing composer wrote about 30 seconds of music, then sent only the last few measures (or about 2 seconds) to the next composer. At the end, Manar combined all the pieces into one musical monstrosity. Listen to the <a href='https://musicchallenge.onrender.com/?challenge=exquisitecorpse_august2022&composer=%5Bcombined%5D' target='_blank'>full composition</a> and see if you can tell which section I wrote... (It's <a href='https://musicchallenge.onrender.com/?challenge=exquisitecorpse_august2022&composer=Elizabeth%20Ford' target='_blank'>this one</a>!) Also, click through the gallery to see the results of an Exquisite Corpse OG drawing game played by me, my mom, my aunt, and my cousin Elliotte."	
 			},
 			{
 				"featured": true,
