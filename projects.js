@@ -5,6 +5,7 @@
 all Blender project button links...
 
 ADDED
+	--- ALL music challenge pieces (exquisite corpse, etc.)
 	--- needle felted nova scotia
 	--- needle felted self-portrait
 	--- tealia
@@ -13,7 +14,7 @@ ADDED
 	--- green knit pj pants
 	--- fish sweater for adelina
 	--- pumpkin hat for adelina
-	--- ass-warmer
+	--- knitted 'ass-warmer' skirt
 	--- purple shawl
 	--- socks for grandma emily
 	--- headbands
@@ -30,6 +31,12 @@ TO PHOTOGRAPH
 
 
 TO ADD
+	needle felted heart for James
+	switch games overflow case
+	sweater for James' mom's doll (Jenny)
+	delilah portrait
+
+	
 	little mountain painting (on record player)
 
 	toe sock (adaptive clothing)
@@ -220,6 +227,15 @@ Feature Wish List
 			"photos": ["images/friends/Alex.png"],
 			"link": "https://www.echotechaudio.com/",
 			"description": "Musician and sound engineer behind ECHOTECH"
+		},
+
+		{
+			"name": "Lyn Meyer",
+			"tags": [],
+			"keywords": [],
+			"photos": ["images/friends/Lyn.png"],
+			"link": "https://www.instagram.com/happytreesbylyn/",
+			"description": "Artist and Bob Ross enthusiast"
 		},
 	]
 
@@ -2128,6 +2144,16 @@ Feature Wish List
 
 		// needle felting
 			{
+				"name": "Delilah",
+				"date": "2/1/2024", //approximately - look up and correct later
+				"tags": ["needle felting", "felted", "wool paintings", "cat", "cats","portrait","me"],
+				"keywords": ["wool painting", "2d art","gift","gifts"],
+				"photos": ["art-felting/images/delilah.jpg"],
+				"link": "", // ADD LINK LATER! (write a blog post??)
+				"description": "Portrait of Delilah, a gift for Tom and Lexie"
+			},
+
+			{
 				"name": "Self-portrait",
 				"date": "10/16/2023", //approximately - look up and correct later
 				"tags": ["needle felting", "felted", "wool paintings", "nova scotia", "tutorials","me"],
@@ -2171,7 +2197,18 @@ Feature Wish List
 	// PHOTOGRAPHY
 
 		// stories
+			{
+				"featured": true,
+				"name": "Porchfest 2024",
+				"date": "5/11/2024",
+				"tags": ["photographed stories"],
+				"keywords": ["photography","photo","photos","story","stories"],
+				"photos": ["photo-stories/images/2024porchfestska.JPG","photo-stories/images/2024porchfestskadog.JPG","photo-stories/images/2024porchfestsketch.JPG","photo-stories/images/2024porchfestdoor.JPG","photo-stories/images/2024porchfesttreebench.JPG"],
+				"link": "https://projectsbyliz.com/blog/#scenes-from-somerville",
+				"description":"Some shots taken at Porchfest, organized by Somerville Arts Council"
+			},
 
+			
 			{
 				"featured": true,
 				"name": "interesting",
